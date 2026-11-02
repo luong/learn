@@ -1,1 +1,2 @@
-Python test: https://luog.github.io/python/test.html
+* Python test: https://luong.github.io/python/test.html
+* Python book: https://luong.github.io/python/book.pdf
