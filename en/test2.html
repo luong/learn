@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vocabulary Quiz · Term 1</title>
+<style>
+:root { color-scheme: light; --ink: #202938; --blue: #345f9c; --line: #dce1e8; --page: #f2f4f8; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink); font: 16px/1.5 system-ui, sans-serif; }
+main { width: min(888px, calc(100% - 28px)); margin: 22px auto 40px; }
+h2, p { margin: 0; }
+h2 { font-size: clamp(19px, 4vw, 24px); overflow-wrap: anywhere; }
+button, input { font: inherit; }
+button { border: 1px solid var(--line); border-radius: 11px; background: white; color: inherit; padding: 9px 13px; font-weight: 700; cursor: pointer; }
+button:disabled { opacity: .55; cursor: default; }
+button[aria-pressed="true"], .primary { background: var(--blue); color: white; border-color: var(--blue); }
+:focus-visible { outline: 3px solid #427ac1; outline-offset: 3px; }
+nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-bottom: 18px; }
+.card { background: #fff; border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 8px 24px #3145660a; }
+.card-head, .card-body { padding: clamp(15px, 3vw, 22px); }
+.card-head { border-bottom: 1px solid var(--line); }
+#unit-title { color: var(--blue); font-weight: 750; margin-bottom: 10px; }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
+.stats div { background: var(--page); border-radius: 10px; padding: 7px 11px; }
+.stats span { display: block; color: #515d70; font-size: .83rem; }
+.stats strong { display: block; font-size: 1.15rem; }
+#right, #verdict[data-result="correct"] { color: #246735; }
+#wrong, #verdict[data-result="wrong"] { color: #992f26; }
+#instruction, #ipa { color: #515d70; margin-bottom: 4px; }
+#ipa { margin-top: 4px; }
+.options { display: grid; gap: 8px; margin: 16px 0 0; }
+.option { display: flex; align-items: baseline; gap: 10px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 11px; cursor: pointer; }
+.option input { margin: 0; accent-color: var(--blue); }
+.option:has(input:disabled) { cursor: default; }
+#feedback { background: var(--page); border-radius: 10px; margin-top: 14px; padding: 12px 14px; overflow-wrap: anywhere; }
+#feedback p, #summary { margin-top: 5px; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+[hidden] { display: none !important; }
+@media (max-width: 440px) {
+  nav { gap: 5px; }
+  nav button { padding-inline: 1px; font-size: clamp(.62rem, 2.7vw, .88rem); }
+}
+</style>
+</head>
+<body>
+<main>
+  <nav id="units" aria-label="Select a test"></nav>
+  <section class="card" aria-labelledby="unit-title">
+    <div class="card-head">
+      <p id="unit-title"></p>
+      <div class="stats">
+        <div><span>Question</span><strong id="position"></strong></div>
+        <div><span>Correct</span><strong id="right"></strong></div>
+        <div><span>Wrong</span><strong id="wrong"></strong></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <form id="question">
+        <p id="instruction"></p>
+        <h2 id="prompt" tabindex="-1"></h2>
+        <p id="ipa" hidden></p>
+        <div id="options" class="options" role="radiogroup" aria-labelledby="instruction prompt" aria-describedby="ipa"></div>
+        <div id="feedback" role="status" hidden>
+          <strong id="verdict"></strong>
+          <p id="details"></p>
+          <p id="definition"></p>
+          <p id="example" hidden></p>
+        </div>
+        <div class="actions">
+          <button id="check" type="submit" class="primary" disabled>Check answer</button>
+          <button id="next" type="submit" class="primary" hidden disabled>Next</button>
+        </div>
+      </form>
+      <div id="finish" hidden>
+        <h2 id="finish-title" tabindex="-1">Test complete</h2>
+        <p id="summary"></p>
+        <div class="actions">
+          <button id="retry" type="button" class="primary">Retry wrong answers</button>
+          <button id="restart" type="button">Restart full test</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<noscript>Enable JavaScript to use the quiz.</noscript>
+<script id="vocabulary" type="application/json">[{"word": "bilingual", "part": "adjective", "definition": "using or able to speak two languages", "example": "Both children are bilingual.", "ipa": "/baɪˈlɪŋ.ɡwəl/", "unit": 1}, {"word": "official language", "part": "noun", "definition": "the language that is used by a country's government, is taught in schools and used in the courts of law", "example": "German is the official language of Austria.", "ipa": "/əˌfɪʃ.əl ˈlæŋ.ɡwɪdʒ/", "unit": 1}, {"word": "community", "part": "noun", "definition": "the people living in a particular area", "example": "The local community helped out.", "ipa": "/kəˈmjuː.nə.ti/", "unit": 1}, {"word": "creole", "part": "noun", "definition": "a pidgin language that is now the first language of a group of people", "example": "A creole develops a wider range of words, grammatical structures, and styles than is found in a pidgin.", "ipa": "/kriˈəʊl/", "unit": 1}, {"word": "independent", "part": "adjective", "definition": "not controlled or ruled by anyone else", "example": "It's now an independent state.", "ipa": "/ˌɪn.dɪˈpen.dənt/", "unit": 1}, {"word": "pidgin", "part": "noun", "definition": "a language that has developed from a mixture of languages, used as a way of communicating by people who do not speak each other's languages", "example": "The vocabulary of a pidgin often comes from several languages.", "ipa": "/ˈpɪdʒ.ɪn/", "unit": 1}, {"word": "population", "part": "noun", "definition": "all the people living in a particular area", "example": "Ten percent of the population live in poverty.", "ipa": "/ˌpɒp.jəˈleɪ.ʃən/", "unit": 1}, {"word": "body language", "part": "noun", "definition": "the way you move your body, that shows people what you are feeling", "example": "I could tell from her body language that she was very embarrassed.", "ipa": "/ˈbɒd.i ˌlæŋ.ɡwɪdʒ/", "unit": 1}, {"word": "culture", "part": "noun", "definition": "the habits, traditions, and beliefs of a country or group of people", "example": "They're learning about Japanese culture at school.", "ipa": "/ˈkʌl.tʃər/", "unit": 1}, {"word": "eye contact", "part": "noun", "definition": "If two people make eye contact, they look at each other at the same time.", "example": "He's very shy and never makes eye contact.", "ipa": "/ˈaɪ ˌkɒn.tækt/", "unit": 1}, {"word": "gesture", "part": "noun", "definition": "a movement of the hands, arms, or head, etc. to express an idea or feeling", "example": "He made a  gesture to say hello.", "ipa": "/ˈdʒes.tʃər/", "unit": 1}, {"word": "non-verbal communication", "part": "noun", "definition": "the way we show our feelings and thoughts through the expressions on our faces, our movements, how long we look at each other, etc.", "example": "It's sometimes said that non-verbal communication amounts to as much as 80% of communication.", "ipa": "/ˌnɒnˈvɜː.bəl kəˌmjuː.nɪˈkeɪ.ʃən/", "unit": 1}, {"word": "cone", "part": "noun", "definition": "a solid shape with a round bottom and a pointed top", "example": "It's in the shape of a cone.", "ipa": "/kəʊn/", "unit": 2}, {"word": "cube", "part": "noun", "definition": "a solid object with six square sides of the same size", "example": "Cut the cheese into small cubes.", "ipa": "/kjuːb/", "unit": 2}, {"word": "cylinder", "part": "noun", "definition": "a shape with two circular ends and long, straight sides", "example": "A tube is a cylinder.", "ipa": "/ˈsɪl.ɪn.dər/", "unit": 2}, {"word": "hemisphere", "part": "noun", "definition": "one half of a sphere", "example": "Earth is divided into two hemispheres.", "ipa": "/ˈhem.ɪ.sfɪər/", "unit": 2}, {"word": "hexagonal prism", "part": "noun", "definition": "a solid object with two sides shaped like a hexagon", "example": "The shape is a hexagonal prism.", "ipa": "/hekˌsæɡ.ən.əl ˈprɪz.əm/", "unit": 2}, {"word": "sphere", "part": "noun", "definition": "a round object shaped like a ball", "example": "Earth is a sphere.", "ipa": "/sfɪər/", "unit": 2}, {"word": "square-based pyramid", "part": "noun", "definition": "a shape with a square base and four triangular sides that meet to form a point at the top", "example": "The structure is essentially a square-based pyramid.", "ipa": "/ˌskweər beɪst ˈpɪr.ə.mɪd/", "unit": 2}, {"word": "triangular prism", "part": "noun", "definition": "a solid object with two sides shaped like a triangle", "example": "The building is basically a triangular prism.", "ipa": "/traɪˌæŋ.ɡjə.lə ˈprɪz.əm/", "unit": 2}, {"word": "triangular pyramid", "part": "noun", "definition": "a shape with a triangular base and three triangular sides that meet to form a point at the top", "example": "She drew a triangular pyramid.", "ipa": "/traɪˌæŋ.ɡjə.lə ˈpɪr.ə.mɪd/", "unit": 2}, {"word": "air flow", "part": "noun", "definition": "the movement of air", "example": "This helps with air flow in the building.", "ipa": "/ˈeə ˌfləʊ/", "unit": 2}, {"word": "energy efficiency", "part": "noun", "definition": "the use of as little electricity, gas, etc. as possible", "example": "It's part of a drive to promote energy efficiency in the workplace.", "ipa": "/ˈen.ə.dʒi ɪˌfɪʃ.ən.si/", "unit": 2}, {"word": "heat conductor", "part": "noun", "definition": "a substance that allows heat to go through it", "example": "Metal is a good heat conductor.", "ipa": "/ˈhiːt kənˌdʌk.tər/", "unit": 2}, {"word": "heat flow", "part": "noun", "definition": "the movement of heat", "example": "Insulation reduces heat flow.", "ipa": "/ˈhiːt ˌfləʊ/", "unit": 2}, {"word": "light ray", "part": "noun", "definition": "a narrow beam of light", "example": "Light rays bend as they pass from air to water.", "ipa": "/ˈlaɪt ˌreɪ/", "unit": 2}, {"word": "resistant", "part": "adjective", "definition": "not harmed or affected by something", "example": "It has a heat-resistant surface.", "ipa": "/rɪˈzɪs.tənt/", "unit": 2}, {"word": "community spirit", "part": "noun", "definition": "friendliness and understanding between local people", "example": "Projects like this can help to develop community spirit.", "ipa": "/kəˌmjuː.nə.ti ˈspɪr.ɪt/", "unit": 3}, {"word": "crime", "part": "noun", "definition": "illegal activities", "example": "There is less violent crime than there used to be.", "ipa": "/kraɪm/", "unit": 3}, {"word": "gang", "part": "noun", "definition": "a group of young people who spend time together, often fighting with other groups", "example": "He was a member of a gang.", "ipa": "/ɡæŋ/", "unit": 3}, {"word": "neighbourhood", "part": "noun", "definition": "an area of a town or city that people live in", "example": "Are there any good restaurants in the neighbourhood?", "ipa": "/ˈneɪ.bə.hʊd/", "unit": 3}, {"word": "social problem", "part": "noun", "definition": "a bad or difficult thing that exists in society, for example people not having money or homes", "example": "So many social problems are caused by poverty.", "ipa": "/ˈsəʊ.ʃəl ˌprɒb.ləm/", "unit": 3}, {"word": "violence", "part": "noun", "definition": "when someone hurts or kills someone else", "example": "A number of people were killed in the violence.", "ipa": "/ˈvaɪə.ləns/", "unit": 3}, {"word": "GDP", "part": "noun", "definition": "abbreviation for 'Gross Domestic Product': the total value of goods and services produced by a country in a year", "example": "If the GDP continues to shrink, the country will be in a recession.", "ipa": "/ˌdʒiː.diːˈpiː/", "unit": 3}, {"word": "healthcare", "part": "noun", "definition": "the set of services provided by a country or an organisation for treating people who are ill", "example": "Healthcare workers are some of the lowest paid people in the country.", "ipa": "/ˈhelθ.keər/", "unit": 3}, {"word": "income", "part": "noun", "definition": "the money that you regularly get, for example from your job", "example": "Many families are on a low income.", "ipa": "/ˈɪŋ.kʌm/", "unit": 3}, {"word": "life expectancy", "part": "noun", "definition": "the number of years that someone is likely to live", "example": "Life expectancy in Europe increased greatly in the 20th century.", "ipa": "/ˈlaɪf ɪkˌspek.tən.si/", "unit": 3}, {"word": "per capita", "part": "adverb, adjective", "definition": "If you express an amount per capita, you mean that amount for each person.", "example": "This region has the lowest per capita income in the country.", "ipa": "/pə ˈkæp.ɪ.tə/", "unit": 3}, {"word": "population", "part": "noun", "definition": "the number of people living in a particular area", "example": "What's the population of Brazil?", "ipa": "/ˌpɒp.jəˈleɪ.ʃən/", "unit": 3}, {"word": "social support", "part": "noun", "definition": "the help and support the people receive from others", "example": "She has a good social support network.", "ipa": "/ˌsəʊʃəl səˈpɔːt/", "unit": 3}, {"word": "wealth", "part": "noun", "definition": "when someone has a lot of money", "example": "He enjoyed his new wealth and status.", "ipa": "/welθ/", "unit": 3}, {"word": "brand identity", "part": "noun", "definition": "a set of ideas and features that a company wants people to connect in their minds with its products or brand", "example": "They help companies create a brand identity.", "ipa": "/ˌbrænd aɪˈden.tə.ti/", "unit": 4}, {"word": "copyright", "part": "noun", "definition": "the legal right to control the production and selling of a book, play, film, photograph, or piece of music", "example": "Who owns the copyright on this article?", "ipa": "/ˈkɒp.i.raɪt/", "unit": 4}, {"word": "logo", "part": "noun", "definition": "a special design that a company uses to sell its products", "example": "That's their corporate logo.", "ipa": "/ˈləʊ.ɡəʊ/", "unit": 4}, {"word": "permission", "part": "noun", "definition": "when you allow someone to do something", "example": "We had to get permission to use the photo.", "ipa": "/pəˈmɪʃ.ən/", "unit": 4}, {"word": "exclusive image", "part": "phrase", "definition": "a reputation for being very expensive", "example": "The British bag makers have a very exclusive image.", "ipa": "/ ɪkˌskluː.sɪv ˈɪm.ɪdʒ/", "unit": 4}, {"word": "global luxury brand", "part": "phrase", "definition": "a very expensive product made by a particular company and sold all over the world", "example": "The item was established as a global luxury brand.", "ipa": "/ɡləʊ.bəl ˈlʌk.ʃər.i ˌbrænd/", "unit": 4}, {"word": "go into business with", "part": "phrase", "definition": "to join another person or company in order to start selling something", "example": "I want to go into business with an ex-colleague of mine.", "ipa": "/ˌɡəʊ ɪn.tə ˈbɪz.nɪs wɪð/", "unit": 4}, {"word": "manufacture", "part": "verb", "definition": "to make something, usually in large numbers in a factory", "example": "He plans to manufacture plastic products.", "ipa": "/ˌmæn.jəˈfæk.tʃər/", "unit": 4}, {"word": "marketing campaign", "part": "noun", "definition": "a planned group of activities intended to encourage people to buy a product or service", "example": "It's all part of their new marketing campaign.", "ipa": "/ˈmɑː.kɪ.tɪŋ kæmˌpeɪn/", "unit": 4}]</script>
+<script>
+'use strict';
+
+const $ = id => document.getElementById(id);
+const entries = JSON.parse($('vocabulary').textContent);
+const tests = [
+  { name: 'TEST 1', type: 'definition' },
+  { name: 'TEST 2', type: 'word' },
+];
+const letters = 'ABCD';
+const overlapping = ['population', 'community'];
+let run;
+let unit = 0;
+
+function wordWithPart(entry) {
+  const part = entry.part
+    .replace(/\badjective\b/g, 'adj')
+    .replace(/\badverb\b/g, 'adv')
+    .replace(/\bnoun\b/g, 'n')
+    .replace(/\bverb\b/g, 'v')
+    .replace(/,? \(?(plural|past|passive)\)?/g, ' $1');
+  return entry.word + ' (' + part.replace(', ', '/') + ')';
+}
+
+function shuffle(items) {
+  const copy = [...items];
+  for (let index = copy.length - 1; index > 0; index--) {
+    const swap = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[swap]] = [copy[swap], copy[index]];
+  }
+  return copy;
+}
+
+function buildQuestion(id) {
+  const word = entries[id].word;
+  const candidates = entries.map((_, index) => index).filter(index => {
+    const other = entries[index].word;
+    return index !== id && !(overlapping.includes(word) && overlapping.includes(other));
+  });
+  return { id, options: shuffle([id, ...shuffle(candidates).slice(0, 3)]) };
+}
+
+function start(missed = null) {
+  const ids = missed ?? entries.map((_, id) => id);
+  run = {
+    questions: shuffle(ids).map(buildQuestion),
+    index: 0, selected: null, checked: false, correct: 0, missed: [], review: missed !== null,
+  };
+}
+
+function render(focus = false) {
+  const question = run.questions[run.index];
+  const test = tests[unit];
+  const entry = question && entries[question.id];
+  const total = run.questions.length;
+  $('unit-title').textContent = test.name + (run.review ? ' · Review' : '');
+  [...$('units').children].forEach((button, index) => button.setAttribute('aria-pressed', index === unit));
+  $('position').textContent = Math.min(run.index + 1, total) + ' / ' + total;
+  $('right').textContent = run.correct;
+  $('wrong').textContent = run.missed.length;
+  $('question').hidden = !question;
+  $('finish').hidden = Boolean(question);
+  if (!question) {
+    $('summary').textContent = run.correct + ' of ' + total + ' correct (' + Math.round(100 * run.correct / total) + '%).';
+    $('retry').hidden = run.missed.length === 0;
+    $('retry').textContent = 'Retry wrong answers (' + run.missed.length + ')';
+    if (focus) $('finish-title').focus();
+    return;
+  }
+
+  const showWord = test.type === 'definition';
+  $('instruction').textContent = showWord ? 'Choose the correct definition.' : 'Choose the correct word.';
+  $('prompt').textContent = showWord ? wordWithPart(entry) : entry.definition;
+  $('ipa').textContent = showWord ? entry.ipa : '';
+  $('ipa').hidden = !showWord;
+  $('options').replaceChildren();
+  question.options.forEach((id, index) => {
+    const label = document.createElement('label');
+    label.className = 'option';
+    const radio = document.createElement('input');
+    radio.type = 'radio';
+    radio.name = 'choice';
+    radio.checked = run.selected === id;
+    radio.disabled = run.checked;
+    radio.addEventListener('change', () => {
+      run.selected = id;
+      $('check').disabled = false;
+    });
+    const text = document.createElement('span');
+    const choice = entries[id];
+    const answer = showWord ? choice.definition : wordWithPart(choice);
+    text.textContent = letters[index] + '. ' + answer;
+    label.append(radio, text);
+    $('options').append(label);
+  });
+
+  $('feedback').hidden = !run.checked;
+  if (run.checked) {
+    const correct = run.selected === question.id;
+    const correctLetter = letters[question.options.indexOf(question.id)];
+    $('verdict').textContent = correct ? 'CORRECT' : 'WRONG. It is ' + correctLetter + '.';
+    $('verdict').dataset.result = correct ? 'correct' : 'wrong';
+    $('details').textContent = wordWithPart(entry) + (entry.ipa ? ' · ' + entry.ipa : '');
+    $('definition').textContent = 'Definition: ' + entry.definition;
+    $('example').hidden = !entry.example?.trim();
+    $('example').textContent = $('example').hidden ? '' : 'Example: ' + entry.example;
+  }
+
+  $('check').hidden = run.checked;
+  $('check').disabled = run.checked || run.selected === null;
+  $('next').textContent = run.index === total - 1 ? 'See results' : 'Next';
+  $('next').hidden = !run.checked;
+  $('next').disabled = !run.checked;
+  if (focus) (run.checked ? $('next') : $('prompt')).focus();
+}
+
+$('question').addEventListener('submit', event => {
+  event.preventDefault();
+  const question = run.questions[run.index];
+  if (!question || run.selected === null) return;
+  if (run.checked) {
+    run.index++;
+    run.selected = null;
+    run.checked = false;
+  } else {
+    run.checked = true;
+    if (run.selected === question.id) run.correct++;
+    else run.missed.push(question.id);
+  }
+  render(true);
+});
+
+$('retry').addEventListener('click', () => {
+  const missed = run.missed;
+  if (!missed.length) return;
+  start(missed);
+  render(true);
+});
+
+$('restart').addEventListener('click', () => {
+  start();
+  render(true);
+});
+
+tests.forEach((test, index) => {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.textContent = test.name;
+  button.addEventListener('click', () => {
+    unit = index;
+    start();
+    render(true);
+  });
+  $('units').append(button);
+});
+
+start();
+render();
+</script>
+</body>
+</html>
