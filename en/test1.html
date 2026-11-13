@@ -29,6 +29,7 @@ nav { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px;
 #wrong, #verdict[data-result="wrong"] { color: #992f26; }
 #instruction, #ipa { color: #515d70; margin-bottom: 4px; }
 #ipa { margin-top: 4px; }
+#typed { display: block; width: 100%; margin-top: 16px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; font: inherit; color: inherit; }
 .options { display: grid; gap: 8px; margin: 16px 0 0; }
 .option { display: flex; align-items: baseline; gap: 10px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 11px; cursor: pointer; }
 .option input { margin: 0; accent-color: var(--blue); }
@@ -61,6 +62,7 @@ nav { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px;
         <h2 id="prompt" tabindex="-1"></h2>
         <p id="ipa" hidden></p>
         <div id="options" class="options" role="radiogroup" aria-labelledby="instruction prompt" aria-describedby="ipa"></div>
+        <input id="typed" type="text" aria-label="Type the word" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Type your answer" hidden>
         <div id="feedback" role="status" hidden>
           <strong id="verdict"></strong>
           <p id="details"></p>
@@ -98,7 +100,6 @@ const tests = [
 ];
 const sessions = [];
 const letters = 'ABCD';
-const types = ['definition', 'word'];
 // Keep closely related entries from appearing as competing answers.
 const similar = [
   [], [['apparently', 'supposedly']],
@@ -127,7 +128,10 @@ function shuffle(items) {
   return copy;
 }
 
+const normalizeWord = value => value.normalize('NFC').trim().toLowerCase()
+  .replace(/[’‘]/g, "'").replace(/\s+/g, ' ');
 function buildQuestion(unitIndex, id, type) {
+  if (type === 'word') return { id, type, options: [] };
   if (type === 'grammar') {
     return { id, type, correctId: 0, options: shuffle([0, 1, 2, 3]) };
   }
@@ -140,10 +144,15 @@ function buildQuestion(unitIndex, id, type) {
 }
 
 function start(unitIndex, missed = null) {
-  const questionTypes = unitIndex < units.length ? types : ['grammar'];
-  const items = missed ?? tests[unitIndex].entries.flatMap((_, id) => questionTypes.map(type => ({ id, type })));
+  const ids = tests[unitIndex].entries.map((_, id) => id);
+  const types = unitIndex < units.length ? ['definition', 'word'] : ['grammar'];
+  const items = types.flatMap(type => shuffle(ids).map(id => ({ id, type })));
+  const review = missed && [
+    ...shuffle(missed.filter(q => q.type !== 'word')),
+    ...shuffle(missed.filter(q => q.type === 'word')),
+  ];
   sessions[unitIndex] = {
-    questions: shuffle(items).map(({ id, type }) => buildQuestion(unitIndex, id, type)),
+    questions: (review ?? items).map(({ id, type }) => buildQuestion(unitIndex, id, type)),
     index: 0, selected: null, checked: false, correct: 0, missed: [], review: missed !== null,
   };
 }
@@ -171,11 +180,17 @@ function render(focus = false) {
 
   const isGrammar = question.type === 'grammar';
   const showWord = question.type === 'definition';
-  $('instruction').textContent = isGrammar ? 'Choose the correct answer.' : showWord ? 'Choose the correct definition.' : 'Choose the correct word.';
+  const typing = question.type === 'word';
+  $('instruction').textContent = isGrammar ? 'Choose the correct answer.' : showWord ? 'Choose the correct definition.' : 'Type the word or phrase.';
   $('prompt').textContent = isGrammar ? entry.prompt : showWord ? wordWithPart(entry) : entry.definition;
   $('ipa').textContent = showWord ? entry.ipa : '';
   $('ipa').hidden = !showWord;
+  $('options').hidden = typing;
+  $('typed').hidden = !typing;
+  $('typed').value = typing ? run.selected ?? '' : '';
+  $('typed').disabled = !typing || run.checked;
   $('options').replaceChildren();
+
   question.options.forEach((id, index) => {
     const label = document.createElement('label');
     label.className = 'option';
@@ -189,9 +204,7 @@ function render(focus = false) {
       $('check').disabled = false;
     });
     const text = document.createElement('span');
-    const choice = test.entries[id];
-    const answer = isGrammar ? entry.choices[id]
-      : showWord ? choice.definition : wordWithPart(choice);
+    const answer = isGrammar ? entry.choices[id] : test.entries[id].definition;
     text.textContent = letters[index] + '. ' + answer;
     label.append(radio, text);
     $('options').append(label);
@@ -199,9 +212,9 @@ function render(focus = false) {
 
   $('feedback').hidden = !run.checked;
   if (run.checked) {
-    const correct = run.selected === question.correctId;
+    const correct = isCorrect(run, question);
     const correctLetter = letters[question.options.indexOf(question.correctId)];
-    $('verdict').textContent = correct ? 'CORRECT' : 'WRONG. It is ' + correctLetter + '.';
+    $('verdict').textContent = correct ? 'CORRECT' : typing ? 'WRONG.' : 'WRONG. It is ' + correctLetter + '.';
     $('verdict').dataset.result = correct ? 'correct' : 'wrong';
     $('details').textContent = isGrammar
       ? 'Answer: ' + entry.choices[question.correctId]
@@ -213,11 +226,25 @@ function render(focus = false) {
 
   $('check').hidden = run.checked;
   $('check').disabled = run.checked || run.selected === null;
-  $('next').textContent = run.index === total - 1 ? 'See results' : 'Next';
+  $('next').textContent = run.index === total - 1 ? 'See results'
+    : showWord && run.questions[run.index + 1].type === 'word' ? 'Start typing answers' : 'Next';
   $('next').hidden = !run.checked;
   $('next').disabled = !run.checked;
-  if (focus) (run.checked ? $('next') : $('prompt')).focus();
+  if (focus) (run.checked ? $('next') : typing ? $('typed') : $('prompt')).focus();
 }
+
+function isCorrect(run, question) {
+  if (question.type !== 'word') return run.selected === question.correctId;
+  return normalizeWord(run.selected) === normalizeWord(units[unit][question.id].word);
+}
+
+$('typed').addEventListener('input', () => {
+  const run = sessions[unit];
+  if (run.checked) return;
+  const value = $('typed').value;
+  run.selected = normalizeWord(value) ? value : null;
+  $('check').disabled = run.selected === null;
+});
 
 $('question').addEventListener('submit', event => {
   event.preventDefault();
@@ -230,7 +257,7 @@ $('question').addEventListener('submit', event => {
     run.checked = false;
   } else {
     run.checked = true;
-    if (run.selected === question.correctId) run.correct++;
+    if (isCorrect(run, question)) run.correct++;
     else run.missed.push(question);
   }
   render(true);
