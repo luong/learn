@@ -29,6 +29,7 @@ nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px;
 #wrong, #verdict[data-result="wrong"] { color: #992f26; }
 #instruction, #ipa { color: #515d70; margin-bottom: 4px; }
 #ipa { margin-top: 4px; }
+#typed { display: block; width: 100%; margin-top: 16px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; font: inherit; color: inherit; }
 .options { display: grid; gap: 8px; margin: 16px 0 0; }
 .option { display: flex; align-items: baseline; gap: 10px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 11px; cursor: pointer; }
 .option input { margin: 0; accent-color: var(--blue); }
@@ -61,6 +62,7 @@ nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px;
         <h2 id="prompt" tabindex="-1"></h2>
         <p id="ipa" hidden></p>
         <div id="options" class="options" role="radiogroup" aria-labelledby="instruction prompt" aria-describedby="ipa"></div>
+        <input id="typed" type="text" aria-label="Type the word" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Type your answer" hidden>
         <div id="feedback" role="status" hidden>
           <strong id="verdict"></strong>
           <p id="details"></p>
@@ -93,8 +95,8 @@ const $ = id => document.getElementById(id);
 const entries = JSON.parse($('vocabulary').textContent);
 const grammar = JSON.parse($('grammar').textContent);
 const tests = [
-  { name: 'VOCAB 1', type: 'definition' },
-  { name: 'VOCAB 2', type: 'word' },
+  { name: 'VOCAB 1', type: 'vocab' },
+  { name: 'VOCAB 2', type: 'vocab' },
   ...grammar.map((questions, index) => ({ name: 'GRAMMAR ' + (index + 1), type: 'grammar', questions })),
 ];
 const letters = 'ABCD';
@@ -121,20 +123,34 @@ function shuffle(items) {
   return copy;
 }
 
-function buildQuestion(id) {
-  if (tests[unit].questions) return { id, correctId: 0, options: shuffle([0, 1, 2, 3]) };
+const normalizeWord = value => value.normalize('NFC').trim().toLowerCase()
+  .replace(/[’‘]/g, "'").replace(/\s+/g, ' ');
+
+function buildQuestion(id, type) {
+  if (type === 'word') return { id, type, options: [] };
+  if (tests[unit].questions) return { id, type, correctId: 0, options: shuffle([0, 1, 2, 3]) };
   const word = entries[id].word;
   const candidates = entries.map((_, index) => index).filter(index => {
     const other = entries[index].word;
     return index !== id && !(overlapping.includes(word) && overlapping.includes(other));
   });
-  return { id, correctId: id, options: shuffle([id, ...shuffle(candidates).slice(0, 3)]) };
+  return { id, type, correctId: id, options: shuffle([id, ...shuffle(candidates).slice(0, 3)]) };
 }
 
 function start(missed = null) {
-  const ids = missed ?? (tests[unit].questions ?? entries).map((_, id) => id);
+  const test = tests[unit];
+  const ids = shuffle((test.questions ?? entries).map((_, id) => id));
+  const split = Math.floor(ids.length / 2);
+  const items = test.type === 'vocab'
+    ? ids.map((id, index) => ({ id, type: index < split ? 'definition' : 'word' }))
+    : ids.map(id => ({ id, type: test.type }));
+  const review = missed && [
+    ...shuffle(missed.filter(q => q.type !== 'word')),
+    ...shuffle(missed.filter(q => q.type === 'word')),
+  ];
+  const questions = (review ?? items).map(({ id, type }) => buildQuestion(id, type));
   run = {
-    questions: shuffle(ids).map(buildQuestion),
+    questions,
     index: 0, selected: null, checked: false, correct: 0, missed: [], review: missed !== null,
   };
 }
@@ -160,11 +176,16 @@ function render(focus = false) {
     return;
   }
 
-  const showWord = test.type === 'definition';
-  $('instruction').textContent = isGrammar ? 'Choose the correct answer.' : showWord ? 'Choose the correct definition.' : 'Choose the correct word.';
+  const showWord = question.type === 'definition';
+  const typing = question.type === 'word';
+  $('instruction').textContent = isGrammar ? 'Choose the correct answer.' : showWord ? 'Choose the correct definition.' : 'Type the word or phrase.';
   $('prompt').textContent = isGrammar ? entry.prompt : showWord ? wordWithPart(entry) : entry.definition;
   $('ipa').textContent = showWord ? entry.ipa : '';
   $('ipa').hidden = !showWord;
+  $('options').hidden = typing;
+  $('typed').hidden = !typing;
+  $('typed').value = typing ? run.selected ?? '' : '';
+  $('typed').disabled = !typing || run.checked;
   $('options').replaceChildren();
   question.options.forEach((id, index) => {
     const label = document.createElement('label');
@@ -188,9 +209,9 @@ function render(focus = false) {
 
   $('feedback').hidden = !run.checked;
   if (run.checked) {
-    const correct = run.selected === question.correctId;
+    const correct = isCorrect(question);
     const correctLetter = letters[question.options.indexOf(question.correctId)];
-    $('verdict').textContent = correct ? 'CORRECT' : 'WRONG. It is ' + correctLetter + '.';
+    $('verdict').textContent = correct ? 'CORRECT' : typing ? 'WRONG.' : 'WRONG. It is ' + correctLetter + '.';
     $('verdict').dataset.result = correct ? 'correct' : 'wrong';
     $('details').textContent = isGrammar ? entry.prompt.replace('___', entry.choices[question.correctId]) : wordWithPart(entry) + (entry.ipa ? ' · ' + entry.ipa : '');
     $('definition').textContent = isGrammar ? entry.explanation : 'Definition: ' + entry.definition;
@@ -200,11 +221,24 @@ function render(focus = false) {
 
   $('check').hidden = run.checked;
   $('check').disabled = run.checked || run.selected === null;
-  $('next').textContent = run.index === total - 1 ? 'See results' : 'Next';
+  $('next').textContent = run.index === total - 1 ? 'See results'
+    : showWord && run.questions[run.index + 1].type === 'word' ? 'Start typing answers' : 'Next';
   $('next').hidden = !run.checked;
   $('next').disabled = !run.checked;
-  if (focus) (run.checked ? $('next') : $('prompt')).focus();
+  if (focus) (run.checked ? $('next') : typing ? $('typed') : $('prompt')).focus();
 }
+
+function isCorrect(question) {
+  if (question.type !== 'word') return run.selected === question.correctId;
+  return normalizeWord(run.selected) === normalizeWord(entries[question.id].word);
+}
+
+$('typed').addEventListener('input', () => {
+  if (run.checked) return;
+  const value = $('typed').value;
+  run.selected = normalizeWord(value) ? value : null;
+  $('check').disabled = run.selected === null;
+});
 
 $('question').addEventListener('submit', event => {
   event.preventDefault();
@@ -216,8 +250,8 @@ $('question').addEventListener('submit', event => {
     run.checked = false;
   } else {
     run.checked = true;
-    if (run.selected === question.correctId) run.correct++;
-    else run.missed.push(question.id);
+    if (isCorrect(question)) run.correct++;
+    else run.missed.push(question);
   }
   render(true);
 });
