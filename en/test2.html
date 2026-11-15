@@ -94,9 +94,10 @@ nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px;
 const $ = id => document.getElementById(id);
 const entries = JSON.parse($('vocabulary').textContent);
 const grammar = JSON.parse($('grammar').textContent);
+const vocabularyIds = entries.map((_, id) => id);
 const tests = [
-  { name: 'VOCAB 1', type: 'vocab' },
-  { name: 'VOCAB 2', type: 'vocab' },
+  { name: 'VOCAB 1', vocabularyIds: vocabularyIds.slice(0, 25) },
+  { name: 'VOCAB 2', vocabularyIds: vocabularyIds.slice(25) },
   ...grammar.map((questions, index) => ({ name: 'GRAMMAR ' + (index + 1), type: 'grammar', questions })),
 ];
 const letters = 'ABCD';
@@ -130,7 +131,7 @@ function buildQuestion(id, type) {
   if (type === 'word') return { id, type, options: [] };
   if (tests[unit].questions) return { id, type, correctId: 0, options: shuffle([0, 1, 2, 3]) };
   const word = entries[id].word;
-  const candidates = entries.map((_, index) => index).filter(index => {
+  const candidates = tests[unit].vocabularyIds.filter(index => {
     const other = entries[index].word;
     return index !== id && !(overlapping.includes(word) && overlapping.includes(other));
   });
@@ -139,11 +140,9 @@ function buildQuestion(id, type) {
 
 function start(missed = null) {
   const test = tests[unit];
-  const ids = shuffle((test.questions ?? entries).map((_, id) => id));
-  const split = Math.floor(ids.length / 2);
-  const items = test.type === 'vocab'
-    ? ids.map((id, index) => ({ id, type: index < split ? 'definition' : 'word' }))
-    : ids.map(id => ({ id, type: test.type }));
+  const items = test.vocabularyIds
+    ? ['definition', 'word'].flatMap(type => shuffle(test.vocabularyIds).map(id => ({ id, type })))
+    : shuffle(test.questions.map((_, id) => id)).map(id => ({ id, type: test.type }));
   const review = missed && [
     ...shuffle(missed.filter(q => q.type !== 'word')),
     ...shuffle(missed.filter(q => q.type === 'word')),
