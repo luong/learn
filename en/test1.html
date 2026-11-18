@@ -7,7 +7,7 @@
 <style>
 :root { color-scheme: light; --ink: #202938; --blue: #345f9c; --line: #dce1e8; --page: #f2f4f8; }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--page); color: var(--ink); font: 16px/1.5 system-ui, sans-serif; }
+body { margin: 0; background: var(--page); color: var(--ink); font: 18px/1.5 system-ui, sans-serif; }
 main { width: min(888px, calc(100% - 28px)); margin: 22px auto 40px; }
 h2, p { margin: 0; }
 h2 { font-size: clamp(19px, 4vw, 24px); overflow-wrap: anywhere; }
@@ -23,8 +23,8 @@ nav { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px;
 #unit-title { color: var(--blue); font-weight: 750; margin-bottom: 10px; }
 .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
 .stats div { background: var(--page); border-radius: 10px; padding: 7px 11px; }
-.stats span { display: block; color: #515d70; font-size: .83rem; }
-.stats strong { display: block; font-size: 1.15rem; }
+.stats span { display: block; color: #515d70; font-size: calc(.83rem + 1px); }
+.stats strong { display: block; font-size: calc(1.15rem + 1px); }
 #right, #verdict[data-result="correct"] { color: #246735; }
 #wrong, #verdict[data-result="wrong"] { color: #992f26; }
 #instruction, #ipa { color: #515d70; margin-bottom: 4px; }
@@ -42,7 +42,9 @@ nav { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px;
   nav { gap: 5px; }
   nav button { padding-inline: 1px; font-size: clamp(.62rem, 2.7vw, .88rem); }
 }
-</style>
+
+body{font-size:18px}#prompt{font-size:clamp(19px,4vw,24px)}#instruction,#ipa{font-size:16px}
+body{font-size:18px}#prompt{font-size:clamp(19px,4vw,24px)}#instruction,#ipa{font-size:16px}</style>
 </head>
 <body>
 <main>
@@ -79,7 +81,7 @@ nav { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px;
         <p id="summary"></p>
         <div class="actions">
           <button id="retry" type="button" class="primary">Retry wrong answers</button>
-          <button id="restart" type="button">Restart full test</button>
+          
         </div>
       </div>
     </div>
@@ -270,10 +272,7 @@ $('retry').addEventListener('click', () => {
   render(true);
 });
 
-$('restart').addEventListener('click', () => {
-  start(unit);
-  render(true);
-});
+
 
 tests.forEach((test, index) => {
   const button = document.createElement('button');

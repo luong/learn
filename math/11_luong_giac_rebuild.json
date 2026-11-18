@@ -1,0 +1,2478 @@
+{
+  "source_files": [
+    "20251106_HUONG_DAN_ON_TAP_CUOI_KI_I_TOAN_11_GHÉP_FILE.pdf",
+    "20260913_TOAN_11_HUONG_DAN_ON_TAP_GIUA_KI_1.pdf"
+  ],
+  "topics": {
+    "Lượng giác 1": {
+      "count": 54,
+      "types": {
+        "mcq": 40,
+        "truefalse": 8,
+        "short": 6
+      },
+      "questions": [
+        {
+          "source": "A-I-1",
+          "prompt": "Khẳng định nào sau đây là đúng khi nói về \"góc lượng giác\"?",
+          "options": [
+            "Trên đường tròn tâm O bán kính 1, góc hình học AOB là góc lượng giác.",
+            "Trên đường tròn tâm O bán kính 1, góc hình học AOB phân biệt điểm đầu A và điểm cuối B là góc lượng giác.",
+            "Trên đường tròn định hướng, góc hình học AOB là góc lượng giác.",
+            "Trên đường tròn định hướng, góc hình học AOB phân biệt điểm đầu A và điểm cuối B là góc lượng giác."
+          ],
+          "answer": 3,
+          "html": "Khẳng định nào sau đây là đúng khi nói về \"góc lượng giác\"?",
+          "optionsHtml": [
+            "Trên đường tròn tâm O bán kính 1, góc hình học AOB là góc lượng giác.",
+            "Trên đường tròn tâm O bán kính 1, góc hình học AOB phân biệt điểm đầu A và điểm cuối B là góc lượng giác.",
+            "Trên đường tròn định hướng, góc hình học AOB là góc lượng giác.",
+            "Trên đường tròn định hướng, góc hình học AOB phân biệt điểm đầu A và điểm cuối B là góc lượng giác."
+          ],
+          "kind": "Thực hành",
+          "verification": "Theo quy ước của đề: đường tròn định hướng, phân biệt điểm đầu và điểm cuối.",
+          "type": "mcq",
+          "id": 1
+        },
+        {
+          "source": "A-I-2",
+          "prompt": "Khẳng định nào sau đây là đúng khi nói về \"đường tròn lượng giác\"?",
+          "options": [
+            "Mọi đường tròn là đường tròn lượng giác.",
+            "Mọi đường tròn bán kính 1 là đường tròn lượng giác.",
+            "Mọi đường tròn bán kính 1, tâm tại gốc tọa độ là đường tròn lượng giác.",
+            "Đường tròn định hướng bán kính 1, tâm tại gốc tọa độ là đường tròn lượng giác."
+          ],
+          "answer": 3,
+          "html": "Khẳng định nào sau đây là đúng khi nói về \"đường tròn lượng giác\"?",
+          "optionsHtml": [
+            "Mọi đường tròn là đường tròn lượng giác.",
+            "Mọi đường tròn bán kính 1 là đường tròn lượng giác.",
+            "Mọi đường tròn bán kính 1, tâm tại gốc tọa độ là đường tròn lượng giác.",
+            "Đường tròn định hướng bán kính 1, tâm tại gốc tọa độ là đường tròn lượng giác."
+          ],
+          "kind": "Thực hành",
+          "verification": "Đường tròn lượng giác có tâm O, bán kính 1, gắn chiều định hướng.",
+          "type": "mcq",
+          "id": 2
+        },
+        {
+          "source": "A-I-3",
+          "prompt": "Trên đường tròn cung có số đo 1 rad là?",
+          "options": [
+            "Bằng 1.",
+            "Tương ứng với góc ở tâm $60^\\circ$.",
+            "Bằng đường kính.",
+            "Bằng nửa đường kính."
+          ],
+          "answer": 3,
+          "html": "Trên đường tròn cung có số đo 1 rad là?",
+          "optionsHtml": [
+            "Bằng 1.",
+            "Tương ứng với góc ở tâm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>60</mn><mo>&#x02218;</mo></msup></mrow></math>.",
+            "Bằng đường kính.",
+            "Bằng nửa đường kính."
+          ],
+          "kind": "Thực hành",
+          "verification": "Định nghĩa radian: l=Rα; α=1 nên l=R, bằng nửa đường kính.",
+          "type": "mcq",
+          "id": 3
+        },
+        {
+          "source": "A-I-4",
+          "prompt": "Đổi số đo của góc $108^\\circ$ sang đơn vị radian.",
+          "options": [
+            "$\\frac{3\\pi}{5}$",
+            "$\\frac\\pi{10}$",
+            "$\\frac{3\\pi}{2}$",
+            "$\\frac\\pi4$"
+          ],
+          "answer": 0,
+          "html": "Đổi số đo của góc <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>108</mn><mo>&#x02218;</mo></msup></mrow></math> sang đơn vị radian.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mrow><mn>5</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mrow><mn>10</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "108°×π/180=3π/5.",
+          "type": "mcq",
+          "id": 4
+        },
+        {
+          "source": "A-I-6",
+          "prompt": "Tính độ dài $\\ell$ của cung trên đường tròn có bán kính bằng 20cm và số đo $\\frac\\pi{16}$.",
+          "options": [
+            "3,93 cm",
+            "2,94 cm",
+            "3,39 cm",
+            "1,49 cm"
+          ],
+          "answer": 0,
+          "html": "Tính độ dài <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x02113;</mi></mrow></math> của cung trên đường tròn có bán kính bằng 20cm và số đo <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mrow><mn>16</mn></mrow></mfrac></mrow></math>.",
+          "optionsHtml": [
+            "3,93 cm",
+            "2,94 cm",
+            "3,39 cm",
+            "1,49 cm"
+          ],
+          "kind": "Thực hành",
+          "verification": "l=20π/16=5π/4≈3,92699 cm, làm tròn 3,93 cm.",
+          "type": "mcq",
+          "id": 5
+        },
+        {
+          "source": "A-I-8",
+          "prompt": "Trên đường tròn bán kính $R$, cung tròn có độ dài bằng $\\frac16$ độ dài nửa đường tròn thì có số đo (tính bằng radian) là:",
+          "options": [
+            "$\\frac\\pi2$",
+            "$\\frac\\pi3$",
+            "$\\frac\\pi4$",
+            "$\\frac\\pi6$"
+          ],
+          "answer": 3,
+          "html": "Trên đường tròn bán kính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>R</mi></mrow></math>, cung tròn có độ dài bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math> độ dài nửa đường tròn thì có số đo (tính bằng radian) là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "l=πR/6 nên α=π/6.",
+          "type": "mcq",
+          "id": 6
+        },
+        {
+          "source": "A-I-9",
+          "prompt": "Bánh xe đạp của người đi xe đạp quay được 2 vòng trong 5 giây. Hỏi trong 2 giây, bánh xe quay được 1 góc bao nhiêu?",
+          "options": [
+            "$\\frac{8\\pi}5$",
+            "$\\frac{5\\pi}8$",
+            "$\\frac{3\\pi}5$",
+            "$\\frac{5\\pi}3$"
+          ],
+          "answer": 0,
+          "html": "Bánh xe đạp của người đi xe đạp quay được 2 vòng trong 5 giây. Hỏi trong 2 giây, bánh xe quay được 1 góc bao nhiêu?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>8</mn><mi>&#x003C0;</mi></mrow><mn>5</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>5</mn><mi>&#x003C0;</mi></mrow><mn>8</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>5</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>5</mn><mi>&#x003C0;</mi></mrow><mn>3</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "2 giây quay 4/5 vòng, góc 8π/5.",
+          "type": "mcq",
+          "id": 7
+        },
+        {
+          "source": "A-I-11",
+          "prompt": "Cho $0<\\alpha<\\frac\\pi2$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$\\cot(\\alpha+\\frac\\pi2)>0$",
+            "$\\cot(\\alpha+\\frac\\pi2)\\ge0$",
+            "$\\tan(\\alpha+\\pi)<0$",
+            "$\\tan(\\alpha+\\pi)>0$"
+          ],
+          "answer": 3,
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x0003C;</mo><mi>&#x003B1;</mi><mo>&#x0003C;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac></mrow></math>. Khẳng định nào sau đây đúng?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mo stretchy=\"false\">&#x00028;</mo><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003E;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mo stretchy=\"false\">&#x00028;</mo><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02265;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mi>&#x003C0;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003C;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mi>&#x003C0;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003E;</mo><mn>0</mn></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "α thuộc góc phần tư I: cot(α+π/2)=−tanα<0; tan(α+π)=tanα>0.",
+          "type": "mcq",
+          "id": 8
+        },
+        {
+          "source": "A-I-14",
+          "prompt": "Mệnh đề nào sau đây là sai?",
+          "options": [
+            "$-1\\le\\sin\\alpha\\le1;\\ -1\\le\\cos\\alpha\\le1$",
+            "$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha},\\ \\cos\\alpha\\ne0$",
+            "$\\cot\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha},\\ \\sin\\alpha\\ne0$",
+            "$\\sin^2(2018\\alpha)+\\cos^2(2018\\alpha)=2018$"
+          ],
+          "answer": 3,
+          "html": "Mệnh đề nào sau đây là sai?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x02264;</mo><mi>sin</mi><mi>&#x003B1;</mi><mo>&#x02264;</mo><mn>1</mn><mi>;</mi><mtext>&#x000A0;</mtext><mo>&#x02212;</mo><mn>1</mn><mo>&#x02264;</mo><mi>cos</mi><mi>&#x003B1;</mi><mo>&#x02264;</mo><mn>1</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>sin</mi><mi>&#x003B1;</mi></mrow><mrow><mi>cos</mi><mi>&#x003B1;</mi></mrow></mfrac><mo>&#x0002C;</mo><mtext>&#x000A0;</mtext><mi>cos</mi><mi>&#x003B1;</mi><mo>&#x02260;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>cos</mi><mi>&#x003B1;</mi></mrow><mrow><mi>sin</mi><mi>&#x003B1;</mi></mrow></mfrac><mo>&#x0002C;</mo><mtext>&#x000A0;</mtext><mi>sin</mi><mi>&#x003B1;</mi><mo>&#x02260;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mi>sin</mi><mn>2</mn></msup><mo stretchy=\"false\">&#x00028;</mo><mn>2018</mn><mi>&#x003B1;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><msup><mi>cos</mi><mn>2</mn></msup><mo stretchy=\"false\">&#x00028;</mo><mn>2018</mn><mi>&#x003B1;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>2018</mn></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sin²t+cos²t=1 với mọi t; thay t=2018α vẫn bằng 1, không bằng 2018.",
+          "type": "mcq",
+          "id": 9
+        },
+        {
+          "source": "A-I-15",
+          "prompt": "Điều kiện trong đẳng thức $\\tan\\alpha.\\cot\\alpha=1$ là",
+          "options": [
+            "$\\alpha\\ne\\frac{k\\pi}2$",
+            "$\\alpha\\ne\\frac\\pi2+k\\pi$",
+            "$\\alpha\\ne k\\pi$",
+            "$\\alpha\\ne\\frac\\pi2+2k\\pi$"
+          ],
+          "answer": 0,
+          "html": "Điều kiện trong đẳng thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mi>&#x003B1;</mi><mo>&#x0002E;</mo><mi>cot</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math> là",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003B1;</mi><mo>&#x02260;</mo><mfrac><mrow><mi>k</mi><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003B1;</mi><mo>&#x02260;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003B1;</mi><mo>&#x02260;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003B1;</mi><mo>&#x02260;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Cần đồng thời sinα≠0 và cosα≠0, tương đương α≠kπ/2.",
+          "type": "mcq",
+          "id": 10
+        },
+        {
+          "source": "A-I-16",
+          "prompt": "Rút gọn biểu thức $S=\\cos(\\frac\\pi2-x)\\sin(\\pi-x)-\\sin(\\frac\\pi2-x)\\cos(\\pi-x)$.",
+          "options": [
+            "$0$",
+            "$\\sin^2x-\\cos^2x$",
+            "$2\\sin x\\cos x$",
+            "$1$"
+          ],
+          "answer": 3,
+          "html": "Rút gọn biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>S</mi><mo>&#x0003D;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>&#x003C0;</mi><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02212;</mo><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>&#x003C0;</mi><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>&#x02212;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>sin</mi><mi>x</mi><mi>cos</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "S=sin²x+cos²x=1.",
+          "type": "mcq",
+          "id": 11
+        },
+        {
+          "source": "A-I-17",
+          "prompt": "Cho góc $\\alpha$ thỏa mãn $3\\cos\\alpha+2\\sin\\alpha=2$ và $\\sin\\alpha<0$. Tính $\\sin\\alpha$.",
+          "options": [
+            "$-\\frac5{13}$",
+            "$-\\frac7{13}$",
+            "$-\\frac9{13}$",
+            "$-\\frac{12}{13}$"
+          ],
+          "answer": 0,
+          "html": "Cho góc <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003B1;</mi></mrow></math> thỏa mãn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mi>cos</mi><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mn>2</mn><mi>sin</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>&#x003B1;</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>. Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>&#x003B1;</mi></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mn>5</mn><mrow><mn>13</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mn>7</mn><mrow><mn>13</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mn>9</mn><mrow><mn>13</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mrow><mn>12</mn></mrow><mrow><mn>13</mn></mrow></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Đặt s=sinα, cosα=(2−2s)/3. Từ sin²+cos²=1: 13s²−8s−5=0, s=1 hoặc −5/13; điều kiện s<0 chọn −5/13.",
+          "type": "mcq",
+          "id": 12
+        },
+        {
+          "source": "A-I-18",
+          "prompt": "Rút gọn biểu thức $M=(\\sin x+\\cos x)^2+(\\sin x-\\cos x)^2$.",
+          "options": [
+            "$1$",
+            "$2$",
+            "$4$",
+            "$4\\sin x\\cos x$"
+          ],
+          "answer": 1,
+          "html": "Rút gọn biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x0003D;</mo><mo stretchy=\"false\">&#x00028;</mo><mi>sin</mi><mi>x</mi><mo>&#x0002B;</mo><mi>cos</mi><mi>x</mi><msup><mo stretchy=\"false\">&#x00029;</mo><mn>2</mn></msup><mo>&#x0002B;</mo><mo stretchy=\"false\">&#x00028;</mo><mi>sin</mi><mi>x</mi><mo>&#x02212;</mo><mi>cos</mi><mi>x</mi><msup><mo stretchy=\"false\">&#x00029;</mo><mn>2</mn></msup></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>4</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>4</mn><mi>sin</mi><mi>x</mi><mi>cos</mi><mi>x</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Tổng hai bình phương bằng 2(sin²x+cos²x)=2.",
+          "type": "mcq",
+          "id": 13
+        },
+        {
+          "source": "A-I-19",
+          "prompt": "Đơn giản biểu thức $P=\\frac{1+\\sin^2\\alpha}{1-\\sin^2\\alpha}$.",
+          "options": [
+            "$1+2\\tan^2\\alpha$",
+            "$1-2\\tan^2\\alpha$",
+            "$-1+2\\tan^2\\alpha$",
+            "$-1-2\\tan^2\\alpha$"
+          ],
+          "answer": 0,
+          "html": "Đơn giản biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn><mo>&#x0002B;</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>&#x003B1;</mi></mrow><mrow><mn>1</mn><mo>&#x02212;</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>&#x003B1;</mi></mrow></mfrac></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002B;</mo><mn>2</mn><msup><mi>tan</mi><mn>2</mn></msup><mi>&#x003B1;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x02212;</mo><mn>2</mn><msup><mi>tan</mi><mn>2</mn></msup><mi>&#x003B1;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002B;</mo><mn>2</mn><msup><mi>tan</mi><mn>2</mn></msup><mi>&#x003B1;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x02212;</mo><mn>2</mn><msup><mi>tan</mi><mn>2</mn></msup><mi>&#x003B1;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "(1+sin²α)/cos²α=1+2tan²α.",
+          "type": "mcq",
+          "id": 14
+        },
+        {
+          "source": "A-I-20",
+          "prompt": "Đơn giản biểu thức $P=\\frac{1-\\cos\\alpha}{\\sin^2\\alpha}-\\frac1{1+\\cos\\alpha}$.",
+          "options": [
+            "$-\\frac{2\\cos\\alpha}{\\sin^2\\alpha}$",
+            "$\\frac2{\\sin^2\\alpha}$",
+            "$\\frac2{1+\\cos\\alpha}$",
+            "$0$"
+          ],
+          "answer": 3,
+          "html": "Đơn giản biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn><mo>&#x02212;</mo><mi>cos</mi><mi>&#x003B1;</mi></mrow><mrow><msup><mi>sin</mi><mn>2</mn></msup><mi>&#x003B1;</mi></mrow></mfrac><mo>&#x02212;</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>&#x0002B;</mo><mi>cos</mi><mi>&#x003B1;</mi></mrow></mfrac></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mrow><mn>2</mn><mi>cos</mi><mi>&#x003B1;</mi></mrow><mrow><msup><mi>sin</mi><mn>2</mn></msup><mi>&#x003B1;</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>2</mn><mrow><msup><mi>sin</mi><mn>2</mn></msup><mi>&#x003B1;</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>2</mn><mrow><mn>1</mn><mo>&#x0002B;</mo><mi>cos</mi><mi>&#x003B1;</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "(1−cosα)/sin²α=1/(1+cosα); hiệu bằng 0 trên miền xác định.",
+          "type": "mcq",
+          "id": 15
+        },
+        {
+          "source": "A-I-23",
+          "prompt": "Rút gọn biểu thức $M=\\sin(x-y)\\cos y+\\cos(x-y)\\sin y$.",
+          "options": [
+            "$\\cos x$",
+            "$\\sin x$",
+            "$\\sin x\\cos2y$",
+            "$\\cos x\\cos2y$"
+          ],
+          "answer": 1,
+          "html": "Rút gọn biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x0003D;</mo><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy=\"false\">&#x00029;</mo><mi>cos</mi><mi>y</mi><mo>&#x0002B;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy=\"false\">&#x00029;</mo><mi>sin</mi><mi>y</mi></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mi>cos</mi><mn>2</mn><mi>y</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>x</mi><mi>cos</mi><mn>2</mn><mi>y</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sin(x−y)cosy+cos(x−y)siny=sinx.",
+          "type": "mcq",
+          "id": 16
+        },
+        {
+          "source": "A-I-24",
+          "prompt": "Rút gọn biểu thức $M=\\cos(x+\\frac\\pi4)-\\cos(x-\\frac\\pi4)$.",
+          "options": [
+            "$\\sqrt2\\sin x$",
+            "$-\\sqrt2\\sin x$",
+            "$\\sqrt2\\cos x$",
+            "$-\\sqrt2\\cos x$"
+          ],
+          "answer": 1,
+          "html": "Rút gọn biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x0003D;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02212;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msqrt><mn>2</mn></msqrt><mi>sin</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><msqrt><mn>2</mn></msqrt><mi>sin</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msqrt><mn>2</mn></msqrt><mi>cos</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><msqrt><mn>2</mn></msqrt><mi>cos</mi><mi>x</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cosu−cosv=−2sin((u+v)/2)sin((u−v)/2), cho −√2sinx.",
+          "type": "mcq",
+          "id": 17
+        },
+        {
+          "source": "A-I-25",
+          "prompt": "Rút gọn biểu thức $A=\\frac{\\sin2\\alpha+\\sin\\alpha}{1+\\cos2\\alpha+\\cos\\alpha}$.",
+          "options": [
+            "$\\tan\\alpha$",
+            "$2\\tan\\alpha$",
+            "$\\tan2\\alpha+\\tan\\alpha$",
+            "$\\tan2\\alpha$"
+          ],
+          "answer": 0,
+          "html": "Rút gọn biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>sin</mi><mn>2</mn><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mi>sin</mi><mi>&#x003B1;</mi></mrow><mrow><mn>1</mn><mo>&#x0002B;</mo><mi>cos</mi><mn>2</mn><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mi>cos</mi><mi>&#x003B1;</mi></mrow></mfrac></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mi>&#x003B1;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>tan</mi><mi>&#x003B1;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mn>2</mn><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mi>tan</mi><mi>&#x003B1;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mn>2</mn><mi>&#x003B1;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Tử=sinα(2cosα+1), mẫu=cosα(2cosα+1), thương=tanα khi biểu thức xác định.",
+          "type": "mcq",
+          "id": 18
+        },
+        {
+          "source": "A-I-26",
+          "prompt": "Rút gọn biểu thức $A=\\frac{1-\\sin a-\\cos2a}{\\sin2a-\\cos a}$.",
+          "options": [
+            "$1$",
+            "$\\tan a$",
+            "$\\frac52$",
+            "$2\\tan a$"
+          ],
+          "answer": 1,
+          "html": "Rút gọn biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn><mo>&#x02212;</mo><mi>sin</mi><mi>a</mi><mo>&#x02212;</mo><mi>cos</mi><mn>2</mn><mi>a</mi></mrow><mrow><mi>sin</mi><mn>2</mn><mi>a</mi><mo>&#x02212;</mo><mi>cos</mi><mi>a</mi></mrow></mfrac></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mi>a</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>5</mn><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>tan</mi><mi>a</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Tử=sin a(2sin a−1), mẫu=cos a(2sin a−1), thương=tan a trên miền xác định.",
+          "type": "mcq",
+          "id": 19
+        },
+        {
+          "source": "A-II-1",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Các mệnh đề sau đúng hay sai?",
+          "html": "Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>756</mn><mo>&#x02218;</mo></msup></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><msup><mn>324</mn><mo>&#x02218;</mo></msup></mrow></math>.",
+              "answer": true,
+              "verification": "Chênh 1080°=3×360° nên cùng điểm."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><msup><mn>324</mn><mo>&#x02218;</mo></msup></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>36</mn><mo>&#x02218;</mo></msup></mrow></math>.",
+              "answer": true,
+              "verification": "Chênh −360° nên cùng điểm."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>36</mn><mo>&#x02218;</mo></msup></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>216</mn><mo>&#x02218;</mo></msup></mrow></math>.",
+              "answer": false,
+              "verification": "Chênh −180°, hai điểm đối nhau."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mrow><mn>41</mn><mi>&#x003C0;</mi></mrow><mn>7</mn></mfrac></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>15</mn><mi>&#x003C0;</mi></mrow><mn>7</mn></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "Chênh −8π=−4×2π nên cùng điểm."
+            }
+          ],
+          "verification": "Chênh 1080°=3×360° nên cùng điểm. | Chênh −360° nên cùng điểm. | Chênh −180°, hai điểm đối nhau. | Chênh −8π=−4×2π nên cùng điểm.",
+          "id": 20
+        },
+        {
+          "source": "A-II-2",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Từ một vị trí ban đầu trong không gian, vệ tinh X chuyển động theo quỹ đạo là một đường tròn quanh Trái Đất và luôn cách tâm Trái Đất một khoảng bằng 9200km. Sau 2 giờ thì vệ tinh X hoàn thành hết một vòng di chuyển.<br>Các mệnh đề sau đúng hay sai?",
+          "html": "Từ một vị trí ban đầu trong không gian, vệ tinh X chuyển động theo quỹ đạo là một đường tròn quanh Trái Đất và luôn cách tâm Trái Đất một khoảng bằng 9200km. Sau 2 giờ thì vệ tinh X hoàn thành hết một vòng di chuyển.<br>Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "Sau 1 giờ đi được khoảng 28902,65 km.",
+              "answer": true,
+              "verification": "Vận tốc=9200π km/h; sau 1 giờ≈28902,65 km."
+            },
+            {
+              "html": "Sau 1,5 giờ đi được khoảng 43353,98 km.",
+              "answer": true,
+              "verification": "Sau 1,5 giờ=13800π≈43353,98 km."
+            },
+            {
+              "html": "Sau khoảng 5,3 giờ đi được 240000 km.",
+              "answer": false,
+              "verification": "Sau 5,3 giờ≈153184,06 km; cần khoảng 8,30 giờ để đi 240000 km."
+            },
+            {
+              "html": "Theo chiều dương, sau 4,5 giờ quét góc <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>9</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac></mrow></math> rad.",
+              "answer": true,
+              "verification": "Vận tốc góc π rad/h nên 4,5 giờ quét 9π/2."
+            }
+          ],
+          "verification": "Vận tốc=9200π km/h; sau 1 giờ≈28902,65 km. | Sau 1,5 giờ=13800π≈43353,98 km. | Sau 5,3 giờ≈153184,06 km; cần khoảng 8,30 giờ để đi 240000 km. | Vận tốc góc π rad/h nên 4,5 giờ quét 9π/2.",
+          "id": 21
+        },
+        {
+          "source": "A-II-3",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho $\\sin\\alpha=\\frac23,\\frac\\pi2<\\alpha<\\pi$. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&#x0002C;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0003C;</mo><mi>&#x003B1;</mi><mo>&#x0003C;</mo><mi>&#x003C0;</mi></mrow></math>. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "cosα=−√5/3."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow><mn>5</mn></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "tanα=−2√5/5."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac><mo>&#x0002B;</mo><mi>&#x003B1;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>&#x02212;</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>6</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "Giá trị đúng là (−√5−2√3)/6."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo>&#x02212;</mo><mi>&#x003B1;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><msqrt><mrow><mn>10</mn></mrow></msqrt><mo>&#x02212;</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow><mn>6</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "Giá trị đúng là (2√2−√10)/6; biểu thức đề là số đối."
+            }
+          ],
+          "verification": "cosα=−√5/3. | tanα=−2√5/5. | Giá trị đúng là (−√5−2√3)/6. | Giá trị đúng là (2√2−√10)/6; biểu thức đề là số đối.",
+          "id": 22
+        },
+        {
+          "source": "A-II-4",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho $\\cot x=-3,\\frac{3\\pi}2<x<2\\pi$. Khi đó: Các mệnh đề sau đúng hay sai?",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>3</mn><mo>&#x0002C;</mo><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac><mo>&#x0003C;</mo><mi>x</mi><mo>&#x0003C;</mo><mn>2</mn><mi>&#x003C0;</mi></mrow></math>. Khi đó: Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mrow><msqrt><mrow><mn>10</mn></mrow></msqrt></mrow><mrow><mn>10</mn></mrow></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "sinx=−√10/10."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><msqrt><mn>3</mn></msqrt></mrow><mrow><mn>10</mn></mrow></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "cosx=3√10/10, không phải √3/10."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mn>4</mn><mi>&#x003C0;</mi></mrow><mn>3</mn></mfrac><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mrow><msqrt><mrow><mn>10</mn></mrow></msqrt></mrow><mn>5</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "Giá trị đúng là −(3√30+√10)/20."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "Giá trị đúng là (5√3−6)/3, không bằng √3/3."
+            }
+          ],
+          "verification": "sinx=−√10/10. | cosx=3√10/10, không phải √3/10. | Giá trị đúng là −(3√30+√10)/20. | Giá trị đúng là (5√3−6)/3, không bằng √3/3.",
+          "id": 23
+        },
+        {
+          "source": "A-III-4",
+          "prompt": "Một vận động viên bắn súng nằm trên mặt đất để gắm bắn các mục tiêu khác nhau trên một bức tường thẳng đứng. Vận động viên bắn trúng một mục tiêu cách mặt đất 25 (m) tại một góc ngắm (góc hợp bởi phương ngắm với phương ngang). Nếu giảm góc ngắm đi một nửa thì vận động viên bắn trúng mục tiêu cách mặt đất 10 (m). Tính khoảng cách từ vận động viên đến bức tường?",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Một vận động viên bắn súng nằm trên mặt đất để gắm bắn các mục tiêu khác nhau trên một bức tường thẳng đứng. Vận động viên bắn trúng một mục tiêu cách mặt đất 25 (m) tại một góc ngắm (góc hợp bởi phương ngắm với phương ngang). Nếu giảm góc ngắm đi một nửa thì vận động viên bắn trúng mục tiêu cách mặt đất 10 (m). Tính khoảng cách từ vận động viên đến bức tường?",
+          "kind": "Thực hành",
+          "verification": "Đặt d là khoảng cách, tan(θ/2)=10/d và tanθ=25/d. Công thức nhân đôi cho d²=500. Kết quả: 10√5 m",
+          "type": "short",
+          "answerValue": 22.360679774997898,
+          "answerDecimals": 2,
+          "id": 24
+        },
+        {
+          "source": "B-I-36",
+          "prompt": "Cho $a=\\frac\\pi2+2k\\pi$. Tìm k để $10\\pi<a<11\\pi$.",
+          "options": [
+            "7",
+            "5",
+            "4",
+            "6"
+          ],
+          "answer": 1,
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>. Tìm k để <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>10</mn><mi>&#x003C0;</mi><mo>&#x0003C;</mo><mi>a</mi><mo>&#x0003C;</mo><mn>11</mn><mi>&#x003C0;</mi></mrow></math>.",
+          "optionsHtml": [
+            "7",
+            "5",
+            "4",
+            "6"
+          ],
+          "kind": "Thực hành",
+          "verification": "10<1/2+2k<11 ⇔ 4,75<k<5,25, nguyên duy nhất k=5.",
+          "type": "mcq",
+          "id": 25
+        },
+        {
+          "source": "B-I-37",
+          "prompt": "Một bánh xe có 72 răng. Khi di chuyển 10 răng, bánh xe quay góc:",
+          "options": [
+            "$60^\\circ$",
+            "$30^\\circ$",
+            "$40^\\circ$",
+            "$50^\\circ$"
+          ],
+          "answer": 3,
+          "html": "Một bánh xe có 72 răng. Khi di chuyển 10 răng, bánh xe quay góc:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>60</mn><mo>&#x02218;</mo></msup></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>30</mn><mo>&#x02218;</mo></msup></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>40</mn><mo>&#x02218;</mo></msup></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>50</mn><mo>&#x02218;</mo></msup></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "10/72 vòng ×360°=50°.",
+          "type": "mcq",
+          "id": 26
+        },
+        {
+          "source": "B-I-39",
+          "prompt": "Đổi $22^\\circ30\\prime$ sang radian.",
+          "options": [
+            "$\\frac\\pi5$",
+            "$\\frac\\pi8$",
+            "$\\frac{7\\pi}{12}$",
+            "$\\frac\\pi6$"
+          ],
+          "answer": 1,
+          "html": "Đổi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>22</mn><mo>&#x02218;</mo></msup><mn>30</mn><mi>&#x02032;</mi></mrow></math> sang radian.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>5</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>8</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>7</mn><mi>&#x003C0;</mi></mrow><mrow><mn>12</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "22°30′=22,5°=π/8.",
+          "type": "mcq",
+          "id": 27
+        },
+        {
+          "source": "B-I-44",
+          "prompt": "Chọn đẳng thức sai.",
+          "options": [
+            "$\\sin(\\frac\\pi2-x)=\\cos x$",
+            "$\\sin(\\frac\\pi2+x)=\\cos x$",
+            "$\\tan(\\frac\\pi2-x)=\\cot x$",
+            "$\\tan(\\frac\\pi2+x)=\\cot x$"
+          ],
+          "answer": 3,
+          "html": "Chọn đẳng thức sai.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>cos</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>cos</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>cot</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>cot</mi><mi>x</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "tan(π/2+x)=−cotx, thiếu dấu âm.",
+          "type": "mcq",
+          "id": 28
+        },
+        {
+          "source": "B-I-46",
+          "prompt": "Khẳng định nào sau đây là sai?",
+          "options": [
+            "$\\sin(-\\alpha)=-\\sin\\alpha$",
+            "$\\cot(-\\alpha)=-\\cot\\alpha$",
+            "$\\cos(-\\alpha)=-\\cos\\alpha$",
+            "$\\tan(-\\alpha)=-\\tan\\alpha$"
+          ],
+          "answer": 2,
+          "html": "Khẳng định nào sau đây là sai?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mi>&#x003B1;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>sin</mi><mi>&#x003B1;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mi>&#x003B1;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>cot</mi><mi>&#x003B1;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mi>&#x003B1;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>cos</mi><mi>&#x003B1;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mi>&#x003B1;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>tan</mi><mi>&#x003B1;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cos là hàm chẵn: cos(−α)=cosα, không phải −cosα.",
+          "type": "mcq",
+          "id": 29
+        },
+        {
+          "source": "B-I-48",
+          "prompt": "Cho $\\sin\\alpha=\\frac35$, $90^\\circ<\\alpha<180^\\circ$. Tính $\\cot\\alpha$.",
+          "options": [
+            "$\\frac34$",
+            "$\\frac43$",
+            "$-\\frac43$",
+            "$-\\frac34$"
+          ],
+          "answer": 2,
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>90</mn><mo>&#x02218;</mo></msup><mo>&#x0003C;</mo><mi>&#x003B1;</mi><mo>&#x0003C;</mo><msup><mn>180</mn><mo>&#x02218;</mo></msup></mrow></math>. Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mi>&#x003B1;</mi></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sinα=3/5 ở góc phần tư II ⇒ cosα=−4/5, cotα=−4/3.",
+          "type": "mcq",
+          "id": 30
+        },
+        {
+          "source": "B-I-51",
+          "prompt": "Cho $\\cot\\alpha=-3\\sqrt2$, $\\frac\\pi2<\\alpha<\\pi$. Tính $\\tan\\frac\\alpha2+\\cot\\frac\\alpha2$.",
+          "options": [
+            "$2\\sqrt{19}$",
+            "$-2\\sqrt{19}$",
+            "$-\\sqrt{19}$",
+            "$\\sqrt{19}$"
+          ],
+          "answer": 0,
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0003C;</mo><mi>&#x003B1;</mi><mo>&#x0003C;</mo><mi>&#x003C0;</mi></mrow></math>. Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mfrac><mi>&#x003B1;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>cot</mi><mfrac><mi>&#x003B1;</mi><mn>2</mn></mfrac></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><msqrt><mrow><mn>19</mn></mrow></msqrt></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>2</mn><msqrt><mrow><mn>19</mn></mrow></msqrt></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><msqrt><mrow><mn>19</mn></mrow></msqrt></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msqrt><mrow><mn>19</mn></mrow></msqrt></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "tan(α/2)+cot(α/2)=2/sinα; sinα=1/√19>0 nên kết quả 2√19.",
+          "type": "mcq",
+          "id": 31
+        },
+        {
+          "source": "B-I-55",
+          "prompt": "Cho $P=\\frac{3\\sin x-\\cos x}{\\sin x+2\\cos x}$, $\\tan x=2$. Tính P.",
+          "options": [
+            "$\\frac89$",
+            "$-\\frac{2\\sqrt2}3$",
+            "$\\frac{\\sqrt8}9$",
+            "$\\frac54$"
+          ],
+          "answer": 3,
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>3</mn><mi>sin</mi><mi>x</mi><mo>&#x02212;</mo><mi>cos</mi><mi>x</mi></mrow><mrow><mi>sin</mi><mi>x</mi><mo>&#x0002B;</mo><mn>2</mn><mi>cos</mi><mi>x</mi></mrow></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>. Tính P.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>8</mn><mn>9</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>8</mn></msqrt></mrow><mn>9</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>5</mn><mn>4</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Chia tử và mẫu cho cosx: (3tanx−1)/(tanx+2)=5/4.",
+          "type": "mcq",
+          "id": 32
+        },
+        {
+          "source": "B-I-56",
+          "prompt": "Công thức nào sau đây là đúng?",
+          "options": [
+            "$\\cos(a-b)=\\cos a\\sin b+\\sin a\\sin b$",
+            "$\\sin(a-b)=\\sin a\\cos b-\\cos a\\sin b$",
+            "$\\sin(a+b)=\\sin a\\cos b-\\cos a\\sin b$",
+            "$\\cos(a+b)=\\cos a\\cos b+\\sin a\\sin b$"
+          ],
+          "answer": 1,
+          "html": "Công thức nào sau đây là đúng?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>cos</mi><mi>a</mi><mi>sin</mi><mi>b</mi><mo>&#x0002B;</mo><mi>sin</mi><mi>a</mi><mi>sin</mi><mi>b</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>sin</mi><mi>a</mi><mi>cos</mi><mi>b</mi><mo>&#x02212;</mo><mi>cos</mi><mi>a</mi><mi>sin</mi><mi>b</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>sin</mi><mi>a</mi><mi>cos</mi><mi>b</mi><mo>&#x02212;</mo><mi>cos</mi><mi>a</mi><mi>sin</mi><mi>b</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>cos</mi><mi>a</mi><mi>cos</mi><mi>b</mi><mo>&#x0002B;</mo><mi>sin</mi><mi>a</mi><mi>sin</mi><mi>b</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Công thức sin(a−b)=sina cosb−cosa sinb.",
+          "type": "mcq",
+          "id": 33
+        },
+        {
+          "source": "B-I-57",
+          "prompt": "Công thức nào sau đây là đúng?",
+          "options": [
+            "$\\tan(a-b)=\\frac{\\tan a+\\tan b}{1-\\tan a\\tan b}$",
+            "$\\tan(a-b)=\\tan a-\\tan b$",
+            "$\\tan(a+b)=\\frac{\\tan a+\\tan b}{1-\\tan a\\tan b}$",
+            "$\\tan(a+b)=\\tan a+\\tan b$"
+          ],
+          "answer": 2,
+          "html": "Công thức nào sau đây là đúng?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><mi>tan</mi><mi>a</mi><mo>&#x0002B;</mo><mi>tan</mi><mi>b</mi></mrow><mrow><mn>1</mn><mo>&#x02212;</mo><mi>tan</mi><mi>a</mi><mi>tan</mi><mi>b</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>tan</mi><mi>a</mi><mo>&#x02212;</mo><mi>tan</mi><mi>b</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><mi>tan</mi><mi>a</mi><mo>&#x0002B;</mo><mi>tan</mi><mi>b</mi></mrow><mrow><mn>1</mn><mo>&#x02212;</mo><mi>tan</mi><mi>a</mi><mi>tan</mi><mi>b</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>tan</mi><mi>a</mi><mo>&#x0002B;</mo><mi>tan</mi><mi>b</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "tan(a+b)=(tana+tanb)/(1−tana tanb) trên miền xác định.",
+          "type": "mcq",
+          "id": 34
+        },
+        {
+          "source": "B-I-58",
+          "prompt": "$\\sin x\\cos y-\\cos x\\sin y$ bằng:",
+          "options": [
+            "$\\cos(x-y)$",
+            "$\\cos(x+y)$",
+            "$\\sin(x-y)$",
+            "$\\sin(y-x)$"
+          ],
+          "answer": 2,
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mi>cos</mi><mi>y</mi><mo>&#x02212;</mo><mi>cos</mi><mi>x</mi><mi>sin</mi><mi>y</mi></mrow></math> bằng:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mi>y</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>y</mi><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Biểu thức là sin(x−y).",
+          "type": "mcq",
+          "id": 35
+        },
+        {
+          "source": "B-I-60",
+          "prompt": "Khẳng định nào sau đây là sai?",
+          "options": [
+            "$\\sin a-\\sin b=2\\cos\\frac{a+b}2\\sin\\frac{a-b}2$",
+            "$\\cos(a-b)=\\cos a\\cos b-\\sin a\\sin b$",
+            "$\\sin(a-b)=\\sin a\\cos b-\\cos a\\sin b$",
+            "$2\\cos a\\cos b=\\cos(a-b)+\\cos(a+b)$"
+          ],
+          "answer": 1,
+          "html": "Khẳng định nào sau đây là sai?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>a</mi><mo>&#x02212;</mo><mi>sin</mi><mi>b</mi><mo>&#x0003D;</mo><mn>2</mn><mi>cos</mi><mfrac><mrow><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mi>sin</mi><mfrac><mrow><mi>a</mi><mo>&#x02212;</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>cos</mi><mi>a</mi><mi>cos</mi><mi>b</mi><mo>&#x02212;</mo><mi>sin</mi><mi>a</mi><mi>sin</mi><mi>b</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>sin</mi><mi>a</mi><mi>cos</mi><mi>b</mi><mo>&#x02212;</mo><mi>cos</mi><mi>a</mi><mi>sin</mi><mi>b</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>cos</mi><mi>a</mi><mi>cos</mi><mi>b</mi><mo>&#x0003D;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cos(a−b) phải có dấu cộng trước sina sinb.",
+          "type": "mcq",
+          "id": 36
+        },
+        {
+          "source": "B-I-61",
+          "prompt": "$\\frac{\\sin(a+b)}{\\sin(a-b)}$ bằng biểu thức nào? Giả sử các biểu thức có nghĩa.",
+          "options": [
+            "$\\frac{\\sin a+\\sin b}{\\sin a-\\sin b}$",
+            "$\\frac{\\sin a-\\sin b}{\\sin a+\\sin b}$",
+            "$\\frac{\\tan a+\\tan b}{\\tan a-\\tan b}$",
+            "$\\frac{\\cot a+\\cot b}{\\cot a-\\cot b}$"
+          ],
+          "answer": 2,
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac></mrow></math> bằng biểu thức nào? Giả sử các biểu thức có nghĩa.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mi>sin</mi><mi>a</mi><mo>&#x0002B;</mo><mi>sin</mi><mi>b</mi></mrow><mrow><mi>sin</mi><mi>a</mi><mo>&#x02212;</mo><mi>sin</mi><mi>b</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mi>sin</mi><mi>a</mi><mo>&#x02212;</mo><mi>sin</mi><mi>b</mi></mrow><mrow><mi>sin</mi><mi>a</mi><mo>&#x0002B;</mo><mi>sin</mi><mi>b</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mi>tan</mi><mi>a</mi><mo>&#x0002B;</mo><mi>tan</mi><mi>b</mi></mrow><mrow><mi>tan</mi><mi>a</mi><mo>&#x02212;</mo><mi>tan</mi><mi>b</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mi>cot</mi><mi>a</mi><mo>&#x0002B;</mo><mi>cot</mi><mi>b</mi></mrow><mrow><mi>cot</mi><mi>a</mi><mo>&#x02212;</mo><mi>cot</mi><mi>b</mi></mrow></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Khai triển sin(a±b), chia cho cosa cosb: thương=(tana+tanb)/(tana−tanb). D là số đối, không tương đương.",
+          "type": "mcq",
+          "id": 37
+        },
+        {
+          "source": "B-I-62",
+          "prompt": "Rút gọn biểu thức $\\sin(a-17^\\circ)\\cos(a+13^\\circ)-\\sin(a+13^\\circ)\\cos(a-17^\\circ)$.",
+          "options": [
+            "$\\sin2a$",
+            "$\\cos2a$",
+            "$-\\frac12$",
+            "$\\frac12$"
+          ],
+          "answer": 2,
+          "html": "Rút gọn biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><msup><mn>17</mn><mo>&#x02218;</mo></msup><mo stretchy=\"false\">&#x00029;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x0002B;</mo><msup><mn>13</mn><mo>&#x02218;</mo></msup><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02212;</mo><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x0002B;</mo><msup><mn>13</mn><mo>&#x02218;</mo></msup><mo stretchy=\"false\">&#x00029;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><msup><mn>17</mn><mo>&#x02218;</mo></msup><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>2</mn><mi>a</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mn>2</mn><mi>a</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sinU cosV−sinV cosU=sin(U−V)=sin(−30°)=−1/2.",
+          "type": "mcq",
+          "id": 38
+        },
+        {
+          "source": "B-I-63",
+          "prompt": "Tính $\\cos\\frac{37\\pi}{12}$.",
+          "options": [
+            "$\\frac{\\sqrt6+\\sqrt2}4$",
+            "$\\frac{\\sqrt6-\\sqrt2}4$",
+            "$-\\frac{\\sqrt6+\\sqrt2}4$",
+            "$\\frac{\\sqrt2-\\sqrt6}4$"
+          ],
+          "answer": 2,
+          "html": "Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mfrac><mrow><mn>37</mn><mi>&#x003C0;</mi></mrow><mrow><mn>12</mn></mrow></mfrac></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>6</mn></msqrt><mo>&#x0002B;</mo><msqrt><mn>2</mn></msqrt></mrow><mn>4</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>6</mn></msqrt><mo>&#x02212;</mo><msqrt><mn>2</mn></msqrt></mrow><mn>4</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mrow><msqrt><mn>6</mn></msqrt><mo>&#x0002B;</mo><msqrt><mn>2</mn></msqrt></mrow><mn>4</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>2</mn></msqrt><mo>&#x02212;</mo><msqrt><mn>6</mn></msqrt></mrow><mn>4</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "37π/12=3π+π/12; cos=−cos15°=−(√6+√2)/4.",
+          "type": "mcq",
+          "id": 39
+        },
+        {
+          "source": "B-I-65",
+          "prompt": "Cho $\\tan\\alpha=2$. Tính $\\tan(\\alpha-\\frac\\pi4)$.",
+          "options": [
+            "$-\\frac13$",
+            "$1$",
+            "$\\frac23$",
+            "$\\frac13$"
+          ],
+          "answer": 3,
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>. Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mi>&#x003B1;</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "tan(α−π/4)=(2−1)/(1+2)=1/3.",
+          "type": "mcq",
+          "id": 40
+        },
+        {
+          "source": "B-I-66",
+          "prompt": "Kết quả nào sai?",
+          "options": [
+            "$\\sin x+\\cos x=\\sqrt2\\sin(x+\\frac\\pi4)$",
+            "$\\sin x-\\cos x=-\\sqrt2\\cos(x+\\frac\\pi4)$",
+            "$\\sin2x+\\cos2x=\\sqrt2\\sin(2x-\\frac\\pi4)$",
+            "$\\sin2x+\\cos2x=\\sqrt2\\cos(2x-\\frac\\pi4)$"
+          ],
+          "answer": 2,
+          "html": "Kết quả nào sai?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0002B;</mo><mi>cos</mi><mi>x</mi><mo>&#x0003D;</mo><msqrt><mn>2</mn></msqrt><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x02212;</mo><mi>cos</mi><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><msqrt><mn>2</mn></msqrt><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>2</mn><mi>x</mi><mo>&#x0002B;</mo><mi>cos</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><msqrt><mn>2</mn></msqrt><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>x</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>2</mn><mi>x</mi><mo>&#x0002B;</mo><mi>cos</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><msqrt><mn>2</mn></msqrt><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>x</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "√2sin(2x−π/4)=sin2x−cos2x, không phải tổng.",
+          "type": "mcq",
+          "id": 41
+        },
+        {
+          "source": "B-I-68",
+          "prompt": "Công thức nào sau đây là sai?",
+          "options": [
+            "$\\cot2x=\\frac{\\cot^2x-1}{2\\cot x}$",
+            "$\\tan2x=\\frac{2\\tan x}{1+\\tan^2x}$",
+            "$\\cos3x=4\\cos^3x-3\\cos x$",
+            "$\\sin3x=3\\sin x-4\\sin^3x$"
+          ],
+          "answer": 1,
+          "html": "Công thức nào sau đây là sai?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><msup><mi>cot</mi><mn>2</mn></msup><mi>x</mi><mo>&#x02212;</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>cot</mi><mi>x</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>2</mn><mi>tan</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>&#x0002B;</mo><msup><mi>tan</mi><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mn>3</mn><mi>x</mi><mo>&#x0003D;</mo><mn>4</mn><msup><mi>cos</mi><mn>3</mn></msup><mi>x</mi><mo>&#x02212;</mo><mn>3</mn><mi>cos</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>3</mn><mi>x</mi><mo>&#x0003D;</mo><mn>3</mn><mi>sin</mi><mi>x</mi><mo>&#x02212;</mo><mn>4</mn><msup><mi>sin</mi><mn>3</mn></msup><mi>x</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Mẫu công thức tan2x là 1−tan²x, không phải 1+tan²x.",
+          "type": "mcq",
+          "id": 42
+        },
+        {
+          "source": "B-I-69",
+          "prompt": "Công thức nào sau đây là sai?",
+          "options": [
+            "$\\cos2a=\\cos^2a-\\sin^2a$",
+            "$\\cos2a=\\cos^2a+\\sin^2a$",
+            "$\\cos2a=2\\cos^2a-1$",
+            "$\\cos2a=1-2\\sin^2a$"
+          ],
+          "answer": 1,
+          "html": "Công thức nào sau đây là sai?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mn>2</mn><mi>a</mi><mo>&#x0003D;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>a</mi><mo>&#x02212;</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>a</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mn>2</mn><mi>a</mi><mo>&#x0003D;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>a</mi><mo>&#x0002B;</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>a</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mn>2</mn><mi>a</mi><mo>&#x0003D;</mo><mn>2</mn><msup><mi>cos</mi><mn>2</mn></msup><mi>a</mi><mo>&#x02212;</mo><mn>1</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mn>2</mn><mi>a</mi><mo>&#x0003D;</mo><mn>1</mn><mo>&#x02212;</mo><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>a</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cos²a+sin²a=1 không đồng nhất cos2a.",
+          "type": "mcq",
+          "id": 43
+        },
+        {
+          "source": "B-I-73",
+          "prompt": "Công thức nào sau đây là sai?",
+          "options": [
+            "$\\cos a+\\cos b=2\\cos\\frac{a+b}2\\cos\\frac{a-b}2$",
+            "$\\cos a-\\cos b=-2\\sin\\frac{a+b}2\\sin\\frac{a-b}2$",
+            "$\\sin a+\\sin b=2\\sin\\frac{a+b}2\\cos\\frac{a-b}2$",
+            "$\\sin a-\\sin b=2\\sin\\frac{a+b}2\\cos\\frac{a-b}2$"
+          ],
+          "answer": 3,
+          "html": "Công thức nào sau đây là sai?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>a</mi><mo>&#x0002B;</mo><mi>cos</mi><mi>b</mi><mo>&#x0003D;</mo><mn>2</mn><mi>cos</mi><mfrac><mrow><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mi>cos</mi><mfrac><mrow><mi>a</mi><mo>&#x02212;</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>a</mi><mo>&#x02212;</mo><mi>cos</mi><mi>b</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn><mi>sin</mi><mfrac><mrow><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mi>sin</mi><mfrac><mrow><mi>a</mi><mo>&#x02212;</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>a</mi><mo>&#x0002B;</mo><mi>sin</mi><mi>b</mi><mo>&#x0003D;</mo><mn>2</mn><mi>sin</mi><mfrac><mrow><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mi>cos</mi><mfrac><mrow><mi>a</mi><mo>&#x02212;</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>a</mi><mo>&#x02212;</mo><mi>sin</mi><mi>b</mi><mo>&#x0003D;</mo><mn>2</mn><mi>sin</mi><mfrac><mrow><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mi>cos</mi><mfrac><mrow><mi>a</mi><mo>&#x02212;</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sin a−sin b phải bằng 2cos((a+b)/2)sin((a−b)/2).",
+          "type": "mcq",
+          "id": 44
+        },
+        {
+          "source": "B-I-74",
+          "prompt": "Cho $\\sin x=\\frac35$, $\\frac\\pi2<x<\\pi$. Tính $\\tan(x+\\frac\\pi4)$.",
+          "options": [
+            "$\\frac27$",
+            "$-\\frac17$",
+            "$-\\frac27$",
+            "$\\frac17$"
+          ],
+          "answer": 3,
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0003D;</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0003C;</mo><mi>x</mi><mo>&#x0003C;</mo><mi>&#x003C0;</mi></mrow></math>. Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mn>2</mn><mn>7</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cosx=−4/5 ⇒ tanx=−3/4; tan(x+π/4)=(1−3/4)/(1+3/4)=1/7.",
+          "type": "mcq",
+          "id": 45
+        },
+        {
+          "source": "B-II-1",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Trên đường tròn lượng giác, xét vị trí của các điểm:",
+          "html": "Trên đường tròn lượng giác, xét vị trí của các điểm:<img class=\"exercise-image\" src=\"m/lg-circle.jpg\" alt=\"Hình minh họa cho bài tập\">",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>125</mn><mo>&#x02218;</mo></msup></mrow></math> thuộc góc phần tư II.",
+              "answer": true,
+              "verification": "125° thuộc II."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>405</mn><mo>&#x02218;</mo></msup></mrow></math> thuộc góc phần tư III.",
+              "answer": false,
+              "verification": "405° đồng vị 45°, thuộc I."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>19</mn><mi>&#x003C0;</mi></mrow><mn>3</mn></mfrac></mrow></math> thuộc góc phần tư II.",
+              "answer": false,
+              "verification": "19π/3 đồng vị π/3, thuộc I."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mrow><mn>13</mn><mi>&#x003C0;</mi></mrow><mn>6</mn></mfrac></mrow></math> thuộc góc phần tư IV.",
+              "answer": true,
+              "verification": "−13π/6 đồng vị 11π/6, thuộc IV."
+            }
+          ],
+          "verification": "125° thuộc II. | 405° đồng vị 45°, thuộc I. | 19π/3 đồng vị π/3, thuộc I. | −13π/6 đồng vị 11π/6, thuộc IV.",
+          "id": 46
+        },
+        {
+          "source": "B-II-3",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Biết $\\sin x=-\\frac35$, $\\pi<x<\\frac{3\\pi}2$.",
+          "html": "Biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003C0;</mi><mo>&#x0003C;</mo><mi>x</mi><mo>&#x0003C;</mo><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac></mrow></math>.",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>x</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math>.",
+              "answer": false,
+              "verification": "Góc phần tư III có cosx<0."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "cosx=−4/5."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mi>x</mi><mo>&#x0003D;</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "tanx=3/4."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mi>x</mi><mo>&#x0003D;</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "cotx=4/3."
+            }
+          ],
+          "verification": "Góc phần tư III có cosx<0. | cosx=−4/5. | tanx=3/4. | cotx=4/3.",
+          "id": 47
+        },
+        {
+          "source": "B-II-5",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho $\\cos2\\alpha=-\\frac14$, $\\pi<\\alpha<\\frac{3\\pi}2$.",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mn>2</mn><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003C0;</mi><mo>&#x0003C;</mo><mi>&#x003B1;</mi><mo>&#x0003C;</mo><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac></mrow></math>.",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>&#x003B1;</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>&#x003B1;</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>.",
+              "answer": true,
+              "verification": "Cả sinα,cosα đều âm ở III."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mfrac><mrow><msqrt><mrow><mn>10</mn></mrow></msqrt></mrow><mn>4</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "sinα=−√10/4, thiếu dấu âm."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mfrac><mrow><msqrt><mn>6</mn></msqrt></mrow><mn>4</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "cosα=−√6/4, thiếu dấu âm."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mfrac><mrow><msqrt><mrow><mn>15</mn></mrow></msqrt></mrow><mn>5</mn></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "cotα=√6/√10=√15/5."
+            }
+          ],
+          "verification": "Cả sinα,cosα đều âm ở III. | sinα=−√10/4, thiếu dấu âm. | cosα=−√6/4, thiếu dấu âm. | cotα=√6/√10=√15/5.",
+          "id": 48
+        },
+        {
+          "source": "B-II-8",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho $\\sin x=\\frac15$, $\\frac\\pi2<x<\\pi$.",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0003D;</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0003C;</mo><mi>x</mi><mo>&#x0003C;</mo><mi>&#x003C0;</mi></mrow></math>.",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>4</mn><msqrt><mn>6</mn></msqrt></mrow><mn>5</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "sin2x=−4√6/25, đề sai dấu và mẫu."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>23</mn></mrow><mrow><mn>25</mn></mrow></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "cos2x=1−2/25=23/25."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>20</mn><msqrt><mn>6</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "tan2x=−4√6/23."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>23</mn><msqrt><mn>6</mn></msqrt></mrow><mrow><mn>120</mn></mrow></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "cot2x=−23√6/24, không phải số dương đã cho."
+            }
+          ],
+          "verification": "sin2x=−4√6/25, đề sai dấu và mẫu. | cos2x=1−2/25=23/25. | tan2x=−4√6/23. | cot2x=−23√6/24, không phải số dương đã cho.",
+          "id": 49
+        },
+        {
+          "source": "B-III-2",
+          "prompt": "Cho $\\cos x=\\frac12$. Tính giá trị biểu thức $P=2\\sin^2x+4\\cos^2x$.",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>x</mi><mo>&#x0003D;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>. Tính giá trị biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>&#x0002B;</mo><mn>4</mn><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi></mrow></math>.",
+          "kind": "Thực hành",
+          "verification": "sin²x=3/4 nên P=2×3/4+4×1/4=5/2. Kết quả: 5/2",
+          "type": "short",
+          "answerValue": 2.5,
+          "answerDecimals": 2,
+          "id": 50
+        },
+        {
+          "source": "B-III-3",
+          "prompt": "Biểu thức sau: $S=\\frac{\\sin(\\frac{15\\pi}2-x)-2\\cos(x-\\pi)}{\\cos(\\frac{5\\pi}2-x)}=k\\cot x$. Khi đó $k=?$",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Biểu thức sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>S</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mn>15</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02212;</mo><mn>2</mn><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>&#x003C0;</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mn>5</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mi>k</mi><mi>cot</mi><mi>x</mi></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi><mo>&#x0003D;</mo><mo>&#x0003F;</mo></mrow></math>",
+          "kind": "Thực hành",
+          "verification": "sin(15π/2−x)=−cosx; −2cos(x−π)=2cosx; mẫu cos(5π/2−x)=sinx. S=cotx. Kết quả: 1",
+          "type": "short",
+          "answerValue": 1,
+          "answerDecimals": 2,
+          "id": 51
+        },
+        {
+          "source": "B-III-4",
+          "prompt": "Cho các góc $\\alpha,\\beta$ thỏa mãn $\\frac\\pi2<\\alpha,\\beta<\\pi$, $\\sin\\alpha=\\frac13,\\cos\\beta=-\\frac23$. Tính $\\sin(\\alpha+\\beta)$.",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Cho các góc <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003B1;</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi></mrow></math> thỏa mãn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0003C;</mo><mi>&#x003B1;</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi><mo>&#x0003C;</mo><mi>&#x003C0;</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>&#x003B1;</mi><mo>&#x0003D;</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#x0002C;</mo><mi>cos</mi><mi>&#x003B2;</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>. Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mi>&#x003B2;</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "kind": "Thực hành",
+          "verification": "cosα=−2√2/3,sinβ=√5/3. sin(α+β)=−2/9−2√10/9. Kết quả: −(2+2√10)/9",
+          "type": "short",
+          "answerValue": -0.9249505911485288,
+          "answerDecimals": 2,
+          "id": 52
+        },
+        {
+          "source": "B-III-13",
+          "prompt": "Một bánh xe có đường kính kể cả lốp xe là 55cm. Nếu xe chạy với tốc độ 50km/h thì trong một giây bánh xe quay được bao nhiêu vòng? (Kết quả được làm tròn đến hàng phần trăm).",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Một bánh xe có đường kính kể cả lốp xe là 55cm. Nếu xe chạy với tốc độ 50km/h thì trong một giây bánh xe quay được bao nhiêu vòng? (Kết quả được làm tròn đến hàng phần trăm).",
+          "kind": "Thực hành",
+          "verification": "Vận tốc=125/9 m/s; chu vi=0,55π m; số vòng=2500/(99π)≈8,03813. Kết quả: 8,04 vòng",
+          "type": "short",
+          "answerValue": 8.038128438984613,
+          "answerDecimals": 2,
+          "id": 53
+        },
+        {
+          "source": "B-III-15",
+          "prompt": "Cho biểu thức lượng giác sau (giả sử các biểu thức đều có nghĩa):<br>$A=\\cos(5\\pi-x)-\\sin(\\frac{3\\pi}2+x)+\\tan(\\frac{3\\pi}2-x)+\\cot(3\\pi-x)$. Khi đó giá trị của $10A$ bằng bao nhiêu?",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Cho biểu thức lượng giác sau (giả sử các biểu thức đều có nghĩa):<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mn>5</mn><mi>&#x003C0;</mi><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02212;</mo><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mi>cot</mi><mo stretchy=\"false\">&#x00028;</mo><mn>3</mn><mi>&#x003C0;</mi><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>. Khi đó giá trị của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>10</mn><mi>A</mi></mrow></math> bằng bao nhiêu?",
+          "kind": "Thực hành",
+          "verification": "cos(5π−x)=−cosx; sin(3π/2+x)=−cosx; tan(3π/2−x)=cotx; cot(3π−x)=−cotx. Tổng 0. Kết quả: 0",
+          "type": "short",
+          "answerValue": 0,
+          "answerDecimals": 2,
+          "id": 54
+        }
+      ]
+    },
+    "Lượng giác 2": {
+      "count": 49,
+      "types": {
+        "mcq": 30,
+        "short": 12,
+        "truefalse": 7
+      },
+      "questions": [
+        {
+          "source": "A-I-27",
+          "prompt": "Tìm giá trị lớn nhất $M$ và nhỏ nhất $m$ của biểu thức $P=3\\sin x-2$.",
+          "options": [
+            "$M=1,m=-5$",
+            "$M=3,m=1$",
+            "$M=2,m=-2$",
+            "$M=0,m=-2$"
+          ],
+          "answer": 0,
+          "html": "Tìm giá trị lớn nhất <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi></mrow></math> và nhỏ nhất <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math> của biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><mn>3</mn><mi>sin</mi><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002C;</mo><mi>m</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>5</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x0003D;</mo><mn>3</mn><mo>&#x0002C;</mo><mi>m</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x0003D;</mo><mn>2</mn><mo>&#x0002C;</mo><mi>m</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mi>m</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sinx∈[−1;1] nên 3sinx−2∈[−5;1].",
+          "type": "mcq",
+          "id": 1
+        },
+        {
+          "source": "A-I-29",
+          "prompt": "Tìm tập xác định $D$ của hàm số $y=\\frac{3\\tan x-5}{1-\\sin^2x}$.",
+          "options": [
+            "$\\mathbb R\\setminus\\{\\frac\\pi2+2k\\pi:k\\in\\mathbb Z\\}$",
+            "$\\mathbb R\\setminus\\{\\frac\\pi2+k\\pi:k\\in\\mathbb Z\\}$",
+            "$\\mathbb R\\setminus\\{\\pi+k\\pi:k\\in\\mathbb Z\\}$",
+            "$x\\ne k\\pi,\\ k\\in\\mathbb Z$"
+          ],
+          "answer": 1,
+          "html": "Tìm tập xác định <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>D</mi></mrow></math> của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>3</mn><mi>tan</mi><mi>x</mi><mo>&#x02212;</mo><mn>5</mn></mrow><mrow><mn>1</mn><mo>&#x02212;</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi><mi>&#x029F5;</mi><mo stretchy=\"false\">&#x0007B;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi><mi>:</mi><mi>k</mi><mo>&#x02208;</mo><mi mathvariant=\"double-struck\">Z</mi><mo stretchy=\"false\">&#x0007D;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi><mi>&#x029F5;</mi><mo stretchy=\"false\">&#x0007B;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi><mi>:</mi><mi>k</mi><mo>&#x02208;</mo><mi mathvariant=\"double-struck\">Z</mi><mo stretchy=\"false\">&#x0007D;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi><mi>&#x029F5;</mi><mo stretchy=\"false\">&#x0007B;</mo><mi>&#x003C0;</mi><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi><mi>:</mi><mi>k</mi><mo>&#x02208;</mo><mi mathvariant=\"double-struck\">Z</mi><mo stretchy=\"false\">&#x0007D;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><mi>k</mi><mi>&#x003C0;</mi><mo>&#x0002C;</mo><mtext>&#x000A0;</mtext><mi>k</mi><mo>&#x02208;</mo><mi mathvariant=\"double-struck\">Z</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Cần cosx≠0 cho tanx; mẫu=cos²x nên cùng điều kiện x≠π/2+kπ.",
+          "type": "mcq",
+          "id": 2
+        },
+        {
+          "source": "A-I-30",
+          "prompt": "Tìm tập xác định $D$ của hàm số $y=\\sqrt{\\sin x+2}$.",
+          "options": [
+            "$\\mathbb R$",
+            "$[-2;+\\infty)$",
+            "$[0;2\\pi]$",
+            "$\\varnothing$"
+          ],
+          "answer": 0,
+          "html": "Tìm tập xác định <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>D</mi></mrow></math> của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><msqrt><mrow><mi>sin</mi><mi>x</mi><mo>&#x0002B;</mo><mn>2</mn></mrow></msqrt></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mo>&#x02212;</mo><mn>2</mn><mi>;</mi><mo>&#x0002B;</mo><mo>&#x0221E;</mo><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mn>0</mn><mi>;</mi><mn>2</mn><mi>&#x003C0;</mi><mo stretchy=\"false\">]</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02205;</mo></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sinx+2≥1>0, xác định với mọi x thực.",
+          "type": "mcq",
+          "id": 3
+        },
+        {
+          "source": "A-I-32",
+          "prompt": "Trong các hàm số sau, hàm số nào là hàm số lẻ?",
+          "options": [
+            "$y=\\cos x+\\sin^2x$",
+            "$y=\\sin x+\\cos x$",
+            "$y=-\\cos x$",
+            "$y=\\sin x\\cos3x$"
+          ],
+          "answer": 3,
+          "html": "Trong các hàm số sau, hàm số nào là hàm số lẻ?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>cos</mi><mi>x</mi><mo>&#x0002B;</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>sin</mi><mi>x</mi><mo>&#x0002B;</mo><mi>cos</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>cos</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>sin</mi><mi>x</mi><mi>cos</mi><mn>3</mn><mi>x</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sinx là hàm lẻ, cos3x chẵn, tích lẻ; các lựa chọn khác không lẻ.",
+          "type": "mcq",
+          "id": 4
+        },
+        {
+          "source": "A-I-33",
+          "prompt": "Tìm tập giá trị $T$ của hàm số $y=3\\cos2x+5$.",
+          "options": [
+            "$[-1;1]$",
+            "$[-1;11]$",
+            "$[2;8]$",
+            "$[5;8]$"
+          ],
+          "answer": 2,
+          "html": "Tìm tập giá trị <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi></mrow></math> của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mn>3</mn><mi>cos</mi><mn>2</mn><mi>x</mi><mo>&#x0002B;</mo><mn>5</mn></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mo>&#x02212;</mo><mn>1</mn><mi>;</mi><mn>1</mn><mo stretchy=\"false\">]</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mo>&#x02212;</mo><mn>1</mn><mi>;</mi><mn>11</mn><mo stretchy=\"false\">]</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mn>2</mn><mi>;</mi><mn>8</mn><mo stretchy=\"false\">]</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mn>5</mn><mi>;</mi><mn>8</mn><mo stretchy=\"false\">]</mo></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "−1≤cos2x≤1 nên 2≤3cos2x+5≤8.",
+          "type": "mcq",
+          "id": 5
+        },
+        {
+          "source": "A-III-1",
+          "prompt": "Tìm giá trị nhỏ nhất $m$ của hàm số $y=-\\sqrt2\\sin2016x+2017$.",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Tìm giá trị nhỏ nhất <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math> của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><msqrt><mn>2</mn></msqrt><mi>sin</mi><mn>2016</mn><mi>x</mi><mo>&#x0002B;</mo><mn>2017</mn></mrow></math>.",
+          "kind": "Thực hành",
+          "verification": "min=2017−|−√2|=2017−√2. Kết quả: 2017−√2",
+          "type": "short",
+          "answerValue": 2015.585786437627,
+          "answerDecimals": 2,
+          "id": 6
+        },
+        {
+          "source": "A-III-2",
+          "prompt": "Tìm giá trị lớn nhất $M$ của hàm số $y=\\frac2{1+\\tan^2x}$.",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Tìm giá trị lớn nhất <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi></mrow></math> của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>&#x0002B;</mo><msup><mi>tan</mi><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math>.",
+          "kind": "Thực hành",
+          "verification": "y=2cos²x≤2; đạt tại x=kπ, thuộc miền xác định. Kết quả: 2",
+          "type": "short",
+          "answerValue": 2,
+          "answerDecimals": 2,
+          "id": 7
+        },
+        {
+          "source": "B-I-2",
+          "prompt": "Nghiệm của phương trình $\\sin x=-1$ là:",
+          "options": [
+            "$x=-\\frac\\pi2+k\\pi$",
+            "$x=k\\pi$",
+            "$x=-\\frac\\pi2+2k\\pi$",
+            "$x=\\frac{3\\pi}2+k\\pi$"
+          ],
+          "answer": 2,
+          "html": "Nghiệm của phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>1</mn></mrow></math> là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sinx=−1 ⇔ x=−π/2+2kπ.",
+          "type": "mcq",
+          "id": 8
+        },
+        {
+          "source": "B-I-4",
+          "prompt": "Nghiệm của phương trình $2\\cos2x=-2$ là:",
+          "options": [
+            "$x=\\pi+2k\\pi$",
+            "$x=\\frac\\pi2+2k\\pi$",
+            "$x=2k\\pi$",
+            "$x=\\frac\\pi2+k\\pi$"
+          ],
+          "answer": 3,
+          "html": "Nghiệm của phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>cos</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn></mrow></math> là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mi>&#x003C0;</mi><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cos2x=−1 ⇔ 2x=π+2kπ ⇔ x=π/2+kπ.",
+          "type": "mcq",
+          "id": 9
+        },
+        {
+          "source": "B-I-5",
+          "prompt": "Tập xác định của hàm số $y=\\frac1{\\sin x-\\cos x}$ là:",
+          "options": [
+            "$x\\ne2k\\pi$",
+            "$x\\ne k\\pi$",
+            "$x\\ne\\frac\\pi4+k\\pi$",
+            "$x\\ne\\frac\\pi2+k\\pi$"
+          ],
+          "answer": 2,
+          "html": "Tập xác định của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mfrac><mn>1</mn><mrow><mi>sin</mi><mi>x</mi><mo>&#x02212;</mo><mi>cos</mi><mi>x</mi></mrow></mfrac></mrow></math> là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Mẫu bằng 0 khi x=π/4+kπ.",
+          "type": "mcq",
+          "id": 10
+        },
+        {
+          "source": "B-I-6",
+          "prompt": "Giá trị nhỏ nhất và giá trị lớn nhất của hàm số $y=4\\sqrt{\\sin x+3}-1$ lần lượt là:",
+          "options": [
+            "$4\\sqrt2$ và $8$",
+            "$\\sqrt2$ và $2$",
+            "$4\\sqrt2-1$ và $7$",
+            "$2$ và $4$"
+          ],
+          "answer": 2,
+          "html": "Giá trị nhỏ nhất và giá trị lớn nhất của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mn>4</mn><msqrt><mrow><mi>sin</mi><mi>x</mi><mo>&#x0002B;</mo><mn>3</mn></mrow></msqrt><mo>&#x02212;</mo><mn>1</mn></mrow></math> lần lượt là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>8</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msqrt><mn>2</mn></msqrt></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>&#x02212;</mo><mn>1</mn></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>7</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>4</mn></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sinx+3∈[2;4], căn∈[√2;2], y∈[4√2−1;7].",
+          "type": "mcq",
+          "id": 11
+        },
+        {
+          "source": "B-I-8",
+          "prompt": "Hàm số nào sau đây là hàm số chẵn trên R?",
+          "options": [
+            "$y=\\frac{\\tan x}{1+x^2}$",
+            "$y=x\\cos2x$",
+            "$y=(x^2+1)\\sin x$",
+            "$y=\\frac{\\cos x}{1+x^2}$"
+          ],
+          "answer": 3,
+          "html": "Hàm số nào sau đây là hàm số chẵn trên R?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>tan</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>&#x0002B;</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>x</mi><mi>cos</mi><mn>2</mn><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mo stretchy=\"false\">&#x00028;</mo><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo><mi>sin</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>cos</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>&#x0002B;</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cosx/(1+x²) có miền R và là hàm chẵn; ba hàm còn lại lẻ hoặc không xác định trên toàn R.",
+          "type": "mcq",
+          "id": 12
+        },
+        {
+          "source": "B-I-10",
+          "prompt": "Nghiệm đặc biệt nào sau đây là sai.",
+          "options": [
+            "$\\sin x=0\\Leftrightarrow x=k\\pi$",
+            "$\\sin x=0\\Leftrightarrow x=2k\\pi$",
+            "$\\sin x=1\\Leftrightarrow x=\\frac\\pi2+2k\\pi$",
+            "$\\sin x=-1\\Leftrightarrow x=-\\frac\\pi2+2k\\pi$"
+          ],
+          "answer": 1,
+          "html": "Nghiệm đặc biệt nào sau đây là sai.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0003D;</mo><mn>0</mn><mo>&#x021D4;</mo><mi>x</mi><mo>&#x0003D;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0003D;</mo><mn>0</mn><mo>&#x021D4;</mo><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn><mo>&#x021D4;</mo><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>1</mn><mo>&#x021D4;</mo><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sinx=0 có cả x=π, không chỉ các bội chẵn của π.",
+          "type": "mcq",
+          "id": 13
+        },
+        {
+          "source": "B-I-11",
+          "prompt": "Giải phương trình lượng giác: $2\\cos\\frac x2+\\sqrt3=0$ có nghiệm là:",
+          "options": [
+            "$x=\\pm\\frac{5\\pi}6+2k\\pi$",
+            "$x=\\pm\\frac{5\\pi}6+4k\\pi$",
+            "$x=\\pm\\frac{5\\pi}3+4k\\pi$",
+            "$x=\\pm\\frac{5\\pi}3+2k\\pi$"
+          ],
+          "answer": 2,
+          "html": "Giải phương trình lượng giác: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>cos</mi><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><msqrt><mn>3</mn></msqrt><mo>&#x0003D;</mo><mn>0</mn></mrow></math> có nghiệm là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mi>&#x000B1;</mi><mfrac><mrow><mn>5</mn><mi>&#x003C0;</mi></mrow><mn>6</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mi>&#x000B1;</mi><mfrac><mrow><mn>5</mn><mi>&#x003C0;</mi></mrow><mn>6</mn></mfrac><mo>&#x0002B;</mo><mn>4</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mi>&#x000B1;</mi><mfrac><mrow><mn>5</mn><mi>&#x003C0;</mi></mrow><mn>3</mn></mfrac><mo>&#x0002B;</mo><mn>4</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mi>&#x000B1;</mi><mfrac><mrow><mn>5</mn><mi>&#x003C0;</mi></mrow><mn>3</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cos(x/2)=−√3/2 ⇔ x/2=±5π/6+2kπ ⇔ x=±5π/3+4kπ.",
+          "type": "mcq",
+          "id": 14
+        },
+        {
+          "source": "B-I-12",
+          "prompt": "Phương trình lượng giác: $2\\cot x-\\sqrt3=0$ có nghiệm là:",
+          "options": [
+            "$x=\\frac\\pi6+k\\pi$",
+            "$x=\\pm\\frac\\pi6+2k\\pi$",
+            "$x=\\operatorname{arccot}(\\frac{\\sqrt3}2)+k\\pi$",
+            "$x=\\frac\\pi3+k\\pi$"
+          ],
+          "answer": 2,
+          "html": "Phương trình lượng giác: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>cot</mi><mi>x</mi><mo>&#x02212;</mo><msqrt><mn>3</mn></msqrt><mo>&#x0003D;</mo><mn>0</mn></mrow></math> có nghiệm là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mi>&#x000B1;</mi><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mo>arccot</mo><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cotx=√3/2. Đây không phải cotπ/6 hay cotπ/3; nghiệm arccot(√3/2)+kπ.",
+          "type": "mcq",
+          "id": 15
+        },
+        {
+          "source": "B-I-13",
+          "prompt": "Phương trình nào sau đây vô nghiệm.",
+          "options": [
+            "$\\tan x+3=0$",
+            "$3\\sin x-2=0$",
+            "$2\\cos2x-\\cos x-1=0$",
+            "$\\sin x+3=0$"
+          ],
+          "answer": 3,
+          "html": "Phương trình nào sau đây vô nghiệm.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mi>x</mi><mo>&#x0002B;</mo><mn>3</mn><mo>&#x0003D;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mi>sin</mi><mi>x</mi><mo>&#x02212;</mo><mn>2</mn><mo>&#x0003D;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>cos</mi><mn>2</mn><mi>x</mi><mo>&#x02212;</mo><mi>cos</mi><mi>x</mi><mo>&#x02212;</mo><mn>1</mn><mo>&#x0003D;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0002B;</mo><mn>3</mn><mo>&#x0003D;</mo><mn>0</mn></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sinx=−3 vô nghiệm. Ba phương trình khác có nghiệm (phương trình C có x=0).",
+          "type": "mcq",
+          "id": 16
+        },
+        {
+          "source": "B-I-14",
+          "prompt": "Nghiệm của phương trình $\\sin2x=1$ là:",
+          "options": [
+            "$x=\\pi+2k\\pi$",
+            "$x=2k\\pi$",
+            "$x=\\frac\\pi2+2k\\pi$",
+            "$x=\\frac\\pi4+k\\pi$"
+          ],
+          "answer": 3,
+          "html": "Nghiệm của phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math> là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mi>&#x003C0;</mi><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sin2x=1 ⇔ x=π/4+kπ.",
+          "type": "mcq",
+          "id": 17
+        },
+        {
+          "source": "B-I-15",
+          "prompt": "Điều kiện xác định của hàm số $y=\\frac{\\tan x}{\\cos x-1}$ là:",
+          "options": [
+            "$x\\ne\\frac\\pi2+k\\pi,\\ x\\ne\\frac\\pi3+k\\pi$",
+            "$x\\ne2k\\pi$",
+            "$x=\\frac\\pi3+2k\\pi$",
+            "$x\\ne\\frac\\pi2+k\\pi,\\ x\\ne2k\\pi$"
+          ],
+          "answer": 3,
+          "html": "Điều kiện xác định của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>tan</mi><mi>x</mi></mrow><mrow><mi>cos</mi><mi>x</mi><mo>&#x02212;</mo><mn>1</mn></mrow></mfrac></mrow></math> là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi><mo>&#x0002C;</mo><mtext>&#x000A0;</mtext><mi>x</mi><mo>&#x02260;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi><mo>&#x0002C;</mo><mtext>&#x000A0;</mtext><mi>x</mi><mo>&#x02260;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Cần cosx≠0 và cosx≠1: x≠π/2+kπ, x≠2kπ.",
+          "type": "mcq",
+          "id": 18
+        },
+        {
+          "source": "B-I-16",
+          "prompt": "Số nghiệm của phương trình: $\\sin(x+\\frac\\pi4)=1$ với $\\pi\\le x\\le5\\pi$ là:",
+          "options": [
+            "2",
+            "1",
+            "0",
+            "3"
+          ],
+          "answer": 0,
+          "html": "Số nghiệm của phương trình: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>1</mn></mrow></math> với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003C0;</mi><mo>&#x02264;</mo><mi>x</mi><mo>&#x02264;</mo><mn>5</mn><mi>&#x003C0;</mi></mrow></math> là:",
+          "optionsHtml": [
+            "2",
+            "1",
+            "0",
+            "3"
+          ],
+          "kind": "Thực hành",
+          "verification": "x=π/4+2kπ; trong [π;5π] có k=1,2, tức x=9π/4 và 17π/4.",
+          "type": "mcq",
+          "id": 19
+        },
+        {
+          "source": "B-I-17",
+          "prompt": "Khẳng định nào sau đây là đúng:",
+          "options": [
+            "$\\cos x\\ne1\\Leftrightarrow x\\ne\\frac\\pi2+k\\pi$",
+            "$\\cos x\\ne0\\Leftrightarrow x\\ne\\frac\\pi2+k\\pi$",
+            "$\\cos x\\ne0\\Leftrightarrow x\\ne\\frac\\pi2+2k\\pi$",
+            "$\\cos x\\ne-1\\Leftrightarrow x\\ne2k\\pi$"
+          ],
+          "answer": 1,
+          "html": "Khẳng định nào sau đây là đúng:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>x</mi><mo>&#x02260;</mo><mn>1</mn><mo>&#x021D4;</mo><mi>x</mi><mo>&#x02260;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>x</mi><mo>&#x02260;</mo><mn>0</mn><mo>&#x021D4;</mo><mi>x</mi><mo>&#x02260;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>x</mi><mo>&#x02260;</mo><mn>0</mn><mo>&#x021D4;</mo><mi>x</mi><mo>&#x02260;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mi>x</mi><mo>&#x02260;</mo><mo>&#x02212;</mo><mn>1</mn><mo>&#x021D4;</mo><mi>x</mi><mo>&#x02260;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cosx=0 đúng tại π/2+kπ; lấy phần bù được B.",
+          "type": "mcq",
+          "id": 20
+        },
+        {
+          "source": "B-I-18",
+          "prompt": "Hàm số nào sau đây là hàm số lẻ trên tập xác định của nó?",
+          "options": [
+            "$y=\\frac{\\cos x}{x+x^2}$",
+            "$y=\\frac{\\sin x}{1-\\sin x}$",
+            "$y=\\frac{\\tan x}{1+\\sin^2x}$",
+            "$y=\\frac{\\sin^2x}{1+\\cos x}$"
+          ],
+          "answer": 2,
+          "html": "Hàm số nào sau đây là hàm số lẻ trên tập xác định của nó?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>cos</mi><mi>x</mi></mrow><mrow><mi>x</mi><mo>&#x0002B;</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>sin</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>&#x02212;</mo><mi>sin</mi><mi>x</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>tan</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>&#x0002B;</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mfrac><mrow><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mn>1</mn><mo>&#x0002B;</mo><mi>cos</mi><mi>x</mi></mrow></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "tanx lẻ, 1+sin²x chẵn dương, miền loại π/2+kπ đối xứng nên thương lẻ.",
+          "type": "mcq",
+          "id": 21
+        },
+        {
+          "source": "B-I-20",
+          "prompt": "Hàm số $y=1+\\sin2x$ có chu kì là:",
+          "options": [
+            "$\\pi$",
+            "$\\frac\\pi2$",
+            "$4\\pi$",
+            "$2\\pi$"
+          ],
+          "answer": 0,
+          "html": "Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002B;</mo><mi>sin</mi><mn>2</mn><mi>x</mi></mrow></math> có chu kì là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>4</mn><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Chu kỳ cơ bản sin2x là π.",
+          "type": "mcq",
+          "id": 22
+        },
+        {
+          "source": "B-I-22",
+          "prompt": "Điều kiện cần và đủ để phương trình $4\\cos x-m=0$ vô nghiệm là:",
+          "options": [
+            "$m<-4$ hoặc $m>4$",
+            "$-4<m<4$",
+            "$m>4$",
+            "$m<-4$"
+          ],
+          "answer": 0,
+          "html": "Điều kiện cần và đủ để phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>4</mn><mi>cos</mi><mi>x</mi><mo>&#x02212;</mo><mi>m</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></math> vô nghiệm là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003C;</mo><mo>&#x02212;</mo><mn>4</mn></mrow></math> hoặc <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003E;</mo><mn>4</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>4</mn><mo>&#x0003C;</mo><mi>m</mi><mo>&#x0003C;</mo><mn>4</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003E;</mo><mn>4</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003C;</mo><mo>&#x02212;</mo><mn>4</mn></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "4cosx∈[−4;4]; vô nghiệm khi m nằm ngoài đoạn đóng.",
+          "type": "mcq",
+          "id": 23
+        },
+        {
+          "source": "B-I-23",
+          "prompt": "Nghiệm dương bé nhất của phương trình: $2\\cos x+\\sqrt3=0$ là:",
+          "options": [
+            "$\\frac\\pi6$",
+            "$\\frac{5\\pi}6$",
+            "$\\frac\\pi2$",
+            "$\\frac{3\\pi}2$"
+          ],
+          "answer": 1,
+          "html": "Nghiệm dương bé nhất của phương trình: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>cos</mi><mi>x</mi><mo>&#x0002B;</mo><msqrt><mn>3</mn></msqrt><mo>&#x0003D;</mo><mn>0</mn></mrow></math> là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>5</mn><mi>&#x003C0;</mi></mrow><mn>6</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cosx=−√3/2, nghiệm dương đầu tiên 5π/6.",
+          "type": "mcq",
+          "id": 24
+        },
+        {
+          "source": "B-I-24",
+          "prompt": "Giá trị lớn nhất của hàm số $y=1-2\\cos x-\\cos^2x$ là:",
+          "options": [
+            "0",
+            "5",
+            "2",
+            "3"
+          ],
+          "answer": 2,
+          "html": "Giá trị lớn nhất của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mn>1</mn><mo>&#x02212;</mo><mn>2</mn><mi>cos</mi><mi>x</mi><mo>&#x02212;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi></mrow></math> là:",
+          "optionsHtml": [
+            "0",
+            "5",
+            "2",
+            "3"
+          ],
+          "kind": "Thực hành",
+          "verification": "Đặt t=cosx∈[−1;1], y=2−(t+1)²≤2, đạt tại t=−1.",
+          "type": "mcq",
+          "id": 25
+        },
+        {
+          "source": "B-I-26",
+          "prompt": "Nghiệm của $\\cos^2x-\\cos x=0$ thỏa $0<x<\\pi$ là:",
+          "options": [
+            "$-\\frac\\pi2$",
+            "$0$",
+            "$\\pi$",
+            "$\\frac\\pi2$"
+          ],
+          "answer": 3,
+          "html": "Nghiệm của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi><mo>&#x02212;</mo><mi>cos</mi><mi>x</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></math> thỏa <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x0003C;</mo><mi>x</mi><mo>&#x0003C;</mo><mi>&#x003C0;</mi></mrow></math> là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cosx(cosx−1)=0; trong (0;π) chỉ có x=π/2.",
+          "type": "mcq",
+          "id": 26
+        },
+        {
+          "source": "B-I-29",
+          "prompt": "Nghiệm của $\\sin x=\\frac12$ trong $[-\\frac\\pi2;\\frac\\pi2]$ là:",
+          "options": [
+            "$x=\\frac{5\\pi}6+2k\\pi$",
+            "$x=\\frac\\pi6$",
+            "$x=\\frac\\pi3$",
+            "$x=\\frac\\pi3+2k\\pi$"
+          ],
+          "answer": 1,
+          "html": "Nghiệm của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0003D;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> trong <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mi>;</mi><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo stretchy=\"false\">]</mo></mrow></math> là:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>5</mn><mi>&#x003C0;</mi></mrow><mn>6</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "sin đơn điệu trên [−π/2;π/2], nghiệm duy nhất π/6.",
+          "type": "mcq",
+          "id": 27
+        },
+        {
+          "source": "B-I-30",
+          "prompt": "Phương trình $\\sin(2x+\\frac\\pi7)=m^2-3m+3$ vô nghiệm khi:",
+          "options": [
+            "$-1<m<0$",
+            "$-3<m<-1$",
+            "$m<1$ hoặc $m>2$",
+            "$m<-2$ hoặc $m>0$"
+          ],
+          "answer": 2,
+          "html": "Phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>x</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>7</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><msup><mi>m</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>3</mn><mi>m</mi><mo>&#x0002B;</mo><mn>3</mn></mrow></math> vô nghiệm khi:",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0003C;</mo><mi>m</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>3</mn><mo>&#x0003C;</mo><mi>m</mi><mo>&#x0003C;</mo><mo>&#x02212;</mo><mn>1</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003C;</mo><mn>1</mn></mrow></math> hoặc <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003E;</mo><mn>2</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003C;</mo><mo>&#x02212;</mo><mn>2</mn></mrow></math> hoặc <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "m²−3m+3=(m−3/2)²+3/4≥3/4; vượt 1 khi (m−1)(m−2)>0 ⇔ m<1 hoặc m>2.",
+          "type": "mcq",
+          "id": 28
+        },
+        {
+          "source": "B-I-72",
+          "prompt": "Hàm số nào nghịch biến trên $(0;\\frac\\pi2)$?",
+          "options": [
+            "$y=\\sin x$",
+            "$y=\\cos x$",
+            "$y=\\tan x$",
+            "$y=-\\cot x$"
+          ],
+          "answer": 1,
+          "html": "Hàm số nào nghịch biến trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mn>0</mn><mi>;</mi><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>sin</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>cos</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>tan</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>cot</mi><mi>x</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Trên (0;π/2), đạo hàm cosx là −sinx<0; ba hàm còn lại đồng biến.",
+          "type": "mcq",
+          "id": 29
+        },
+        {
+          "source": "B-I-98",
+          "prompt": "Tìm chu kỳ của $y=\\cos(\\frac x2+2021)$.",
+          "options": [
+            "$4\\pi$",
+            "$2\\pi$",
+            "$-2\\pi$",
+            "$\\pi$"
+          ],
+          "answer": 0,
+          "html": "Tìm chu kỳ của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>&#x0002B;</mo><mn>2021</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>4</mn><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>2</mn><mi>&#x003C0;</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x003C0;</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Chu kỳ cos(x/2+2021) là 2π/(1/2)=4π.",
+          "type": "mcq",
+          "id": 30
+        },
+        {
+          "source": "B-I-99",
+          "prompt": "Tìm chu kỳ của $y=-\\frac12\\sin(100\\pi x+50\\pi)$.",
+          "options": [
+            "$\\frac1{50}$",
+            "$\\frac1{100}$",
+            "$\\frac\\pi{50}$",
+            "$200\\pi^2$"
+          ],
+          "answer": 0,
+          "html": "Tìm chu kỳ của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mn>100</mn><mi>&#x003C0;</mi><mi>x</mi><mo>&#x0002B;</mo><mn>50</mn><mi>&#x003C0;</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>1</mn><mrow><mn>50</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>1</mn><mrow><mn>100</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mrow><mn>50</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>200</mn><msup><mi>&#x003C0;</mi><mn>2</mn></msup></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "Chu kỳ 2π/(100π)=1/50.",
+          "type": "mcq",
+          "id": 31
+        },
+        {
+          "source": "B-I-100",
+          "prompt": "Hàm số nào đồng biến trên $(-\\frac\\pi3;\\frac\\pi6)$?",
+          "options": [
+            "$y=\\cos x$",
+            "$y=\\cot2x$",
+            "$y=\\sin x$",
+            "$y=\\cos2x$"
+          ],
+          "answer": 2,
+          "html": "Hàm số nào đồng biến trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac><mi>;</mi><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>?",
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>cos</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>cot</mi><mn>2</mn><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>sin</mi><mi>x</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>cos</mi><mn>2</mn><mi>x</mi></mrow></math>"
+          ],
+          "kind": "Thực hành",
+          "verification": "cosx>0 trên (−π/3;π/6), nên đạo hàm sinx dương. Các lựa chọn khác không đồng biến trên toàn khoảng.",
+          "type": "mcq",
+          "id": 32
+        },
+        {
+          "source": "B-II-7",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Độ sâu kênh tại thời điểm $t$ giờ ($0\\le t\\le24$) là $h=3\\cos(\\frac{\\pi t}6+\\frac\\pi3)+12$ mét.",
+          "html": "Độ sâu kênh tại thời điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi></mrow></math> giờ (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x02264;</mo><mi>t</mi><mo>&#x02264;</mo><mn>24</mn></mrow></math>) là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>h</mi><mo>&#x0003D;</mo><mn>3</mn><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mi>&#x003C0;</mi><mi>t</mi></mrow><mn>6</mn></mfrac><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mn>12</mn></mrow></math> mét.",
+          "options": [],
+          "statements": [
+            {
+              "html": "Độ sâu nhỏ nhất là 9 m.",
+              "answer": true,
+              "verification": "Biên độ 3, trung bình 12: min=9."
+            },
+            {
+              "html": "Độ sâu lớn nhất là 15 m.",
+              "answer": true,
+              "verification": "Max=15."
+            },
+            {
+              "html": "Trong một ngày có đúng 3 thời điểm đạt độ sâu lớn nhất.",
+              "answer": false,
+              "verification": "Các thời điểm max trong [0;24] là 10 và 22: chỉ có 2."
+            },
+            {
+              "html": "Độ sâu tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi><mo>&#x0003D;</mo><mn>12</mn></mrow></math> là 13 m.",
+              "answer": false,
+              "verification": "h(12)=13,5 m, không phải 13 m."
+            }
+          ],
+          "verification": "Biên độ 3, trung bình 12: min=9. | Max=15. | Các thời điểm max trong [0;24] là 10 và 22: chỉ có 2. | h(12)=13,5 m, không phải 13 m.",
+          "id": 33
+        },
+        {
+          "source": "B-II-9",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho hàm số $f(x)=\\sin^2x+\\cos x-1$.",
+          "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>&#x0002B;</mo><mi>cos</mi><mi>x</mi><mo>&#x02212;</mo><mn>1</mn></mrow></math>.",
+          "options": [],
+          "statements": [
+            {
+              "html": "Tập xác định là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi></mrow></math>.",
+              "answer": true,
+              "verification": "sin,cos xác định với mọi số thực."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mi>&#x003C0;</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>&#x003C0;</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+              "answer": false,
+              "verification": "f(−π)=f(π)=−2, không bằng −f(π)=2."
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+              "answer": true,
+              "verification": "sin² và cos đều chẵn."
+            },
+            {
+              "html": "Hàm số đã cho là hàm chẵn.",
+              "answer": true,
+              "verification": "f là tổng các hàm chẵn."
+            }
+          ],
+          "verification": "sin,cos xác định với mọi số thực. | f(−π)=f(π)=−2, không bằng −f(π)=2. | sin² và cos đều chẵn. | f là tổng các hàm chẵn.",
+          "id": 34
+        },
+        {
+          "source": "B-II-10",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Hàm số y=f(x) có đồ thị như hình. Xét các mệnh đề:",
+          "html": "Hàm số y=f(x) có đồ thị như hình. Xét các mệnh đề:<img class=\"exercise-image\" src=\"m/lg-graph.jpg\" alt=\"Hình minh họa cho bài tập\">",
+          "options": [],
+          "statements": [
+            {
+              "html": "Tập xác định là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mo>&#x02212;</mo><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac><mi>;</mi><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"false\">]</mo></mrow></math>.",
+              "answer": false,
+              "verification": "Đường cong trong hình còn kéo dài ngoài ±3π/2, nên đoạn này không phải toàn bộ miền xác định."
+            },
+            {
+              "html": "Hàm số đồng biến trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mi>&#x003C0;</mi><mi>;</mi><mn>0</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+              "answer": false,
+              "verification": "Trên (−π;−π/2) đồ thị đang giảm, nên không tăng trên toàn (−π;0)."
+            },
+            {
+              "html": "Hàm số nghịch biến trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mi>&#x003C0;</mi><mi>;</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+              "answer": true,
+              "verification": "Quan sát đồ thị giảm từ y=1 xuống y=0 trên khoảng đã cho."
+            },
+            {
+              "html": "Tập giá trị là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mn>0</mn><mi>;</mi><mn>2</mn><mo stretchy=\"false\">]</mo></mrow></math>.",
+              "answer": true,
+              "verification": "Đồ thị có min=0,max=2, tập giá trị [0;2]."
+            }
+          ],
+          "verification": "Đường cong trong hình còn kéo dài ngoài ±3π/2, nên đoạn này không phải toàn bộ miền xác định. | Trên (−π;−π/2) đồ thị đang giảm, nên không tăng trên toàn (−π;0). | Quan sát đồ thị giảm từ y=1 xuống y=0 trên khoảng đã cho. | Đồ thị có min=0,max=2, tập giá trị [0;2].",
+          "id": 35
+        },
+        {
+          "source": "B-II-12",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho $y=3-\\sin(2x+\\frac\\pi4)$.",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mn>3</mn><mo>&#x02212;</mo><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>x</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "options": [],
+          "statements": [
+            {
+              "html": "Tập xác định là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi></mrow></math>.",
+              "answer": true,
+              "verification": "Hàm sin xác định trên R."
+            },
+            {
+              "html": "Giá trị nhỏ nhất bằng 2.",
+              "answer": true,
+              "verification": "3−sin≤? Giá trị nhỏ nhất=3−1=2."
+            },
+            {
+              "html": "Giá trị lớn nhất bằng 4.",
+              "answer": true,
+              "verification": "Giá trị lớn nhất=3−(−1)=4."
+            },
+            {
+              "html": "Tập giá trị là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mn>2</mn><mi>;</mi><mn>4</mn><mo stretchy=\"false\">]</mo></mrow></math>.",
+              "answer": true,
+              "verification": "Mọi giá trị trong [2;4] đều đạt."
+            }
+          ],
+          "verification": "Hàm sin xác định trên R. | 3−sin≤? Giá trị nhỏ nhất=3−1=2. | Giá trị lớn nhất=3−(−1)=4. | Mọi giá trị trong [2;4] đều đạt.",
+          "id": 36
+        },
+        {
+          "source": "B-II-13",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho phương trình $\\sin2x=-\\frac12$.",
+          "html": "Cho phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.",
+          "options": [],
+          "statements": [
+            {
+              "html": "Phương trình tương đương <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mi>sin</mi><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "sinπ/6=+1/2 trái dấu với đề."
+            },
+            {
+              "html": "Trong <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mn>0</mn><mi>;</mi><mi>&#x003C0;</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> phương trình có 3 nghiệm.",
+              "answer": false,
+              "verification": "Trong (0;π), nghiệm là 7π/12,11π/12: chỉ có 2."
+            },
+            {
+              "html": "Tổng các nghiệm trong <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mn>0</mn><mi>;</mi><mi>&#x003C0;</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "Tổng=(7+11)π/12=3π/2."
+            },
+            {
+              "html": "Nghiệm lớn nhất trong <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mn>0</mn><mi>;</mi><mi>&#x003C0;</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>11</mn><mi>&#x003C0;</mi></mrow><mrow><mn>12</mn></mrow></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "Nghiệm lớn nhất=11π/12."
+            }
+          ],
+          "verification": "sinπ/6=+1/2 trái dấu với đề. | Trong (0;π), nghiệm là 7π/12,11π/12: chỉ có 2. | Tổng=(7+11)π/12=3π/2. | Nghiệm lớn nhất=11π/12.",
+          "id": 37
+        },
+        {
+          "source": "B-II-14",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho phương trình $3-\\sqrt3\\tan(2x-\\frac\\pi3)=0$.",
+          "html": "Cho phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x02212;</mo><msqrt><mn>3</mn></msqrt><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>x</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math>.",
+          "options": [],
+          "statements": [
+            {
+              "html": "Phương trình có nghiệm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac><mo>&#x0002B;</mo><mfrac><mrow><mi>k</mi><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi><mo>&#x02208;</mo><mi mathvariant=\"double-struck\">Z</mi></mrow></math>.",
+              "answer": false,
+              "verification": "tan(2x−π/3)=√3 ⇒ x=π/3+kπ/2, không phải π/6+kπ/2."
+            },
+            {
+              "html": "Nghiệm âm lớn nhất bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "Nghiệm âm lớn nhất=−π/6, không phải −π/3."
+            },
+            {
+              "html": "Trong <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mi>;</mi><mfrac><mrow><mn>2</mn><mi>&#x003C0;</mi></mrow><mn>3</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math> phương trình có ba nghiệm.",
+              "answer": false,
+              "verification": "Trong khoảng có −π/6 và π/3: 2 nghiệm."
+            },
+            {
+              "html": "Tổng các nghiệm trong <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mi>;</mi><mfrac><mrow><mn>2</mn><mi>&#x003C0;</mi></mrow><mn>3</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math> bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "Tổng=−π/6+π/3=π/6."
+            }
+          ],
+          "verification": "tan(2x−π/3)=√3 ⇒ x=π/3+kπ/2, không phải π/6+kπ/2. | Nghiệm âm lớn nhất=−π/6, không phải −π/3. | Trong khoảng có −π/6 và π/3: 2 nghiệm. | Tổng=−π/6+π/3=π/6.",
+          "id": 38
+        },
+        {
+          "source": "B-II-15",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho phương trình $2\\sin(x-\\frac\\pi{12})+\\sqrt3=0$.",
+          "html": "Cho phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mrow><mn>12</mn></mrow></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><msqrt><mn>3</mn></msqrt><mo>&#x0003D;</mo><mn>0</mn></mrow></math>.",
+          "options": [],
+          "statements": [
+            {
+              "html": "Tương đương <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mrow><mn>12</mn></mrow></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>sin</mi><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac></mrow></math>.",
+              "answer": false,
+              "verification": "Đề tương đương sin(x−π/12)=−√3/2, không bằng sinπ/3."
+            },
+            {
+              "html": "Nghiệm là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math> hoặc <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>7</mn><mi>&#x003C0;</mi></mrow><mrow><mn>12</mn></mrow></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>k</mi><mi>&#x003C0;</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi><mo>&#x02208;</mo><mi mathvariant=\"double-struck\">Z</mi></mrow></math>.",
+              "answer": false,
+              "verification": "Nghiệm là −π/4+2kπ hoặc −7π/12+2kπ, không phải các họ dương đã nêu."
+            },
+            {
+              "html": "Nghiệm âm lớn nhất bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac></mrow></math>.",
+              "answer": true,
+              "verification": "Nghiệm âm gần 0 nhất là −π/4."
+            },
+            {
+              "html": "Trong <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mi>&#x003C0;</mi><mi>;</mi><mi>&#x003C0;</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> phương trình có hai nghiệm.",
+              "answer": true,
+              "verification": "Trong (−π;π) có đúng hai nghiệm −π/4,−7π/12."
+            }
+          ],
+          "verification": "Đề tương đương sin(x−π/12)=−√3/2, không bằng sinπ/3. | Nghiệm là −π/4+2kπ hoặc −7π/12+2kπ, không phải các họ dương đã nêu. | Nghiệm âm gần 0 nhất là −π/4. | Trong (−π;π) có đúng hai nghiệm −π/4,−7π/12.",
+          "id": 39
+        },
+        {
+          "source": "B-III-5",
+          "prompt": "Tìm chu kì tuần hoàn của hàm số $f(x)=\\tan2x$ (kết quả được làm tròn đến hàng phần trăm).",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Tìm chu kì tuần hoàn của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>tan</mi><mn>2</mn><mi>x</mi></mrow></math> (kết quả được làm tròn đến hàng phần trăm).",
+          "kind": "Thực hành",
+          "verification": "T=π/2≈1,570796, làm tròn hàng phần trăm=1,57. Kết quả: 1,57",
+          "type": "short",
+          "answerValue": 1.5707963267948966,
+          "answerDecimals": 2,
+          "id": 40
+        },
+        {
+          "source": "B-III-7",
+          "prompt": "Số giờ có ánh sáng của một thành phố $A$ trong ngày thứ $t$ của năm 2024 được cho bởi một hàm số $y=4\\sin[\\frac\\pi{178}(t-60)]+10$, với $t\\in\\mathbb Z$ và $0<t\\le365$. Vào ngày nào trong tháng 5 năm 2024 thì thành phố $A$ có số giờ ánh sáng mặt trời chiếu nhiều nhất?",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Số giờ có ánh sáng của một thành phố <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi></mrow></math> trong ngày thứ <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi></mrow></math> của năm 2024 được cho bởi một hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mn>4</mn><mi>sin</mi><mo stretchy=\"false\">[</mo><mfrac><mi>&#x003C0;</mi><mrow><mn>178</mn></mrow></mfrac><mo stretchy=\"false\">&#x00028;</mo><mi>t</mi><mo>&#x02212;</mo><mn>60</mn><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0002B;</mo><mn>10</mn></mrow></math>, với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi><mo>&#x02208;</mo><mi mathvariant=\"double-struck\">Z</mi></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x0003C;</mo><mi>t</mi><mo>&#x02264;</mo><mn>365</mn></mrow></math>. Vào ngày nào trong tháng 5 năm 2024 thì thành phố <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi></mrow></math> có số giờ ánh sáng mặt trời chiếu nhiều nhất?",
+          "kind": "Thực hành",
+          "verification": "Sin đạt 1 khi t−60=89+356k ⇒ t=149+356k. Ngày 149 của năm nhuận 2024 là 28/5. Kết quả: Ngày 28 tháng 5",
+          "type": "short",
+          "answerValue": 28,
+          "answerDecimals": 2,
+          "answerLabel": "Ngày trong tháng 5",
+          "id": 41
+        },
+        {
+          "source": "B-III-8",
+          "prompt": "Tập giá trị của hàm số: $y=5+4\\sin2x\\cos2x$ có dạng $[a;b]$ với $a;b$ là các số nguyên. Tính giá trị $S=a^2-2ab$.",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Tập giá trị của hàm số: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mn>5</mn><mo>&#x0002B;</mo><mn>4</mn><mi>sin</mi><mn>2</mn><mi>x</mi><mi>cos</mi><mn>2</mn><mi>x</mi></mrow></math> có dạng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math> với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi><mi>;</mi><mi>b</mi></mrow></math> là các số nguyên. Tính giá trị <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>S</mi><mo>&#x0003D;</mo><msup><mi>a</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>2</mn><mi>a</mi><mi>b</mi></mrow></math>.",
+          "kind": "Thực hành",
+          "verification": "y=5+2sin4x∈[3;7]; a²−2ab=9−42=−33. Kết quả: −33",
+          "type": "short",
+          "answerValue": -33,
+          "answerDecimals": 2,
+          "id": 42
+        },
+        {
+          "source": "B-III-20",
+          "prompt": "Cối xay gió là một loại máy chạy bằng sức gió. Máy này được thiết kế để biến năng lượng gió thành các dạng năng lượng khác hữu dụng hơn. Một điểm M nằm trên cánh của cối xay gió như hình vẽ.<br>Khi cánh quạt quay, vị trí thấp nhất và cao nhất của M so với mặt đất lần lượt là 8 mét và 22 mét. Xét một vòng quay của M bắt đầu từ vị trí thấp nhất. Khi cánh quạt quay đều, khoảng cách $h$ (m) từ M đến mặt đất được tính theo công thức $h=A.\\cos(\\frac{2\\pi}5x)+C$, với $x$ (giây) là thời gian quay của điểm M ($x\\ge0$). Hỏi sau 4 giây, điểm M cách mặt đất bao nhiêu mét?",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "image": "m/lg-windmill.jpg",
+          "html": "Cối xay gió là một loại máy chạy bằng sức gió. Máy này được thiết kế để biến năng lượng gió thành các dạng năng lượng khác hữu dụng hơn. Một điểm M nằm trên cánh của cối xay gió như hình vẽ.<br>Khi cánh quạt quay, vị trí thấp nhất và cao nhất của M so với mặt đất lần lượt là 8 mét và 22 mét. Xét một vòng quay của M bắt đầu từ vị trí thấp nhất. Khi cánh quạt quay đều, khoảng cách <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>h</mi></mrow></math> (m) từ M đến mặt đất được tính theo công thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>h</mi><mo>&#x0003D;</mo><mi>A</mi><mo>&#x0002E;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mn>2</mn><mi>&#x003C0;</mi></mrow><mn>5</mn></mfrac><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mi>C</mi></mrow></math>, với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi></mrow></math> (giây) là thời gian quay của điểm M (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02265;</mo><mn>0</mn></mrow></math>). Hỏi sau 4 giây, điểm M cách mặt đất bao nhiêu mét?<img class=\"exercise-image\" src=\"m/lg-windmill.jpg\" alt=\"Hình minh họa cho bài tập\">",
+          "kind": "Thực hành",
+          "verification": "Trung bình C=15, bắt đầu ở thấp nhất nên A=−7. h(4)=15−7cos(8π/5)≈12,83688, không phải 17,16. Kết quả: 12,84 m",
+          "type": "short",
+          "answerValue": 12.83688103937537,
+          "answerDecimals": 2,
+          "id": 43
+        },
+        {
+          "source": "B-III-21",
+          "prompt": "Giả sử nhiệt độ bên trong một căn phòng sau $t$ giờ với $0\\le t\\le12$ kể từ 12 giờ trưa được tính theo công thức $T(t)=5\\cos(\\frac\\pi2-\\frac{\\pi t}6)+26$. Biết rằng tập giá trị $G$ của hàm số $T(t)$ có dạng là $[a;b]$. Hãy tính $P=a+b$.",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Giả sử nhiệt độ bên trong một căn phòng sau <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi></mrow></math> giờ với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x02264;</mo><mi>t</mi><mo>&#x02264;</mo><mn>12</mn></mrow></math> kể từ 12 giờ trưa được tính theo công thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi><mo stretchy=\"false\">&#x00028;</mo><mi>t</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>5</mn><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>&#x003C0;</mi><mn>2</mn></mfrac><mo>&#x02212;</mo><mfrac><mrow><mi>&#x003C0;</mi><mi>t</mi></mrow><mn>6</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mn>26</mn></mrow></math>. Biết rằng tập giá trị <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>G</mi></mrow></math> của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi><mo stretchy=\"false\">&#x00028;</mo><mi>t</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> có dạng là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math>. Hãy tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi></mrow></math>.",
+          "kind": "Thực hành",
+          "verification": "Trong 0≤t≤12, góc π/2−πt/6 chạy từ π/2 tới −3π/2, đủ một vòng; min21,max31,tổng52. Kết quả: 52",
+          "type": "short",
+          "answerValue": 52,
+          "answerDecimals": 2,
+          "id": 44
+        },
+        {
+          "source": "B-III-22",
+          "prompt": "Một chất điểm dao động điều hòa xung quanh điểm $O$ theo phương nằm ngang. Biết rằng vị trí của chất điểm đó so với $O$ tại thời điểm $t$ (giây) được xác định theo phương trình $x=3\\cos(\\frac{2t}3+\\frac\\pi3)$ (m). Trong 5 (giây) đầu thời điểm nào thì chất điểm nằm xa $O$ nhất?",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Một chất điểm dao động điều hòa xung quanh điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>O</mi></mrow></math> theo phương nằm ngang. Biết rằng vị trí của chất điểm đó so với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>O</mi></mrow></math> tại thời điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi></mrow></math> (giây) được xác định theo phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>3</mn><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mn>2</mn><mi>t</mi></mrow><mn>3</mn></mfrac><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>3</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math> (m). Trong 5 (giây) đầu thời điểm nào thì chất điểm nằm xa <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>O</mi></mrow></math> nhất?",
+          "kind": "Thực hành",
+          "verification": "Xa O nhất khi |cos(2t/3+π/3)|=1 ⇒ t=3kπ/2−π/2. Trong [0;5] chỉ có t=π. Kết quả: π giây",
+          "type": "short",
+          "answerValue": 3.141592653589793,
+          "answerDecimals": 2,
+          "id": 45
+        },
+        {
+          "source": "B-III-23",
+          "prompt": "Giả sử khi một cơn sóng biển đi qua một cái cọc ở ngoài khơi, chiều cao của nước được mô hình hoá bởi hàm số $h(t)=90\\cos(\\frac\\pi{10}t)$, trong đó $h(t)$ là độ cao tính bằng centimét trên mực nước biển trung bình tại thời điểm $t$ giây. Tìm chiều cao (đơn vị:cm) của sóng, tức là khoảng cách theo phương thẳng đứng giữa đáy và đỉnh của sóng.",
+          "options": [],
+          "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+          "html": "Giả sử khi một cơn sóng biển đi qua một cái cọc ở ngoài khơi, chiều cao của nước được mô hình hoá bởi hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\">&#x00028;</mo><mi>t</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>90</mn><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mi>&#x003C0;</mi><mrow><mn>10</mn></mrow></mfrac><mi>t</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>, trong đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\">&#x00028;</mo><mi>t</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là độ cao tính bằng centimét trên mực nước biển trung bình tại thời điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi></mrow></math> giây. Tìm chiều cao (đơn vị:cm) của sóng, tức là khoảng cách theo phương thẳng đứng giữa đáy và đỉnh của sóng.",
+          "kind": "Thực hành",
+          "verification": "Chiều cao đỉnh−đáy=90−(−90)=180 cm. Kết quả: 180 cm",
+          "type": "short",
+          "answerValue": 180,
+          "answerDecimals": 2,
+          "id": 46
+        },
+        {
+          "source": "B-III-25",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Huyết áp là áp lực cần thiết tác động lên thành của động mạch để đưa máu từ tim đến nuôi dưỡng các mô trong cơ thể. Huyết áp được tạo ra do lực co bóp của cơ tim và sức cản của thành động mạch. Mỗi lần tim đập, huyết áp của chúng ta tăng rồi giảm giữa các nhịp. Huyết áp tối đa và huyết áp tối thiểu gọi là huyết áp tâm thu và tâm trương, tương ứng. Chỉ số huyết áp của chúng ta được viết là tâm thu/tâm trương. Chỉ số huyết áp 120/80 là bình thường. Giả sử một người nào đó có nhịp tim là 70 lần trên phút và huyết áp của người đó được mô hình hoá bởi hàm số $P(t)=100+20\\sin(\\frac{7\\pi}3t)$, ở đó $P(t)$ là huyết áp tính theo đơn vị mmHg (milimét thuỷ ngân) và thời gian $t$ tính theo giây. Số lần huyết áp đạt 100mmHg trong khoảng từ 0 đến 1 giây bằng bao nhiêu?",
+          "html": "Huyết áp là áp lực cần thiết tác động lên thành của động mạch để đưa máu từ tim đến nuôi dưỡng các mô trong cơ thể. Huyết áp được tạo ra do lực co bóp của cơ tim và sức cản của thành động mạch. Mỗi lần tim đập, huyết áp của chúng ta tăng rồi giảm giữa các nhịp. Huyết áp tối đa và huyết áp tối thiểu gọi là huyết áp tâm thu và tâm trương, tương ứng. Chỉ số huyết áp của chúng ta được viết là tâm thu/tâm trương. Chỉ số huyết áp 120/80 là bình thường. Giả sử một người nào đó có nhịp tim là 70 lần trên phút và huyết áp của người đó được mô hình hoá bởi hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\">&#x00028;</mo><mi>t</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>100</mn><mo>&#x0002B;</mo><mn>20</mn><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mn>7</mn><mi>&#x003C0;</mi></mrow><mn>3</mn></mfrac><mi>t</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>, ở đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\">&#x00028;</mo><mi>t</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là huyết áp tính theo đơn vị mmHg (milimét thuỷ ngân) và thời gian <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi></mrow></math> tính theo giây. Số lần huyết áp đạt 100mmHg trong khoảng từ 0 đến 1 giây bằng bao nhiêu?",
+          "options": [],
+          "answerValue": 3,
+          "answerDecimals": 2,
+          "verification": "P(t)=100 ⇔ t=3k/7. Trên [0;1] có t=0,3/7,6/7, tổng 3 lần.",
+          "id": 47
+        },
+        {
+          "source": "B-III-26",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Một vệ tinh bay quanh Trái Đất theo một quỹ đạo hình Elip (như hình vẽ):<br>Độ cao $h$ (tính bằng kilômet) của vệ tinh so với bề mặt Trái Đất được xác định bởi công thức $h=550+450\\cdot\\cos\\frac\\pi{50}t$. Trong đó $t$ là thời gian tính bằng phút kể từ lúc vệ tinh bay vào quỹ đạo. Người ta cần thực hiện một thí nghiệm khoa học khi vệ tinh cách mặt đất 250km. Trong khoảng 60 phút đầu tiên kể từ lúc vệ tinh bay vào quỹ đạo, hãy tìm thời điểm để có thể thực hiện thí nghiệm đó?",
+          "html": "Một vệ tinh bay quanh Trái Đất theo một quỹ đạo hình Elip (như hình vẽ):<br>Độ cao <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>h</mi></mrow></math> (tính bằng kilômet) của vệ tinh so với bề mặt Trái Đất được xác định bởi công thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>h</mi><mo>&#x0003D;</mo><mn>550</mn><mo>&#x0002B;</mo><mn>450</mn><mo>&#x000B7;</mo><mi>cos</mi><mfrac><mi>&#x003C0;</mi><mrow><mn>50</mn></mrow></mfrac><mi>t</mi></mrow></math>. Trong đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi></mrow></math> là thời gian tính bằng phút kể từ lúc vệ tinh bay vào quỹ đạo. Người ta cần thực hiện một thí nghiệm khoa học khi vệ tinh cách mặt đất 250km. Trong khoảng 60 phút đầu tiên kể từ lúc vệ tinh bay vào quỹ đạo, hãy tìm thời điểm để có thể thực hiện thí nghiệm đó?",
+          "options": [],
+          "answerValue": 36.6139763599385,
+          "answerDecimals": 2,
+          "verification": "cos(πt/50)=−2/3. Trong [0;60] chỉ có t=50 arccos(−2/3)/π ≈ 36,61 phút.",
+          "id": 48
+        },
+        {
+          "source": "B-III-27",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Giả sử một vật dao động điều hòa xung quanh vị trí cân bằng theo phương trình $x=2\\cos(5t-\\frac\\pi6)$. Ở đây, thời gian $t$ tính bằng giây và quãng đường $x$ tính bằng centimét. Hãy cho biết trong khoảng thời gian từ 0 đến 6 giây, vật đi qua vị trí cân bằng bao nhiêu lần?",
+          "html": "Giả sử một vật dao động điều hòa xung quanh vị trí cân bằng theo phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mn>5</mn><mi>t</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>6</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>. Ở đây, thời gian <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi></mrow></math> tính bằng giây và quãng đường <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi></mrow></math> tính bằng centimét. Hãy cho biết trong khoảng thời gian từ 0 đến 6 giây, vật đi qua vị trí cân bằng bao nhiêu lần?",
+          "options": [],
+          "answerValue": 9,
+          "answerDecimals": 2,
+          "verification": "x=0 ⇔ t=2π/15+kπ/5. Trong [0;6], k=0,…,8: 9 lần.",
+          "id": 49
+        }
+      ]
+    }
+  },
+  "excluded_similar": [
+    {
+      "source": "A-I-5",
+      "reason": "Cùng phép đổi đơn vị góc với A-I-4/B-I-39, chỉ đổi chiều."
+    },
+    {
+      "source": "A-I-7",
+      "reason": "Cùng công thức độ dài cung/radian với A-I-3, A-I-6, A-I-8."
+    },
+    {
+      "source": "A-I-21",
+      "reason": "Nhận diện góc đôi đã nằm trong các bộ công thức giữ lại."
+    },
+    {
+      "source": "A-I-22",
+      "reason": "Góc đôi/góc ba được giữ trong B-I-68; tránh thêm bộ gần trùng."
+    },
+    {
+      "source": "A-I-28",
+      "reason": "Cùng điều kiện mẫu sinx−cosx với B-I-5; khác hệ số tử."
+    },
+    {
+      "source": "A-I-31",
+      "reason": "Nhận diện hàm chẵn gần B-I-8; giữ một câu rõ miền R."
+    },
+    {
+      "source": "B-I-9",
+      "reason": "Cùng tìm min/max hàm a·sin+b với A-I-27."
+    },
+    {
+      "source": "B-I-19",
+      "reason": "Cùng phương trình sinx = 1/2 với B-I-29; giữ câu có miền xét nghiệm rõ."
+    },
+    {
+      "source": "B-I-21",
+      "reason": "Trùng phương trình và các họ nghiệm của B-I-12."
+    },
+    {
+      "source": "B-I-25",
+      "reason": "Trùng nội dung/nghiệm đặc biệt của B-I-10, chỉ đảo đáp án."
+    },
+    {
+      "source": "B-I-35",
+      "reason": "Đổi đơn vị góc, thay số so với A-I-4."
+    },
+    {
+      "source": "B-I-38",
+      "reason": "Đổi độ sang radian, thay số so với A-I-4/B-I-39."
+    },
+    {
+      "source": "B-I-43",
+      "reason": "Góc liên quan đặc biệt đã giữ B-I-44/B-I-46."
+    },
+    {
+      "source": "B-I-45",
+      "reason": "Góc đối/bù đã giữ B-I-44/B-I-46."
+    },
+    {
+      "source": "B-I-47",
+      "reason": "Trùng nội dung nhận diện góc đối của B-I-46."
+    },
+    {
+      "source": "B-I-49",
+      "reason": "Từ sin và góc phần tư suy cos/tan/cot đã giữ B-I-48 và câu ĐS đầy đủ."
+    },
+    {
+      "source": "B-I-50",
+      "reason": "Tính cos từ sin/quadrant đã có đầy đủ trong câu ĐS A-II-3/B-II-3."
+    },
+    {
+      "source": "B-I-54",
+      "reason": "Dữ kiện cos² = 1−sin² đã có trong câu ĐS tính giá trị; chỉ thay con số."
+    },
+    {
+      "source": "B-I-59",
+      "reason": "Bộ công thức cộng/góc đôi gần B-I-56, B-I-60, B-I-69."
+    },
+    {
+      "source": "B-I-64",
+      "reason": "Bước khai triển cos(α+π/3) đã dùng trong A-II-3."
+    },
+    {
+      "source": "B-I-67",
+      "reason": "Góc đôi/hạ bậc đã có trong B-I-68/B-I-69 và ĐS B-II-8."
+    },
+    {
+      "source": "B-I-70",
+      "reason": "Lặp bộ công thức cos2α của B-I-69."
+    },
+    {
+      "source": "B-I-71",
+      "reason": "Lặp bộ công thức cos2α của B-I-69."
+    },
+    {
+      "source": "B-I-76",
+      "reason": "Nhận diện hàm lẻ cùng kiểu với A-I-32/B-I-18."
+    },
+    {
+      "source": "B-II-4",
+      "reason": "Suy sin/cos/tan/cot từ một giá trị trong góc phần tư III, gần B-II-3."
+    },
+    {
+      "source": "B-II-6",
+      "reason": "Cùng suy giá trị cơ bản và cos góc cộng, gần A-II-3."
+    },
+    {
+      "source": "B-II-11",
+      "reason": "Mô hình thủy triều gần B-II-7; giữ một câu đầy đủ bốn ý."
+    },
+    {
+      "source": "A-III-3",
+      "reason": "Trùng bài chu kì hệ số 100π của B-I-99; dấu/độ dời không đổi cách giải."
+    },
+    {
+      "source": "B-III-1",
+      "reason": "Tổng min/max hàm a·cos+b đã bao phủ bởi A-I-27/A-I-33; chỉ đổi cách lấy kết quả."
+    },
+    {
+      "source": "B-III-6",
+      "reason": "Cùng min/max căn của sin với B-I-6."
+    },
+    {
+      "source": "B-III-14",
+      "reason": "Cùng quy nhiều π về k·cot x với B-III-3."
+    },
+    {
+      "source": "B-III-17",
+      "reason": "Quãng đường/thời gian chuyển động tròn đã có đầy đủ trong ĐS A-II-2."
+    },
+    {
+      "source": "B-III-19",
+      "reason": "Thay thời điểm vào mô hình thủy triều đã có trong ĐS B-II-7."
+    },
+    {
+      "source": "B-III-24",
+      "reason": "Tìm thời điểm cực trị mô hình sin/cos được giữ trong các bài thực tế khác."
+    }
+  ],
+  "excluded_invalid": [
+    {
+      "source": "A-I-10",
+      "reason": "Các lựa chọn A, B, C đều cho số đo hợp lệ của một cung AN; câu hỏi không phân biệt một số đo với toàn bộ họ số đo."
+    },
+    {
+      "source": "A-I-13",
+      "reason": "M>0 nên cả lựa chọn A (M≥0) và B (M>0) đều đúng."
+    },
+    {
+      "source": "A-I-35",
+      "reason": "Các lựa chọn không biểu diễn đúng toàn bộ nghiệm của sin 2x = cos x; không tự sửa đề."
+    },
+    {
+      "source": "B-I-3",
+      "reason": "Lựa chọn A ghi kπ mà không xác định k; trùng lựa chọn π khi k=1. Không dùng để chấm một đáp án duy nhất."
+    },
+    {
+      "source": "B-I-7",
+      "reason": "Hai đáp án B và C tương đương modulo 2π, đều giải 2 cos x + √2 = 0."
+    },
+    {
+      "source": "B-I-27",
+      "reason": "Hai đáp án A và D tương đương modulo 2π, cùng đúng."
+    },
+    {
+      "source": "B-I-28",
+      "reason": "Hai họ điểm loại trừ A và B tương đương khi k chạy trên Z; có hai đáp án đúng."
+    },
+    {
+      "source": "B-I-52",
+      "reason": "Giả thiết sin α + cos α = 3/2 không thể xảy ra với α thực (giá trị lớn nhất là √2)."
+    },
+    {
+      "source": "B-I-53",
+      "reason": "Giả thiết sin x + cos x = 1/2 với 0<x<π/2 không thể xảy ra."
+    },
+    {
+      "source": "B-III-16",
+      "reason": "Cụm “Tổng GTLN - GTNN” không rõ yêu cầu tổng hay hiệu. Tổng = 6, hiệu = 4; không tự chọn cách hiểu."
+    },
+    {
+      "source": "A-I-12",
+      "reason": "Với π/2<α<π: sin(π+α)=−sinα<0; cot(π/2−α)=tanα<0; cos(−α)=cosα<0; tan(π+α)=tanα<0. Không có lựa chọn luôn dương. Đáp án B đang chấm là sai; loại câu khỏi quiz, không sửa nội dung nguồn."
+    },
+    {
+      "source": "A-I-34",
+      "reason": "Cả bốn hàm đều tuần hoàn với chu kỳ được nêu; 2π cũng là một chu kỳ của tan x (không phải chu kỳ cơ bản)."
+    }
+  ],
+  "notes": [
+    "Toàn bộ câu đúng/sai là một câu gồm đủ 4 ý a–d.",
+    "Toàn bộ trả lời ngắn dùng nhập số, phân số; chấp nhận số làm tròn 2 chữ số.",
+    "B-III-25/26/27 bổ sung từ trang 21 PDF giữa kì, không còn thiếu phần câu hỏi.",
+    "B-II-2 trùng nguyên A-II-2; chỉ giữ A-II-2.",
+    "B-I-77 đủ lựa chọn trong PDF nhưng gần câu ĐS A-II-3 về cos góc dịch từ sin và góc phần tư; không thêm.",
+    "Không giới hạn lại 50 câu; giữ ngân hàng sau lọc.",
+    "Giữ nguyên yêu cầu, dữ kiện và lựa chọn của PDF; không tự thay đáp án để sửa đề lỗi."
+  ]
+}

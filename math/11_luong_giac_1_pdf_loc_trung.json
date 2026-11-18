@@ -1,0 +1,284 @@
+{
+  "scope": "LG1 only; exclude LG2",
+  "existing": 50,
+  "keep": [
+    {
+      "topic": 1,
+      "source": "B-I-66",
+      "prompt": "Kết quả nào sai?",
+      "options": [
+        "$\\sin x+\\cos x=\\sqrt2\\sin(x+\\frac\\pi4)$",
+        "$\\sin x-\\cos x=-\\sqrt2\\cos(x+\\frac\\pi4)$",
+        "$\\sin2x+\\cos2x=\\sqrt2\\sin(2x-\\frac\\pi4)$",
+        "$\\sin2x+\\cos2x=\\sqrt2\\cos(2x-\\frac\\pi4)$"
+      ],
+      "answer": 2,
+      "html": "Kết quả nào sai?",
+      "optionsHtml": [
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x0002B;</mo><mi>cos</mi><mi>x</mi><mo>&#x0003D;</mo><msqrt><mn>2</mn></msqrt><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mi>x</mi><mo>&#x02212;</mo><mi>cos</mi><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><msqrt><mn>2</mn></msqrt><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>2</mn><mi>x</mi><mo>&#x0002B;</mo><mi>cos</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><msqrt><mn>2</mn></msqrt><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>x</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>2</mn><mi>x</mi><mo>&#x0002B;</mo><mi>cos</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><msqrt><mn>2</mn></msqrt><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>x</mi><mo>&#x02212;</mo><mfrac><mi>&#x003C0;</mi><mn>4</mn></mfrac><mo stretchy=\"false\">&#x00029;</mo></mrow></math>"
+      ],
+      "kind": "Thực hành",
+      "id": 67,
+      "verification": "√2sin(2x−π/4)=sin2x−cos2x, không phải tổng."
+    },
+    {
+      "topic": 1,
+      "source": "B-I-68",
+      "prompt": "Công thức nào sai?",
+      "options": [
+        "$\\cot2x=\\frac{\\cot^2x-1}{2\\cot x}$",
+        "$\\tan2x=\\frac{2\\tan x}{1+\\tan^2x}$",
+        "$\\cos3x=4\\cos^3x-3\\cos x$",
+        "$\\sin3x=3\\sin x-4\\sin^3x$"
+      ],
+      "answer": 1,
+      "html": "Công thức nào sai?",
+      "optionsHtml": [
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cot</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><msup><mi>cot</mi><mn>2</mn></msup><mi>x</mi><mo>&#x02212;</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>cot</mi><mi>x</mi></mrow></mfrac></mrow></math>",
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>tan</mi><mn>2</mn><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>2</mn><mi>tan</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>&#x0002B;</mo><msup><mi>tan</mi><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math>",
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>cos</mi><mn>3</mn><mi>x</mi><mo>&#x0003D;</mo><mn>4</mn><msup><mi>cos</mi><mn>3</mn></msup><mi>x</mi><mo>&#x02212;</mo><mn>3</mn><mi>cos</mi><mi>x</mi></mrow></math>",
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>sin</mi><mn>3</mn><mi>x</mi><mo>&#x0003D;</mo><mn>3</mn><mi>sin</mi><mi>x</mi><mo>&#x02212;</mo><mn>4</mn><msup><mi>sin</mi><mn>3</mn></msup><mi>x</mi></mrow></math>"
+      ],
+      "kind": "Thực hành",
+      "id": 69,
+      "verification": "Mẫu công thức tan2x là 1−tan²x, không phải 1+tan²x."
+    },
+    {
+      "topic": 1,
+      "source": "B-III-15",
+      "prompt": "Cho $A=\\cos(5\\pi-x)-\\sin(\\frac{3\\pi}2+x)+\\tan(\\frac{3\\pi}2-x)+\\cot(3\\pi-x)$ (các biểu thức có nghĩa). Tính $10A$.",
+      "options": [
+        "$0$",
+        "$10$",
+        "$-10$",
+        "$20$"
+      ],
+      "answer": 0,
+      "adapted": "Câu trả lời ngắn chuyển thành trắc nghiệm",
+      "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mi>cos</mi><mo stretchy=\"false\">&#x00028;</mo><mn>5</mn><mi>&#x003C0;</mi><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02212;</mo><mi>sin</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac><mo>&#x0002B;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mi>tan</mi><mo stretchy=\"false\">&#x00028;</mo><mfrac><mrow><mn>3</mn><mi>&#x003C0;</mi></mrow><mn>2</mn></mfrac><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mi>cot</mi><mo stretchy=\"false\">&#x00028;</mo><mn>3</mn><mi>&#x003C0;</mi><mo>&#x02212;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> (các biểu thức có nghĩa). Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>10</mn><mi>A</mi></mrow></math>.",
+      "optionsHtml": [
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn></mrow></math>",
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>10</mn></mrow></math>",
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>10</mn></mrow></math>",
+        "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>20</mn></mrow></math>"
+      ],
+      "kind": "Thực hành",
+      "id": 104,
+      "verification": "cos(5π−x)=−cosx; sin(3π/2+x)=−cosx; tan(3π/2−x)=cotx; cot(3π−x)=−cotx. Tổng 0. Kết quả: 0"
+    }
+  ],
+  "excluded_similar": [
+    {
+      "source": "A-I-5",
+      "reason": "Đổi radian sang độ là phép đổi ngược của LG1 câu 4, 5; không thêm dạng giải."
+    },
+    {
+      "source": "A-I-7",
+      "reason": "Công thức độ dài cung và radian đã có ở câu 3, 16."
+    },
+    {
+      "source": "A-I-8",
+      "reason": "Công thức độ dài cung và radian đã có ở câu 3, 16."
+    },
+    {
+      "source": "A-I-21",
+      "reason": "Nhận diện công thức góc đôi; cùng nhóm nhận diện và vận dụng công thức góc đôi đang có."
+    },
+    {
+      "source": "A-I-22",
+      "reason": "Bộ lựa chọn góc đôi/hạ bậc gần câu 15, 43; phần công thức góc ba giữ trong B-I-68 để tránh thêm hai bộ cùng nhóm."
+    },
+    {
+      "source": "A-II-1 a",
+      "reason": "Vị trí/cùng điểm biểu diễn trên đường tròn: đổi số hoặc góc phần tư, gần câu 6, 7."
+    },
+    {
+      "source": "A-II-1 b",
+      "reason": "Vị trí/cùng điểm biểu diễn trên đường tròn: đổi số hoặc góc phần tư, gần câu 6, 7."
+    },
+    {
+      "source": "A-II-1 d",
+      "reason": "Vị trí/cùng điểm biểu diễn trên đường tròn: đổi số hoặc góc phần tư, gần câu 6, 7."
+    },
+    {
+      "source": "A-II-2 a",
+      "reason": "Chuyển động tròn đều: cùng công thức góc/quãng đường/thời gian đã có trong câu 17, 19, 50; gộp các ý cùng tình huống."
+    },
+    {
+      "source": "A-II-2 b",
+      "reason": "Chuyển động tròn đều: cùng công thức góc/quãng đường/thời gian đã có trong câu 17, 19, 50; gộp các ý cùng tình huống."
+    },
+    {
+      "source": "A-II-2 c",
+      "reason": "Chuyển động tròn đều: cùng công thức góc/quãng đường/thời gian đã có trong câu 17, 19, 50; gộp các ý cùng tình huống."
+    },
+    {
+      "source": "A-II-2 d",
+      "reason": "Chuyển động tròn đều: cùng công thức góc/quãng đường/thời gian đã có trong câu 17, 19, 50; gộp các ý cùng tình huống."
+    },
+    {
+      "source": "A-II-3 a",
+      "reason": "Cùng suy giá trị lượng giác bằng hệ thức cơ bản, dấu góc phần tư, rồi công thức cộng; đã có câu 21–24, 38–42."
+    },
+    {
+      "source": "A-II-3 b",
+      "reason": "Cùng suy giá trị lượng giác bằng hệ thức cơ bản, dấu góc phần tư, rồi công thức cộng; đã có câu 21–24, 38–42."
+    },
+    {
+      "source": "A-II-3 d",
+      "reason": "Cùng suy giá trị lượng giác bằng hệ thức cơ bản, dấu góc phần tư, rồi công thức cộng; đã có câu 21–24, 38–42."
+    },
+    {
+      "source": "A-II-4 a",
+      "reason": "Cùng suy giá trị lượng giác bằng hệ thức cơ bản, dấu góc phần tư, rồi công thức cộng; đã có câu 21–24, 38–42."
+    },
+    {
+      "source": "A-II-4 b",
+      "reason": "Cùng suy giá trị lượng giác bằng hệ thức cơ bản, dấu góc phần tư, rồi công thức cộng; đã có câu 21–24, 38–42."
+    },
+    {
+      "source": "A-II-4 c",
+      "reason": "Cùng suy giá trị lượng giác bằng hệ thức cơ bản, dấu góc phần tư, rồi công thức cộng; đã có câu 21–24, 38–42."
+    },
+    {
+      "source": "A-II-4 d",
+      "reason": "Cùng suy giá trị lượng giác bằng hệ thức cơ bản, dấu góc phần tư, rồi công thức cộng; đã có câu 21–24, 38–42."
+    },
+    {
+      "source": "B-I-35",
+      "reason": "Đổi đơn vị góc, chỉ thay số so với câu 4, 5."
+    },
+    {
+      "source": "B-I-38",
+      "reason": "Đổi độ sang radian, chỉ thay số so với câu 4, 5."
+    },
+    {
+      "source": "B-I-43",
+      "reason": "Các hệ thức góc liên quan đặc biệt đã kiểm tra trong câu 11, 25, 48."
+    },
+    {
+      "source": "B-I-44",
+      "reason": "Góc phụ và góc hơn kém π/2: cùng nội dung câu 25, 48."
+    },
+    {
+      "source": "B-I-45",
+      "reason": "Góc đối/bù/hơn kém π: gần câu 11 và các phép rút gọn hiện tại."
+    },
+    {
+      "source": "B-I-47",
+      "reason": "Góc đối: gần câu 11 (B-I-46)."
+    },
+    {
+      "source": "B-I-49",
+      "reason": "Từ sin và góc phần tư suy ra cos/tan/cot: cùng dạng câu 21, 22, 23."
+    },
+    {
+      "source": "B-I-59",
+      "reason": "Nhận diện công thức cộng và cos2α: phần lớn đã có trong câu 12, 15, 32."
+    },
+    {
+      "source": "B-I-64",
+      "reason": "Khai triển cos(α+π/3), chính là bước giải trong câu 40, 42."
+    },
+    {
+      "source": "B-I-67",
+      "reason": "Góc đôi/hạ bậc đã có ở câu 15, 43."
+    },
+    {
+      "source": "B-I-70",
+      "reason": "Lặp các lựa chọn công thức cos2α của câu 15."
+    },
+    {
+      "source": "B-I-71",
+      "reason": "Lặp các lựa chọn công thức cos2α của câu 15."
+    },
+    {
+      "source": "B-II-1 a",
+      "reason": "Vị trí/cùng điểm biểu diễn trên đường tròn: đổi số hoặc góc phần tư, gần câu 6, 7."
+    },
+    {
+      "source": "B-II-1 b",
+      "reason": "Vị trí/cùng điểm biểu diễn trên đường tròn: đổi số hoặc góc phần tư, gần câu 6, 7."
+    },
+    {
+      "source": "B-II-1 c",
+      "reason": "Vị trí/cùng điểm biểu diễn trên đường tròn: đổi số hoặc góc phần tư, gần câu 6, 7."
+    },
+    {
+      "source": "B-II-3 a",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-3 b",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-3 d",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-4 a",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-4 b",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-4 c",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-5 a",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-5 b",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-5 c",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-6 a",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-6 b",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-6 c",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-8 a",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-8 c",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-II-8 d",
+      "reason": "Cùng tình huống với câu đúng/sai đã lấy một ý trong LG1; các ý khác tiếp tục dùng cùng hệ thức cơ bản, xét dấu hoặc góc đôi. Không thêm lại cả tình huống."
+    },
+    {
+      "source": "B-III-2",
+      "reason": "Từ cos x tính cos²x và sin²x; câu 10 đã tính cùng dữ kiện cos x = 1/2."
+    },
+    {
+      "source": "B-III-14",
+      "reason": "Quy góc hơn kém nhiều π về cot x; gần câu 48."
+    },
+    {
+      "source": "B-III-17",
+      "reason": "Đổi quãng đường/thời gian từ chu vi và số vòng; cùng phép tính cơ bản với câu 50."
+    }
+  ],
+  "threshold": "qualitative semantic 70%, not measured score"
+}

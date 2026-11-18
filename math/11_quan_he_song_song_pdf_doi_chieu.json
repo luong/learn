@@ -1,0 +1,436 @@
+{
+  "reviewed_pages": 47,
+  "existing_count": 46,
+  "new_mcq": [
+    1,
+    31,
+    32,
+    33,
+    34,
+    40,
+    41,
+    42,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    88,
+    89,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
+  ],
+  "new_truefalse": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    29,
+    30
+  ],
+  "expanded_truefalse": [
+    27
+  ],
+  "new_short": [
+    10,
+    11,
+    12
+  ],
+  "candidates": [
+    {
+      "kind": "TN",
+      "number": 1,
+      "pages": [
+        2
+      ],
+      "text": "Câu 1: Cho hình lăng trụ ABC . A.B C  Gọi H  là trung điểm của A.B  Mặt phẳng ( AHC ) song song với\nđường thẳng nào sau đây?\n  A. BA.               B. BB.              C. BC .              D. CB.\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 31,
+      "pages": [
+        5
+      ],
+      "text": "Câu 31: Cho hình chóp .S ABCD . Gọi I là trung điểm của SD, J là điểm trên cạnh SC và J không trùng với\ntrung điểm SC. Giao tuyến của hai mặt phẳng (ABCD) và (AIJ) là:\n  A. AK (K là giao điểm của IJ và BC).           B. AH (H là giao điểm của IJ và AB).\n  C. AG (G là giao điểm của IJ và AD).          D. AF (F là giao điểm của IJ và CD).\n"
+    },
+    {
+      "kind": "TN",
+      "number": 32,
+      "pages": [
+        5
+      ],
+      "text": "Câu 32: Cho hình chóp S.ABCD có đáy là hình thang ABCD ( AD / / BC ) . Gọi M là trung điểm CD. Giao\ntuyến của hai mặt phẳng (MSB) và (SAC) là\n  A. SI (I là giao điểm của AC và BM).           B. SJ (J là giao điểm của AM và BD).\n  C. SO (O là giao điểm của AC và BD).         D. SP (P là giao điểm của AB và CD).\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 33,
+      "pages": [
+        5,
+        6
+      ],
+      "text": "Câu 33: Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Gọi M, N lần lượt là trung điểm của AD\nvà BC. Giao tuyến của hai mặt phẳng (SMN) và (SAC) là:\n  A. SD.                                      B. SO (O là tâm hình bình hành ABCD).\n\n                                                                                              5\n\n=== PDF PAGE 6 ===\n  C. SG (G là trung điểm AB).                  D. SF (F là trung điểm CD).\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 34,
+      "pages": [
+        6
+      ],
+      "text": "Câu 34: Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Gọi I và J lần lượt là trung điểm của SA\nvà SB. Khẳng định nào sau đây là sai?\n  A. IJCD là hình thang.                        B. ( SAB )  ( IBC ) = IB .\n  C. ( SBD )  ( JCD ) = JD .                    D. ( IAC )  ( JBD ) = AO (O là tâm ABCD).\n          \n"
+    },
+    {
+      "kind": "TN",
+      "number": 40,
+      "pages": [
+        6
+      ],
+      "text": "Câu 40: Cho hình chóp S.ABCD đáy là hình bình hành. Gọi M, N, P lần lượt là trung điểm của các cạnh\nAB , AD , SC . Khi đó thiết diện do mặt phẳng (MNP) cắt hình chóp là hình gì?\n  A. Hình tam giác.      B. Hình tứ giác.        C. Hình ngũ giác.      D. Hình lục giác.\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 41,
+      "pages": [
+        6
+      ],
+      "text": "Câu 41: Cho tứ diện ABCD. Gọi G, G’ tương ứng là trọng tâm các tam giác BCD , BCA . Khi đó ta có thể kết\nluận được gì về hai đường thẳng AG và DG’?\n   A. Cắt nhau tại một điểm.\n   B. Cùng thuộc một mặt phẳng.\n   C. Cùng thuộc một mặt phẳng và không cắt nhau.\n   D. Không cùng thuộc một mặt phẳng.\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 42,
+      "pages": [
+        6
+      ],
+      "text": "Câu 42: Cho tứ diện ABCD Gọi G là trọng tâm của tam giác BCD Giao tuyến của mặt phẳng (ACD) và\n(GAB) là\n   A. AM (là trung điểm của AB).                  B. AN (N là trung điểm của CD).\n   C. AH (H là hình chiếu của B trên CD).          D. AK (K là hình chiếu của C trên BD).\n"
+    },
+    {
+      "kind": "TN",
+      "number": 79,
+      "pages": [
+        10
+      ],
+      "text": "Câu 79: Cho tứ diện ABCD Gọi M, N lần lượt là trung điểm của AC, CD Giao tuyến của hai mặt phẳng\n(MBD) và (ABN) là:\n    A. đường thẳng MN.\n    B. đường thẳng AM.\n    C. đường thẳng BG (G là trọng tâm tam giác ACD).\n    D. đường thẳng AH (H là trực tâm tam giác ACD).\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 80,
+      "pages": [
+        10
+      ],
+      "text": "Câu 80: Cho tứ diện ABCD Gọi E và F lần lượt là trung điểm của AB và CD; G là trọng tâm tam giác BCD\nGiao điểm của đường thẳng EG và mặt phẳng (ACD) là\n    A. điểm F.                                    B. giao điểm của đường thẳng EG và AF.\n    C. giao điểm của đường thẳng EG và AC.        D. giao điểm của đường thẳng EG và CD.\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 81,
+      "pages": [
+        10
+      ],
+      "text": "Câu 81: Cho tứ diện ABCD . Các điểm M , N lần lượt là trung điểm BD , AD . Các điểm H , G lần lượt là\ntrọng tâm các tam giác BCD ; ACD . Đường thẳng HG chéo với đưởng thẳng nào sau đây?\n  A. MN .              B. CD .               C. CN .              D. AB .\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 82,
+      "pages": [
+        10
+      ],
+      "text": "Câu 82: Cho hình chóp .S ABCD có đáy là hình thang đáy lớn là CD . Gọi M  là trung điểm của cạnh SA ,\nN  là giao điểm của cạnh SB và mặt phẳng ( MCD ) . Mệnh đề nào sau đây là mệnh đề đúng?\n    A. MN và SD cắt nhau.                       B. MN  CD .\n    C. MN và SC cắt nhau.                      D. MN và CD chéo nhau.\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 83,
+      "pages": [
+        10
+      ],
+      "text": "Câu 83: Cho tứ diện ABCD . Gọi  I và J theo thứ tự là trung điểm của AD và AC , G  là trọng tâm tam\ngiác BCD . Giao tuyến của hai mặt phẳng ( GIJ ) và ( BCD ) là đường thẳng:\n    A. qua I và song song với AB .                 B. qua J và song song với BD .\n    C. qua G và song song với CD .                D. qua G và song song với BC .\n"
+    },
+    {
+      "kind": "TN",
+      "number": 84,
+      "pages": [
+        10
+      ],
+      "text": "Câu 84: Gọi G là trọng tâm tứ diện ABCD . Giao tuyến của mặt phẳng ( ABG ) và mặt phẳng ( CDG ) là\n    A. Đường thẳng đi qua trung điểm hai cạnh BC và AD .\n    B. Đường thẳng đi qua trung điểm hai cạnh AB và CD .\n    C. Đường thẳng đi qua trung điểm hai cạnh AC và BD .\n    D. Đường thẳng CG .\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 85,
+      "pages": [
+        10
+      ],
+      "text": "Câu 85: Cho hình chóp .S ABCD có đáy ABCD là một hình thang với đáy AD và BC . Biết AD = a , BC = b\n. Gọi  I và J lần lượt là trọng tâm các tam giác SAD và SBC . Mặt phẳng ( ADJ ) cắt SB , SC lần lượt tại\nM , N . Mặt phẳng ( BCI ) cắt SA, SD tại P , Q . Khẳng định nào sau đây là đúng?\n    A. MN song song với PQ .                     B. MN chéo với PQ .\n    C. MN cắt với PQ .                         D. MN trùng với PQ .\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 86,
+      "pages": [
+        10,
+        11
+      ],
+      "text": "Câu 86: Cho tứ diện ABCD , gọi  I và J lần lượt là trung điểm của AD và BC , G là trọng tâm tam giác\nBCD . Giao tuyến của hai mặt phẳng ( GIJ ) và ( BCD ) là đường thẳng\n    A. qua I và song song với AB .                 B. qua J và song song với BD .\n                                                                                             10\n\n=== PDF PAGE 11 ===\n    C. qua G và song song với CD .               D. qua G và song song với BC\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 88,
+      "pages": [
+        11
+      ],
+      "text": "Câu 88: Cho tứ diện ABCD , G là trọng tâm  ABD và M  là điểm trên cạnh BC sao cho BM = 2 MC . Đường\nthẳng MG song song với mặt phẳng\n    A. ( ACD ).          B. ( ABC ).              C. ( ABD ).         D. ( BCD .)\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 89,
+      "pages": [
+        11
+      ],
+      "text": "Câu 89: Cho hình chóp SABCD có đáy là hình bình hành. M , N lần lượt là trung điểm của SC và SD .\nMệnh đề nào sau đây là đúng?\n    A. MN / / ( SBD ) .     B. MN / / ( SAB ) .         C. MN / / ( SAC )     D. MN / / ( SCD ) .\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 91,
+      "pages": [
+        11
+      ],
+      "text": "Câu 91: Cho hai hình bình hành ABCD và ABEF không cùng nằm trong một mặt phẳng. Gọi O , O1 lần\nlượt là tâm của ABCD , ABEF và M  là trung điểm của CD . Khẳng định nào sau đây sai?\n    A. OO1 // ( BEC ) .    B. OO1 // ( AFD ) .        C. OO1 // ( EFM ) .      D. MO1 cắt ( BEC ) .\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 92,
+      "pages": [
+        11
+      ],
+      "text": "Câu 92: Cho hình hộp ABCD. A.B C D  Mệnh đề nào sau đây sai?\n    A. ( ACD  ) // ( AC B ) .                        B. ( ABB A ) // ( CDD .C )\n    C. ( BDA ) // ( D B C ) .                       D. ( BAD ) // ( ADC ) .\n"
+    },
+    {
+      "kind": "TN",
+      "number": 93,
+      "pages": [
+        11
+      ],
+      "text": "Câu 93: Cho hình hộp ABCD. A.B C D  Mặt phẳng ( AB D ) song song với mặt phẳng nào sau đây?\n    A. ( BA.C )          B. ( C BD ) .             C. ( BDA.)          D. ( ACD.)\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 94,
+      "pages": [
+        11
+      ],
+      "text": "Câu 94: Cho hình lăng trụ ABC . A.B C  Gọi I , J , K lần lượt là trọng tâm tam giác ABC , ACC, AB .C\nMặt phẳng nào sau đây song song với ( IJK ) ?\n    A. ( BCA ) .          B. ( AA B ) .              C. ( BB C ) .         D. ( CC A ) .\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 95,
+      "pages": [
+        11
+      ],
+      "text": "Câu 95: Cho hình chóp .S ABCD có đáy ABCD là hình bình hành tâm O . Gọi M , N , P theo thứ tự là\ntrung điểm của SA , SD và AB . Khẳng định nào sau đây đúng?\n    A. ( NMP ) // ( SBD ) .                          B. ( NOM ) cắt ( OPM ) .\n    C. ( MON ) // ( SBC ) .                         D. ( PON )  ( MNP ) = NP .\n\n"
+    },
+    {
+      "kind": "TN",
+      "number": 96,
+      "pages": [
+        11
+      ],
+      "text": "Câu 96: Cho hình chóp .S ABCD , có đáy ABCD là hình bình hành tâm O . Gọi M , N lần lượt là trung điểm\nSA, SD . Mặt phẳng ( OMN ) song song với mặt phẳng nào sau đây?\n    A. ( SBC ) .           B. ( SCD ) .              C. ( ABCD ) .        D. ( SAB ) .\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 17,
+      "pages": [
+        15,
+        16
+      ],
+      "text": "Câu 17: Cho hình bình hành ABCD và một điểm S không thuộc mặt phẳng (ABCD), các điểm M N, lần lượt\nlà trung điểm của đoạn thẳng AB, CD. Gọi O = AC  BD .\nCác mệnh đề sau đúng hay sai?\n                                                                                             15\n\n=== PDF PAGE 16 ===\n     Mệnh đề                                                  Đúng   Sai\n a)   SO giao tuyến của hai mặt phẳng (SAC) và (SBD).\n b)    Giao điểm của I của đường thẳng AN và mặt phẳng (SBD) là điểm nằm trên\n      đường thẳng SO.\n c)    Giao điểm của J của đường thẳng MN và mặt phẳng (SBD) là điểm nằm trên\n      đường thẳng SD.\n d)   Ba điểm I, J, B thẳng hàng.\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 18,
+      "pages": [
+        16
+      ],
+      "text": "Câu 18: Cho tứ diện ABCD. Gọi M là điểm trên cạnh AB N, là điểm thuộc cạnh AC sao cho MN không song\nsong với BC. Gọi P là điểm nằm trong BCD . Khi đó:\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)   MN = ( MNP )  (ABC) .\n b)    Giao tuyến của hai mặt phẳng (MNP), (BCD) là đường thẳng cắt BC.\n c)    Giao tuyến của hai mặt phẳng (MNP), (BCD) là đường thẳng cắt AB và DC.\n d)    Giao tuyến của hai mặt phẳng (MNP), (ACD) là đường thẳng cắt AB và DC.\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 19,
+      "pages": [
+        16
+      ],
+      "text": "Câu 19: Cho hình chóp S.ABCD có đáy là hình bình hành. Gọi M là trung điểm của SC. Gọi I giao điểm của\nđường thẳng AM và mặt phẳng (SBD). Khi đó\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)   AM  SO = I .\n b)    IA = 3 IM .\n c)    Giao điểm E của đường thẳng SD và mặt phẳng ( ) ABM là điểm thuộc đường\n       thẳng BI.\n d)   Gọi N là một điểm tuỳ ý trên cạnh AB. Khi đó giao điểm của đường thẳng MN\n       và mặt phẳng (SBD) là điểm thuộc giao tuyến của hai mặt phẳng (SBD), (SNC).\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 20,
+      "pages": [
+        16
+      ],
+      "text": "Câu 20: Cho hình chóp S.ABCD có đáy là hình bình hành. Khi đó:\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)   AB song song CD.\n b)   SA cắt SC.\n c)   SA song song BC.\n d)   SC chéo nhau AB.\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 21,
+      "pages": [
+        16
+      ],
+      "text": "Câu 21: Cho hình chóp S.ABCD có đáy là hình bình hành. Điểm M thuộc cạnh SA, điểm E và F lần lượt là\ntrung điểm của AB và BC. Khi đó:\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)   EF / /AC .\n b)    Giao tuyến của hai mặt phẳng (SAB) và (SCD) là đường thẳng qua S và song\n       song với AC.\n c)    Giao tuyến của hai mặt phẳng (MBC) và (SAD) đường thẳng qua M và song song\n       với BC .\n d)    Giao tuyến của hai mặt phẳng (MEF) và (SAC) là đường thẳng qua M và song\n       song với AC .\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 22,
+      "pages": [
+        16,
+        17
+      ],
+      "text": "Câu 22: Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Khi đó:\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)    Giao tuyến của (SAB) và (SCD) là đường thẳng đi qua S và song song với AB.\n b)    Giao tuyến (SAD) và (SBC) là đường thẳng đi qua S và song song với AB.\n c)    Gọi M  SC , giao tuyến của (ABM) và (SCD) là đường thẳng đi qua M và song\n       song với AB.\n d)   Gọi N  SB , giao tuyến của (SAB) và (NCD) là đường thẳng đi qua N và song\n       song với AB.\n\n                                                                                             16\n\n=== PDF PAGE 17 ===\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 23,
+      "pages": [
+        17
+      ],
+      "text": "Câu 23: Cho hình chóp S ABCD. có đáy ABCD là hình bình hành tâm O. Gọi M N, lần lượt là trung điểm\ncác cạnh AB và CD, P là trung điểm cạnh SA. Khi đó:\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)   MN / /(SBC) .\n b)   MN / /(SAD) .\n c)   SB cắt với mặt phẳng (MNP).\n d)   SC cắt với mặt phẳng (MNP).\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 24,
+      "pages": [
+        17
+      ],
+      "text": "Câu 24: Cho hình chóp S ABCD. đáy ABCD là hình bình hành. Gọi I J, lần lượt là trọng tâm của tam giác\nSAB và SCD. Lấy E, F lần lượt là trung điểm của AB và CD. Khi đó\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)    SJ   2\n         =    .\n      SF   3\n b)     IJ / /( ABCD ) .\n c)   BC song song với mặt phẳng (SAD), (SEF).\n d)   BC cắt mặt phẳng (AIJ).\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 25,
+      "pages": [
+        17
+      ],
+      "text": "Câu 25: Cho hình chóp S.ABC. Gọi I J, lần lượt là trung điểm của AB và BC. Gọi H K, lần lượt là trọng tâm\ncủa SAB và SBC . Khi đó\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)   AC / /( SIJ ) .\n b)  HK cắt IJ.\n c)   HK / /( SAC ) .\n d)    Giao tuyến của (BHK) và (ABC) là đường thẳng đi qua điểm B và song song với\n      AC.\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 26,
+      "pages": [
+        17
+      ],
+      "text": "Câu 26: Cho hình chóp S.ABCD có đáy ABCD là hình chữ nhật tâm O. Gọi G là trọng tâm tam giác SAD và\nE là điểm trên cạnh DC sao cho DC = 3DE, I là trung điểm AD. Khi đó\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)   OI song song với mặt phẳng (SAB).\n b)   OI song song với mặt phẳng (SCD).\n c)    IE song song với AC.\n d)   GE / /( SBC ) .\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 29,
+      "pages": [
+        18
+      ],
+      "text": "Câu 29: Cho hình hộp ABCD. A’B’C’D’. Gọi G1 , G2 là trọng tâm của các tam giác ABC.A’B’C’. Khi đó:\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)   A’D’CB là hình bình hành.\n b)   (A’BD) // (B’D’C).\n c)   G1 , G2 cùng thuộc AC’.\n d)          2\n    G1G2 =  AC .\n            3\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 30,
+      "pages": [
+        18
+      ],
+      "text": "Câu 30: Cho hình chóp S.ABCD có đáy ABCD là hình bình hành tâm O . Gọi M N, lần lượt là trung điểm\ncủa SA và SD. Khi đó:\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)  ON chéo nhau với SB.\n b)   (OMN) // (SBC).\n c)    Gọi P và Q là trung điểm của AB và ON. Khi đó PQ cắt (SBC).\n d)   Gọi R là trung điểm AD. Khi đó (MOR) // (SCD).\n\n"
+    },
+    {
+      "kind": "ĐS",
+      "number": 27,
+      "pages": [
+        17
+      ],
+      "text": "Câu 27: Cho lăng trụ tam giác ABC.A’B’C’ có I, K, G lần lượt là trọng tâm các tam giác ABC, A’B’C’,\nACC’. Gọi M, M, N lần lượt là trung điểm của BC, B’C’, CC’. Khi đó:\nCác mệnh đề sau đúng hay sai?\n     Mệnh đề                                                  Đúng   Sai\n a)   AMM’A’ là hình bình hành.\n b)     AI  AG  1\n          =    =    .\n     AM  AN  3\n c)      ( IKG ) cắt (BCC’B’).\n d)   (A’KG) // (AIB’).\n"
+    },
+    {
+      "kind": "TLN",
+      "number": 10,
+      "pages": [
+        19
+      ],
+      "text": "Câu 10: Cho hình chóp tứ giác .S ABCD , gọi O là giao điểm của hai đường chéo AC và BD . M , P lần lượt\nlà trung điểm SA và SC , một mặt phẳng (qua)   MP cắt SB , SD lần lượt tại N và Q  . Gọi  I  là giao điểm\n                          SI\nMP và NQ , khi đó tỉ số    bằng?\n                     IO\n                                                    Trả lời: ………………………………\n"
+    },
+    {
+      "kind": "TLN",
+      "number": 11,
+      "pages": [
+        19
+      ],
+      "text": "Câu 11: Cho tứ diện ABCD. Gọi M , N , I lần lượt là trung điểm của các cạnh CD , AC , BD. G là trung điểm\n                                        FANI . Giả sử giao điểm của GM và ( ABD ) là F . Tính tỉ số    ?\n                                        FB\n\n                                                    Trả lời: ………………………………\n"
+    },
+    {
+      "kind": "TLN",
+      "number": 12,
+      "pages": [
+        19
+      ],
+      "text": "Câu 12: Cho tứ diện ABCD . Các điểm P , Q lần lượt là trung điểm của AB và CD ; điểm R nằm trên cạnh\n                                                            SABC sao cho BR = 2 RC . Gọi S là giao điểm của ( PQR ) và cạnh AD . Tính tỉ số        .\n                                                      SD\n                                                    Trả lời: ………………………………\n"
+    }
+  ],
+  "mcq_semantic_review": {
+    "method": "Rà ngữ nghĩa theo hình, dữ kiện, yêu cầu và bước giải; 70% là ngưỡng biên tập định tính, không phải điểm tương đồng được đo chính xác. Không loại chỉ vì cùng chủ đề.",
+    "keep": [
+      1,
+      31,
+      32,
+      33,
+      34,
+      40,
+      41,
+      42,
+      79,
+      80,
+      81,
+      83,
+      84,
+      85,
+      88,
+      92,
+      94,
+      96
+    ],
+    "skip": {
+      "82": "Gần TN-15 hiện tại: cùng hình thang, hai trung điểm trên SA/SB và kết luận MN song song CD; N chỉ được mô tả qua giao mặt phẳng.",
+      "86": "Gần câu 83 trong nhóm: hầu như giữ toàn bộ đề và phương án, chỉ đổi J từ AC sang BC; bản 86 còn có phương án không khớp.",
+      "89": "Gần nhóm TN-22/TN-28 hiện tại về đường nối hai trung điểm cạnh bên song song mặt phẳng; đổi cặp cạnh và mặt phẳng đích, vẫn cùng thao tác đường trung bình.",
+      "91": "Gần ĐS-5 hiện tại: cùng hai hình bình hành, hai tâm, các khẳng định OO′ song song/cắt các mặt phẳng; phần lớn nội dung hỏi đã có.",
+      "93": "Gần câu 92 trong nhóm về hai mặt phẳng chéo song song của hình hộp; chuyển một quan hệ trong bài nhiều mệnh đề thành câu hỏi tìm mặt phẳng.",
+      "95": "Gần câu 96 trong nhóm: cùng S.ABCD, tâm O, M/N trung điểm SA/SD; phương án C chính là kết luận của câu 96. Giữ 96 vì rõ và không bị nhiều đáp án đúng như 95."
+    }
+  },
+  "remaining_semantic_review": {
+    "new_truefalse_keep": [
+      17,
+      18,
+      20,
+      21,
+      24,
+      25,
+      26,
+      29,
+      30
+    ],
+    "new_truefalse_skip": {
+      "19": "Gần ĐS-4 hiện tại: cùng M trên SC, đường AM cắt SO/mặt phẳng SBD, rồi xác định giao điểm SD với ABM. Có ý tỉ số mới nhưng phần chính cùng cấu hình và thao tác.",
+      "22": "Gần TN-1/TN-11 hiện tại: giao tuyến các mặt bên đối diện của hình chóp đáy hình bình hành. Các ý mới chủ yếu dịch điểm chung từ S sang M/N, vẫn lặp cách dựng song song AB.",
+      "23": "Gần TN-16 hiện tại: cùng ba trung điểm AB, CD, SA và mặt phẳng qua ba điểm; tiếp tục hỏi các đường thẳng song song/cắt mặt phẳng đó."
+    },
+    "short_keep": [
+      10,
+      11
+    ],
+    "short_skip": {
+      "12": "Gần TLN-5 hiện tại sau đổi tên đỉnh: tứ diện, hai trung điểm hai cạnh đối diện và điểm chia một cạnh theo tỉ lệ, lấy giao điểm mặt phẳng với cạnh còn lại rồi tính tỉ số. Khác tỉ lệ và cách viết kết quả, cùng nội dung giải."
+    },
+    "expanded_truefalse": 27,
+    "caution": "70% là ngưỡng biên tập định tính; các câu bị bỏ vẫn có một số ý hoặc số liệu khác, không phải trùng nguyên văn."
+  }
+}

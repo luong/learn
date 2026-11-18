@@ -1,0 +1,1363 @@
+{
+  "topic": {
+    "title": "Dãy số, CSC, CSN",
+    "questions": [
+      {
+        "id": 1,
+        "source": "CK-CH3-I-1",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ biết $u_n=\\frac{2^{n-1}+1}{n}$. Số hạng thứ 10 là:",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><msup><mn>2</mn><mrow><mi>n</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msup><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>. Số hạng thứ 10 là:",
+        "options": [
+          "51,1",
+          "51,2",
+          "51,3",
+          "102,3"
+        ],
+        "optionsHtml": [
+          "51,1",
+          "51,2",
+          "51,3",
+          "102,3"
+        ],
+        "answer": 2,
+        "verification": "(512+1)/10=51.3"
+      },
+      {
+        "id": 2,
+        "source": "CK-CH3-I-2",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ biết $u_n=(-1)^{n+1}\\sqrt{n+1}$. Mệnh đề nào sau đây là đúng?",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mn>1</mn><msup><mo stretchy=\"false\">&#x00029;</mo><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msup><msqrt><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msqrt></mrow></math>. Mệnh đề nào sau đây là đúng?",
+        "options": [
+          "$u_8=-\\sqrt8$",
+          "$u_8=\\sqrt8$",
+          "$u_8=-3$",
+          "$u_8=3$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>8</mn></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><msqrt><mn>8</mn></msqrt></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>8</mn></msub><mo>&#x0003D;</mo><msqrt><mn>8</mn></msqrt></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>8</mn></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>3</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>8</mn></msub><mo>&#x0003D;</mo><mn>3</mn></mrow></math>"
+        ],
+        "answer": 2,
+        "verification": ""
+      },
+      {
+        "id": 3,
+        "source": "CK-CH3-I-3",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số cộng $(u_n)$ thỏa mãn $\\begin{cases}u_3+u_5=20\\\\u_4+u_6=25\\end{cases}$ có công sai là:",
+        "html": "Cho cấp số cộng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> thỏa mãn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>3</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mn>5</mn></msub><mo>&#x0003D;</mo><mn>20</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>4</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mn>6</mn></msub><mo>&#x0003D;</mo><mn>25</mn></mtd></mtr></mtable></mrow></mrow></math> có công sai là:",
+        "options": [
+          "$d=\\frac52$",
+          "$d=5$",
+          "$d=2$",
+          "$d=\\frac25$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mn>5</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math>"
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 4,
+        "source": "CK-CH3-I-4",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ xác định bởi $\\begin{cases}u_1=4\\\\u_{n+1}=u_n+n\\end{cases}$. Năm số hạng đầu của dãy số là:",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> xác định bởi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>4</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0002B;</mo><mi>n</mi></mtd></mtr></mtable></mrow></mrow></math>. Năm số hạng đầu của dãy số là:",
+        "options": [
+          "4; 5; 6; 7; 8",
+          "4; 16; 32; 64; 128",
+          "4; 6; 9; 13; 18",
+          "4; 5; 7; 10; 14"
+        ],
+        "optionsHtml": [
+          "4; 5; 6; 7; 8",
+          "4; 16; 32; 64; 128",
+          "4; 6; 9; 13; 18",
+          "4; 5; 7; 10; 14"
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 5,
+        "source": "CK-CH3-I-6",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Dãy số $(u_n)$, $\\forall n\\in\\mathbb N^*$ nào sau đây là dãy số tăng?",
+        "html": "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02200;</mo><mi>n</mi><mo>&#x02208;</mo><msup><mi mathvariant=\"double-struck\">N</mi><mo>&#x0002A;</mo></msup></mrow></math> nào sau đây là dãy số tăng?",
+        "options": [
+          "$u_n=2n-3$",
+          "$u_n=3^{-n}+1$",
+          "$u_n=\\cos n$",
+          "$u_n=\\frac{n+2}{n+1}$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mn>2</mn><mi>n</mi><mo>&#x02212;</mo><mn>3</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><msup><mn>3</mn><mrow><mo>&#x02212;</mo><mi>n</mi></mrow></msup><mo>&#x0002B;</mo><mn>1</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mi>cos</mi><mi>n</mi></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>2</mn></mrow><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></mfrac></mrow></math>"
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 6,
+        "source": "CK-CH3-I-7",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Dãy số $(u_n)$, $\\forall n\\in\\mathbb N^*$ nào sau đây là dãy số giảm?",
+        "html": "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02200;</mo><mi>n</mi><mo>&#x02208;</mo><msup><mi mathvariant=\"double-struck\">N</mi><mo>&#x0002A;</mo></msup></mrow></math> nào sau đây là dãy số giảm?",
+        "options": [
+          "$u_n=n^2$",
+          "$u_n=\\sqrt{n+1}$",
+          "$u_n=\\frac{n^2+1}{n}$",
+          "$u_n=\\frac1{2^n}$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><msup><mi>n</mi><mn>2</mn></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><msqrt><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msqrt></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mn>1</mn><mrow><msup><mn>2</mn><mi>n</mi></msup></mrow></mfrac></mrow></math>"
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 7,
+        "source": "CK-CH3-I-8",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ biết $u_n=2n-1$. Mệnh đề nào sau đây là đúng?",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mn>2</mn><mi>n</mi><mo>&#x02212;</mo><mn>1</mn></mrow></math>. Mệnh đề nào sau đây là đúng?",
+        "options": [
+          "Dãy số $(u_n)$ là dãy số bị chặn trên bởi 1.",
+          "Dãy số $(u_n)$ là dãy số bị chặn dưới bởi 2.",
+          "Dãy số $(u_n)$ là dãy số giảm.",
+          "Dãy số $(u_n)$ là dãy số tăng."
+        ],
+        "optionsHtml": [
+          "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số bị chặn trên bởi 1.",
+          "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số bị chặn dưới bởi 2.",
+          "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số giảm.",
+          "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số tăng."
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 8,
+        "source": "CK-CH3-I-9",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ biết $u_n=\\frac1{n^2+n}$. Khẳng định nào sau đây là sai?",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mn>1</mn><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mi>n</mi></mrow></mfrac></mrow></math>. Khẳng định nào sau đây là sai?",
+        "options": [
+          "Dãy số $(u_n)$ là dãy số không bị chặn.",
+          "Dãy số $(u_n)$ là dãy số bị trên bởi $u_1=\\frac12$.",
+          "Dãy số $(u_n)$ là dãy số giảm.",
+          "$u_5=\\frac1{30}$."
+        ],
+        "optionsHtml": [
+          "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số không bị chặn.",
+          "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số bị trên bởi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.",
+          "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số giảm.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>5</mn></msub><mo>&#x0003D;</mo><mfrac><mn>1</mn><mrow><mn>30</mn></mrow></mfrac></mrow></math>."
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 9,
+        "source": "CK-CH3-I-10",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ biết $u_n=(2-a)n+a-2,\\forall n\\in\\mathbb N^*$. Dãy số $(u_n)$ là dãy số tăng khi và chỉ khi:",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mo>&#x02212;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo><mi>n</mi><mo>&#x0002B;</mo><mi>a</mi><mo>&#x02212;</mo><mn>2</mn><mo>&#x0002C;</mo><mo>&#x02200;</mo><mi>n</mi><mo>&#x02208;</mo><msup><mi mathvariant=\"double-struck\">N</mi><mo>&#x0002A;</mo></msup></mrow></math>. Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số tăng khi và chỉ khi:",
+        "options": [
+          "$a\\ge2$",
+          "$a>2$",
+          "$a\\le2$",
+          "$a<2$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi><mo>&#x02265;</mo><mn>2</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi><mo>&#x0003E;</mo><mn>2</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi><mo>&#x02264;</mo><mn>2</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi><mo>&#x0003C;</mo><mn>2</mn></mrow></math>"
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 10,
+        "source": "CK-CH3-I-11",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số cộng hữu hạn có số hạng đầu $u_1=11$ và số hạng cuối $u_{21}=111$. Giá trị của công sai là:",
+        "html": "Cho cấp số cộng hữu hạn có số hạng đầu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>11</mn></mrow></math> và số hạng cuối <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>21</mn></mrow></msub><mo>&#x0003D;</mo><mn>111</mn></mrow></math>. Giá trị của công sai là:",
+        "options": [
+          "$d=2$.",
+          "$d=5$.",
+          "$d=-2$.",
+          "$d=3$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mn>5</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mn>3</mn></mrow></math>."
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 11,
+        "source": "CK-CH3-I-12",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số cộng $(u_n)$ biết $u_n=3-2n$. Mệnh đề nào sau đây là đúng?",
+        "html": "Cho cấp số cộng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mn>3</mn><mo>&#x02212;</mo><mn>2</mn><mi>n</mi></mrow></math>. Mệnh đề nào sau đây là đúng?",
+        "options": [
+          "$S_{60}=-117$.",
+          "$S_{60}=-6960$.",
+          "$S_{60}=-3480$.",
+          "Đáp án khác."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mrow><mn>60</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>117</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mrow><mn>60</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>6960</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mrow><mn>60</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>3480</mn></mrow></math>.",
+          "Đáp án khác."
+        ],
+        "answer": 2,
+        "verification": ""
+      },
+      {
+        "id": 12,
+        "source": "CK-CH3-I-13",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số cộng $(u_n)$ xác định bởi $\\begin{cases}u_1=-10\\\\u_{n+1}=u_n+7\\end{cases}$ Mệnh đề nào sau đây là đúng?",
+        "html": "Cho cấp số cộng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> xác định bởi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>10</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0002B;</mo><mn>7</mn></mtd></mtr></mtable></mrow></mrow></math> Mệnh đề nào sau đây là đúng?",
+        "options": [
+          "$u_{99}=690$",
+          "$u_{100}=690$",
+          "$u_{101}=690$",
+          "$u_{102}=690$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>99</mn></mrow></msub><mo>&#x0003D;</mo><mn>690</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>100</mn></mrow></msub><mo>&#x0003D;</mo><mn>690</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>101</mn></mrow></msub><mo>&#x0003D;</mo><mn>690</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>102</mn></mrow></msub><mo>&#x0003D;</mo><mn>690</mn></mrow></math>"
+        ],
+        "answer": 2,
+        "verification": ""
+      },
+      {
+        "id": 13,
+        "source": "CK-CH3-I-14",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Biết bốn số $5,x,15,y$ theo thứ tự lập thành một cấp số cộng. Giá trị của biểu thức $3x+2y$ bằng:",
+        "html": "Biết bốn số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>5</mn><mo>&#x0002C;</mo><mi>x</mi><mo>&#x0002C;</mo><mn>15</mn><mo>&#x0002C;</mo><mi>y</mi></mrow></math> theo thứ tự lập thành một cấp số cộng. Giá trị của biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mi>x</mi><mo>&#x0002B;</mo><mn>2</mn><mi>y</mi></mrow></math> bằng:",
+        "options": [
+          "70",
+          "30",
+          "80",
+          "50"
+        ],
+        "optionsHtml": [
+          "70",
+          "30",
+          "80",
+          "50"
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 14,
+        "source": "CK-CH3-I-15",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Biết ba số $a,b,c$ là ba số hạng liên tiếp của một cấp số cộng và $a+b+c=15$. Giá trị của $b$ là:",
+        "html": "Biết ba số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi><mo>&#x0002C;</mo><mi>b</mi><mo>&#x0002C;</mo><mi>c</mi></mrow></math> là ba số hạng liên tiếp của một cấp số cộng và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi><mo>&#x0002B;</mo><mi>c</mi><mo>&#x0003D;</mo><mn>15</mn></mrow></math>. Giá trị của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>b</mi></mrow></math> là:",
+        "options": [
+          "$b=4$.",
+          "$b=5$.",
+          "$b=8$.",
+          "$b=10$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>b</mi><mo>&#x0003D;</mo><mn>4</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>b</mi><mo>&#x0003D;</mo><mn>5</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>b</mi><mo>&#x0003D;</mo><mn>8</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>b</mi><mo>&#x0003D;</mo><mn>10</mn></mrow></math>."
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 15,
+        "source": "CK-CH3-I-16",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số cộng $(u_n)$ có số hạng đầu $u_1=6$ và công sai $d=11$. Khẳng định nào sau đây là sai?",
+        "html": "Cho cấp số cộng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> có số hạng đầu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>6</mn></mrow></math> và công sai <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mn>11</mn></mrow></math>. Khẳng định nào sau đây là sai?",
+        "options": [
+          "$S_{11}=671$",
+          "$S_{21}=2436$",
+          "$S_{31}=5310$",
+          "$S_{41}=9622$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mrow><mn>11</mn></mrow></msub><mo>&#x0003D;</mo><mn>671</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mrow><mn>21</mn></mrow></msub><mo>&#x0003D;</mo><mn>2436</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mrow><mn>31</mn></mrow></msub><mo>&#x0003D;</mo><mn>5310</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mrow><mn>41</mn></mrow></msub><mo>&#x0003D;</mo><mn>9622</mn></mrow></math>"
+        ],
+        "answer": 2,
+        "verification": "S31=5301; S41=9266. Original has two false choices.",
+        "acceptedAnswers": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 16,
+        "source": "CK-CH3-I-18",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Một cấp số cộng có số hạng đầu $u_1=2024$ và công sai $d=-11$. Hỏi bắt đầu từ số hạng nào của cấp số cộng sẽ là một số âm?",
+        "html": "Một cấp số cộng có số hạng đầu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>2024</mn></mrow></math> và công sai <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>11</mn></mrow></math>. Hỏi bắt đầu từ số hạng nào của cấp số cộng sẽ là một số âm?",
+        "options": [
+          "u₁₈₄",
+          "u₁₈₅",
+          "u₁₈₃",
+          "u₁₈₆"
+        ],
+        "optionsHtml": [
+          "u₁₈₄",
+          "u₁₈₅",
+          "u₁₈₃",
+          "u₁₈₆"
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 17,
+        "source": "CK-CH3-I-19",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số nhân $(u_n)$ biết $\\begin{cases}u_{20}=8u_{17}\\\\u_3+u_5=240\\end{cases}$. Mệnh đề nào sau đây là đúng?",
+        "html": "Cho cấp số nhân <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mrow><mn>20</mn></mrow></msub><mo>&#x0003D;</mo><mn>8</mn><msub><mi>u</mi><mrow><mn>17</mn></mrow></msub></mtd></mtr><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>3</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mn>5</mn></msub><mo>&#x0003D;</mo><mn>240</mn></mtd></mtr></mtable></mrow></mrow></math>. Mệnh đề nào sau đây là đúng?",
+        "options": [
+          "$u_1=10;q=2$",
+          "$u_1=12;q=2$",
+          "$u_1=12;q=1$",
+          "$u_1=-11;q=2$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>10</mn><mi>;</mi><mi>q</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>12</mn><mi>;</mi><mi>q</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>12</mn><mi>;</mi><mi>q</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>11</mn><mi>;</mi><mi>q</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>"
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 18,
+        "source": "CK-CH3-I-20",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số nhân $(u_n)$ biết $\\begin{cases}u_1+u_2+u_3=13\\\\u_4+u_5+u_6=351\\end{cases}$. Công bội của cấp số nhân là:",
+        "html": "Cho cấp số nhân <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mn>2</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mn>3</mn></msub><mo>&#x0003D;</mo><mn>13</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>4</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mn>5</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mn>6</mn></msub><mo>&#x0003D;</mo><mn>351</mn></mtd></mtr></mtable></mrow></mrow></math>. Công bội của cấp số nhân là:",
+        "options": [
+          "$q=1$.",
+          "$q=2$.",
+          "$q=3$.",
+          "$q=4$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mn>3</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mn>4</mn></mrow></math>."
+        ],
+        "answer": 2,
+        "verification": ""
+      },
+      {
+        "id": 19,
+        "source": "CK-CH3-I-21",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Biết ba số $2x-1;x;2x+1$ là ba số hạng liên tiếp của một cấp số nhân. Giá trị của $x$ là:",
+        "html": "Biết ba số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>&#x02212;</mo><mn>1</mn><mi>;</mi><mi>x</mi><mi>;</mi><mn>2</mn><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></math> là ba số hạng liên tiếp của một cấp số nhân. Giá trị của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi></mrow></math> là:",
+        "options": [
+          "$x=-\\frac13;x=\\frac13$.",
+          "$x=\\frac{\\sqrt3}3;x=-\\frac{\\sqrt3}3$.",
+          "$x=-3;x=3$.",
+          "$x\\in\\varnothing$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>;</mi><mi>x</mi><mo>&#x0003D;</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mi>;</mi><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mrow><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>3</mn><mi>;</mi><mi>x</mi><mo>&#x0003D;</mo><mn>3</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02208;</mo><mo>&#x02205;</mo></mrow></math>."
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 20,
+        "source": "CK-CH3-I-22",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Giá trị của biểu thức $S=1+\\frac12+\\frac1{2^2}+\\frac1{2^3}+...+\\frac1{2^n}+...$ là:",
+        "html": "Giá trị của biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>S</mi><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002B;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#x0002B;</mo><mfrac><mn>1</mn><mrow><msup><mn>2</mn><mn>2</mn></msup></mrow></mfrac><mo>&#x0002B;</mo><mfrac><mn>1</mn><mrow><msup><mn>2</mn><mn>3</mn></msup></mrow></mfrac><mo>&#x0002B;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mo>&#x0002B;</mo><mfrac><mn>1</mn><mrow><msup><mn>2</mn><mi>n</mi></msup></mrow></mfrac><mo>&#x0002B;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo></mrow></math> là:",
+        "options": [
+          "$S=2$.",
+          "$S=1$.",
+          "$S=2^n-1$.",
+          "$S=4$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>S</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>S</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>S</mi><mo>&#x0003D;</mo><msup><mn>2</mn><mi>n</mi></msup><mo>&#x02212;</mo><mn>1</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>S</mi><mo>&#x0003D;</mo><mn>4</mn></mrow></math>."
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 21,
+        "source": "CK-CH3-I-23",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Dãy số nào sau đây là một cấp số nhân?",
+        "html": "Dãy số nào sau đây là một cấp số nhân?",
+        "options": [
+          "$u_n=\\frac1{3^{n-2}}$",
+          "$u_n=\\frac1{3^n}-1$",
+          "$u_n=n+\\frac13$",
+          "$u_n=n^2+\\frac13$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mn>1</mn><mrow><msup><mn>3</mn><mrow><mi>n</mi><mo>&#x02212;</mo><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mn>1</mn><mrow><msup><mn>3</mn><mi>n</mi></msup></mrow></mfrac><mo>&#x02212;</mo><mn>1</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mi>n</mi><mo>&#x0002B;</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><msup><mi>n</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>"
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 22,
+        "source": "CK-CH3-I-24",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Xác định $x$ để 3 số $x-2;x+1;3-x$ theo thứ tự lập thành một cấp số nhân:",
+        "html": "Xác định <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi></mrow></math> để 3 số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02212;</mo><mn>2</mn><mi>;</mi><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn><mi>;</mi><mn>3</mn><mo>&#x02212;</mo><mi>x</mi></mrow></math> theo thứ tự lập thành một cấp số nhân:",
+        "options": [
+          "Không có giá trị nào của $x$.",
+          "$x=\\pm1$.",
+          "$x=2$.",
+          "$x=-3$."
+        ],
+        "optionsHtml": [
+          "Không có giá trị nào của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mi>&#x000B1;</mi><mn>1</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>3</mn></mrow></math>."
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 23,
+        "source": "CK-CH3-I-25",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ với $u_n=\\frac32\\cdot5^n$. Khẳng định nào sau đây đúng?",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>&#x000B7;</mo><msup><mn>5</mn><mi>n</mi></msup></mrow></math>. Khẳng định nào sau đây đúng?",
+        "options": [
+          "$(u_n)$ không phải là cấp số nhân.",
+          "$(u_n)$ là cấp số nhân có công bội $q=5$ và số hạng đầu $u_1=\\frac32$.",
+          "$(u_n)$ là cấp số nhân có công bội $q=5$ và số hạng đầu $u_1=\\frac{15}2$.",
+          "$(u_n)$ là cấp số nhân có công bội $q=\\frac52$ và số hạng đầu $u_1=3$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> không phải là cấp số nhân.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là cấp số nhân có công bội <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mn>5</mn></mrow></math> và số hạng đầu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là cấp số nhân có công bội <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mn>5</mn></mrow></math> và số hạng đầu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mfrac><mrow><mn>15</mn></mrow><mn>2</mn></mfrac></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là cấp số nhân có công bội <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></mrow></math> và số hạng đầu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>3</mn></mrow></math>."
+        ],
+        "answer": 2,
+        "verification": ""
+      },
+      {
+        "id": 24,
+        "source": "CK-CH3-I-27",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số nhân $(u_n)$ với $u_1=3$ và $u_2=9$. Công bội của cấp số nhân đã cho bằng",
+        "html": "Cho cấp số nhân <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>3</mn></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>2</mn></msub><mo>&#x0003D;</mo><mn>9</mn></mrow></math>. Công bội của cấp số nhân đã cho bằng",
+        "options": [
+          "−6",
+          "$1/3$",
+          "3",
+          "6"
+        ],
+        "optionsHtml": [
+          "−6",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>3</mn></mrow></math>",
+          "3",
+          "6"
+        ],
+        "answer": 2,
+        "verification": ""
+      },
+      {
+        "id": 25,
+        "source": "CK-CH3-I-28",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cấp số nhân $(u_n)$ có $u_4=9,u_5=81$ có công bội là",
+        "html": "Cấp số nhân <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> có <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>4</mn></msub><mo>&#x0003D;</mo><mn>9</mn><mo>&#x0002C;</mo><msub><mi>u</mi><mn>5</mn></msub><mo>&#x0003D;</mo><mn>81</mn></mrow></math> có công bội là",
+        "options": [
+          "3",
+          "72",
+          "18",
+          "9"
+        ],
+        "optionsHtml": [
+          "3",
+          "72",
+          "18",
+          "9"
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 26,
+        "source": "CK-CH3-I-29",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số nhân có $u_1=-3$, $q=\\frac23$. Số $\\frac{-96}{243}$ là số hạng thứ mấy của cấp số này?",
+        "html": "Cho cấp số nhân có <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>. Số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mo>&#x02212;</mo><mn>96</mn></mrow><mrow><mn>243</mn></mrow></mfrac></mrow></math> là số hạng thứ mấy của cấp số này?",
+        "options": [
+          "Thứ 5.",
+          "Thứ 6.",
+          "Thứ 7.",
+          "Không phải là số hạng của cấp số."
+        ],
+        "optionsHtml": [
+          "Thứ 5.",
+          "Thứ 6.",
+          "Thứ 7.",
+          "Không phải là số hạng của cấp số."
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 27,
+        "source": "CK-CH3-I-30",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số nhân $(u_n)$ có số hạng đầu $u_1=2$ và công bội $q=5$. Giá trị của $\\sqrt{u_6u_8}$ bằng",
+        "html": "Cho cấp số nhân <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> có số hạng đầu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>2</mn></mrow></math> và công bội <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mn>5</mn></mrow></math>. Giá trị của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msqrt><mrow><msub><mi>u</mi><mn>6</mn></msub><msub><mi>u</mi><mn>8</mn></msub></mrow></msqrt></mrow></math> bằng",
+        "options": [
+          "$2\\cdot5^6$",
+          "$2\\cdot5^7$",
+          "$2\\cdot5^8$",
+          "$2\\cdot5^5$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x000B7;</mo><msup><mn>5</mn><mn>6</mn></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x000B7;</mo><msup><mn>5</mn><mn>7</mn></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x000B7;</mo><msup><mn>5</mn><mn>8</mn></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x000B7;</mo><msup><mn>5</mn><mn>5</mn></msup></mrow></math>"
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 28,
+        "source": "CK-CH3-I-31",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số nhân $(u_n)$ có số hạng đầu $u_1=2$ và công bội $q=3$. Giá trị $u_{2019}$ bằng",
+        "html": "Cho cấp số nhân <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> có số hạng đầu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>2</mn></mrow></math> và công bội <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mn>3</mn></mrow></math>. Giá trị <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>2019</mn></mrow></msub></mrow></math> bằng",
+        "options": [
+          "$2\\cdot3^{2018}$",
+          "$3\\cdot2^{2018}$",
+          "$2\\cdot3^{2019}$",
+          "$3\\cdot2^{2019}$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x000B7;</mo><msup><mn>3</mn><mrow><mn>2018</mn></mrow></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x000B7;</mo><msup><mn>2</mn><mrow><mn>2018</mn></mrow></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x000B7;</mo><msup><mn>3</mn><mrow><mn>2019</mn></mrow></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x000B7;</mo><msup><mn>2</mn><mrow><mn>2019</mn></mrow></msup></mrow></math>"
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 29,
+        "source": "CK-CH3-I-32",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho một cấp số nhân có số hạng thứ 4 gấp 4096 lần số hạng đầu tiên. Tổng hai số hạng đầu tiên là 34. Số hạng thứ 3 của dãy số có giá trị bằng:",
+        "html": "Cho một cấp số nhân có số hạng thứ 4 gấp 4096 lần số hạng đầu tiên. Tổng hai số hạng đầu tiên là 34. Số hạng thứ 3 của dãy số có giá trị bằng:",
+        "options": [
+          "1",
+          "512",
+          "1024",
+          "32"
+        ],
+        "optionsHtml": [
+          "1",
+          "512",
+          "1024",
+          "32"
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 30,
+        "source": "CK-CH3-I-33",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số nhân $(u_n)$ biết $\\begin{cases}u_4-u_2=54\\\\u_5-u_3=108\\end{cases}$. Tìm số hạng đầu $u_1$ và công bội $q$ của cấp số nhân trên.",
+        "html": "Cho cấp số nhân <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>4</mn></msub><mo>&#x02212;</mo><msub><mi>u</mi><mn>2</mn></msub><mo>&#x0003D;</mo><mn>54</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>5</mn></msub><mo>&#x02212;</mo><msub><mi>u</mi><mn>3</mn></msub><mo>&#x0003D;</mo><mn>108</mn></mtd></mtr></mtable></mrow></mrow></math>. Tìm số hạng đầu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub></mrow></math> và công bội <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi></mrow></math> của cấp số nhân trên.",
+        "options": [
+          "$u_1=9;q=2$",
+          "$u_1=9;q=-2$",
+          "$u_1=-9;q=-2$",
+          "$u_1=-9;q=2$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>9</mn><mi>;</mi><mi>q</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>9</mn><mi>;</mi><mi>q</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>9</mn><mi>;</mi><mi>q</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>9</mn><mi>;</mi><mi>q</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>"
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 31,
+        "source": "CK-CH3-I-34",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Xen giữa số 3 và số 768 là 7 số để được một cấp số nhân có $u_1=3$. Khi đó $u_5$ là:",
+        "html": "Xen giữa số 3 và số 768 là 7 số để được một cấp số nhân có <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>3</mn></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>5</mn></msub></mrow></math> là:",
+        "options": [
+          "72",
+          "−48",
+          "$\\pm48$",
+          "48"
+        ],
+        "optionsHtml": [
+          "72",
+          "−48",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x000B1;</mi><mn>48</mn></mrow></math>",
+          "48"
+        ],
+        "answer": 3,
+        "verification": "q=±2; u5=3q4=48"
+      },
+      {
+        "id": 32,
+        "source": "CK-CH3-I-35",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho một cấp số nhân có các số hạng đều không âm thỏa mãn $u_2=6$, $u_4=24$. Tính tổng của 12 số hạng đầu tiên của cấp số nhân đó.",
+        "html": "Cho một cấp số nhân có các số hạng đều không âm thỏa mãn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>2</mn></msub><mo>&#x0003D;</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>4</mn></msub><mo>&#x0003D;</mo><mn>24</mn></mrow></math>. Tính tổng của 12 số hạng đầu tiên của cấp số nhân đó.",
+        "options": [
+          "$3\\cdot2^{12}-3$",
+          "$2^{12}-1$",
+          "$3\\cdot2^{12}-1$",
+          "$3\\cdot2^{12}$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x000B7;</mo><msup><mn>2</mn><mrow><mn>12</mn></mrow></msup><mo>&#x02212;</mo><mn>3</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mn>2</mn><mrow><mn>12</mn></mrow></msup><mo>&#x02212;</mo><mn>1</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x000B7;</mo><msup><mn>2</mn><mrow><mn>12</mn></mrow></msup><mo>&#x02212;</mo><mn>1</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x000B7;</mo><msup><mn>2</mn><mrow><mn>12</mn></mrow></msup></mrow></math>"
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 33,
+        "source": "CK-CH3-I-36",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Viết thêm bốn số vào giữa hai số 160 và 5 để được một cấp số nhân. Tổng các số hạng của cấp số nhân đó là",
+        "html": "Viết thêm bốn số vào giữa hai số 160 và 5 để được một cấp số nhân. Tổng các số hạng của cấp số nhân đó là",
+        "options": [
+          "215",
+          "315",
+          "415",
+          "515"
+        ],
+        "optionsHtml": [
+          "215",
+          "315",
+          "415",
+          "515"
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 34,
+        "source": "CK-CH3-I-37",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Giá trị của tổng $4+44+444+...+\\underbrace{44...4}_{2018}$ bằng",
+        "html": "Giá trị của tổng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>4</mn><mo>&#x0002B;</mo><mn>44</mn><mo>&#x0002B;</mo><mn>444</mn><mo>&#x0002B;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mo>&#x0002B;</mo><munder><munder><mrow><mn>44</mn><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mi>.4</mi></mrow><mo>&#x23DF;</mo></munder><mrow><mn>2018</mn></mrow></munder></mrow></math> bằng",
+        "options": [
+          "$\\frac{40}9(10^{2018}-1)+2018$",
+          "$\\frac49\\left(\\frac{10^{2019}-10}9-2018\\right)$",
+          "$\\frac49\\left(\\frac{10^{2019}-10}9+2018\\right)$",
+          "$\\frac49(10^{2018}-1)$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>40</mn></mrow><mn>9</mn></mfrac><mo stretchy=\"false\">&#x00028;</mo><msup><mn>10</mn><mrow><mn>2018</mn></mrow></msup><mo>&#x02212;</mo><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mn>2018</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>4</mn><mn>9</mn></mfrac><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mfrac><mrow><msup><mn>10</mn><mrow><mn>2019</mn></mrow></msup><mo>&#x02212;</mo><mn>10</mn></mrow><mn>9</mn></mfrac><mo>&#x02212;</mo><mn>2018</mn><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>4</mn><mn>9</mn></mfrac><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mfrac><mrow><msup><mn>10</mn><mrow><mn>2019</mn></mrow></msup><mo>&#x02212;</mo><mn>10</mn></mrow><mn>9</mn></mfrac><mo>&#x0002B;</mo><mn>2018</mn><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mn>4</mn><mn>9</mn></mfrac><mo stretchy=\"false\">&#x00028;</mo><msup><mn>10</mn><mrow><mn>2018</mn></mrow></msup><mo>&#x02212;</mo><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math>"
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 35,
+        "source": "CK-CH3-I-38",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Ba số dương $x,y,z$ theo thứ tự lập thành một cấp số cộng và có tổng bằng 30. Biết $x+2;y+2;z+18$ theo thứ tự lập thành một cấp số nhân. Tính $T=x^2+z^2$.",
+        "html": "Ba số dương <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo>&#x0002C;</mo><mi>z</mi></mrow></math> theo thứ tự lập thành một cấp số cộng và có tổng bằng 30. Biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>2</mn><mi>;</mi><mi>y</mi><mo>&#x0002B;</mo><mn>2</mn><mi>;</mi><mi>z</mi><mo>&#x0002B;</mo><mn>18</mn></mrow></math> theo thứ tự lập thành một cấp số nhân. Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi><mo>&#x0003D;</mo><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><msup><mi>z</mi><mn>2</mn></msup></mrow></math>.",
+        "options": [
+          "$T=328$.",
+          "$T=424$.",
+          "$T=296$.",
+          "$T=428$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi><mo>&#x0003D;</mo><mn>328</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi><mo>&#x0003D;</mo><mn>424</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi><mo>&#x0003D;</mo><mn>296</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi><mo>&#x0003D;</mo><mn>428</mn></mrow></math>."
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 36,
+        "source": "CK-CH3-I-39",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Người ta thiết kế một cái tháp 11 tầng. Diện tích bề mặt trên của mỗi tầng bằng nửa diện tích của mặt trên của tầng ngay bên dưới và diện tích mặt trên của tầng 1 bằng nửa diện tích của đế tháp. Tính diện tích mặt trên cùng. Biết diện tích mặt đế tháp là 12288 m²",
+        "html": "Người ta thiết kế một cái tháp 11 tầng. Diện tích bề mặt trên của mỗi tầng bằng nửa diện tích của mặt trên của tầng ngay bên dưới và diện tích mặt trên của tầng 1 bằng nửa diện tích của đế tháp. Tính diện tích mặt trên cùng. Biết diện tích mặt đế tháp là 12288 m²",
+        "options": [
+          "8 m²",
+          "6 m²",
+          "10 m²",
+          "12 m²"
+        ],
+        "optionsHtml": [
+          "8 m²",
+          "6 m²",
+          "10 m²",
+          "12 m²"
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 37,
+        "source": "CK-CH3-I-40",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Dân số tỉnh Bình Phước theo điều tra vào ngày 1/1/2011 là 905300 người. Nếu duy trì tốc độ tăng trưởng dân số không đổi là 10% một năm thì đến 1/1/2020 dân số của tỉnh Bình Phước là bao nhiêu?",
+        "html": "Dân số tỉnh Bình Phước theo điều tra vào ngày 1/1/2011 là 905300 người. Nếu duy trì tốc độ tăng trưởng dân số không đổi là 10% một năm thì đến 1/1/2020 dân số của tỉnh Bình Phước là bao nhiêu?",
+        "options": [
+          "22582927.",
+          "02348115.",
+          "2134650.",
+          "11940591."
+        ],
+        "optionsHtml": [
+          "22582927.",
+          "02348115.",
+          "2134650.",
+          "11940591."
+        ],
+        "answer": 2,
+        "verification": "905300*1.1**9≈2134650"
+      },
+      {
+        "id": 38,
+        "source": "CK-CH3-I-41",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Một loại vi khuẩn sau mỗi phút số lượng tăng gấp đôi biết rằng sau 5 phút người ta đếm được có 64000 con hỏi sau bao nhiêu phút thì có được 2048000 con.",
+        "html": "Một loại vi khuẩn sau mỗi phút số lượng tăng gấp đôi biết rằng sau 5 phút người ta đếm được có 64000 con hỏi sau bao nhiêu phút thì có được 2048000 con.",
+        "options": [
+          "10",
+          "11",
+          "26",
+          "50"
+        ],
+        "optionsHtml": [
+          "10",
+          "11",
+          "26",
+          "50"
+        ],
+        "answer": 0,
+        "verification": ""
+      },
+      {
+        "id": 39,
+        "source": "CK-CH3-I-42",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Trên một bàn cờ vua kích thước 8x8 người ta đặt số hạt thóc theo cách như sau. Ô thứ nhất đặt một hạt thóc, ô thứ hai đặt hai hạt thóc, các ô tiếp theo đặt số hạt thóc gấp đôi ô đứng liền kề trước nó. Hỏi phải tối thiểu từ ô thứ bao nhiêu để tổng số hạt thóc từ ô đầu tiên đến ô đó lớn hơn 20172018 hạt thóc.",
+        "html": "Trên một bàn cờ vua kích thước 8x8 người ta đặt số hạt thóc theo cách như sau. Ô thứ nhất đặt một hạt thóc, ô thứ hai đặt hai hạt thóc, các ô tiếp theo đặt số hạt thóc gấp đôi ô đứng liền kề trước nó. Hỏi phải tối thiểu từ ô thứ bao nhiêu để tổng số hạt thóc từ ô đầu tiên đến ô đó lớn hơn 20172018 hạt thóc.",
+        "options": [
+          "26",
+          "23",
+          "24",
+          "25"
+        ],
+        "optionsHtml": [
+          "26",
+          "23",
+          "24",
+          "25"
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 40,
+        "source": "CK-CH3-I-43",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Trong sân vận động có tất cả 30 dãy ghế, dãy đầu tiên có 15 ghế. Các dãy sau, mỗi dãy nhiều hơn dãy ngay trước nó 4 ghế. Hỏi sân vận động có tất cả bao nhiêu ghế?",
+        "html": "Trong sân vận động có tất cả 30 dãy ghế, dãy đầu tiên có 15 ghế. Các dãy sau, mỗi dãy nhiều hơn dãy ngay trước nó 4 ghế. Hỏi sân vận động có tất cả bao nhiêu ghế?",
+        "options": [
+          "1740",
+          "2250",
+          "4380",
+          "2190"
+        ],
+        "optionsHtml": [
+          "1740",
+          "2250",
+          "4380",
+          "2190"
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 41,
+        "source": "CK-CH3-I-44",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Hùng đang tiết kiệm để mua một cây đàn piano có giá 142 triệu đồng. Trong tháng đầu tiên, anh ta để dành được 20 triệu đồng. Mỗi tháng tiếp theo anh ta để dành được 3 triệu đồng và đưa số tiền tiết kiệm của mình. Hỏi ít nhất vào tháng thứ bao nhiêu thì Hùng mới có đủ tiền để mua cây đàn piano đó?",
+        "html": "Hùng đang tiết kiệm để mua một cây đàn piano có giá 142 triệu đồng. Trong tháng đầu tiên, anh ta để dành được 20 triệu đồng. Mỗi tháng tiếp theo anh ta để dành được 3 triệu đồng và đưa số tiền tiết kiệm của mình. Hỏi ít nhất vào tháng thứ bao nhiêu thì Hùng mới có đủ tiền để mua cây đàn piano đó?",
+        "options": [
+          "43",
+          "41",
+          "40",
+          "42"
+        ],
+        "optionsHtml": [
+          "43",
+          "41",
+          "40",
+          "42"
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 42,
+        "source": "CK-CH3-I-45",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Một cầu thang đường lên cổng trời của một điểm giải trí ở công viên tỉnh X được hàn bằng sắt có hình dáng các bậc thang đều là hình chữ nhật với cùng chiều rộng là 35cm và chiều dài của nó theo thứ tự mỗi bậc đều giảm dần đi 7cm. Biết rằng bậc đầu tiên của cầu thang là hình chữ nhật có chiều dài 189cm và bậc cuối cùng cầu thang là hình chữ nhật có chiều dài 63cm. Hỏi giá thành làm cầu thang đó gần với số nào dưới đây nếu giá thành làm một mét vuông cầu thang đó là 1250000 đồng trên một mét vuông?",
+        "html": "Một cầu thang đường lên cổng trời của một điểm giải trí ở công viên tỉnh X được hàn bằng sắt có hình dáng các bậc thang đều là hình chữ nhật với cùng chiều rộng là 35cm và chiều dài của nó theo thứ tự mỗi bậc đều giảm dần đi 7cm. Biết rằng bậc đầu tiên của cầu thang là hình chữ nhật có chiều dài 189cm và bậc cuối cùng cầu thang là hình chữ nhật có chiều dài 63cm. Hỏi giá thành làm cầu thang đó gần với số nào dưới đây nếu giá thành làm một mét vuông cầu thang đó là 1250000 đồng trên một mét vuông?",
+        "options": [
+          "9500000 đồng",
+          "11000000 đồng",
+          "10000000 đồng",
+          "10500000 đồng"
+        ],
+        "optionsHtml": [
+          "9500000 đồng",
+          "11000000 đồng",
+          "10000000 đồng",
+          "10500000 đồng"
+        ],
+        "answer": 3,
+        "verification": "19*126*.35/100*1250000=10473750"
+      },
+      {
+        "id": 43,
+        "source": "CK-CH3-I-46",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Hùng đang tiết kiệm để mua một cây guitar. Trong tuần đầu tiên, anh ta để dành 42 đô la, và trong mỗi tuần tiếp theo, anh ta đã thêm 8 đô la vào tài khoản tiết kiệm của mình. Cây guitar Hùng cần mua có giá 400 đô la. Hỏi vào tuần thứ bao nhiêu thì anh ấy có đủ tiền để mua cây guitar đó?",
+        "html": "Hùng đang tiết kiệm để mua một cây guitar. Trong tuần đầu tiên, anh ta để dành 42 đô la, và trong mỗi tuần tiếp theo, anh ta đã thêm 8 đô la vào tài khoản tiết kiệm của mình. Cây guitar Hùng cần mua có giá 400 đô la. Hỏi vào tuần thứ bao nhiêu thì anh ấy có đủ tiền để mua cây guitar đó?",
+        "options": [
+          "47",
+          "45",
+          "44",
+          "46"
+        ],
+        "optionsHtml": [
+          "47",
+          "45",
+          "44",
+          "46"
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 44,
+        "source": "CK-CH3-I-47",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Người ta trồng 465 cây trong một khu vườn hình tam giác như sau: Hàng thứ nhất có 1 cây, hàng thứ hai có 2 cây, hàng thứ ba có 3 cây….Số hàng cây trong khu vườn là",
+        "html": "Người ta trồng 465 cây trong một khu vườn hình tam giác như sau: Hàng thứ nhất có 1 cây, hàng thứ hai có 2 cây, hàng thứ ba có 3 cây….Số hàng cây trong khu vườn là",
+        "options": [
+          "31",
+          "30",
+          "29",
+          "28"
+        ],
+        "optionsHtml": [
+          "31",
+          "30",
+          "29",
+          "28"
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 45,
+        "source": "CK-CH3-I-48",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Trong hội chợ, một công ty sơn muốn xếp 1089 hộp sơn theo số lượng 1,3,5,... từ trên xuống dưới. Hàng cuối cùng có bao nhiêu hộp sơn?",
+        "html": "Trong hội chợ, một công ty sơn muốn xếp 1089 hộp sơn theo số lượng 1,3,5,... từ trên xuống dưới. Hàng cuối cùng có bao nhiêu hộp sơn?",
+        "options": [
+          "63",
+          "65",
+          "67",
+          "69"
+        ],
+        "optionsHtml": [
+          "63",
+          "65",
+          "67",
+          "69"
+        ],
+        "answer": 1,
+        "verification": ""
+      },
+      {
+        "id": 46,
+        "source": "CK-CH3-I-50",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Bà chủ quán trà sữa X muốn trang trí quán cho đẹp nên quyết định thuê nhân công xây một bức tường bằng gạch với xi măng, biết hàng dưới cùng có 500 viên, mỗi hàng tiếp theo đều có ít hơn hàng trước 1 viên và hàng trên cùng có 1 viên. Hỏi số gạch cần dùng để hoàn thành bức tường trên là bao nhiêu viên?",
+        "html": "Bà chủ quán trà sữa X muốn trang trí quán cho đẹp nên quyết định thuê nhân công xây một bức tường bằng gạch với xi măng, biết hàng dưới cùng có 500 viên, mỗi hàng tiếp theo đều có ít hơn hàng trước 1 viên và hàng trên cùng có 1 viên. Hỏi số gạch cần dùng để hoàn thành bức tường trên là bao nhiêu viên?",
+        "options": [
+          "25250",
+          "250500",
+          "12550",
+          "125250"
+        ],
+        "optionsHtml": [
+          "25250",
+          "250500",
+          "12550",
+          "125250"
+        ],
+        "answer": 3,
+        "verification": ""
+      },
+      {
+        "id": 47,
+        "source": "CK-CH3-II-1",
+        "type": "truefalse",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ có số hạng tổng quát $u_n=\\frac{n}{4^n}$. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> có số hạng tổng quát <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>n</mi></mrow><mrow><msup><mn>4</mn><mi>n</mi></msup></mrow></mfrac></mrow></math>. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+        "options": [],
+        "statements": [
+          {
+            "html": "Ta có <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>n</mi></mrow><mrow><msup><mn>4</mn><mi>n</mi></msup></mrow></mfrac><mo>&#x0003C;</mo><mn>0</mn><mo>&#x0002C;</mo><mo>&#x02200;</mo><mi>n</mi><mo>&#x02208;</mo><msup><mi mathvariant=\"double-struck\">N</mi><mo>&#x0002A;</mo></msup></mrow></math>",
+            "answer": false
+          },
+          {
+            "html": "Ta có <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub></mrow><mrow><msub><mi>u</mi><mi>n</mi></msub></mrow></mfrac><mo>&#x0003C;</mo><mn>1</mn><mo>&#x0002C;</mo><mo>&#x02200;</mo><mi>n</mi><mo>&#x02265;</mo><mn>1</mn></mrow></math>",
+            "answer": true
+          },
+          {
+            "html": "Ta có <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>2024</mn></mrow></msub><mo>&#x0003C;</mo><msub><mi>u</mi><mrow><mn>2023</mn></mrow></msub></mrow></math>",
+            "answer": true
+          },
+          {
+            "html": "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số tăng",
+            "answer": false
+          }
+        ],
+        "verification": "u_n>0; ratio=(n+1)/(4n)<1"
+      },
+      {
+        "id": 48,
+        "source": "CK-CH3-II-2",
+        "type": "truefalse",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ có số hạng tổng quát $u_n=\\frac{n+1}{n+2}$. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> có số hạng tổng quát <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>2</mn></mrow></mfrac></mrow></math>. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+        "options": [],
+        "statements": [
+          {
+            "html": "Ta có <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x02212;</mo><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>n</mi><mo>&#x0002B;</mo><mn>3</mn><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">&#x00028;</mo><mi>n</mi><mo>&#x0002B;</mo><mn>2</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac></mrow></math>",
+            "answer": true
+          },
+          {
+            "html": "Ta có <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003C;</mo><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0002C;</mo><mo>&#x02200;</mo><mi>n</mi><mo>&#x02208;</mo><msup><mi mathvariant=\"double-struck\">N</mi><mo>&#x0002A;</mo></msup></mrow></math>",
+            "answer": false
+          },
+          {
+            "html": "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số giảm",
+            "answer": false
+          },
+          {
+            "html": "Dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là dãy số bị chặn",
+            "answer": true
+          }
+        ],
+        "verification": "difference positive; 2/3≤u_n<1"
+      },
+      {
+        "id": 49,
+        "source": "CK-CH3-II-3",
+        "type": "truefalse",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số cộng $(u_n)$, biết rằng: $u_1=5$ và tổng của 50 số hạng đầu bằng 5150, khi đó:<br>Các mệnh đề sau đúng hay sai?",
+        "html": "Cho cấp số cộng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math>, biết rằng: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>5</mn></mrow></math> và tổng của 50 số hạng đầu bằng 5150, khi đó:<br>Các mệnh đề sau đúng hay sai?",
+        "options": [],
+        "statements": [
+          {
+            "html": "Công sai của cấp số cộng bằng 6",
+            "answer": false
+          },
+          {
+            "html": "Số hạng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>85</mn></mrow></msub><mo>&#x0003D;</mo><mn>341</mn></mrow></math>",
+            "answer": true
+          },
+          {
+            "html": "Số hạng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>10</mn></mrow></msub><mo>&#x0003D;</mo><mn>42</mn></mrow></math>",
+            "answer": false
+          },
+          {
+            "html": "Tổng của 85 số hạng đầu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mrow><mn>85</mn></mrow></msub><mo>&#x0003D;</mo><mn>14705</mn></mrow></math>",
+            "answer": true
+          }
+        ],
+        "verification": "d=4; u10=41; S85=85*(5+341)/2=14705"
+      },
+      {
+        "id": 50,
+        "source": "CK-CH3-II-4",
+        "type": "truefalse",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số cộng $(u_n)$ có công sai $d<0$ thỏa mãn $\\begin{cases}u_1+u_7=26\\\\u_2^2+u_6^2=466\\end{cases}$. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+        "html": "Cho cấp số cộng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> có công sai <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math> thỏa mãn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mn>7</mn></msub><mo>&#x0003D;</mo><mn>26</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msubsup><mi>u</mi><mn>2</mn><mn>2</mn></msubsup><mo>&#x0002B;</mo><msubsup><mi>u</mi><mn>6</mn><mn>2</mn></msubsup><mo>&#x0003D;</mo><mn>466</mn></mtd></mtr></mtable></mrow></mrow></math>. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+        "options": [],
+        "statements": [
+          {
+            "html": "Số hạng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>25</mn></mrow></math>",
+            "answer": true
+          },
+          {
+            "html": "Công sai <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>3</mn></mrow></math>",
+            "answer": false
+          },
+          {
+            "html": "Số hạng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>10</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>11</mn></mrow></math>",
+            "answer": true
+          },
+          {
+            "html": "Số hạng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mn>2024</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>8067</mn></mrow></math>",
+            "answer": true
+          }
+        ],
+        "verification": "u1+3d=13; 338+8d²=466 ->d=-4; u1=25"
+      },
+      {
+        "id": 51,
+        "source": "CK-CH3-II-5",
+        "type": "truefalse",
+        "kind": "Thực hành",
+        "prompt": "Cho cấp số nhân $(u_n)$ thỏa mãn $\\begin{cases}u_4+u_6=-540\\\\u_3+u_5=180\\end{cases}$. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+        "html": "Cho cấp số nhân <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> thỏa mãn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>4</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mn>6</mn></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>540</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>3</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mn>5</mn></msub><mo>&#x0003D;</mo><mn>180</mn></mtd></mtr></mtable></mrow></mrow></math>. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+        "options": [],
+        "statements": [
+          {
+            "html": "Số hạng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>2</mn></mrow></math>",
+            "answer": true
+          },
+          {
+            "html": "Gọi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi></mrow></math> là công bội của cấp số nhân thì ba số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mi>;</mi><mn>1</mn><mi>;</mi><mn>3</mn></mrow></math> tạo thành cấp số cộng",
+            "answer": false
+          },
+          {
+            "html": "Số −486 là số hạng thứ 5 của cấp số nhân",
+            "answer": false
+          },
+          {
+            "html": "Tổng của 21 số hạng đầu cấp số nhân đã cho bằng 5230176602",
+            "answer": true
+          }
+        ],
+        "verification": "q=-3;u1=2;u5=162;S21=(3**21+1)/2=5230176602"
+      },
+      {
+        "id": 52,
+        "source": "CK-CH3-III-1",
+        "type": "short",
+        "kind": "Thực hành",
+        "prompt": "Có bao nhiêu giá trị nguyên của $m\\in[-5;5]$ để dãy số $(u_n)$ với $u_n=\\frac{mn+1}{n+1}$ là dãy số tăng.",
+        "html": "Có bao nhiêu giá trị nguyên của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x02208;</mo><mo stretchy=\"false\">[</mo><mo>&#x02212;</mo><mn>5</mn><mi>;</mi><mn>5</mn><mo stretchy=\"false\">]</mo></mrow></math> để dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>m</mi><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></mfrac></mrow></math> là dãy số tăng.",
+        "options": [],
+        "answerValue": 4,
+        "answerDecimals": 2,
+        "verification": "difference=(m-1)/((n+1)(n+2));m=2,3,4,5"
+      },
+      {
+        "id": 53,
+        "source": "CK-CH3-III-2",
+        "type": "short",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ có số hạng tổng quát $u_n=\\frac{2n+1}{n+2}$. Số $\\frac{167}{84}$ là số hạng thứ mấy của dãy?",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> có số hạng tổng quát <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>2</mn></mrow></mfrac></mrow></math>. Số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>167</mn></mrow><mrow><mn>84</mn></mrow></mfrac></mrow></math> là số hạng thứ mấy của dãy?",
+        "options": [],
+        "answerValue": 250,
+        "answerDecimals": 2,
+        "verification": "84*(2n+1)=167*(n+2) ->n=250"
+      },
+      {
+        "id": 54,
+        "source": "CK-CH3-III-5",
+        "type": "short",
+        "kind": "Thực hành",
+        "prompt": "Giải phương trình $1+8+15+22+...+x=7944$.",
+        "html": "Giải phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002B;</mo><mn>8</mn><mo>&#x0002B;</mo><mn>15</mn><mo>&#x0002B;</mo><mn>22</mn><mo>&#x0002B;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mo>&#x0002B;</mo><mi>x</mi><mo>&#x0003D;</mo><mn>7944</mn></mrow></math>.",
+        "options": [],
+        "answerValue": 330,
+        "answerDecimals": 2,
+        "verification": "n*(7n-5)/2=7944 ->n=48;x=1+47*7=330"
+      },
+      {
+        "id": 55,
+        "source": "CK-CH3-III-9",
+        "type": "short",
+        "kind": "Thực hành",
+        "prompt": "Tính tổng tất cả các số hạng của một cấp số nhân, biết số hạng đầu bằng 18, số hạng thứ hai bằng 54 và số hạng cuối bằng 39366.",
+        "html": "Tính tổng tất cả các số hạng của một cấp số nhân, biết số hạng đầu bằng 18, số hạng thứ hai bằng 54 và số hạng cuối bằng 39366.",
+        "options": [],
+        "answerValue": 59040,
+        "answerDecimals": 2,
+        "verification": "q=3;39366=18*3^7;S8=18*(3^8-1)/2=59040"
+      },
+      {
+        "id": 56,
+        "source": "PHT-TC16-17-TN-6",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số có các số hạng đầu là: 8, 15,22, 29, 36, ….Số hạng tổng quát của dãy số này là:",
+        "html": "Cho dãy số có các số hạng đầu là: 8, 15,22, 29, 36, ….Số hạng tổng quát của dãy số này là:",
+        "options": [
+          "$u_n=7n+7$",
+          "$u_n=7.n$",
+          "$u_n=7.n+1$",
+          "$u_n$: Không viết được dưới dạng công thức"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mn>7</mn><mi>n</mi><mo>&#x0002B;</mo><mn>7</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mn>7</mn><mo>&#x0002E;</mo><mi>n</mi></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mn>7</mn><mo>&#x0002E;</mo><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub></mrow></math>: Không viết được dưới dạng công thức"
+        ],
+        "answer": 2,
+        "verification": "7n+1 gives 8,15,22,29,36."
+      },
+      {
+        "id": 57,
+        "source": "PHT-TC16-17-TN-7",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số có các số hạng đầu là: $0;\\frac12;\\frac23;\\frac34;\\frac45;...$.Số hạng tổng quát của dãy số này là:",
+        "html": "Cho dãy số có các số hạng đầu là: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mi>;</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>;</mi><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>;</mi><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>;</mi><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>;</mi><mo>&#x0002E;</mo><mo>&#x0002E;</mo><mo>&#x0002E;</mo></mrow></math>.Số hạng tổng quát của dãy số này là:",
+        "options": [
+          "$u_n=\\frac{n+1}{n}$",
+          "$u_n=\\frac{n}{n+1}$",
+          "$u_n=\\frac{n-1}{n}$",
+          "$u_n=\\frac{n^2-n}{n+1}$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>n</mi></mrow><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>n</mi><mo>&#x02212;</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>&#x02212;</mo><mi>n</mi></mrow><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></mfrac></mrow></math>"
+        ],
+        "answer": 2,
+        "verification": "(n-1)/n yields the given terms for n=1,...,5."
+      },
+      {
+        "id": 58,
+        "source": "PHT-TC16-17-TN-8",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số có các số hạng đầu là: –1, 1, –1, 1, –1, … Số hạng tổng quát của dãy số này có dạng",
+        "html": "Cho dãy số có các số hạng đầu là: –1, 1, –1, 1, –1, … Số hạng tổng quát của dãy số này có dạng",
+        "options": [
+          "$u_n=1$",
+          "$u_n=-1$",
+          "$u_n=(-1)^n$",
+          "$u_n=(-1)^{n+1}$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mn>1</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>1</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mn>1</mn><msup><mo stretchy=\"false\">&#x00029;</mo><mi>n</mi></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mn>1</mn><msup><mo stretchy=\"false\">&#x00029;</mo><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msup></mrow></math>"
+        ],
+        "answer": 2,
+        "verification": "(-1)^n starts at -1 and alternates."
+      },
+      {
+        "id": 59,
+        "source": "PHT-TC16-17-TN-11",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ với $\\begin{cases}u_1=2\\\\u_{n+1}=2u_n\\end{cases}$. Công thức số hạng tổng quát của dãy số này:",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><mn>2</mn><msub><mi>u</mi><mi>n</mi></msub></mtd></mtr></mtable></mrow></mrow></math>. Công thức số hạng tổng quát của dãy số này:",
+        "options": [
+          "$u_n=n^{n-1}$",
+          "$u_n=2^n$",
+          "$u_n=2^{n+1}$",
+          "$u_n=2$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><msup><mi>n</mi><mrow><mi>n</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><msup><mn>2</mn><mi>n</mi></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><msup><mn>2</mn><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msup></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mn>2</mn></mrow></math>"
+        ],
+        "answer": 1,
+        "verification": "u_n=2*2^(n-1)=2^n."
+      },
+      {
+        "id": 60,
+        "source": "PHT-TC16-17-TN-13",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ với $u_n=\\frac{-1}{n^2+1}$. Khẳng định nào sau đây là sai?",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mo>&#x02212;</mo><mn>1</mn></mrow><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>1</mn></mrow></mfrac></mrow></math>. Khẳng định nào sau đây là sai?",
+        "options": [
+          "$u_{n+1}=\\frac{-1}{(n+1)^2+1}$",
+          "$u_n>u_{n+1}$",
+          "Đây là một dãy số tăng",
+          "Bị chặn dưới"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><mfrac><mrow><mo>&#x02212;</mo><mn>1</mn></mrow><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn><msup><mo stretchy=\"false\">&#x00029;</mo><mn>2</mn></msup><mo>&#x0002B;</mo><mn>1</mn></mrow></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003E;</mo><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub></mrow></math>",
+          "Đây là một dãy số tăng",
+          "Bị chặn dưới"
+        ],
+        "answer": 1,
+        "verification": "u_(n+1)-u_n=(2n+1)/((n²+1)((n+1)²+1))>0; u_n≥-1/2."
+      },
+      {
+        "id": 61,
+        "source": "PHT-TC16-17-TN-15",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho dãy số $(u_n)$ với $\\begin{cases}u_1=-2\\\\u_{n+1}=-2-\\frac1{u_n}\\end{cases}$. Công thức số hạng tổng quát của dãy số này là:",
+        "html": "Cho dãy số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn><mo>&#x02212;</mo><mfrac><mn>1</mn><mrow><msub><mi>u</mi><mi>n</mi></msub></mrow></mfrac></mtd></mtr></mtable></mrow></mrow></math>. Công thức số hạng tổng quát của dãy số này là:",
+        "options": [
+          "$u_n=\\frac{-n+1}{n}$",
+          "$u_n=\\frac{n+1}{n}$",
+          "$u_n=-\\frac{n+1}{n}$",
+          "$u_n=\\frac{-n}{n+1}$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mo>&#x02212;</mo><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mo>&#x02212;</mo><mi>n</mi></mrow><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></mfrac></mrow></math>"
+        ],
+        "answer": 2,
+        "verification": "u1=-2; -2-1/[-(n+1)/n]=-(n+2)/(n+1)."
+      }
+    ],
+    "expected": 61,
+    "study": "<h2>A. Dãy số</h2><article class=\"theory-item\">Dãy số hữu hạn có số lượng số hạng xác định; dãy số vô hạn có vô số số hạng.</article><article class=\"theory-item\">Có thể cho dãy số bằng liệt kê, công thức tổng quát <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub></mrow></math>, hệ thức truy hồi hoặc mô tả.</article><article class=\"theory-item\">Dãy tăng nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003E;</mo><msub><mi>u</mi><mi>n</mi></msub></mrow></math>; dãy giảm nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003C;</mo><msub><mi>u</mi><mi>n</mi></msub></mrow></math> với mọi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>n</mi><mo>&#x02265;</mo><mn>1</mn></mrow></math>.</article><article class=\"theory-item\">Bị chặn trên nếu tồn tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi></mrow></math> sao cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x02264;</mo><mi>M</mi></mrow></math>; bị chặn dưới nếu tồn tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math> sao cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x02265;</mo><mi>m</mi></mrow></math>. Bị chặn nếu thỏa cả hai điều kiện.</article><h2>B. Cấp số cộng</h2><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0002B;</mo><mi>d</mi></mrow></math>, với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>d</mi></mrow></math> là công sai.</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0002B;</mo><mo stretchy=\"false\">&#x00028;</mo><mi>n</mi><mo>&#x02212;</mo><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo><mi>d</mi></mrow></math>.</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><msub><mi>u</mi><mi>k</mi></msub><mo>&#x0003D;</mo><msub><mi>u</mi><mrow><mi>k</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mrow><mi>k</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi><mo>&#x02265;</mo><mn>2</mn></mrow></math>).</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>n</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0002B;</mo><msub><mi>u</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo></mrow><mn>2</mn></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mi>n</mi><mo stretchy=\"false\">[</mo><mn>2</mn><msub><mi>u</mi><mn>1</mn></msub><mo>&#x0002B;</mo><mo stretchy=\"false\">&#x00028;</mo><mi>n</mi><mo>&#x02212;</mo><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo><mi>d</mi><mo stretchy=\"false\">]</mo></mrow><mn>2</mn></mfrac></mrow></math>.</article><h2>C. Cấp số nhân</h2><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><mi>q</mi><msub><mi>u</mi><mi>n</mi></msub></mrow></math>, với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi></mrow></math> là công bội.</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>u</mi><mi>n</mi></msub><mo>&#x0003D;</mo><msub><mi>u</mi><mn>1</mn></msub><msup><mi>q</mi><mrow><mi>n</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msup></mrow></math>.</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msubsup><mi>u</mi><mi>k</mi><mn>2</mn></msubsup><mo>&#x0003D;</mo><msub><mi>u</mi><mrow><mi>k</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msub><msub><mi>u</mi><mrow><mi>k</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi><mo>&#x02265;</mo><mn>2</mn></mrow></math>).</article><article class=\"theory-item\">Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x02260;</mo><mn>1</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>&#x0003D;</mo><msub><mi>u</mi><mn>1</mn></msub><mfrac><mrow><mn>1</mn><mo>&#x02212;</mo><msup><mi>q</mi><mi>n</mi></msup></mrow><mrow><mn>1</mn><mo>&#x02212;</mo><mi>q</mi></mrow></mfrac></mrow></math>. Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>q</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>&#x0003D;</mo><mi>n</mi><msub><mi>u</mi><mn>1</mn></msub></mrow></math>.</article><article class=\"theory-item\">Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x0007C;</mo><mi>q</mi><mo stretchy=\"false\">&#x0007C;</mo><mo>&#x0003C;</mo><mn>1</mn></mrow></math>, tổng cấp số nhân lùi vô hạn là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>S</mi><mo>&#x0003D;</mo><mfrac><mrow><msub><mi>u</mi><mn>1</mn></msub></mrow><mrow><mn>1</mn><mo>&#x02212;</mo><mi>q</mi></mrow></mfrac></mrow></math>.</article>",
+    "mixedExercises": false,
+    "orderedExercises": false
+  },
+  "excluded": {
+    "I-26": "Trùng I-21",
+    "I-49": "Cùng nội dung I-47, chỉ thay số",
+    "III-3": "Trùng I-43",
+    "III-4": "Trùng I-14",
+    "III-7": "Trùng I-36",
+    "III-8": "Cùng dạng số hạng CSN như I-31; kết quả 2^2018 không phù hợp ô nhập số",
+    "CK-CH3-I-5": "Bỏ theo yêu cầu: đề gốc không có đáp án đúng",
+    "CK-CH3-I-17": "Bỏ theo yêu cầu: đề gốc không có đáp án đúng"
+  },
+  "source_notes": {
+    "I-5": "Không có đáp án đúng; giữ đề và báo lỗi, không chấm",
+    "I-16": "Hai đáp án sai C và D; chấp nhận cả hai",
+    "I-17": "Không có đáp án đúng; giữ đề và báo lỗi, không chấm"
+  },
+  "additional_source": "PHT_Toan 11_Tuan 6_Tiet TC 16, 17_Chuyen de Day so.pdf"
+}
