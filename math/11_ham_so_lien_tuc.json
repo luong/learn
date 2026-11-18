@@ -1,0 +1,522 @@
+{
+  "topic": {
+    "title": "Hàm số liên tục",
+    "study": "<h2>A. Liên tục tại một điểm</h2><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi></mrow></math> liên tục tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math> khi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"false\">)</mo></mrow></math>. Cần có giá trị <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math>, giới hạn tồn tại và hai giá trị bằng nhau.</article><article class=\"theory-item\">Với hàm nhiều công thức, kiểm tra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msubsup><mi>x</mi><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msubsup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msubsup><mi>x</mi><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msubsup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"false\">)</mo></mrow></math>. Không bằng nhau thì gián đoạn.</article><h2>B. Liên tục trên khoảng, đoạn</h2><article class=\"theory-item\">Trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>: liên tục tại mọi điểm thuộc khoảng.</article><article class=\"theory-item\">Trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math>: liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>, thêm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mi>a</mi><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>a</mi><mo stretchy=\"false\">)</mo></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mi>b</mi><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>b</mi><mo stretchy=\"false\">)</mo></mrow></math>.</article><h2>C. Hàm thường gặp</h2><article class=\"theory-item\">Đa thức liên tục trên R. Phân thức, căn thức và các hàm lượng giác cơ bản liên tục trên tập xác định của chúng.</article><article class=\"theory-item\">Tổng, hiệu, tích của các hàm liên tục vẫn liên tục. Với thương, mẫu phải khác 0 tại điểm xét.</article><h2>D. Chứng minh phương trình có nghiệm</h2><article class=\"theory-item\">Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi></mrow></math> liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003C;</mo><mn>0</mn></mrow></math> thì phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math> có ít nhất một nghiệm trong <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.</article><article class=\"theory-item\">Cách làm: kiểm tra liên tục, tính hai giá trị ở đầu mút, chứng minh chúng trái dấu. Điều kiện này chưa bảo đảm nghiệm duy nhất.</article>",
+    "questions": [
+      {
+        "source": "PHT-LT-CB-NC-TN-2",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho một hàm số $f(x)$. Khẳng định nào sau đây là đúng:",
+        "html": "Cho một hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>. Khẳng định nào sau đây là đúng:",
+        "options": [
+          "Nếu $f(x)$ liên tục trên đoạn $[a;b]$ và $f(a).f(b)>0$ thì phương trình $f(x)=0$ không có nghiệm trên khoảng $(a;b)$.",
+          "Nếu $f(a).f(b)<0$ thì phương trình $f(x)=0$ có ít nhất một nghiệm trong khoảng $(a;b)$.",
+          "Nếu phương trình $f(x)=0$ có nghiệm trong khoảng $(a;b)$ thì hàm số $f(x)$ phải liên tục trên khoảng $(a;b)$.",
+          "Nếu hàm số $f(x)$ liên tục, tăng trên đoạn $[a;b]$ và $f(a).f(b)>0$ thì phương trình $f(x)=0$ không có ngiệm trong khoảng $(a;b)$."
+        ],
+        "optionsHtml": [
+          "Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> liên tục trên đoạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002E;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003E;</mo><mn>0</mn></mrow></math> thì phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math> không có nghiệm trên khoảng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002E;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003C;</mo><mn>0</mn></mrow></math> thì phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math> có ít nhất một nghiệm trong khoảng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "Nếu phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math> có nghiệm trong khoảng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> thì hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> phải liên tục trên khoảng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "Nếu hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> liên tục, tăng trên đoạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002E;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003E;</mo><mn>0</mn></mrow></math> thì phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math> không có ngiệm trong khoảng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>."
+        ],
+        "answer": 3,
+        "verification": "D true by monotonicity and endpoints same sign. A counterexample (x-1)^2 on[0,2]. B lacks continuity. C root does not imply continuity.",
+        "id": 1
+      },
+      {
+        "source": "PHT-LT-CB-NC-TN-3",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Khẳng định nào đúng:",
+        "html": "Khẳng định nào đúng:",
+        "options": [
+          "Hàm số $f(x)=\\frac{x+1}{\\sqrt{x^2+1}}$ liên tục trên $\\mathbb R$.",
+          "Hàm số $f(x)=\\frac{x+1}{x-1}$ liên tục trên $\\mathbb R$.",
+          "Hàm số $f(x)=\\frac{x+1}{\\sqrt{x-1}}$ liên tục trên $\\mathbb R$.",
+          "Hàm số $f(x)=\\frac{\\sqrt{x+1}}{x-1}$ liên tục trên $\\mathbb R$."
+        ],
+        "optionsHtml": [
+          "Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>1</mn></mrow></msqrt></mrow></mfrac></mrow></math> liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi></mrow></math>.",
+          "Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>&#x02212;</mo><mn>1</mn></mrow></mfrac></mrow></math> liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi></mrow></math>.",
+          "Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><msqrt><mrow><mi>x</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msqrt></mrow></mfrac></mrow></math> liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi></mrow></math>.",
+          "Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><msqrt><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msqrt></mrow><mrow><mi>x</mi><mo>&#x02212;</mo><mn>1</mn></mrow></mfrac></mrow></math> liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi></mrow></math>."
+        ],
+        "answer": 0,
+        "verification": "A denominator≥1. B undefined at1. C domainx>1. D domainx≥-1,x≠1.",
+        "id": 2
+      },
+      {
+        "source": "PHT-LT-CB-NC-TN-4",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho hàm số $y=f(x)$ liên tục trên khoảng $(a;b)$. Điều kiện cần và đủ để hàm số liên tục trên đoạn $[a;b]$ là?",
+        "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> liên tục trên khoảng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>. Điều kiện cần và đủ để hàm số liên tục trên đoạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math> là?",
+        "options": [
+          "$\\lim_{x\\to a^+}f(x)=f(a)$ và $\\lim_{x\\to b^-}f(x)=f(b)$.",
+          "$\\lim_{x\\to a^-}f(x)=f(a)$ và $\\lim_{x\\to b^+}f(x)=f(b)$.",
+          "$\\lim_{x\\to a^+}f(x)=f(a)$ và $\\lim_{x\\to b^+}f(x)=f(b)$.",
+          "$\\lim_{x\\to a^-}f(x)=f(a)$ và $\\lim_{x\\to b^-}f(x)=f(b)$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mi>a</mi><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>a</mi><mo stretchy=\"false\">)</mo></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mi>b</mi><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>b</mi><mo stretchy=\"false\">)</mo></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mi>a</mi><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>a</mi><mo stretchy=\"false\">)</mo></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mi>b</mi><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>b</mi><mo stretchy=\"false\">)</mo></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mi>a</mi><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>a</mi><mo stretchy=\"false\">)</mo></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mi>b</mi><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>b</mi><mo stretchy=\"false\">)</mo></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mi>a</mi><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>a</mi><mo stretchy=\"false\">)</mo></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mi>b</mi><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>b</mi><mo stretchy=\"false\">)</mo></mrow></math>."
+        ],
+        "answer": 0,
+        "verification": "Continuity from within interval at each endpoint.",
+        "id": 3
+      },
+      {
+        "source": "PHT-LT-CB-NC-TN-6",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Tìm tất cả các giá trị của tham số $m$ để hàm số $f(x)=\\begin{cases}\\frac{x^2-2x}{x-2}&\\text{khi }x>2\\\\mx-4&\\text{khi }x\\le2\\end{cases}$ liên tục tại $x=2$.",
+        "html": "Tìm tất cả các giá trị của tham số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math> để hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>2</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow></mfrac></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003E;</mo><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>m</mi><mi>x</mi><mo>&#x02212;</mo><mn>4</mn></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02264;</mo><mn>2</mn></mtd></mtr></mtable></mrow></mrow></math> liên tục tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>.",
+        "options": [
+          "$m=1$.",
+          "Không tồn tại $m$.",
+          "$m=3$.",
+          "$m=-2$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>.",
+          "Không tồn tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mn>3</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn></mrow></math>."
+        ],
+        "answer": 2,
+        "verification": "Right limit2; leftandvalue2m-4=2 ->m3.",
+        "id": 4
+      },
+      {
+        "source": "PHT-LT-CB-NC-TN-7",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho hàm số $f(x)=\\begin{cases}\\frac{x^2-1}{x-1}&\\text{khi }x\\ne1\\\\m&\\text{khi }x=1\\end{cases}$ với $m$ là tham số thực. Tìm $m$ để hàm số liên tục tại tại $x=1$.",
+        "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>&#x02212;</mo><mn>1</mn></mrow></mfrac></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02260;</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>m</mi></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math> với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math> là tham số thực. Tìm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math> để hàm số liên tục tại tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>.",
+        "options": [
+          "$m=2$.",
+          "$m=1$.",
+          "$m=-2$.",
+          "$m=-1$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>1</mn></mrow></math>."
+        ],
+        "answer": 0,
+        "verification": "Limit x+1 at1=2 ->m2.",
+        "id": 5
+      },
+      {
+        "source": "PHT-LT-CB-NC-TN-8",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Phương trình $x^5-3x+23=0$ có nghiệm thuộc khoảng nào?",
+        "html": "Phương trình <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>&#x02212;</mo><mn>3</mn><mi>x</mi><mo>&#x0002B;</mo><mn>23</mn><mo>&#x0003D;</mo><mn>0</mn></mrow></math> có nghiệm thuộc khoảng nào?",
+        "options": [
+          "$(-3;-2)$.",
+          "$(0;1)$.",
+          "$(-2;-1)$.",
+          "$(2;3)$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mn>3</mn><mi>;</mi><mo>&#x02212;</mo><mn>2</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mn>0</mn><mi>;</mi><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mo>&#x02212;</mo><mn>2</mn><mi>;</mi><mo>&#x02212;</mo><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>;</mi><mn>3</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></math>."
+        ],
+        "answer": 2,
+        "verification": "f(-2)=-32+6+23=-3; f(-1)=-1+3+23=25; continuity gives root(-2,-1). For x≤-2 derivative5x4-3>0 and f(-2)<0; positiveintervals f>0.",
+        "id": 6
+      },
+      {
+        "source": "PHT-LT-CB-NC-TN-10",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho hàm số $f(x)=\\begin{cases}a^2x^2&\\text{khi }x\\le\\sqrt2,a\\in\\mathbb R\\\\(2-a)x^2&\\text{khi }x>\\sqrt2\\end{cases}$. Giá trị của $a$ để $f(x)$ liên tục trên $\\mathbb R$ là:",
+        "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msup><mi>a</mi><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02264;</mo><msqrt><mn>2</mn></msqrt><mo>&#x0002C;</mo><mi>a</mi><mo>&#x02208;</mo><mi mathvariant=\"double-struck\">R</mi></mtd></mtr><mtr><mtd columnalign=\"left\"><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mo>&#x02212;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003E;</mo><msqrt><mn>2</mn></msqrt></mtd></mtr></mtable></mrow></mrow></math>. Giá trị của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi></mrow></math> để <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi mathvariant=\"double-struck\">R</mi></mrow></math> là:",
+        "options": [
+          "1 và 2.",
+          "1 và –1.",
+          "–1 và 2.",
+          "1 và –2."
+        ],
+        "optionsHtml": [
+          "1 và 2.",
+          "1 và –1.",
+          "–1 và 2.",
+          "1 và –2."
+        ],
+        "answer": 3,
+        "verification": "2a²=2(2-a) ->(a+2)(a-1)=0 ->a1,-2.",
+        "id": 7
+      },
+      {
+        "source": "PHT-LT-CB-NC-TL-3",
+        "type": "short",
+        "kind": "Thực hành",
+        "prompt": "Tìm tham số $m$ để hàm số $f(x)=\\begin{cases}\\frac{x^2-9}{x+3},&\\text{khi }x\\ne-3\\\\m^2-4,&\\text{khi }x=-3\\end{cases}$ liên tục tại $x=-3$.",
+        "html": "Tìm tham số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math> để hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>9</mn></mrow><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>3</mn></mrow></mfrac><mo>&#x0002C;</mo></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02260;</mo><mo>&#x02212;</mo><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msup><mi>m</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>4</mn><mo>&#x0002C;</mo></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>3</mn></mtd></mtr></mtable></mrow></mrow></math> liên tục tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>3</mn></mrow></math>.",
+        "options": [],
+        "verification": "Limit x-3 at-3=-6. Continuity m²-4=-6 ->m²=-2: no real parameter.",
+        "answerTexts": [
+          "không tồn tại m",
+          "không tồn tại",
+          "không có",
+          "không có giá trị m",
+          "không có giá trị nào",
+          "vô nghiệm",
+          "không có m",
+          "khong ton tai m",
+          "khong ton tai",
+          "khong co",
+          "vo nghiem",
+          "khong co m"
+        ],
+        "answerHint": "Nếu không có giá trị tham số phù hợp, nhập “không tồn tại”.",
+        "id": 8
+      },
+      {
+        "source": "PHT-LT-CB-NC-TL-4",
+        "type": "short",
+        "kind": "Thực hành",
+        "prompt": "Cho hàm số $f(x)=\\begin{cases}(x+1)^{2021}+2,&\\text{khi }x\\ge-2\\\\kx^2+3,&\\text{khi }x<-2\\end{cases}$. Tìm $k$ để $f(x)$ liên tục tại $x=-2$.",
+        "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn><msup><mo stretchy=\"false\">&#x00029;</mo><mrow><mn>2021</mn></mrow></msup><mo>&#x0002B;</mo><mn>2</mn><mo>&#x0002C;</mo></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02265;</mo><mo>&#x02212;</mo><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>3</mn><mo>&#x0002C;</mo></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003C;</mo><mo>&#x02212;</mo><mn>2</mn></mtd></mtr></mtable></mrow></mrow></math>. Tìm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi></mrow></math> để <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> liên tục tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>2</mn></mrow></math>.",
+        "options": [],
+        "verification": "Rightlimitandvalue(-1)^2021+2=1;4k+3=1 ->k=-1/2.",
+        "answerValue": -0.5,
+        "answerDecimals": 2,
+        "id": 9
+      },
+      {
+        "source": "PHT-LT-CB-NC-TL-7",
+        "type": "short",
+        "kind": "Thực hành",
+        "prompt": "Cho hàm số $f(x)=\\begin{cases}\\frac{\\sqrt[3]{x+6}-\\sqrt{3x-2}}{x-2}&\\text{khi }x>2\\\\ax&\\text{khi }x\\le2\\end{cases}$. Tìm $a$ để hàm số liên tục tại $x=2$.",
+        "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><mroot><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>6</mn></mrow><mn>3</mn></mroot><mo>&#x02212;</mo><msqrt><mrow><mn>3</mn><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow></msqrt></mrow><mrow><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow></mfrac></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003E;</mo><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>a</mi><mi>x</mi></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02264;</mo><mn>2</mn></mtd></mtr></mtable></mrow></mrow></math>. Tìm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi></mrow></math> để hàm số liên tục tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>.",
+        "options": [],
+        "verification": "Right limit=(1/12)-(3/4)=-2/3;2a=-2/3 ->a=-1/3.",
+        "answerValue": -0.3333333333333333,
+        "answerDecimals": 2,
+        "id": 10
+      },
+      {
+        "source": "OT4-CB-TN-22",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho hàm $f(x)$ và $g(x)$ là hai hàm số liên tục tại điểm $x_0$. Khẳng định nào sau đây sai?",
+        "html": "Cho hàm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là hai hàm số liên tục tại điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math>. Khẳng định nào sau đây sai?",
+        "options": [
+          "Hàm số $f(x)-g(x)$ liên tục tại điểm $x_0$.",
+          "Hàm số $f(x).g(x)$ liên tục tại điểm $x_0$.",
+          "Hàm số $\\frac{f(x)}{g(x)}$ liên tục tại điểm $x_0$.",
+          "Hàm số $f(x)+g(x)$ liên tục tại điểm $x_0$."
+        ],
+        "optionsHtml": [
+          "Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02212;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> liên tục tại điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math>.",
+          "Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002E;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> liên tục tại điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math>.",
+          "Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac></mrow></math> liên tục tại điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math>.",
+          "Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002B;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> liên tục tại điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math>."
+        ],
+        "answer": 2,
+        "verification": "Quotient requires g(x0)≠0, which is not given.",
+        "id": 11
+      },
+      {
+        "source": "OT4-CB-TN-23",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Hàm số $f(x)$ có đồ thị như hình bên không liên tục tại điểm có hoành độ là bao nhiêu?",
+        "html": "Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> có đồ thị như hình bên không liên tục tại điểm có hoành độ là bao nhiêu?<img src=\"m/continuity-ot4-cb23.png\" alt=\"Đồ thị hàm số trong câu 23 của phiếu ôn tập chương 4\" style=\"display:block;width:260px;max-width:100%;height:auto;margin:16px auto\">",
+        "options": [
+          "$x=0$;",
+          "$x=1$;",
+          "$x=2$;",
+          "$x=3$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></math>;",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>;",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>;",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>3</mn></mrow></math>."
+        ],
+        "answer": 1,
+        "verification": "At x=1 left branch tends3 and right branch tends0; at2 straight line remainscontinuous.",
+        "id": 12
+      },
+      {
+        "source": "OT4-CB-TN-24",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho hàm số $f(x)=\\begin{cases}x^2-2x+3&\\text{khi }x\\ne1\\\\3x+m-1&\\text{khi }x=1\\end{cases}$. Tìm $m$ để hàm số liên tục tại $x_0=1$.",
+        "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>2</mn><mi>x</mi><mo>&#x0002B;</mo><mn>3</mn></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02260;</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mn>3</mn><mi>x</mi><mo>&#x0002B;</mo><mi>m</mi><mo>&#x02212;</mo><mn>1</mn></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>. Tìm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math> để hàm số liên tục tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>&#x0003D;</mo><mn>1</mn></mrow></math>.",
+        "options": [
+          "$m=1$.",
+          "$m=3$.",
+          "$m=0$.",
+          "$m=2$."
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mn>3</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></math>.",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>."
+        ],
+        "answer": 2,
+        "verification": "Limit at1=2;f1=2+m ->m0.",
+        "id": 13
+      },
+      {
+        "source": "OT4-NC-TN-8",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho hàm số $f(x)=\\begin{cases}\\frac{ax^2-(a-2)x-2}{\\sqrt{x+3}-2}&\\text{khi }x\\ne1\\\\8+a^2&\\text{khi }x=1\\end{cases}$. Có tất cả bao nhiêu giá trị nguyên của $a$ để hàm số liên tục tại $x=1$?",
+        "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo>&#x02212;</mo><mn>2</mn><mo stretchy=\"false\">&#x00029;</mo><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow><mrow><msqrt><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>3</mn></mrow></msqrt><mo>&#x02212;</mo><mn>2</mn></mrow></mfrac></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02260;</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mn>8</mn><mo>&#x0002B;</mo><msup><mi>a</mi><mn>2</mn></msup></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>. Có tất cả bao nhiêu giá trị nguyên của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi></mrow></math> để hàm số liên tục tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>?",
+        "options": [
+          "2.",
+          "0.",
+          "3.",
+          "1."
+        ],
+        "optionsHtml": [
+          "2.",
+          "0.",
+          "3.",
+          "1."
+        ],
+        "answer": 0,
+        "verification": "Numerator=(x-1)(ax+2); rationalize ->(ax+2)(sqrt(x+3)+2). Limit4a+8=8+a² ->a=0,4, both integers.",
+        "id": 14
+      },
+      {
+        "source": "OT4-NC-TN-9",
+        "type": "mcq",
+        "kind": "Thực hành",
+        "prompt": "Cho hàm số: $f(x)=\\begin{cases}\\frac{x^2+ax-2}{x}&\\text{khi }x\\ge1\\\\x^2+x+1&\\text{khi }x<1\\end{cases}$ để $f(x)$ liên tục tại $x_0=1$ thì $a$ bằng",
+        "html": "Cho hàm số: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mi>a</mi><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02265;</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mi>x</mi><mo>&#x0002B;</mo><mn>1</mn></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003C;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math> để <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> liên tục tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>&#x0003D;</mo><mn>1</mn></mrow></math> thì <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi></mrow></math> bằng",
+        "options": [
+          "4.",
+          "-1.",
+          "-4.",
+          "1."
+        ],
+        "optionsHtml": [
+          "4.",
+          "-1.",
+          "-4.",
+          "1."
+        ],
+        "answer": 0,
+        "verification": "Leftlimit3;rightandvaluea-1; a4.",
+        "id": 15
+      },
+      {
+        "source": "OT4-CB-TL-5",
+        "type": "short",
+        "kind": "Thực hành",
+        "prompt": "Xét tính liên tục của hàm số $y=f(x)=\\begin{cases}\\frac{x^2-3x+2}{x^2-1},&\\text{khi }x\\ne1\\\\-\\frac12,&\\text{khi }x=1\\end{cases}$ tại $x=1$.",
+        "html": "Xét tính liên tục của hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>3</mn><mi>x</mi><mo>&#x0002B;</mo><mn>2</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>1</mn></mrow></mfrac><mo>&#x0002C;</mo></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02260;</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mo>&#x02212;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#x0002C;</mo></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math> tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>.",
+        "options": [],
+        "answerTexts": [
+          "liên tục",
+          "liên tục tại x=1",
+          "liên tục tại 1",
+          "hàm số liên tục",
+          "hàm số liên tục tại x=1",
+          "lien tuc",
+          "lien tuc tai x=1"
+        ],
+        "answerHint": "Nhập kết luận: “liên tục” hoặc “gián đoạn”.",
+        "verification": "Cancel x-1 ->(x-2)/(x+1); limit -1/2=f(1), so continuous at1.",
+        "id": 16
+      },
+      {
+        "source": "OT4-CB-TL-8",
+        "type": "short",
+        "kind": "Thực hành",
+        "prompt": "Định $m$ để hàm số $y=f(x)=\\begin{cases}\\frac{x^2-3x+2}{x^2-2x},&\\text{khi }x<2\\\\mx+m+1,&\\text{khi }x\\ge2\\end{cases}$ liên tục trên tập xác định của nó.",
+        "html": "Định <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>m</mi></mrow></math> để hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>3</mn><mi>x</mi><mo>&#x0002B;</mo><mn>2</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>2</mn><mi>x</mi></mrow></mfrac><mo>&#x0002C;</mo></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003C;</mo><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>m</mi><mi>x</mi><mo>&#x0002B;</mo><mi>m</mi><mo>&#x0002B;</mo><mn>1</mn><mo>&#x0002C;</mo></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02265;</mo><mn>2</mn></mtd></mtr></mtable></mrow></mrow></math> liên tục trên tập xác định của nó.",
+        "options": [],
+        "answerValue": -0.16666666666666666,
+        "answerDecimals": 2,
+        "verification": "Domain R excluding0; limit at2=(2-1)/2=1/2; 3m+1=1/2 ->m=-1/6. Other domain points continuous.",
+        "id": 17
+      }
+    ],
+    "expected": 17,
+    "practicePending": false,
+    "mixedExercises": false,
+    "orderedExercises": false,
+    "theoryQuestions": [
+      {
+        "id": 1,
+        "prompt": "$f$ liên tục tại $x_0$ khi …",
+        "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi></mrow></math> liên tục tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math> khi …",
+        "options": [
+          "$\\lim_{x\\to x_0}f(x)=f(x_0)$",
+          "Chỉ cần có giới hạn",
+          "Chỉ cần có giá trị tại điểm đó"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"false\">)</mo></mrow></math>",
+          "Chỉ cần có giới hạn",
+          "Chỉ cần có giá trị tại điểm đó"
+        ],
+        "answer": 0,
+        "kind": "Lý thuyết"
+      },
+      {
+        "id": 2,
+        "prompt": "Với hàm cho bởi nhiều công thức, tại điểm ghép cần …",
+        "html": "Với hàm cho bởi nhiều công thức, tại điểm ghép cần …",
+        "options": [
+          "Giới hạn trái = giới hạn phải = giá trị hàm",
+          "Giới hạn trái = giới hạn phải là đủ",
+          "Chỉ cần có giá trị hàm"
+        ],
+        "optionsHtml": [
+          "Giới hạn trái = giới hạn phải = giá trị hàm",
+          "Giới hạn trái = giới hạn phải là đủ",
+          "Chỉ cần có giá trị hàm"
+        ],
+        "answer": 0,
+        "kind": "Lý thuyết"
+      },
+      {
+        "id": 3,
+        "prompt": "Liên tục trên một khoảng nghĩa là …",
+        "html": "Liên tục trên một khoảng nghĩa là …",
+        "options": [
+          "Liên tục tại mọi điểm của khoảng",
+          "Liên tục tại một điểm trong khoảng",
+          "Chỉ cần tồn tại giới hạn tại mọi điểm"
+        ],
+        "optionsHtml": [
+          "Liên tục tại mọi điểm của khoảng",
+          "Liên tục tại một điểm trong khoảng",
+          "Chỉ cần tồn tại giới hạn tại mọi điểm"
+        ],
+        "answer": 0,
+        "kind": "Lý thuyết"
+      },
+      {
+        "id": 4,
+        "prompt": "Để liên tục trên $[a;b]$, ngoài liên tục trên $(a;b)$ cần …",
+        "html": "Để liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math>, ngoài liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> cần …",
+        "options": [
+          "Liên tục phải tại $a$, liên tục trái tại $b$",
+          "Liên tục trái tại $a$, liên tục phải tại $b$",
+          "Không cần điều kiện ở hai đầu mút"
+        ],
+        "optionsHtml": [
+          "Liên tục phải tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi></mrow></math>, liên tục trái tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>b</mi></mrow></math>",
+          "Liên tục trái tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi></mrow></math>, liên tục phải tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>b</mi></mrow></math>",
+          "Không cần điều kiện ở hai đầu mút"
+        ],
+        "answer": 0,
+        "kind": "Lý thuyết"
+      },
+      {
+        "id": 5,
+        "prompt": "Hàm đa thức liên tục trên …",
+        "html": "Hàm đa thức liên tục trên …",
+        "options": [
+          "R",
+          "Chỉ các số dương",
+          "Chỉ các số nguyên"
+        ],
+        "optionsHtml": [
+          "R",
+          "Chỉ các số dương",
+          "Chỉ các số nguyên"
+        ],
+        "answer": 0,
+        "kind": "Lý thuyết"
+      },
+      {
+        "id": 6,
+        "prompt": "Thương của hai hàm liên tục tại một điểm vẫn liên tục nếu …",
+        "html": "Thương của hai hàm liên tục tại một điểm vẫn liên tục nếu …",
+        "options": [
+          "Mẫu khác 0 tại điểm đó",
+          "Tử khác 0 tại điểm đó",
+          "Mẫu bằng 0 tại điểm đó"
+        ],
+        "optionsHtml": [
+          "Mẫu khác 0 tại điểm đó",
+          "Tử khác 0 tại điểm đó",
+          "Mẫu bằng 0 tại điểm đó"
+        ],
+        "answer": 0,
+        "kind": "Lý thuyết"
+      },
+      {
+        "id": 7,
+        "prompt": "Cho $f$ liên tục trên $[a;b]$. Điều kiện bảo đảm có nghiệm trong $(a;b)$ là …",
+        "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi></mrow></math> liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math>. Điều kiện bảo đảm có nghiệm trong <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> là …",
+        "options": [
+          "$f(a)f(b)<0$",
+          "$f(a)f(b)>0$",
+          "$f(a)=f(b)$"
+        ],
+        "optionsHtml": [
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003C;</mo><mn>0</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003E;</mo><mn>0</mn></mrow></math>",
+          "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>"
+        ],
+        "answer": 0,
+        "kind": "Lý thuyết"
+      },
+      {
+        "id": 8,
+        "prompt": "Định lí về hai giá trị trái dấu bảo đảm …",
+        "html": "Định lí về hai giá trị trái dấu bảo đảm …",
+        "options": [
+          "Có ít nhất một nghiệm trong khoảng",
+          "Có đúng một nghiệm trong khoảng",
+          "Có hai nghiệm trong khoảng"
+        ],
+        "optionsHtml": [
+          "Có ít nhất một nghiệm trong khoảng",
+          "Có đúng một nghiệm trong khoảng",
+          "Có hai nghiệm trong khoảng"
+        ],
+        "answer": 0,
+        "kind": "Lý thuyết"
+      }
+    ]
+  },
+  "sources": [
+    "PHT_CB_Bài 17_Hàm số liên tục.pdf",
+    "PHT_NC_Bài 17_Ham so lien tuc.pdf",
+    "[PHT CB] ÔN TẬP CHƯƠNG 4.pdf",
+    "[PHT NC] ÔN TẬP CHƯƠNG 4.pdf"
+  ],
+  "excluded": {
+    "TN1": "Cả bốn khẳng định đều sai: có giới hạn không bảo đảm giá trị hàm bằng giới hạn.",
+    "TN5": "Nói bốn hàm nhưng chỉ liệt kê ba hàm. Không tự bổ sung hàm thứ tư.",
+    "TN9": "Đáp án đúng a=-2/3 không có trong lựa chọn (-3;2;-3/2;-2)."
+  },
+  "duplicates": "NC trùng CB toàn bộ TN1–10 và TL1–7; chỉ giữ một bản.",
+  "written_only": "TL1,2,5,6 và NC8–11 yêu cầu xét/chứng minh, chưa đưa vào test tự chấm để giữ nguyên yêu cầu.",
+  "review_ch4_added": [
+    "OT4-CB-TN-22",
+    "OT4-CB-TN-23",
+    "OT4-CB-TN-24",
+    "OT4-NC-TN-8",
+    "OT4-NC-TN-9",
+    "OT4-CB-TL-5",
+    "OT4-CB-TL-8"
+  ],
+  "review_ch4_skipped": {
+    "CB-TL6": "Cùng dạng khử nhân tử bậc hai và nối nhánh tuyến tính tìm tham số như câu TN6 đang có, chỉ đổi số.",
+    "CB-TL7": "Cùng biểu thức 2x sau rút gọn và xét giá trị tại điểm ghép như TN7, không thêm biến thể gần trùng.",
+    "CB-TN25": "Trùng biểu thức (x²−1)/(x−1) của TN7; chỉ thay m thành m−2."
+  }
+}

@@ -1,0 +1,1994 @@
+{
+  "topics": [
+    {
+      "title": "Giới hạn hàm số",
+      "study": "<h2>A. Giới hạn hữu hạn</h2><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> tiến tới <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math> khi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi></mrow></math> tiến tới <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math>).</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></msub><mi>x</mi><mo>&#x0003D;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></msub><mi>c</mi><mo>&#x0003D;</mo><mi>c</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><mi>&#x000B1;</mi><mo>&#x0221E;</mo></mrow></msub><mi>c</mi><mo>&#x0003D;</mo><mi>c</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><mi>&#x000B1;</mi><mo>&#x0221E;</mo></mrow></msub><mfrac><mi>c</mi><mrow><msup><mi>x</mi><mi>k</mi></msup></mrow></mfrac><mo>&#x0003D;</mo><mn>0</mn></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi></mrow></math> nguyên dương).</article><article class=\"theory-item\">Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo>&#x0003D;</mo><mi>L</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo>&#x0003D;</mo><mi>M</mi></mrow></math> hữu hạn:<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">&#x00028;</mo><mi>f</mi><mi>&#x000B1;</mi><mi>g</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mi>&#x000B1;</mi><mi>M</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">&#x00028;</mo><mi>f</mi><mi>g</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mi>M</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mi>f</mi><mi>g</mi></mfrac><mo>&#x0003D;</mo><mfrac><mi>L</mi><mi>M</mi></mfrac></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x02260;</mo><mn>0</mn></mrow></math>).<br>Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo>&#x02265;</mo><mn>0</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><msqrt><mi>f</mi></msqrt><mo>&#x0003D;</mo><msqrt><mi>L</mi></msqrt></mrow></math>.</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi></mrow></math> khi và chỉ khi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msubsup><mi>x</mi><mn>0</mn><mo>&#x02212;</mo></msubsup></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msubsup><mi>x</mi><mn>0</mn><mo>&#x0002B;</mo></msubsup></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi></mrow></math>.</article><h2>B. Giới hạn vô cực</h2><h3>Quy tắc 1: Tích</h3><div class=\"angle-table-wrap\"><table class=\"angle-table\"><thead><tr><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo></mrow></math></th></tr></thead><tbody><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td></tr></tbody></table></div><h3>Quy tắc 2: Thương</h3><div class=\"angle-table-wrap\"><table class=\"angle-table\"><thead><tr><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th>Dấu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac></mrow></math></th></tr></thead><tbody><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x000B1;</mi><mo>&#x0221E;</mo></mrow></math></td><td>Tùy ý</td><td>0</td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td>0</td><td>+ </td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td>0</td><td>−</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td>0</td><td>+</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td>0</td><td>−</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td></tr></tbody></table></div><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math> hữu hạn; xét dấu của mẫu gần điểm lấy giới hạn. Không áp dụng trực tiếp cho các dạng vô định <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x0002F;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0221E;</mo><mo>&#x0002F;</mo><mo>&#x0221E;</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x000B7;</mo><mo>&#x0221E;</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0221E;</mo><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>.</article>",
+      "questions": [
+        {
+          "id": 1,
+          "source": "CK-GHHS-I-11",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Cho các giới hạn: $\\lim_{x\\to x_0}f(x)=2$; $\\lim_{x\\to x_0}g(x)=3$, hỏi $\\lim_{x\\to x_0}[3f(x)-4g(x)]$ bằng",
+          "html": "Cho các giới hạn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></munder></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>2</mn></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></munder></mrow></msub><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>3</mn></mrow></math>, hỏi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></munder></mrow></msub><mo stretchy=\"false\">[</mo><mn>3</mn><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02212;</mo><mn>4</mn><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo></mrow></math> bằng",
+          "options": [
+            "5",
+            "2",
+            "−6",
+            "3"
+          ],
+          "optionsHtml": [
+            "5",
+            "2",
+            "−6",
+            "3"
+          ],
+          "answer": 2,
+          "verification": "3*2-4*3=-6"
+        },
+        {
+          "id": 2,
+          "source": "CK-GHHS-I-12",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giá trị của $\\lim_{x\\to1}(2x^2-3x+1)$ bằng",
+          "html": "Giá trị của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mo stretchy=\"false\">(</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow></math> bằng",
+          "options": [
+            "2",
+            "1",
+            "$+\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "2",
+            "1",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 3,
+          "verification": "2-3+1=0"
+        },
+        {
+          "id": 3,
+          "source": "CK-GHHS-I-13",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính giới hạn $L=\\lim_{x\\to3}\\frac{x-3}{x+3}$.",
+          "html": "Tính giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>=</mo><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>3</mn></mrow></munder><mfrac><mrow><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow></math>.",
+          "options": [
+            "$L=-\\infty$",
+            "$L=0$",
+            "$L=+\\infty$",
+            "$L=1$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003D;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>"
+          ],
+          "answer": 1,
+          "verification": "0/6=0"
+        },
+        {
+          "id": 4,
+          "source": "CK-GHHS-I-14",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giới hạn $\\lim_{x\\to1}\\frac{x^2-2x+3}{x+1}$ bằng?",
+          "html": "Giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> bằng?",
+          "options": [
+            "1",
+            "0",
+            "3",
+            "2"
+          ],
+          "optionsHtml": [
+            "1",
+            "0",
+            "3",
+            "2"
+          ],
+          "answer": 0,
+          "verification": "(1-2+3)/2=1"
+        },
+        {
+          "id": 5,
+          "source": "CK-GHHS-I-15",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "$\\lim_{x\\to\\sqrt3}|x^2-4|$ bằng",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msqrt><mn>3</mn></msqrt></mrow></munder><mo stretchy=\"false\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mo stretchy=\"false\">|</mo></mrow></math> bằng",
+          "options": [
+            "−5",
+            "1",
+            "5",
+            "−1"
+          ],
+          "optionsHtml": [
+            "−5",
+            "1",
+            "5",
+            "−1"
+          ],
+          "answer": 1,
+          "verification": "|3-4|=1"
+        },
+        {
+          "id": 6,
+          "source": "CK-GHHS-I-16",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính $\\lim_{x\\to1}\\frac{x^3-2x^2+2020}{2x-1}$.",
+          "html": "Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2020</mn></mrow><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>.",
+          "options": [
+            "0",
+            "$-\\infty$",
+            "$+\\infty$",
+            "2019"
+          ],
+          "optionsHtml": [
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "2019"
+          ],
+          "answer": 3,
+          "verification": "1-2+2020=2019"
+        },
+        {
+          "id": 7,
+          "source": "CK-GHHS-I-17",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "$\\lim_{x\\to-2}\\frac{2|x+1|-5\\sqrt{x^2-3}}{2x+3}$ bằng.",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>2</mn></mrow></munder><mfrac><mrow><mn>2</mn><mo stretchy=\"false\">|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\">|</mo><mo>−</mo><mn>5</mn><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn></mrow></msqrt></mrow><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow></math> bằng.",
+          "options": [
+            "$1/3$",
+            "$1/7$",
+            "7",
+            "3"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>3</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>7</mn></mrow></math>",
+            "7",
+            "3"
+          ],
+          "answer": 3,
+          "verification": "(2-5)/(-1)=3"
+        },
+        {
+          "id": 8,
+          "source": "CK-GHHS-I-18",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tìm giới hạn $A=\\lim_{x\\to-2}\\frac{x+1}{x^2+x+4}$.",
+          "html": "Tìm giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>=</mo><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>2</mn></mrow></munder><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfrac></mrow></math>.",
+          "options": [
+            "$-1/6$",
+            "$-\\infty$",
+            "$+\\infty$",
+            "1"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>6</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "1"
+          ],
+          "answer": 0,
+          "verification": "-1/6"
+        },
+        {
+          "id": 9,
+          "source": "CK-GHHS-I-19",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giới hạn nào sau đây có kết quả bằng $+\\infty$?",
+          "html": "Giới hạn nào sau đây có kết quả bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>?",
+          "options": [
+            "$\\lim_{x\\to1}\\frac{x-3}{(x-1)^2}$",
+            "$\\lim_{x\\to1}\\frac{x-2}{(x-1)^2}$",
+            "$\\lim_{x\\to1}\\frac{-x-1}{(x-1)^2}$",
+            "$\\lim_{x\\to1}\\frac{x+1}{(x-1)^2}$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow><mrow><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><mo>−</mo><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math>"
+          ],
+          "answer": 3,
+          "verification": "Only D has positive numerator and denominator tends 0+."
+        },
+        {
+          "id": 10,
+          "source": "CK-GHHS-I-20",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Cho $\\lim_{x\\to3}f(x)=-2$. Tính $\\lim_{x\\to3}[f(x)+4x-1]$.",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>3</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo>−</mo><mn>2</mn></mrow></math>. Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>3</mn></mrow></munder><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\">]</mo></mrow></math>.",
+          "options": [
+            "5",
+            "6",
+            "11",
+            "9"
+          ],
+          "optionsHtml": [
+            "5",
+            "6",
+            "11",
+            "9"
+          ],
+          "answer": 3,
+          "verification": "-2+12-1=9"
+        },
+        {
+          "source": "CK-GHHS-I-21",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Trong các mệnh đề sau, mệnh đề nào sai?",
+          "html": "Trong các mệnh đề sau, mệnh đề nào sai?",
+          "options": [
+            "$\\lim_{x\\to0^+}\\frac1x=+\\infty$.",
+            "$\\lim_{x\\to0^+}\\frac1x=-\\infty$.",
+            "$\\lim_{x\\to0^+}\\frac1{x^5}=+\\infty$.",
+            "$\\lim_{x\\to0^+}\\frac1{\\sqrt x}=+\\infty$."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>5</mn></msup></mrow></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mrow><msqrt><mi>x</mi></msqrt></mrow></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>."
+          ],
+          "answer": 1,
+          "verification": "B is false; 1/x ->+infinity for x->0+.",
+          "id": 11
+        },
+        {
+          "id": 12,
+          "source": "CK-GHHS-I-22",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Trong bốn giới hạn sau đây, giới hạn nào bằng $-\\infty$?",
+          "html": "Trong bốn giới hạn sau đây, giới hạn nào bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>?",
+          "options": [
+            "$\\lim_{x\\to+\\infty}\\frac{-3x+4}{x-2}$",
+            "$\\lim_{x\\to2^-}\\frac{-3x+4}{x-2}$",
+            "$\\lim_{x\\to2^+}\\frac{-3x+4}{x-2}$",
+            "$\\lim_{x\\to-\\infty}\\frac{-3x+4}{x-2}$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>2</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>2</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math>"
+          ],
+          "answer": 2,
+          "verification": "Numerator ->-2; denominator 0+ in C."
+        },
+        {
+          "source": "CK-GHHS-I-23",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Trong các giới hạn dưới đây, giới hạn nào là $+\\infty$?",
+          "html": "Trong các giới hạn dưới đây, giới hạn nào là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>?",
+          "options": [
+            "$\\lim_{x\\to4^-}\\frac{2x-1}{4-x}$.",
+            "$\\lim_{x\\to+\\infty}(-x^3+2x+3)$.",
+            "$\\lim_{x\\to-\\infty}\\frac{x^2+x+1}{x-1}$.",
+            "$\\lim_{x\\to4^+}\\frac{2x-1}{4-x}$."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>4</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>4</mn><mo>−</mo><mi>x</mi></mrow></mfrac></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><mo>−</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\">)</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>4</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>4</mn><mo>−</mo><mi>x</mi></mrow></mfrac></mrow></math>."
+          ],
+          "answer": 0,
+          "verification": "A:+inf;B,C,D:-inf",
+          "id": 13
+        },
+        {
+          "id": 14,
+          "source": "CK-GHHS-I-24",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giới hạn $\\lim_{x\\to1^+}\\frac{-2x+1}{x-1}$ bằng",
+          "html": "Giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math> bằng",
+          "options": [
+            "$+\\infty$",
+            "$-\\infty$",
+            "$2/3$",
+            "$1/3$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x0002F;</mo><mn>3</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>3</mn></mrow></math>"
+          ],
+          "answer": 1,
+          "verification": "-1/0+"
+        },
+        {
+          "id": 15,
+          "source": "CK-GHHS-I-25",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "$\\lim_{x\\to1^-}\\frac{x+2}{x-1}$ bằng:",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math> bằng:",
+          "options": [
+            "$+\\infty$",
+            "$1/2$",
+            "$-\\infty$",
+            "$-1/2$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>"
+          ],
+          "answer": 2,
+          "verification": "3/0-"
+        },
+        {
+          "id": 16,
+          "source": "CK-GHHS-I-26",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính giới hạn $\\lim_{x\\to1^-}\\frac{x^2+1}{x-1}$.",
+          "html": "Tính giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>.",
+          "options": [
+            "0",
+            "$+\\infty$",
+            "$-\\infty$",
+            "1"
+          ],
+          "optionsHtml": [
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "1"
+          ],
+          "answer": 2,
+          "verification": "2/0-"
+        },
+        {
+          "source": "CK-GHHS-I-27",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Trong các mệnh đề sau mệnh đề nào sai",
+          "html": "Trong các mệnh đề sau mệnh đề nào sai",
+          "options": [
+            "$\\lim_{x\\to-\\infty}(\\sqrt{x^2-x+1}+x-2)=-\\frac32$.",
+            "$\\lim_{x\\to-1^-}\\frac{3x+2}{x+1}=-\\infty$.",
+            "$\\lim_{x\\to+\\infty}(\\sqrt{x^2-x+1}+x-2)=+\\infty$.",
+            "$\\lim_{x\\to-1^+}\\frac{3x+2}{x+1}=-\\infty$."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>."
+          ],
+          "answer": 1,
+          "verification": "A:-3/2;B:+inf;C:+inf;D:-inf",
+          "id": 17
+        },
+        {
+          "id": 18,
+          "source": "CK-GHHS-I-28",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tìm giới hạn $\\lim_{x\\to1^+}\\frac{4x-3}{x-1}$",
+          "html": "Tìm giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>4</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>",
+          "options": [
+            "$+\\infty$",
+            "2",
+            "$-\\infty$",
+            "−2"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "2",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "−2"
+          ],
+          "answer": 0,
+          "verification": "1/0+"
+        },
+        {
+          "id": 19,
+          "source": "CK-GHHS-I-29",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính giới hạn $\\lim_{x\\to-2^-}\\frac{3+2x}{x+2}$.",
+          "html": "Tính giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>2</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></math>.",
+          "options": [
+            "$-\\infty$",
+            "2",
+            "$+\\infty$",
+            "$3/2$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "2",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>"
+          ],
+          "answer": 2,
+          "verification": "-1/0-"
+        },
+        {
+          "source": "CK-GHHS-I-30",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Cho hàm số $y=f(x)=\\begin{cases}\\frac{2-\\sqrt{x+3}}{x^2-1}&\\text{khi }x\\ne1\\\\\\frac18&\\text{khi }x=1\\end{cases}$. Tính $\\lim_{x\\to1^-}f(x)$.",
+          "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>y</mi><mo>&#x0003D;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mfrac><mrow><mn>2</mn><mo>&#x02212;</mo><msqrt><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>3</mn></mrow></msqrt></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>1</mn></mrow></mfrac></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02260;</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mfrac><mn>1</mn><mn>8</mn></mfrac></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003D;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>. Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow></math>.",
+          "options": [
+            "$1/8$.",
+            "$+\\infty$.",
+            "0.",
+            "$-1/8$."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>8</mn></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "0.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>8</mn></mrow></math>."
+          ],
+          "answer": 3,
+          "verification": "Rationalize -> -1/((2+sqrt(x+3))(x+1))=-1/8",
+          "id": 20
+        },
+        {
+          "id": 21,
+          "source": "CK-GHHS-I-31",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Biết $\\lim_{x\\to-1}f(x)=4$. Khi đó $\\lim_{x\\to-1}\\frac{f(x)}{(x+1)^4}$ bằng:",
+          "html": "Biết <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>1</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>4</mn></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>1</mn></mrow></munder><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow><mrow><mo stretchy=\"false\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\">)</mo><mn>4</mn></msup></mrow></mfrac></mrow></math> bằng:",
+          "options": [
+            "$-\\infty$",
+            "4",
+            "$+\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "4",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 2,
+          "verification": "4/0+"
+        },
+        {
+          "id": 22,
+          "source": "CK-GHHS-I-32",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giả sử ta có $\\lim_{x\\to+\\infty}f(x)=a$ và $\\lim_{x\\to+\\infty}g(x)=b$. Trong các mệnh đề sau, mệnh đề nào sai?",
+          "html": "Giả sử ta có <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>b</mi></mrow></math>. Trong các mệnh đề sau, mệnh đề nào sai?",
+          "options": [
+            "$\\lim_{x\\to+\\infty}[f(x).g(x)]=a.b$",
+            "$\\lim_{x\\to+\\infty}[f(x)-g(x)]=a-b$",
+            "$\\lim_{x\\to+\\infty}\\frac{f(x)}{g(x)}=\\frac ab$",
+            "$\\lim_{x\\to+\\infty}[f(x)+g(x)]=a+b$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>.</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">]</mo><mo>=</mo><mi>a</mi><mo>.</mo><mi>b</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">]</mo><mo>=</mo><mi>a</mi><mo>−</mo><mi>b</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow></mfrac><mo>=</mo><mfrac><mi>a</mi><mi>b</mi></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">]</mo><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math>"
+          ],
+          "answer": 2,
+          "verification": "C lacks condition b≠0."
+        },
+        {
+          "id": 23,
+          "source": "CK-GHHS-I-33",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Chọn kết quả đúng của $\\lim_{x\\to-\\infty}(-4x^5-3x^3+x+1)$.",
+          "html": "Chọn kết quả đúng của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow></math>.",
+          "options": [
+            "0",
+            "$+\\infty$",
+            "$-\\infty$",
+            "−4"
+          ],
+          "optionsHtml": [
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "−4"
+          ],
+          "answer": 1,
+          "verification": "Leading -4x5 ->+infinity"
+        },
+        {
+          "id": 24,
+          "source": "CK-GHHS-I-34",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính giới hạn $\\lim_{x\\to-\\infty}(2x^3-x^2+1)$",
+          "html": "Tính giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow></math>",
+          "options": [
+            "$+\\infty$",
+            "$-\\infty$",
+            "2",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "2",
+            "0"
+          ],
+          "answer": 1,
+          "verification": "Leading 2x3 ->-infinity"
+        },
+        {
+          "id": 25,
+          "source": "CK-GHHS-I-36",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính giới hạn $\\lim_{x\\to+\\infty}\\frac{2x-1}{4x+2}$.",
+          "html": "Tính giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></math>.",
+          "options": [
+            "$1/2$",
+            "1",
+            "$-1/4$",
+            "$-1/2$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>",
+            "1",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>4</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>"
+          ],
+          "answer": 0,
+          "verification": "2/4=1/2"
+        },
+        {
+          "id": 26,
+          "source": "CK-GHHS-I-37",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "$\\lim_{x\\to-\\infty}\\frac{x}{x^2+1}$ bằng. ",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> bằng. ",
+          "options": [
+            "$-\\infty$",
+            "1",
+            "$+\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "1",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 3,
+          "verification": "Degree numerator lower ->0"
+        },
+        {
+          "id": 27,
+          "source": "CK-GHHS-I-38",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giới hạn $\\lim_{x\\to+\\infty}\\frac{2x^5-3x^3+1}{4x^3-2x^4-x^5-3}$ bằng",
+          "html": "Giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>3</mn></mrow></mfrac></mrow></math> bằng",
+          "options": [
+            "−2",
+            "$1/2$",
+            "−3",
+            "$3/2$"
+          ],
+          "optionsHtml": [
+            "−2",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>",
+            "−3",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>"
+          ],
+          "answer": 0,
+          "verification": "2/-1=-2"
+        },
+        {
+          "id": 28,
+          "source": "CK-GHHS-I-39",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "$\\lim_{x\\to-\\infty}\\frac{(x-1)(x+2)}{x^2+9}$ bằng",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\">)</mo></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn></mrow></mfrac></mrow></math> bằng",
+          "options": [
+            "$2/9$",
+            "1",
+            "−1",
+            "$-1/9$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x0002F;</mo><mn>9</mn></mrow></math>",
+            "1",
+            "−1",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>9</mn></mrow></math>"
+          ],
+          "answer": 1,
+          "verification": "Leading coefficients ratio1"
+        },
+        {
+          "source": "CK-GHHS-I-40",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính $\\lim_{x\\to-\\infty}(\\sqrt{2x^2+x}+x)$?",
+          "html": "Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></msqrt><mo>+</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow></math>?",
+          "options": [
+            "$+\\infty$.",
+            "−1.",
+            "$-\\infty$.",
+            "0."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "−1.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "0."
+          ],
+          "answer": 0,
+          "verification": "(sqrt2-1)|x| ->+infinity",
+          "id": 29
+        },
+        {
+          "source": "CK-GHHS-I-41",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tìm $\\lim_{x\\to-\\infty}\\frac{\\sqrt{x^2+3x+5}}{4x-1}$.",
+          "html": "Tìm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></msqrt></mrow><mrow><mn>4</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>.",
+          "options": [
+            "$-1/4$.",
+            "1.",
+            "0.",
+            "$1/4$."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>4</mn></mrow></math>.",
+            "1.",
+            "0.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>4</mn></mrow></math>."
+          ],
+          "answer": 0,
+          "verification": "sqrt(x²+3x+5)~-x;ratio -1/4",
+          "id": 30
+        },
+        {
+          "id": 31,
+          "source": "CK-GHHS-I-42",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giá trị của $\\lim_{x\\to-\\infty}\\frac{2x-1}{\\sqrt{x^2+1}-1}$ bằng",
+          "html": "Giá trị của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math> bằng",
+          "options": [
+            "0",
+            "−2",
+            "$-\\infty$",
+            "2"
+          ],
+          "optionsHtml": [
+            "0",
+            "−2",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "2"
+          ],
+          "answer": 1,
+          "verification": "sqrt(x²+1)~ -x for negative x"
+        },
+        {
+          "id": 32,
+          "source": "CK-GHHS-I-43",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Chọn kết quả đúng của $\\lim_{x\\to+\\infty}\\frac{1+3x}{\\sqrt{2x^2+3}}$.",
+          "html": "Chọn kết quả đúng của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mi>x</mi></mrow><mrow><msqrt><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn></mrow></msqrt></mrow></mfrac></mrow></math>.",
+          "options": [
+            "$-\\frac{3\\sqrt2}2$",
+            "$-\\frac{\\sqrt2}2$",
+            "$\\frac{3\\sqrt2}2$",
+            "$\\frac{\\sqrt2}2$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mrow><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mrow><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>"
+          ],
+          "answer": 2,
+          "verification": "3/sqrt2"
+        },
+        {
+          "id": 33,
+          "source": "CK-GHHS-I-44",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giới hạn $\\lim_{x\\to+\\infty}\\frac{\\sqrt{x^2+2}-2}{x-2}$ bằng",
+          "html": "Giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow></msqrt><mo>−</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math> bằng",
+          "options": [
+            "$-\\infty$",
+            "1",
+            "$+\\infty$",
+            "−1"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "1",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "−1"
+          ],
+          "answer": 1,
+          "verification": "sqrt(x²+2)~x"
+        },
+        {
+          "source": "CK-GHHS-I-45",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Cho $\\lim_{x\\to+\\infty}\\left(\\frac{x^2+3x+1}{x+1}+ax+b\\right)=1$. Khi đó giá trị của biểu thức $T=a+b$ bằng",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>1</mn></mrow></math>. Khi đó giá trị của biểu thức <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>T</mi><mo>&#x0003D;</mo><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi></mrow></math> bằng",
+          "options": [
+            "−2.",
+            "0.",
+            "1.",
+            "2."
+          ],
+          "optionsHtml": [
+            "−2.",
+            "0.",
+            "1.",
+            "2."
+          ],
+          "answer": 0,
+          "verification": "Division x+2-1/(x+1);a=-1;b=-1;sum=-2",
+          "id": 34
+        },
+        {
+          "source": "CK-GHHS-I-46",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Biết rằng $\\lim_{x\\to+\\infty}\\left(\\frac{x^2+1}{x-2}+ax-b\\right)=-5$. Tính tổng $a+b$.",
+          "html": "Biết rằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>+</mo><mi>a</mi><mi>x</mi><mo>−</mo><mi>b</mi><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo>−</mo><mn>5</mn></mrow></math>. Tính tổng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi><mo>&#x0002B;</mo><mi>b</mi></mrow></math>.",
+          "options": [
+            "6.",
+            "7.",
+            "8.",
+            "5."
+          ],
+          "optionsHtml": [
+            "6.",
+            "7.",
+            "8.",
+            "5."
+          ],
+          "answer": 0,
+          "verification": "Division x+2+5/(x-2);a=-1;b=7;sum=6",
+          "id": 35
+        },
+        {
+          "id": 36,
+          "source": "CK-GHHS-I-47",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giá trị của $\\lim_{x\\to-\\infty}\\frac{\\sqrt{x^2-3}}{x+3}$ bằng:",
+          "html": "Giá trị của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn></mrow></msqrt></mrow><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow></math> bằng:",
+          "options": [
+            "$-\\infty$",
+            "−1",
+            "$+\\infty$",
+            "1"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "−1",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "1"
+          ],
+          "answer": 1,
+          "verification": "sqrt(x²-3)~-x"
+        },
+        {
+          "id": 37,
+          "source": "CK-GHHS-I-48",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính $\\lim_{x\\to-\\infty}\\frac{2x-3}{\\sqrt{x^2+1}-x}$?",
+          "html": "Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><mi>x</mi></mrow></mfrac></mrow></math>?",
+          "options": [
+            "0",
+            "$-\\infty$",
+            "−1",
+            "1"
+          ],
+          "optionsHtml": [
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "−1",
+            "1"
+          ],
+          "answer": 2,
+          "verification": "denominator~-2x; ratio=-1"
+        },
+        {
+          "id": 38,
+          "source": "CK-GHHS-I-49",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giới hạn $\\lim_{x\\to-2}\\frac{x+1}{(x+2)^2}$ bằng",
+          "html": "Giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>2</mn></mrow></munder><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mo stretchy=\"false\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math> bằng",
+          "options": [
+            "$-\\infty$",
+            "$3/16$",
+            "0",
+            "$+\\infty$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x0002F;</mo><mn>16</mn></mrow></math>",
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>"
+          ],
+          "answer": 0,
+          "verification": "-1/0+"
+        },
+        {
+          "id": 39,
+          "source": "CK-GHHS-I-50",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính giới hạn $A=\\lim_{x\\to1}\\frac{x^3-1}{x-1}$.",
+          "html": "Tính giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>=</mo><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>.",
+          "options": [
+            "$A=-\\infty$",
+            "$A=0$",
+            "$A=3$",
+            "$A=+\\infty$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mn>3</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>"
+          ],
+          "answer": 2,
+          "verification": "x²+x+1 ->3"
+        },
+        {
+          "id": 40,
+          "source": "CK-GHHS-II-11",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Các mệnh đề sau đúng hay sai?",
+          "html": "Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>2</mn></mrow></munder><mo stretchy=\"false\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mn>9</mn></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>6</mn></mrow></munder><msqrt><mrow><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow></msqrt><mo>=</mo><mn>3</mn></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>2</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mn>1</mn></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>1</mn></mrow></munder><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>",
+              "answer": false
+            }
+          ],
+          "verification": "9;1/3;1;1/2"
+        },
+        {
+          "id": 41,
+          "source": "CK-GHHS-II-12",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho hàm số $f(x)=\\begin{cases}x-2&\\text{khi }x<-1\\\\\\sqrt{x^2+1}&\\text{khi }x\\ge-1\\end{cases}$. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+          "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mi>x</mi><mo>&#x02212;</mo><mn>2</mn></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003C;</mo><mo>&#x02212;</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>1</mn></mrow></msqrt></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02265;</mo><mo>&#x02212;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>. Khi đó:<br>Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "Giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>2</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><msqrt><mn>5</mn></msqrt></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "Giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo>−</mo><mn>3</mn></mrow></math>.",
+              "answer": true
+            },
+            {
+              "html": "Giới hạn <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><msqrt><mn>2</mn></msqrt></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "Hàm số tồn tại giới hạn khi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02192;</mo><mo>&#x02212;</mo><mn>1</mn></mrow></math>",
+              "answer": false
+            }
+          ],
+          "verification": "At -2 =-4; one sided -3 andsqrt2 unequal"
+        },
+        {
+          "id": 42,
+          "source": "CK-GHHS-II-13",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Các mệnh đề sau đúng hay sai?",
+          "html": "Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>0</mn></mrow></munder><mo stretchy=\"false\">(</mo><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mn>2</mn></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>1</mn></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>5</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>15</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>4</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>4</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac></mrow></math>",
+              "answer": true
+            }
+          ],
+          "verification": "2;5/3;-8;5/4"
+        },
+        {
+          "source": "CK-GHHS-II-14",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Cho hàm số $f(x)=\\begin{cases}1-x^2&\\text{khi }x<2\\\\\\sqrt{x+2}&\\text{khi }x\\ge2\\end{cases}$.<br>Các mệnh đề sau đúng hay sai?",
+          "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mn>1</mn><mo>&#x02212;</mo><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x0003C;</mo><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><msqrt><mrow><mi>x</mi><mo>&#x0002B;</mo><mn>2</mn></mrow></msqrt></mtd><mtd columnalign=\"left\"><mtext>khi&#x000A0;</mtext><mi>x</mi><mo>&#x02265;</mo><mn>2</mn></mtd></mtr></mtable></mrow></mrow></math>.<br>Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "Giới hạn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>3</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo>−</mo><mn>8</mn></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "Giới hạn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>2</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo>−</mo><mn>3</mn></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "Giới hạn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>2</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>2</mn></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "Giới hạn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>2</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>4</mn></mrow></math>",
+              "answer": false
+            }
+          ],
+          "verification": "sqrt5;-3;2;two-sided limit does not exist",
+          "id": 43
+        },
+        {
+          "id": 44,
+          "source": "CK-GHHS-II-15",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Các mệnh đề sau đúng hay sai?",
+          "html": "Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>2</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mi>x</mi></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>3</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">[</mo><mo stretchy=\"false\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo><msqrt><mrow><mfrac><mrow><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></msqrt><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "answer": false
+            }
+          ],
+          "verification": "2/3;+inf;-inf;0 (the last expression includes a square root)"
+        },
+        {
+          "id": 45,
+          "source": "CK-GHHS-II-16",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Các mệnh đề sau đúng hay sai?",
+          "html": "Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></msqrt><mo>−</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><msqrt><mrow><mfrac><mrow><mn>2</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow></msqrt><mo>=</mo><mn>2</mn></mrow></math>",
+              "answer": false
+            }
+          ],
+          "verification": "+inf;+inf;0;sqrt2≠2"
+        },
+        {
+          "id": 46,
+          "source": "CK-GHHS-II-17",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Các mệnh đề sau đúng hay sai?",
+          "html": "Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>2</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></msqrt><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mn>1</mn></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>4</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>2</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn></mrow></mfrac><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><mo stretchy=\"false\">|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\">|</mo></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>",
+              "answer": false
+            }
+          ],
+          "verification": "1;+inf;-inf;1/2"
+        },
+        {
+          "id": 47,
+          "source": "CK-GHHS-II-18",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Các mệnh đề sau đúng hay sai?",
+          "html": "Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>2</mn></mrow></munder><mo stretchy=\"false\">(</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>4</mn></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>2</mn></mrow></munder><mfrac><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>4</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>13</mn></mrow><mn>6</mn></mfrac></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>3</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>24</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>9</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>23</mn></mrow><mn>6</mn></mfrac></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>2</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>14</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>x</mi><mo>−</mo><mn>18</mn></mrow></mfrac><mo>=</mo><mfrac><mn>9</mn><mrow><mn>11</mn></mrow></mfrac></mrow></math>",
+              "answer": true
+            }
+          ],
+          "verification": "8;-13/6;23/6;9/11"
+        },
+        {
+          "id": 48,
+          "source": "CK-GHHS-II-19",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Các mệnh đề sau đúng hay sai?",
+          "html": "Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msqrt><mrow><mn>4</mn><mo>+</mo><mi>x</mi></mrow></msqrt><mo>−</mo><mn>2</mn></mrow><mrow><mn>4</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>16</mn></mrow></mfrac></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>2</mn></mrow></munder><mfrac><mrow><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>7</mn></mrow></msqrt><mo>−</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mn>24</mn></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>2</mn></mrow></munder><mfrac><mrow><msqrt><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></msqrt><mo>−</mo><mn>3</mn></mrow><mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><mroot><mrow><mi>x</mi><mo>+</mo><mn>7</mn></mrow><mn>3</mn></mroot><mo>−</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>",
+              "answer": false
+            }
+          ],
+          "verification": "1/16;-24;4/3;1/12"
+        },
+        {
+          "source": "CK-GHHS-II-20",
+          "type": "truefalse",
+          "kind": "Thực hành",
+          "prompt": "Các mệnh đề sau đúng hay sai?",
+          "html": "Các mệnh đề sau đúng hay sai?",
+          "options": [],
+          "statements": [
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>10</mn><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></math>",
+              "answer": true
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><mn>3</mn><mi>x</mi></mrow><mrow><mn>2</mn><mo>−</mo><mn>3</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac></mrow></math>",
+              "answer": false
+            },
+            {
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mroot><mrow><mn>8</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>3</mn></mroot><mo>−</mo><mi>x</mi></mrow><mrow><msqrt><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>2</mn></mrow></msqrt><mo>+</mo><mn>3</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mn>1</mn></mrow></math>",
+              "answer": true
+            }
+          ],
+          "verification": "+inf;3/2;4/3;1",
+          "id": 49
+        },
+        {
+          "id": 50,
+          "source": "CK-GHHS-III-11",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Tìm giới hạn sau: $\\lim_{x\\to+\\infty}(\\sqrt{x^2-x}-\\sqrt[3]{x^3+1})$.",
+          "html": "Tìm giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi></mrow></msqrt><mo>−</mo><mroot><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>3</mn></mroot><mo stretchy=\"false\">)</mo></mrow></math>.",
+          "options": [],
+          "answerValue": -0.5,
+          "answerDecimals": 2,
+          "verification": "sqrt(x²-x)-x ->-1/2; cubert(x³+1)-x ->0"
+        },
+        {
+          "source": "CK-GHHS-III-12",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Hàm Heaviside có dạng $H(t)=\\begin{cases}0,t<0\\\\1,t\\ge0\\end{cases}$ thường được dùng để mô tả việc chuyển trạng thái tắt/mở của dòng điện tại thời điểm $t=0$.<br>Tính $\\lim_{t\\to0^-}H(t),\\lim_{t\\to0^+}H(t)$.",
+          "html": "Hàm Heaviside có dạng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\">&#x00028;</mo><mi>t</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><mn>0</mn><mo>&#x0002C;</mo><mi>t</mi><mo>&#x0003C;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mn>1</mn><mo>&#x0002C;</mo><mi>t</mi><mo>&#x02265;</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math> thường được dùng để mô tả việc chuyển trạng thái tắt/mở của dòng điện tại thời điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></math>.<br>Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>t</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mi>H</mi><mo stretchy=\"false\">(</mo><mi>t</mi><mo stretchy=\"false\">)</mo><mo>,</mo><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>t</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mi>H</mi><mo stretchy=\"false\">(</mo><mi>t</mi><mo stretchy=\"false\">)</mo></mrow></math>.",
+          "options": [],
+          "answerFields": [
+            {
+              "label": "$\\lim_{t\\to0^-}H(t)$",
+              "answerValue": 0,
+              "labelHtml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>t</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mi>H</mi><mo stretchy=\"false\">(</mo><mi>t</mi><mo stretchy=\"false\">)</mo></mrow></math>"
+            },
+            {
+              "label": "$\\lim_{t\\to0^+}H(t)$",
+              "answerValue": 1,
+              "labelHtml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>t</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mi>H</mi><mo stretchy=\"false\">(</mo><mi>t</mi><mo stretchy=\"false\">)</mo></mrow></math>"
+            }
+          ],
+          "verification": "Left0;right1",
+          "id": 51
+        },
+        {
+          "source": "CK-GHHS-III-13",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Một cái hồ chứa 600l nước ngọt. Người ta bơm nước biển có nồng độ muối 30 g/l vào hồ với tốc độ 15l/phút.<br>a) Tính nồng độ muối của nước trong hồ sau $t$ phút kể từ khi bắt đầu bơm.<br>b) Nồng độ muối trong hồ sẽ thế nào khi $t$ dần về dương vô cùng?",
+          "html": "Một cái hồ chứa 600l nước ngọt. Người ta bơm nước biển có nồng độ muối 30 g/l vào hồ với tốc độ 15l/phút.<br>a) Tính nồng độ muối của nước trong hồ sau <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi></mrow></math> phút kể từ khi bắt đầu bơm.<br>b) Nồng độ muối trong hồ sẽ thế nào khi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>t</mi></mrow></math> dần về dương vô cùng?",
+          "options": [],
+          "answerFields": [
+            {
+              "label": "a) Nồng độ muối (g/l)",
+              "answerExpression": "30t/(t+40)",
+              "expression": true,
+              "labelHtml": "a) Nồng độ muối (g/l)"
+            },
+            {
+              "label": "b) Giới hạn nồng độ muối (g/l)",
+              "answerValue": 30,
+              "labelHtml": "b) Giới hạn nồng độ muối (g/l)"
+            }
+          ],
+          "verification": "Salt mass450t;volume600+15t;concentration30t/(t+40);limit30",
+          "id": 52
+        },
+        {
+          "id": 53,
+          "source": "CK-GHHS-III-14",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Tìm giới hạn sau: $\\lim_{x\\to0}\\frac{\\sqrt{x+9}+\\sqrt{x+16}-7}{x}$.",
+          "html": "Tìm giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>9</mn></mrow></msqrt><mo>+</mo><msqrt><mrow><mi>x</mi><mo>+</mo><mn>16</mn></mrow></msqrt><mo>−</mo><mn>7</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></math>.",
+          "options": [],
+          "answerValue": 0.2916666666666667,
+          "answerDecimals": 2,
+          "verification": "1/6+1/8=7/24"
+        },
+        {
+          "id": 54,
+          "source": "CK-GHHS-III-15",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Tìm giới hạn sau: $\\lim_{x\\to0}\\frac{\\sqrt[3]{1+x^2}-1}{x^2}$.",
+          "html": "Tìm giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mroot><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>3</mn></mroot><mo>−</mo><mn>1</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>.",
+          "options": [],
+          "answerValue": 0.3333333333333333,
+          "answerDecimals": 2,
+          "verification": "Cube rationalization ->1/3"
+        },
+        {
+          "id": 55,
+          "source": "CK-GHHS-III-16",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Tìm giới hạn sau: $\\lim_{x\\to1}\\frac{\\sqrt[3]{x+7}-\\sqrt{x+3}}{x^2-3x+2}$.",
+          "html": "Tìm giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><mroot><mrow><mi>x</mi><mo>+</mo><mn>7</mn></mrow><mn>3</mn></mroot><mo>−</mo><msqrt><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></math>.",
+          "options": [],
+          "answerValue": 0.16666666666666666,
+          "answerDecimals": 2,
+          "verification": "Numerator first derivative 1/12-1/4=-1/6; denominator derivative -1"
+        },
+        {
+          "id": 56,
+          "source": "CK-GHHS-III-17",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Tìm giới hạn sau: $\\lim_{x\\to-\\infty}\\frac{(2x-3)^{20}(3x+2)^{30}}{(2x+1)^{50}}$.",
+          "html": "Tìm giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mrow><mo stretchy=\"false\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><msup><mo stretchy=\"false\">)</mo><mrow><mn>20</mn></mrow></msup><mo stretchy=\"false\">(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><msup><mo stretchy=\"false\">)</mo><mrow><mn>30</mn></mrow></msup></mrow><mrow><mo stretchy=\"false\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\">)</mo><mrow><mn>50</mn></mrow></msup></mrow></mfrac></mrow></math>.",
+          "options": [],
+          "answerValue": 191751.0592328841,
+          "answerDecimals": 2,
+          "verification": "Leading coefficient ratio (3/2)^30"
+        },
+        {
+          "id": 57,
+          "source": "CK-GHHS-III-18",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Tìm giới hạn sau: $\\lim_{x\\to+\\infty}(x+1-\\sqrt[3]{x^3-x})$.",
+          "html": "Tìm giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>−</mo><mroot><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi></mrow><mn>3</mn></mroot><mo stretchy=\"false\">)</mo></mrow></math>.",
+          "options": [],
+          "answerValue": 1,
+          "answerDecimals": 2,
+          "verification": "cubert(x³-x)-x ->0"
+        },
+        {
+          "id": 58,
+          "source": "CK-GHHS-III-20",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Tìm giới hạn sau: $\\lim_{x\\to1}\\frac{\\sqrt{3x+1}-2}{2x^2-3x+1}$.",
+          "html": "Tìm giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><msqrt><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><mn>2</mn></mrow><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math>.",
+          "options": [],
+          "answerValue": 0.75,
+          "answerDecimals": 2,
+          "verification": "Rationalize ->3/((sqrt(3x+1)+2)(2x-1)) ->3/4"
+        },
+        {
+          "source": "PHT-B16-TN-2",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính $\\lim_{x\\to-\\sqrt2}\\frac{x+\\sqrt2}{x^2-2}$.",
+          "html": "Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msqrt><mn>2</mn></msqrt></mrow></munder><mfrac><mrow><mi>x</mi><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math>.",
+          "options": [
+            "2.",
+            "1.",
+            "$-\\frac1{2\\sqrt2}$.",
+            "$\\sqrt2$."
+          ],
+          "optionsHtml": [
+            "2.",
+            "1.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msqrt><mn>2</mn></msqrt></mrow></math>."
+          ],
+          "answer": 2,
+          "verification": "Cancel x+sqrt2 ->1/(x-sqrt2) ->-1/(2sqrt2)",
+          "id": 59
+        },
+        {
+          "source": "PHT-B16-TN-12",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Cho hàm số $f(x)=\\sqrt{\\frac{4x^2-3x}{(2x-1)(x^3-2)}}$. Chọn kết quả đúng của $\\lim_{x\\to2}f(x)$:",
+          "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><msqrt><mrow><mfrac><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>3</mn><mi>x</mi></mrow><mrow><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>x</mi><mo>&#x02212;</mo><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">&#x00028;</mo><msup><mi>x</mi><mn>3</mn></msup><mo>&#x02212;</mo><mn>2</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac></mrow></msqrt></mrow></math>. Chọn kết quả đúng của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>2</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow></math>:",
+          "options": [
+            "$+\\infty$.",
+            "$\\frac{\\sqrt5}3$.",
+            "$\\frac{\\sqrt5}9$.",
+            "$\\frac{\\sqrt2}9$."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>5</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>5</mn></msqrt></mrow><mn>9</mn></mfrac></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>2</mn></msqrt></mrow><mn>9</mn></mfrac></mrow></math>."
+          ],
+          "answer": 1,
+          "verification": "sqrt((16-6)/((4-1)*(8-2)))=sqrt5/3",
+          "id": 60
+        },
+        {
+          "source": "PHT-B16-TN-13",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Cho hàm số $f(x)=x\\sqrt{\\frac{x^2+1}{2x^4+x^2-3}}$. Chọn kết quả đúng của $\\lim_{x\\to+\\infty}f(x)$:",
+          "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>x</mi><msqrt><mrow><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup><mo>&#x0002B;</mo><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>3</mn></mrow></mfrac></mrow></msqrt></mrow></math>. Chọn kết quả đúng của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow></math>:",
+          "options": [
+            "$1/2$.",
+            "$\\frac{\\sqrt2}2$.",
+            "0.",
+            "$+\\infty$."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>.",
+            "0.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>."
+          ],
+          "answer": 1,
+          "verification": "x>0 at+inf; square tends1/2 so sqrt2/2",
+          "id": 61
+        },
+        {
+          "source": "PHT-B16-TN-15",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Giá trị đúng của của $\\lim_{x\\to3}\\frac{|x-3|}{x-3}$ là:",
+          "html": "Giá trị đúng của của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>3</mn></mrow></munder><mfrac><mrow><mo stretchy=\"false\">|</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo stretchy=\"false\">|</mo></mrow><mrow><mi>x</mi><mo>−</mo><mn>3</mn></mrow></mfrac></mrow></math> là:",
+          "options": [
+            "Không tồn tại.",
+            "0.",
+            "1.",
+            "$+\\infty$."
+          ],
+          "optionsHtml": [
+            "Không tồn tại.",
+            "0.",
+            "1.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>."
+          ],
+          "answer": 0,
+          "verification": "Left=-1;right=1",
+          "id": 62
+        },
+        {
+          "source": "PHT-B16-TN-16",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "$\\lim_{x\\to1^+}\\frac{\\sqrt{x^3-x^2}}{\\sqrt{x-1}+1-x}$ bằng:",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><msqrt><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow><mrow><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mn>1</mn><mo>−</mo><mi>x</mi></mrow></mfrac></mrow></math> bằng:",
+          "options": [
+            "−1.",
+            "0.",
+            "1.",
+            "$+\\infty$."
+          ],
+          "optionsHtml": [
+            "−1.",
+            "0.",
+            "1.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>."
+          ],
+          "answer": 2,
+          "verification": "x sqrt(x-1)/(sqrt(x-1)-(x-1)) ->1",
+          "id": 63
+        },
+        {
+          "source": "PHT-B16-TN-19",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Cho hàm số $f(x)=\\begin{cases}x^2-3x,x\\ge2\\\\x-1,x<2\\end{cases}$. Chọn kết quả đúng của $\\lim_{x\\to2}f(x)$:",
+          "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"left\"><msup><mi>x</mi><mn>2</mn></msup><mo>&#x02212;</mo><mn>3</mn><mi>x</mi><mo>&#x0002C;</mo><mi>x</mi><mo>&#x02265;</mo><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"left\"><mi>x</mi><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002C;</mo><mi>x</mi><mo>&#x0003C;</mo><mn>2</mn></mtd></mtr></mtable></mrow></mrow></math>. Chọn kết quả đúng của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>2</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow></math>:",
+          "options": [
+            "−1.",
+            "0.",
+            "1.",
+            "Không tồn tại."
+          ],
+          "optionsHtml": [
+            "−1.",
+            "0.",
+            "1.",
+            "Không tồn tại."
+          ],
+          "answer": 3,
+          "verification": "left1;right-2",
+          "id": 64
+        },
+        {
+          "source": "PHT-B16-TN-20",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Chọn kết quả đúng của $\\lim_{x\\to0^+}\\left(\\frac1{x^2}-\\frac2{x^3}\\right)$:",
+          "html": "Chọn kết quả đúng của <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>−</mo><mfrac><mn>2</mn><mrow><msup><mi>x</mi><mn>3</mn></msup></mrow></mfrac><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>:",
+          "options": [
+            "$-\\infty$.",
+            "0.",
+            "$+\\infty$.",
+            "Không tồn tại."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "0.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "Không tồn tại."
+          ],
+          "answer": 0,
+          "verification": "(x-2)/x³ ->-inf",
+          "id": 65
+        },
+        {
+          "source": "PHT-B16-TN-22",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Cho hàm số $f(x)=\\frac1{\\sqrt{2-x}}$. Khẳng định nào sau đây là đúng?",
+          "html": "Cho hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mn>1</mn><mrow><msqrt><mrow><mn>2</mn><mo>&#x02212;</mo><mi>x</mi></mrow></msqrt></mrow></mfrac></mrow></math>. Khẳng định nào sau đây là đúng?",
+          "options": [
+            "Hàm số chỉ có giới hạn phải tại điểm $x=2$.",
+            "Hàm số chỉ có giới hạn trái tại điểm $x=2$.",
+            "Hàm số có giới hạn trái và giới hạn phải bằng nhau.",
+            "Hàm số chỉ có giới hạn tại điểm $x=2$."
+          ],
+          "optionsHtml": [
+            "Hàm số chỉ có giới hạn phải tại điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>.",
+            "Hàm số chỉ có giới hạn trái tại điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>.",
+            "Hàm số có giới hạn trái và giới hạn phải bằng nhau.",
+            "Hàm số chỉ có giới hạn tại điểm <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x0003D;</mo><mn>2</mn></mrow></math>."
+          ],
+          "answer": 1,
+          "verification": "Domainx<2;left limit+inf; no right limit",
+          "id": 66
+        },
+        {
+          "source": "PHT-B16-TN-23",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Xác định $\\lim_{x\\to(-1)^-}\\frac{x^2+3x+2}{|x+1|}$.",
+          "html": "Xác định <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo stretchy=\"false\" lspace=\"0em\" rspace=\"0em\">(</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>1</mn><msup><mo stretchy=\"false\" lspace=\"0em\" rspace=\"0em\">)</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mo stretchy=\"false\">|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\">|</mo></mrow></mfrac></mrow></math>.",
+          "options": [
+            "$-\\infty$.",
+            "$+\\infty$.",
+            "1.",
+            "−1."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "1.",
+            "−1."
+          ],
+          "answer": 3,
+          "verification": "Forx<-1 cancel ->-(x+2) ->-1",
+          "id": 67
+        },
+        {
+          "source": "PHT-B16-TN-25",
+          "type": "mcq",
+          "kind": "Thực hành",
+          "prompt": "Tính $\\lim_{x\\to-\\infty}(\\sqrt{x^2+x}-\\sqrt{4+x^2})$",
+          "html": "Tính <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>4</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"false\">)</mo></mrow></math>",
+          "options": [
+            "$-1/2$.",
+            "$1/2$.",
+            "−2.",
+            "2."
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>.",
+            "−2.",
+            "2."
+          ],
+          "answer": 0,
+          "verification": "Rationalize (x-4)/(sqrt(x²+x)+sqrt(x²+4)) ->-1/2",
+          "id": 68
+        },
+        {
+          "source": "PHT-B16-TL-2g",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Tính các giới hạn sau: $\\lim_{x\\to0}\\frac{1-\\sqrt[3]{12x+1}}{4x}$",
+          "html": "Tính các giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mn>1</mn><mo>−</mo><mroot><mrow><mn>12</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mn>3</mn></mroot></mrow><mrow><mn>4</mn><mi>x</mi></mrow></mfrac></mrow></math>",
+          "options": [],
+          "answerValue": -1,
+          "answerDecimals": 2,
+          "verification": "Cube identity ->-3/(1+cubert(12x+1)+cubert(12x+1)^2) ->-1",
+          "id": 69
+        },
+        {
+          "source": "PHT-B16-TL-3d",
+          "type": "short",
+          "kind": "Thực hành",
+          "prompt": "Tính các giới hạn sau: $\\lim_{x\\to+\\infty}\\left[x(\\sqrt{x^2+5}-x)\\right]$",
+          "html": "Tính các giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">[</mo><mi>x</mi><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn></mrow></msqrt><mo>−</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>",
+          "options": [],
+          "answerValue": 2.5,
+          "answerDecimals": 2,
+          "verification": "5x/(sqrt(x²+5)+x) ->5/2",
+          "id": 70
+        }
+      ],
+      "expected": 70,
+      "mixedExercises": false,
+      "orderedExercises": false,
+      "theoryQuestions": [
+        {
+          "id": 1,
+          "section": "A. Giới hạn hữu hạn tại một điểm",
+          "prompt": "Nếu $x_n\\to x_0$, $x_n\\ne x_0$ và $\\lim_{x\\to x_0}f(x)=L$ thì …",
+          "html": "Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>&#x02260;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math> thì …",
+          "options": [
+            "$f(x_n)\\to L$",
+            "$x_n\\to L$",
+            "$f(x_n)\\to x_0$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02192;</mo><mi>L</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>&#x02192;</mo><mi>L</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 2,
+          "section": "A. Giới hạn hữu hạn tại một điểm",
+          "prompt": "$\\lim_{x\\to x_0}x=\\ldots$",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>x</mi><mo>=</mo><mi>…</mi></mrow></math>",
+          "options": [
+            "$x_0$",
+            "0",
+            "$L$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math>",
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 3,
+          "section": "A. Giới hạn hữu hạn tại một điểm",
+          "prompt": "Với $c$ là hằng số: $\\lim_{x\\to x_0}c=\\ldots$",
+          "html": "Với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math> là hằng số: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>c</mi><mo>=</mo><mi>…</mi></mrow></math>",
+          "options": [
+            "$c$",
+            "0",
+            "$x_0$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math>",
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 4,
+          "section": "A. Giới hạn hữu hạn tại một điểm",
+          "prompt": "Cho $\\lim_{x\\to x_0}f(x)=L$, $\\lim_{x\\to x_0}g(x)=M$. Khi đó $\\lim_{x\\to x_0}[f(x)+g(x)]=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>M</mi></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">]</mo><mo>=</mo><mi>…</mi></mrow></math>",
+          "options": [
+            "$L+M$",
+            "$LM$",
+            "$L/M$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0002B;</mo><mi>M</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mi>M</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0002F;</mo><mi>M</mi></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 5,
+          "section": "A. Giới hạn hữu hạn tại một điểm",
+          "prompt": "Cho $\\lim_{x\\to x_0}f(x)=L$, $\\lim_{x\\to x_0}g(x)=M$. Khi đó $\\lim_{x\\to x_0}[f(x)-g(x)]=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>M</mi></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">]</mo><mo>=</mo><mi>…</mi></mrow></math>",
+          "options": [
+            "$L-M$",
+            "$L+M$",
+            "$L/M$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x02212;</mo><mi>M</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0002B;</mo><mi>M</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0002F;</mo><mi>M</mi></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 6,
+          "section": "A. Giới hạn hữu hạn tại một điểm",
+          "prompt": "Cho $\\lim_{x\\to x_0}f(x)=L$, $\\lim_{x\\to x_0}g(x)=M$. Khi đó $\\lim_{x\\to x_0}[f(x)g(x)]=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>M</mi></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">]</mo><mo>=</mo><mi>…</mi></mrow></math>",
+          "options": [
+            "$LM$",
+            "$L+M$",
+            "$L/M$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mi>M</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0002B;</mo><mi>M</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0002F;</mo><mi>M</mi></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 7,
+          "section": "A. Giới hạn hữu hạn tại một điểm",
+          "prompt": "Quy tắc $\\lim\\frac{f(x)}{g(x)}=\\frac LM$ cần thêm điều kiện nào?",
+          "html": "Quy tắc <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mi>L</mi><mi>M</mi></mfrac></mrow></math> cần thêm điều kiện nào?",
+          "options": [
+            "$M\\ne0$",
+            "$L\\ne0$",
+            "$M=0$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x02260;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x02260;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 8,
+          "section": "A. Giới hạn hữu hạn tại một điểm",
+          "prompt": "Nếu $f(x)\\ge0$ gần $x_0$ và $\\lim_{x\\to x_0}f(x)=L$ thì $\\lim_{x\\to x_0}\\sqrt{f(x)}=\\ldots$",
+          "html": "Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02265;</mo><mn>0</mn></mrow></math> gần <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math> thì <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><msqrt><mrow><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow></msqrt><mo>=</mo><mi>…</mi></mrow></math>",
+          "options": [
+            "$\\sqrt L$",
+            "$L$",
+            "$L^2$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msqrt><mi>L</mi></msqrt></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msup><mi>L</mi><mn>2</mn></msup></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 9,
+          "section": "A. Giới hạn hữu hạn tại một điểm",
+          "prompt": "Giới hạn tại một điểm tồn tại khi hai giới hạn một bên …",
+          "html": "Giới hạn tại một điểm tồn tại khi hai giới hạn một bên …",
+          "options": [
+            "Cùng tồn tại và bằng nhau",
+            "Chỉ cần giới hạn trái tồn tại",
+            "Chỉ cần giới hạn phải tồn tại"
+          ],
+          "optionsHtml": [
+            "Cùng tồn tại và bằng nhau",
+            "Chỉ cần giới hạn trái tồn tại",
+            "Chỉ cần giới hạn phải tồn tại"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 10,
+          "section": "B. Giới hạn hữu hạn tại vô cực",
+          "prompt": "Nếu $\\lim_{x\\to+\\infty}f(x)=L$ và $x_n\\to+\\infty$ thì …",
+          "html": "Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>&#x02192;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math> thì …",
+          "options": [
+            "$f(x_n)\\to L$",
+            "$f(x_n)\\to+\\infty$",
+            "$x_n\\to L$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02192;</mo><mi>L</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02192;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>&#x02192;</mo><mi>L</mi></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 11,
+          "section": "B. Giới hạn hữu hạn tại vô cực",
+          "prompt": "$\\lim_{x\\to+\\infty}c=\\ldots$ (với $c$ là hằng số)",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mi>c</mi><mo>=</mo><mi>…</mi></mrow></math> (với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math> là hằng số)",
+          "options": [
+            "$c$",
+            "0",
+            "$+\\infty$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math>",
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 12,
+          "section": "B. Giới hạn hữu hạn tại vô cực",
+          "prompt": "$\\lim_{x\\to+\\infty}\\frac c{x^k}=\\ldots$ (với $k$ nguyên dương)",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mi>c</mi><mrow><msup><mi>x</mi><mi>k</mi></msup></mrow></mfrac><mo>=</mo><mi>…</mi></mrow></math> (với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi></mrow></math> nguyên dương)",
+          "options": [
+            "0",
+            "$c$",
+            "$+\\infty$",
+            "$-\\infty$"
+          ],
+          "optionsHtml": [
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 13,
+          "section": "B. Giới hạn hữu hạn tại vô cực",
+          "prompt": "$\\lim_{x\\to-\\infty}c=\\ldots$ (với $c$ là hằng số)",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mi>c</mi><mo>=</mo><mi>…</mi></mrow></math> (với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math> là hằng số)",
+          "options": [
+            "$c$",
+            "0",
+            "$+\\infty$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math>",
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 14,
+          "section": "B. Giới hạn hữu hạn tại vô cực",
+          "prompt": "$\\lim_{x\\to-\\infty}\\frac c{x^k}=\\ldots$ (với $k$ nguyên dương)",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mi>c</mi><mrow><msup><mi>x</mi><mi>k</mi></msup></mrow></mfrac><mo>=</mo><mi>…</mi></mrow></math> (với <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi></mrow></math> nguyên dương)",
+          "options": [
+            "0",
+            "$c$",
+            "$+\\infty$",
+            "$-\\infty$"
+          ],
+          "optionsHtml": [
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 15,
+          "section": "C. Giới hạn vô cực",
+          "prompt": "Cho $\\lim f(x)=L>0$, $\\lim g(x)=+\\infty$. Khi đó $\\lim[f(x)g(x)]=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "options": [
+            "$+\\infty$",
+            "$-\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 16,
+          "section": "C. Giới hạn vô cực",
+          "prompt": "Cho $\\lim f(x)=L>0$, $\\lim g(x)=-\\infty$. Khi đó $\\lim[f(x)g(x)]=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "options": [
+            "$-\\infty$",
+            "$+\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 17,
+          "section": "C. Giới hạn vô cực",
+          "prompt": "Cho $\\lim f(x)=L<0$, $\\lim g(x)=+\\infty$. Khi đó $\\lim[f(x)g(x)]=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "options": [
+            "$-\\infty$",
+            "$+\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 18,
+          "section": "C. Giới hạn vô cực",
+          "prompt": "Cho $\\lim f(x)=L<0$, $\\lim g(x)=-\\infty$. Khi đó $\\lim[f(x)g(x)]=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "options": [
+            "$+\\infty$",
+            "$-\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 19,
+          "section": "C. Giới hạn vô cực",
+          "prompt": "Cho $\\lim f(x)=L$ hữu hạn, $\\lim g(x)=\\pm\\infty$. Khi đó $\\lim\\frac{f(x)}{g(x)}=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi></mrow></math> hữu hạn, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>&#x000B1;</mi><mo>&#x0221E;</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "options": [
+            "0",
+            "$L$",
+            "$+\\infty$"
+          ],
+          "optionsHtml": [
+            "0",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 20,
+          "section": "C. Giới hạn vô cực",
+          "prompt": "Cho $\\lim f(x)=L>0$, $\\lim g(x)=0$, $g(x)>0$ gần điểm xét. Khi đó $\\lim\\frac{f(x)}{g(x)}=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003E;</mo><mn>0</mn></mrow></math> gần điểm xét. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "options": [
+            "$+\\infty$",
+            "$-\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 21,
+          "section": "C. Giới hạn vô cực",
+          "prompt": "Cho $\\lim f(x)=L>0$, $\\lim g(x)=0$, $g(x)<0$ gần điểm xét. Khi đó $\\lim\\frac{f(x)}{g(x)}=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003C;</mo><mn>0</mn></mrow></math> gần điểm xét. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "options": [
+            "$-\\infty$",
+            "$+\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 22,
+          "section": "C. Giới hạn vô cực",
+          "prompt": "Cho $\\lim f(x)=L<0$, $\\lim g(x)=0$, $g(x)>0$ gần điểm xét. Khi đó $\\lim\\frac{f(x)}{g(x)}=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003E;</mo><mn>0</mn></mrow></math> gần điểm xét. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "options": [
+            "$-\\infty$",
+            "$+\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 23,
+          "section": "C. Giới hạn vô cực",
+          "prompt": "Cho $\\lim f(x)=L<0$, $\\lim g(x)=0$, $g(x)<0$ gần điểm xét. Khi đó $\\lim\\frac{f(x)}{g(x)}=\\ldots$",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003C;</mo><mn>0</mn></mrow></math> gần điểm xét. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "options": [
+            "$+\\infty$",
+            "$-\\infty$",
+            "0"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "0"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        },
+        {
+          "id": 24,
+          "section": "C. Giới hạn vô cực",
+          "prompt": "Dạng nào sau đây là dạng vô định?",
+          "html": "Dạng nào sau đây là dạng vô định?",
+          "options": [
+            "$0/0$",
+            "$1/(+\\infty)$",
+            "$2\\cdot(+\\infty)$"
+          ],
+          "optionsHtml": [
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x0002F;</mo><mn>0</mn></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mo stretchy=\"false\">&#x00028;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x000B7;</mo><mo stretchy=\"false\">&#x00028;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo><mo stretchy=\"false\">&#x00029;</mo></mrow></math>"
+          ],
+          "answer": 0,
+          "kind": "Lý thuyết"
+        }
+      ]
+    },
+    {
+      "title": "Hàm số liên tục",
+      "study": "<h2>A. Liên tục tại một điểm</h2><article class=\"theory-item\">Hàm số <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi></mrow></math> liên tục tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math> nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math> thuộc tập xác định và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></munder></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.</article><article class=\"theory-item\">Kiểm tra ba điều kiện: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math> xác định; giới hạn tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math> tồn tại hữu hạn; giới hạn bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math>. Thiếu một điều kiện thì hàm không liên tục tại điểm đó.</article><h2>B. Liên tục trên khoảng, đoạn</h2><article class=\"theory-item\">Hàm liên tục trên một khoảng nếu liên tục tại mọi điểm của khoảng đó.</article><article class=\"theory-item\">Hàm liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math> nếu liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>, liên tục phải tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi></mrow></math> và liên tục trái tại <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>b</mi></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msup><mi>a</mi><mo>&#x0002B;</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msup><mi>b</mi><mo>&#x02212;</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>.</article><h2>C. Các hàm và phép toán liên tục</h2><article class=\"theory-item\">Hàm đa thức liên tục trên R. Hàm phân thức hữu tỉ liên tục tại mọi điểm mà mẫu khác 0. Các hàm lượng giác và căn thức cơ bản liên tục trên tập xác định của chúng.</article><article class=\"theory-item\">Tổng, hiệu, tích của các hàm liên tục tại một điểm vẫn liên tục tại điểm đó. Thương cũng liên tục nếu mẫu khác 0 tại điểm xét.</article><h2>D. Hàm số cho bởi nhiều công thức</h2><article class=\"theory-item\">Tại điểm ghép <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math>, tính riêng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"false\">&#x00029;</mo></mrow></math>, giới hạn trái và giới hạn phải. Hàm liên tục khi cả ba bằng nhau.</article><article class=\"theory-item\">Để tìm tham số, đặt điều kiện hai giới hạn một bên bằng nhau và bằng giá trị tại điểm ghép. Kiểm tra lại điều kiện xác định sau khi tìm tham số.</article><h2>E. Ứng dụng chứng minh phương trình có nghiệm</h2><article class=\"theory-item\">Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi></mrow></math> liên tục trên <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo stretchy=\"false\">[</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">]</mo></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mo stretchy=\"false\">&#x00029;</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003C;</mo><mn>0</mn></mrow></math> thì tồn tại ít nhất một <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi><mo>&#x02208;</mo><mo stretchy=\"false\">&#x00028;</mo><mi>a</mi><mi>;</mi><mi>b</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> sao cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>c</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math>.</article><article class=\"theory-item\">Định lí bảo đảm ít nhất một nghiệm. Muốn kết luận nghiệm duy nhất cần thêm lập luận, chẳng hạn tính đơn điệu.</article><p class=\"answer-help\">Hai tài liệu ôn tập hiện có chưa có bài tập hỏi trực tiếp về tính liên tục của hàm số.</p>",
+      "questions": [],
+      "expected": 0,
+      "practicePending": true,
+      "mixedExercises": false,
+      "orderedExercises": false
+    }
+  ],
+  "source": "20251106_HUONG_DAN_ON_TAP_CUOI_KI_I_TOAN_11_GHÉP_FILE.pdf, trang 18–26, đối chiếu bản gốc",
+  "skipped": {
+    "I-35": "Cùng dạng giới hạn đa thức bậc 3 tại -∞ như I-34, chỉ thay hệ số.",
+    "III-19": "Đề gốc không đánh số câu 19."
+  },
+  "additional_source": "PHT_CB_BÀI 16_Gioi han ham so.pdf",
+  "selection_notes": {
+    "added": [
+      "TN2",
+      "TN12",
+      "TN13",
+      "TN15",
+      "TN16",
+      "TN19",
+      "TN20",
+      "TN22",
+      "TN23",
+      "TN25",
+      "TL2g",
+      "TL3d"
+    ],
+    "omitted": "Các câu còn lại gần câu đã có hoặc lý thuyết Kiểm tra nhanh; TN4 phương án D không phải một giá trị giới hạn, TN5 miền xác định cần diễn giải, TN8 nhiều phương pháp có thể áp dụng nên không thêm."
+  }
+}

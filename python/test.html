@@ -33,4 +33,13 @@ function retryWrong(){if(!wrongIds.size){finish();return}clearTimeout(moveTimer)
 function stopReview(){el("reviewPrompt").classList.add("hidden");el("finishMessage").textContent="Kết quả cuối: đúng "+correctIds.size+" / "+DATA[partIndex].questions.length+" câu; còn "+wrongIds.size+" câu sai."}
 el("check").onclick=check;el("next").onclick=nextQuestion;el("reviewYes").onclick=retryWrong;buttons();start(0);
 
+
+// A new attempt begins whenever the learner returns from another browser tab.
+let testWasHidden=false;
+function resetCurrentTest(){start(partIndex);}
+document.addEventListener('visibilitychange',()=>{
+ if(document.hidden){testWasHidden=true;clearTimeout(moveTimer);}
+ else if(testWasHidden){testWasHidden=false;resetCurrentTest()}
+});
+window.addEventListener('pageshow',event=>{if(event.persisted){testWasHidden=false;resetCurrentTest()}});
 </script></body></html>
