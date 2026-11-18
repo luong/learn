@@ -1,0 +1,947 @@
+{
+  "A-I-1": {
+    "expected": 3,
+    "note": "Theo quy ước của đề: đường tròn định hướng, phân biệt điểm đầu và điểm cuối.",
+    "old": 3
+  },
+  "A-I-2": {
+    "expected": 3,
+    "note": "Đường tròn lượng giác có tâm O, bán kính 1, gắn chiều định hướng.",
+    "old": 3
+  },
+  "A-I-3": {
+    "expected": 3,
+    "note": "Định nghĩa radian: l=Rα; α=1 nên l=R, bằng nửa đường kính.",
+    "old": 3
+  },
+  "A-I-4": {
+    "expected": 0,
+    "note": "108°×π/180=3π/5.",
+    "old": 0
+  },
+  "A-I-5": {
+    "expected": 2,
+    "note": "−3π/16×180/π=−33,75°=−33°45′.",
+    "old": 2
+  },
+  "A-I-6": {
+    "expected": 0,
+    "note": "l=20π/16=5π/4≈3,92699 cm, làm tròn 3,93 cm.",
+    "old": 0
+  },
+  "A-I-7": {
+    "expected": 1,
+    "note": "α=l/R=2.",
+    "old": 1
+  },
+  "A-I-8": {
+    "expected": 3,
+    "note": "l=πR/6 nên α=π/6.",
+    "old": 3
+  },
+  "A-I-9": {
+    "expected": 0,
+    "note": "2 giây quay 4/5 vòng, góc 8π/5.",
+    "old": 0
+  },
+  "A-I-11": {
+    "expected": 3,
+    "note": "α thuộc góc phần tư I: cot(α+π/2)=−tanα<0; tan(α+π)=tanα>0.",
+    "old": 3
+  },
+  "A-I-14": {
+    "expected": 3,
+    "note": "sin²t+cos²t=1 với mọi t; thay t=2018α vẫn bằng 1, không bằng 2018.",
+    "old": 3
+  },
+  "A-I-15": {
+    "expected": 0,
+    "note": "Cần đồng thời sinα≠0 và cosα≠0, tương đương α≠kπ/2.",
+    "old": 0
+  },
+  "A-I-16": {
+    "expected": 3,
+    "note": "S=sin²x+cos²x=1.",
+    "old": 3
+  },
+  "A-I-17": {
+    "expected": 0,
+    "note": "Đặt s=sinα, cosα=(2−2s)/3. Từ sin²+cos²=1: 13s²−8s−5=0, s=1 hoặc −5/13; điều kiện s<0 chọn −5/13.",
+    "old": 0
+  },
+  "A-I-18": {
+    "expected": 1,
+    "note": "Tổng hai bình phương bằng 2(sin²x+cos²x)=2.",
+    "old": 1
+  },
+  "A-I-19": {
+    "expected": 0,
+    "note": "(1+sin²α)/cos²α=1+2tan²α.",
+    "old": 0
+  },
+  "A-I-20": {
+    "expected": 3,
+    "note": "(1−cosα)/sin²α=1/(1+cosα); hiệu bằng 0 trên miền xác định.",
+    "old": 3
+  },
+  "A-I-21": {
+    "expected": 3,
+    "note": "Áp dụng sin2u=2sinu cosu với u=1009a.",
+    "old": 3
+  },
+  "A-I-22": {
+    "expected": 3,
+    "note": "Công thức cos3x=4cos³x−3cosx; ba lựa chọn còn lại đúng.",
+    "old": 3
+  },
+  "A-I-23": {
+    "expected": 1,
+    "note": "sin(x−y)cosy+cos(x−y)siny=sinx.",
+    "old": 1
+  },
+  "A-I-24": {
+    "expected": 1,
+    "note": "cosu−cosv=−2sin((u+v)/2)sin((u−v)/2), cho −√2sinx.",
+    "old": 1
+  },
+  "A-I-25": {
+    "expected": 0,
+    "note": "Tử=sinα(2cosα+1), mẫu=cosα(2cosα+1), thương=tanα khi biểu thức xác định.",
+    "old": 0
+  },
+  "A-I-26": {
+    "expected": 1,
+    "note": "Tử=sin a(2sin a−1), mẫu=cos a(2sin a−1), thương=tan a trên miền xác định.",
+    "old": 1
+  },
+  "A-I-27": {
+    "expected": 0,
+    "note": "sinx∈[−1;1] nên 3sinx−2∈[−5;1].",
+    "old": 0
+  },
+  "A-I-28": {
+    "expected": 3,
+    "note": "sinx−cosx=0 ⇔ x=π/4+kπ, phải loại toàn bộ họ này.",
+    "old": 3
+  },
+  "A-I-29": {
+    "expected": 1,
+    "note": "Cần cosx≠0 cho tanx; mẫu=cos²x nên cùng điều kiện x≠π/2+kπ.",
+    "old": 1
+  },
+  "A-I-30": {
+    "expected": 0,
+    "note": "sinx+2≥1>0, xác định với mọi x thực.",
+    "old": 0
+  },
+  "A-I-31": {
+    "expected": 3,
+    "note": "tanx/sinx=1/cosx trên miền sinx cosx≠0; miền đối xứng và hàm chẵn.",
+    "old": 3
+  },
+  "A-I-32": {
+    "expected": 3,
+    "note": "sinx là hàm lẻ, cos3x chẵn, tích lẻ; các lựa chọn khác không lẻ.",
+    "old": 3
+  },
+  "A-I-33": {
+    "expected": 2,
+    "note": "−1≤cos2x≤1 nên 2≤3cos2x+5≤8.",
+    "old": 2
+  },
+  "B-I-2": {
+    "expected": 2,
+    "note": "sinx=−1 ⇔ x=−π/2+2kπ.",
+    "old": 2
+  },
+  "B-I-4": {
+    "expected": 3,
+    "note": "cos2x=−1 ⇔ 2x=π+2kπ ⇔ x=π/2+kπ.",
+    "old": 3
+  },
+  "B-I-5": {
+    "expected": 2,
+    "note": "Mẫu bằng 0 khi x=π/4+kπ.",
+    "old": 2
+  },
+  "B-I-6": {
+    "expected": 2,
+    "note": "sinx+3∈[2;4], căn∈[√2;2], y∈[4√2−1;7].",
+    "old": 2
+  },
+  "B-I-8": {
+    "expected": 3,
+    "note": "cosx/(1+x²) có miền R và là hàm chẵn; ba hàm còn lại lẻ hoặc không xác định trên toàn R.",
+    "old": 3
+  },
+  "B-I-9": {
+    "expected": 0,
+    "note": "3sin2x−5∈[−8;−2].",
+    "old": 0
+  },
+  "B-I-10": {
+    "expected": 1,
+    "note": "sinx=0 có cả x=π, không chỉ các bội chẵn của π.",
+    "old": 1
+  },
+  "B-I-11": {
+    "expected": 2,
+    "note": "cos(x/2)=−√3/2 ⇔ x/2=±5π/6+2kπ ⇔ x=±5π/3+4kπ.",
+    "old": 2
+  },
+  "B-I-12": {
+    "expected": 2,
+    "note": "cotx=√3/2. Đây không phải cotπ/6 hay cotπ/3; nghiệm arccot(√3/2)+kπ.",
+    "old": 2
+  },
+  "B-I-13": {
+    "expected": 3,
+    "note": "sinx=−3 vô nghiệm. Ba phương trình khác có nghiệm (phương trình C có x=0).",
+    "old": 3
+  },
+  "B-I-14": {
+    "expected": 3,
+    "note": "sin2x=1 ⇔ x=π/4+kπ.",
+    "old": 3
+  },
+  "B-I-15": {
+    "expected": 3,
+    "note": "Cần cosx≠0 và cosx≠1: x≠π/2+kπ, x≠2kπ.",
+    "old": 3
+  },
+  "B-I-16": {
+    "expected": 0,
+    "note": "x=π/4+2kπ; trong [π;5π] có k=1,2, tức x=9π/4 và 17π/4.",
+    "old": 0
+  },
+  "B-I-17": {
+    "expected": 1,
+    "note": "cosx=0 đúng tại π/2+kπ; lấy phần bù được B.",
+    "old": 1
+  },
+  "B-I-18": {
+    "expected": 2,
+    "note": "tanx lẻ, 1+sin²x chẵn dương, miền loại π/2+kπ đối xứng nên thương lẻ.",
+    "old": 2
+  },
+  "B-I-19": {
+    "expected": 0,
+    "note": "sinx=1/2, nghiệm dương đầu tiên π/6.",
+    "old": 0
+  },
+  "B-I-20": {
+    "expected": 0,
+    "note": "Chu kỳ cơ bản sin2x là π.",
+    "old": 0
+  },
+  "B-I-21": {
+    "expected": 3,
+    "note": "cotx=√3/2 nên x=arccot(√3/2)+kπ.",
+    "old": 3
+  },
+  "B-I-22": {
+    "expected": 0,
+    "note": "4cosx∈[−4;4]; vô nghiệm khi m nằm ngoài đoạn đóng.",
+    "old": 0
+  },
+  "B-I-23": {
+    "expected": 1,
+    "note": "cosx=−√3/2, nghiệm dương đầu tiên 5π/6.",
+    "old": 1
+  },
+  "B-I-24": {
+    "expected": 2,
+    "note": "Đặt t=cosx∈[−1;1], y=2−(t+1)²≤2, đạt tại t=−1.",
+    "old": 2
+  },
+  "B-I-25": {
+    "expected": 2,
+    "note": "Họ 2kπ thiếu nghiệm π của sinx=0.",
+    "old": 2
+  },
+  "B-I-26": {
+    "expected": 3,
+    "note": "cosx(cosx−1)=0; trong (0;π) chỉ có x=π/2.",
+    "old": 3
+  },
+  "B-I-29": {
+    "expected": 1,
+    "note": "sin đơn điệu trên [−π/2;π/2], nghiệm duy nhất π/6.",
+    "old": 1
+  },
+  "B-I-30": {
+    "expected": 2,
+    "note": "m²−3m+3=(m−3/2)²+3/4≥3/4; vượt 1 khi (m−1)(m−2)>0 ⇔ m<1 hoặc m>2.",
+    "old": 2
+  },
+  "B-I-35": {
+    "expected": 3,
+    "note": "π/9 rad=20°.",
+    "old": 3
+  },
+  "B-I-36": {
+    "expected": 1,
+    "note": "10<1/2+2k<11 ⇔ 4,75<k<5,25, nguyên duy nhất k=5.",
+    "old": 1
+  },
+  "B-I-37": {
+    "expected": 3,
+    "note": "10/72 vòng ×360°=50°.",
+    "old": 3
+  },
+  "B-I-38": {
+    "expected": 0,
+    "note": "105π/180=7π/12.",
+    "old": 0
+  },
+  "B-I-39": {
+    "expected": 1,
+    "note": "22°30′=22,5°=π/8.",
+    "old": 1
+  },
+  "B-I-43": {
+    "expected": 2,
+    "note": "sin(π−a)=sina.",
+    "old": 2
+  },
+  "B-I-44": {
+    "expected": 3,
+    "note": "tan(π/2+x)=−cotx, thiếu dấu âm.",
+    "old": 3
+  },
+  "B-I-45": {
+    "expected": 2,
+    "note": "cos(π−x)=−cosx; các lựa chọn khác sai dấu.",
+    "old": 2
+  },
+  "B-I-46": {
+    "expected": 2,
+    "note": "cos là hàm chẵn: cos(−α)=cosα, không phải −cosα.",
+    "old": 2
+  },
+  "B-I-47": {
+    "expected": 0,
+    "note": "sin là hàm lẻ; cos chẵn, tan và cot lẻ nên B,C,D sai.",
+    "old": 0
+  },
+  "B-I-48": {
+    "expected": 2,
+    "note": "sinα=3/5 ở góc phần tư II ⇒ cosα=−4/5, cotα=−4/3.",
+    "old": 2
+  },
+  "B-I-49": {
+    "expected": 0,
+    "note": "cosα=−√5/3 ⇒ tanα=−2/√5=−2√5/5.",
+    "old": 0
+  },
+  "B-I-50": {
+    "expected": 3,
+    "note": "cosα=−√(1−1/9)=−2√2/3.",
+    "old": 3
+  },
+  "B-I-51": {
+    "expected": 0,
+    "note": "tan(α/2)+cot(α/2)=2/sinα; sinα=1/√19>0 nên kết quả 2√19.",
+    "old": 0
+  },
+  "B-I-54": {
+    "expected": 0,
+    "note": "cos²x=1−sin²x=3/4.",
+    "old": 0
+  },
+  "B-I-55": {
+    "expected": 3,
+    "note": "Chia tử và mẫu cho cosx: (3tanx−1)/(tanx+2)=5/4.",
+    "old": 3
+  },
+  "B-I-56": {
+    "expected": 1,
+    "note": "Công thức sin(a−b)=sina cosb−cosa sinb.",
+    "old": 1
+  },
+  "B-I-57": {
+    "expected": 2,
+    "note": "tan(a+b)=(tana+tanb)/(1−tana tanb) trên miền xác định.",
+    "old": 2
+  },
+  "B-I-58": {
+    "expected": 2,
+    "note": "Biểu thức là sin(x−y).",
+    "old": 2
+  },
+  "B-I-59": {
+    "expected": 0,
+    "note": "cos(a+b) phải có dấu trừ trước sina sinb.",
+    "old": 0
+  },
+  "B-I-60": {
+    "expected": 1,
+    "note": "cos(a−b) phải có dấu cộng trước sina sinb.",
+    "old": 1
+  },
+  "B-I-61": {
+    "expected": 2,
+    "note": "Khai triển sin(a±b), chia cho cosa cosb: thương=(tana+tanb)/(tana−tanb). D là số đối, không tương đương.",
+    "old": 2
+  },
+  "B-I-62": {
+    "expected": 2,
+    "note": "sinU cosV−sinV cosU=sin(U−V)=sin(−30°)=−1/2.",
+    "old": 2
+  },
+  "B-I-63": {
+    "expected": 2,
+    "note": "37π/12=3π+π/12; cos=−cos15°=−(√6+√2)/4.",
+    "old": 2
+  },
+  "B-I-64": {
+    "expected": 3,
+    "note": "cos(α+π/3)=(cosα)/2−(√3 sinα)/2.",
+    "old": 3
+  },
+  "B-I-65": {
+    "expected": 3,
+    "note": "tan(α−π/4)=(2−1)/(1+2)=1/3.",
+    "old": 3
+  },
+  "B-I-66": {
+    "expected": 2,
+    "note": "√2sin(2x−π/4)=sin2x−cos2x, không phải tổng.",
+    "old": 2
+  },
+  "B-I-67": {
+    "expected": 3,
+    "note": "sin²2x=(1−cos4x)/2; đề dùng dấu cộng.",
+    "old": 3
+  },
+  "B-I-68": {
+    "expected": 1,
+    "note": "Mẫu công thức tan2x là 1−tan²x, không phải 1+tan²x.",
+    "old": 1
+  },
+  "B-I-69": {
+    "expected": 1,
+    "note": "cos²a+sin²a=1 không đồng nhất cos2a.",
+    "old": 1
+  },
+  "B-I-70": {
+    "expected": 0,
+    "note": "cos2a=cos²a−sin²a.",
+    "old": 0
+  },
+  "B-I-71": {
+    "expected": 2,
+    "note": "1−2cos²a=−cos2a.",
+    "old": 2
+  },
+  "B-I-72": {
+    "expected": 1,
+    "note": "Trên (0;π/2), đạo hàm cosx là −sinx<0; ba hàm còn lại đồng biến.",
+    "old": 1
+  },
+  "B-I-73": {
+    "expected": 3,
+    "note": "sin a−sin b phải bằng 2cos((a+b)/2)sin((a−b)/2).",
+    "old": 3
+  },
+  "B-I-74": {
+    "expected": 3,
+    "note": "cosx=−4/5 ⇒ tanx=−3/4; tan(x+π/4)=(1−3/4)/(1+3/4)=1/7.",
+    "old": 3
+  },
+  "B-I-76": {
+    "expected": 0,
+    "note": "cot4x lẻ trên miền đối xứng; các hàm khác không lẻ.",
+    "old": 0
+  },
+  "B-I-98": {
+    "expected": 0,
+    "note": "Chu kỳ cos(x/2+2021) là 2π/(1/2)=4π.",
+    "old": 0
+  },
+  "B-I-99": {
+    "expected": 0,
+    "note": "Chu kỳ 2π/(100π)=1/50.",
+    "old": 0
+  },
+  "B-I-100": {
+    "expected": 2,
+    "note": "cosx>0 trên (−π/3;π/6), nên đạo hàm sinx dương. Các lựa chọn khác không đồng biến trên toàn khoảng.",
+    "old": 2
+  },
+  "A-II-1 a": {
+    "expected": 0,
+    "note": "Chênh 1080°=3×360° nên cùng điểm.",
+    "old": 0
+  },
+  "A-II-1 b": {
+    "expected": 0,
+    "note": "Chênh −360° nên cùng điểm.",
+    "old": 0
+  },
+  "A-II-1 c": {
+    "expected": 1,
+    "note": "Chênh −180°, hai điểm đối nhau.",
+    "old": 1
+  },
+  "A-II-1 d": {
+    "expected": 0,
+    "note": "Chênh −8π=−4×2π nên cùng điểm.",
+    "old": 0
+  },
+  "A-II-2 a": {
+    "expected": 0,
+    "note": "Vận tốc=9200π km/h; sau 1 giờ≈28902,65 km.",
+    "old": 0
+  },
+  "A-II-2 b": {
+    "expected": 0,
+    "note": "Sau 1,5 giờ=13800π≈43353,98 km.",
+    "old": 0
+  },
+  "A-II-2 c": {
+    "expected": 1,
+    "note": "Sau 5,3 giờ≈153184,06 km; cần khoảng 8,30 giờ để đi 240000 km.",
+    "old": 1
+  },
+  "A-II-2 d": {
+    "expected": 0,
+    "note": "Vận tốc góc π rad/h nên 4,5 giờ quét 9π/2.",
+    "old": 0
+  },
+  "A-II-3 a": {
+    "expected": 0,
+    "note": "cosα=−√5/3.",
+    "old": 0
+  },
+  "A-II-3 b": {
+    "expected": 0,
+    "note": "tanα=−2√5/5.",
+    "old": 0
+  },
+  "A-II-3 c": {
+    "expected": 1,
+    "note": "Giá trị đúng là (−√5−2√3)/6.",
+    "old": 1
+  },
+  "A-II-3 d": {
+    "expected": 1,
+    "note": "Giá trị đúng là (2√2−√10)/6; biểu thức đề là số đối.",
+    "old": 1
+  },
+  "A-II-4 a": {
+    "expected": 0,
+    "note": "sinx=−√10/10.",
+    "old": 0
+  },
+  "A-II-4 b": {
+    "expected": 1,
+    "note": "cosx=3√10/10, không phải √3/10.",
+    "old": 1
+  },
+  "A-II-4 c": {
+    "expected": 1,
+    "note": "Giá trị đúng là −(3√30+√10)/20.",
+    "old": 1
+  },
+  "A-II-4 d": {
+    "expected": 1,
+    "note": "Giá trị đúng là (5√3−6)/3, không bằng √3/3.",
+    "old": 1
+  },
+  "B-II-1 a": {
+    "expected": 0,
+    "note": "125° thuộc II.",
+    "old": 0
+  },
+  "B-II-1 b": {
+    "expected": 1,
+    "note": "405° đồng vị 45°, thuộc I.",
+    "old": 1
+  },
+  "B-II-1 c": {
+    "expected": 1,
+    "note": "19π/3 đồng vị π/3, thuộc I.",
+    "old": 1
+  },
+  "B-II-1 d": {
+    "expected": 0,
+    "note": "−13π/6 đồng vị 11π/6, thuộc IV.",
+    "old": 0
+  },
+  "B-II-3 a": {
+    "expected": 1,
+    "note": "Góc phần tư III có cosx<0.",
+    "old": 1
+  },
+  "B-II-3 b": {
+    "expected": 0,
+    "note": "cosx=−4/5.",
+    "old": 0
+  },
+  "B-II-3 c": {
+    "expected": 0,
+    "note": "tanx=3/4.",
+    "old": 0
+  },
+  "B-II-3 d": {
+    "expected": 0,
+    "note": "cotx=4/3.",
+    "old": 0
+  },
+  "B-II-4 a": {
+    "expected": 0,
+    "note": "Góc phần tư III có sinx<0.",
+    "old": 0
+  },
+  "B-II-4 b": {
+    "expected": 0,
+    "note": "sinx=−12/13 và cosx=−5/13, tanx=12/5.",
+    "old": 0
+  },
+  "B-II-4 c": {
+    "expected": 0,
+    "note": "cotx=5/12.",
+    "old": 0
+  },
+  "B-II-4 d": {
+    "expected": 1,
+    "note": "sinx−cosx=−7/13, không phải −12/13.",
+    "old": 1
+  },
+  "B-II-5 a": {
+    "expected": 0,
+    "note": "Cả sinα,cosα đều âm ở III.",
+    "old": 0
+  },
+  "B-II-5 b": {
+    "expected": 1,
+    "note": "sinα=−√10/4, thiếu dấu âm.",
+    "old": 1
+  },
+  "B-II-5 c": {
+    "expected": 1,
+    "note": "cosα=−√6/4, thiếu dấu âm.",
+    "old": 1
+  },
+  "B-II-5 d": {
+    "expected": 0,
+    "note": "cotα=√6/√10=√15/5.",
+    "old": 0
+  },
+  "B-II-6 a": {
+    "expected": 0,
+    "note": "Góc phần tư I có cosx>0.",
+    "old": 0
+  },
+  "B-II-6 b": {
+    "expected": 0,
+    "note": "cosx=√6/3.",
+    "old": 0
+  },
+  "B-II-6 c": {
+    "expected": 1,
+    "note": "tanx=√2/2, không phải √3/3.",
+    "old": 1
+  },
+  "B-II-6 d": {
+    "expected": 1,
+    "note": "Giá trị đúng là (√6−3)/6, không phải chia 8.",
+    "old": 1
+  },
+  "B-II-7 a": {
+    "expected": 0,
+    "note": "Biên độ 3, trung bình 12: min=9.",
+    "old": 0
+  },
+  "B-II-7 b": {
+    "expected": 0,
+    "note": "Max=15.",
+    "old": 0
+  },
+  "B-II-7 c": {
+    "expected": 1,
+    "note": "Các thời điểm max trong [0;24] là 10 và 22: chỉ có 2.",
+    "old": 1
+  },
+  "B-II-7 d": {
+    "expected": 1,
+    "note": "h(12)=13,5 m, không phải 13 m.",
+    "old": 1
+  },
+  "B-II-8 a": {
+    "expected": 1,
+    "note": "sin2x=−4√6/25, đề sai dấu và mẫu.",
+    "old": 1
+  },
+  "B-II-8 b": {
+    "expected": 0,
+    "note": "cos2x=1−2/25=23/25.",
+    "old": 0
+  },
+  "B-II-8 c": {
+    "expected": 1,
+    "note": "tan2x=−4√6/23.",
+    "old": 1
+  },
+  "B-II-8 d": {
+    "expected": 1,
+    "note": "cot2x=−23√6/24, không phải số dương đã cho.",
+    "old": 1
+  },
+  "B-II-9 a": {
+    "expected": 0,
+    "note": "sin,cos xác định với mọi số thực.",
+    "old": 0
+  },
+  "B-II-9 b": {
+    "expected": 1,
+    "note": "f(−π)=f(π)=−2, không bằng −f(π)=2.",
+    "old": 1
+  },
+  "B-II-9 c": {
+    "expected": 0,
+    "note": "sin² và cos đều chẵn.",
+    "old": 0
+  },
+  "B-II-9 d": {
+    "expected": 0,
+    "note": "f là tổng các hàm chẵn.",
+    "old": 0
+  },
+  "B-II-10 a": {
+    "expected": 1,
+    "note": "Đường cong trong hình còn kéo dài ngoài ±3π/2, nên đoạn này không phải toàn bộ miền xác định.",
+    "old": 1
+  },
+  "B-II-10 b": {
+    "expected": 1,
+    "note": "Trên (−π;−π/2) đồ thị đang giảm, nên không tăng trên toàn (−π;0).",
+    "old": 1
+  },
+  "B-II-10 c": {
+    "expected": 0,
+    "note": "Quan sát đồ thị giảm từ y=1 xuống y=0 trên khoảng đã cho.",
+    "old": 0
+  },
+  "B-II-10 d": {
+    "expected": 0,
+    "note": "Đồ thị có min=0,max=2, tập giá trị [0;2].",
+    "old": 0
+  },
+  "B-II-11 a": {
+    "expected": 1,
+    "note": "Chu kỳ là 12 giờ, không phải 2π.",
+    "old": 1
+  },
+  "B-II-11 b": {
+    "expected": 0,
+    "note": "14−3=11 m.",
+    "old": 0
+  },
+  "B-II-11 c": {
+    "expected": 1,
+    "note": "Max=14+3=17 m, không phải 14.",
+    "old": 1
+  },
+  "B-II-11 d": {
+    "expected": 1,
+    "note": "Max khi t=−1,5+12k; trong một ngày là 10,5 và 22,5 giờ, không phải 9.",
+    "old": 1
+  },
+  "B-II-12 a": {
+    "expected": 0,
+    "note": "Hàm sin xác định trên R.",
+    "old": 0
+  },
+  "B-II-12 b": {
+    "expected": 0,
+    "note": "3−sin≤? Giá trị nhỏ nhất=3−1=2.",
+    "old": 0
+  },
+  "B-II-12 c": {
+    "expected": 0,
+    "note": "Giá trị lớn nhất=3−(−1)=4.",
+    "old": 0
+  },
+  "B-II-12 d": {
+    "expected": 0,
+    "note": "Mọi giá trị trong [2;4] đều đạt.",
+    "old": 0
+  },
+  "B-II-13 a": {
+    "expected": 1,
+    "note": "sinπ/6=+1/2 trái dấu với đề.",
+    "old": 1
+  },
+  "B-II-13 b": {
+    "expected": 1,
+    "note": "Trong (0;π), nghiệm là 7π/12,11π/12: chỉ có 2.",
+    "old": 1
+  },
+  "B-II-13 c": {
+    "expected": 0,
+    "note": "Tổng=(7+11)π/12=3π/2.",
+    "old": 0
+  },
+  "B-II-13 d": {
+    "expected": 0,
+    "note": "Nghiệm lớn nhất=11π/12.",
+    "old": 0
+  },
+  "B-II-14 a": {
+    "expected": 1,
+    "note": "tan(2x−π/3)=√3 ⇒ x=π/3+kπ/2, không phải π/6+kπ/2.",
+    "old": 1
+  },
+  "B-II-14 b": {
+    "expected": 1,
+    "note": "Nghiệm âm lớn nhất=−π/6, không phải −π/3.",
+    "old": 1
+  },
+  "B-II-14 c": {
+    "expected": 1,
+    "note": "Trong khoảng có −π/6 và π/3: 2 nghiệm.",
+    "old": 1
+  },
+  "B-II-14 d": {
+    "expected": 0,
+    "note": "Tổng=−π/6+π/3=π/6.",
+    "old": 0
+  },
+  "B-II-15 a": {
+    "expected": 1,
+    "note": "Đề tương đương sin(x−π/12)=−√3/2, không bằng sinπ/3.",
+    "old": 1
+  },
+  "B-II-15 b": {
+    "expected": 1,
+    "note": "Nghiệm là −π/4+2kπ hoặc −7π/12+2kπ, không phải các họ dương đã nêu.",
+    "old": 1
+  },
+  "B-II-15 c": {
+    "expected": 0,
+    "note": "Nghiệm âm gần 0 nhất là −π/4.",
+    "old": 0
+  },
+  "B-II-15 d": {
+    "expected": 0,
+    "note": "Trong (−π;π) có đúng hai nghiệm −π/4,−7π/12.",
+    "old": 0
+  },
+  "A-III-1": {
+    "expected": 0,
+    "note": "min=2017−|−√2|=2017−√2. Kết quả: 2017−√2",
+    "old": 0
+  },
+  "A-III-2": {
+    "expected": 0,
+    "note": "y=2cos²x≤2; đạt tại x=kπ, thuộc miền xác định. Kết quả: 2",
+    "old": 0
+  },
+  "A-III-3": {
+    "expected": 0,
+    "note": "Hệ số x là 100π nên T=2π/(100π)=1/50. Kết quả: 1/50",
+    "old": 0
+  },
+  "A-III-4": {
+    "expected": 0,
+    "note": "Đặt d là khoảng cách, tan(θ/2)=10/d và tanθ=25/d. Công thức nhân đôi cho d²=500. Kết quả: 10√5 m",
+    "old": 0
+  },
+  "B-III-1": {
+    "expected": 0,
+    "note": "GTLN=1,GTNN=−3, tổng=−2. Kết quả: −2",
+    "old": 0
+  },
+  "B-III-2": {
+    "expected": 0,
+    "note": "sin²x=3/4 nên P=2×3/4+4×1/4=5/2. Kết quả: 5/2",
+    "old": 0
+  },
+  "B-III-3": {
+    "expected": 0,
+    "note": "sin(15π/2−x)=−cosx; −2cos(x−π)=2cosx; mẫu cos(5π/2−x)=sinx. S=cotx. Kết quả: 1",
+    "old": 0
+  },
+  "B-III-4": {
+    "expected": 0,
+    "note": "cosα=−2√2/3,sinβ=√5/3. sin(α+β)=−2/9−2√10/9. Kết quả: −(2+2√10)/9",
+    "old": 0
+  },
+  "B-III-5": {
+    "expected": 0,
+    "note": "T=π/2≈1,570796, làm tròn hàng phần trăm=1,57. Kết quả: 1,57",
+    "old": 0
+  },
+  "B-III-6": {
+    "expected": 0,
+    "note": "Căn lớn nhất √(1+1)=√2, trừ 3. Kết quả: √2−3",
+    "old": 0
+  },
+  "B-III-7": {
+    "expected": 0,
+    "note": "Sin đạt 1 khi t−60=89+356k ⇒ t=149+356k. Ngày 149 của năm nhuận 2024 là 28/5. Kết quả: Ngày 28 tháng 5",
+    "old": 0
+  },
+  "B-III-8": {
+    "expected": 0,
+    "note": "y=5+2sin4x∈[3;7]; a²−2ab=9−42=−33. Kết quả: −33",
+    "old": 0
+  },
+  "B-III-13": {
+    "expected": 0,
+    "note": "Vận tốc=125/9 m/s; chu vi=0,55π m; số vòng=2500/(99π)≈8,03813. Kết quả: 8,04 vòng",
+    "old": 0
+  },
+  "B-III-14": {
+    "expected": 0,
+    "note": "tan(17π/2−x)=cotx và cot(5π+x)=cotx, nên A=3cotx. Kết quả: 3",
+    "old": 0
+  },
+  "B-III-15": {
+    "expected": 0,
+    "note": "cos(5π−x)=−cosx; sin(3π/2+x)=−cosx; tan(3π/2−x)=cotx; cot(3π−x)=−cotx. Tổng 0. Kết quả: 0",
+    "old": 0
+  },
+  "B-III-17": {
+    "expected": 0,
+    "note": "t=200000/(2π×7000)×1,5=150/(7π)≈6,82093 giờ. Kết quả: 6,82 giờ",
+    "old": 0
+  },
+  "B-III-19": {
+    "expected": 0,
+    "note": "Góc tại t=9 là 11π/6, sin=−1/2; h=−4×(−1/2)+5=7. Kết quả: 7 m",
+    "old": 0
+  },
+  "B-III-20": {
+    "expected": 0,
+    "note": "Trung bình C=15, bắt đầu ở thấp nhất nên A=−7. h(4)=15−7cos(8π/5)≈12,83688, không phải 17,16. Kết quả: 12,84 m",
+    "old": 0
+  },
+  "B-III-21": {
+    "expected": 0,
+    "note": "Trong 0≤t≤12, góc π/2−πt/6 chạy từ π/2 tới −3π/2, đủ một vòng; min21,max31,tổng52. Kết quả: 52",
+    "old": 0
+  },
+  "B-III-22": {
+    "expected": 0,
+    "note": "Xa O nhất khi |cos(2t/3+π/3)|=1 ⇒ t=3kπ/2−π/2. Trong [0;5] chỉ có t=π. Kết quả: π giây",
+    "old": 0
+  },
+  "B-III-23": {
+    "expected": 0,
+    "note": "Chiều cao đỉnh−đáy=90−(−90)=180 cm. Kết quả: 180 cm",
+    "old": 0
+  },
+  "B-III-24": {
+    "expected": 0,
+    "note": "Nhiệt độ nhỏ nhất khi sin=−1 ⇒ t=3+24k; trong ngày là 3 giờ. Kết quả: 3 giờ",
+    "old": 0
+  },
+  "A-I-12": {
+    "expected": null,
+    "old": 1,
+    "note": "Với π/2<α<π: sin(π+α)=−sinα<0; cot(π/2−α)=tanα<0; cos(−α)=cosα<0; tan(π+α)=tanα<0. Không có lựa chọn luôn dương. Đáp án B đang chấm là sai; loại câu khỏi quiz, không sửa nội dung nguồn."
+  }
+}
