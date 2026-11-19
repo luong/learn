@@ -145,16 +145,29 @@ function buildQuestion(unitIndex, id, type) {
   return { id, type, correctId: id, options: shuffle([id, ...shuffle(candidates).slice(0, 3)]) };
 }
 
+
+function entryDifficulty(entry,type){
+ if(type==='word'||type==='definition'){
+  const word=entry.word||'';const abstract=/tion$|ment$|ness$|ity$|ism$|ence$|ance$/.test(word);
+  return (type==='word'?100:0)+(word.includes(' ')?20:0)+(abstract?10:0)+Math.max(0,word.replace(/[^a-z]/gi,'').length-5);
+ }
+ const t=(entry.explanation+' '+entry.prompt).toLowerCase();let level=10;
+ if(/past|future|comparative|superlative|gerund|infinitive|followed by|-ing form/.test(t))level=20;
+ if(/perfect|passive|relative|conditional|reported|wish|regret|remember|stop|try /.test(t))level=30;
+ if(/mixed|inversion|third conditional|perfect continuous|would have|had been/.test(t))level=40;
+ return level;
+}
+
 function start(unitIndex, missed = null) {
   const ids = tests[unitIndex].entries.map((_, id) => id);
   const types = unitIndex < units.length ? ['definition', 'word'] : ['grammar'];
-  const items = types.flatMap(type => shuffle(ids).map(id => ({ id, type })));
+  const items = types.flatMap(type => shuffle(ids).sort((a,b)=>entryDifficulty(tests[unitIndex].entries[a],type)-entryDifficulty(tests[unitIndex].entries[b],type)).map(id => ({ id, type })));
   const review = missed && [
     ...shuffle(missed.filter(q => q.type !== 'word')),
     ...shuffle(missed.filter(q => q.type === 'word')),
   ];
   sessions[unitIndex] = {
-    questions: (review ?? items).map(({ id, type }) => buildQuestion(unitIndex, id, type)),
+    questions: (review ?? items).sort((a,b)=>entryDifficulty(tests[unitIndex].entries[a.id],a.type)-entryDifficulty(tests[unitIndex].entries[b.id],b.type)).map(({ id, type }) => buildQuestion(unitIndex, id, type)),
     index: 0, selected: null, checked: false, correct: 0, missed: [], review: missed !== null,
   };
 }
