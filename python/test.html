@@ -25,13 +25,95 @@ function esc(s){return String(s).replaceAll("&","&amp;").replaceAll("<","&lt;").
 function md(s){let tick=String.fromCharCode(96),fence=new RegExp(tick+"{3}(?:python)?\\n?([\\s\\S]*?)"+tick+"{3}","g"),blocks=[],inline=[];let out=esc(s).replace(fence,(_,code)=>{let mark="@@BLOCK"+blocks.length+"@@";blocks.push("<pre><code>"+code.replace(/^\n|\n$/g,"")+"</code></pre>");return mark});out=out.replace(new RegExp(tick+"([^"+tick+"\n]+)"+tick,"g"),(_,code)=>{let mark="@@INLINE"+inline.length+"@@";inline.push("<code>"+code+"</code>");return mark}).replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>").replace(/\n/g,"<br>");blocks.forEach((b,i)=>out=out.replace("@@BLOCK"+i+"@@",b));inline.forEach((c,i)=>out=out.replace("@@INLINE"+i+"@@",c));return out}
 function buttons(){let box=el("groups");box.innerHTML="";DATA.forEach((part,i)=>{let b=document.createElement("button");b.className="group"+(i===partIndex?" active":"");b.type="button";b.textContent=names[i];b.setAttribute("aria-pressed",i===partIndex);b.onclick=()=>{if(i!==partIndex)start(i)};box.appendChild(b)})}
 function start(i){clearTimeout(moveTimer);partIndex=i;order=shuffle(DATA[i].questions.map((_,k)=>k));pos=0;correctIds=new Set();wrongIds=new Set();choice=null;locked=false;reviewMode=false;el("area").classList.remove("hidden");el("finish").classList.remove("show");buttons();render()}
-function render(){if(pos>=order.length){finish();return}let total=DATA[partIndex].questions.length,q=DATA[partIndex].questions[order[pos]];choice=null;locked=false;currentOptions=shuffle(q.options.map((_,i)=>i));el("part").textContent=names[partIndex];el("current").textContent=(pos+1)+" / "+(reviewMode?order.length:total);el("right").textContent=correctIds.size;el("wrong").textContent=wrongIds.size;el("question").innerHTML=(q.source?'<div class="source">'+esc(q.source)+'</div>':'')+md(q.prompt);el("feedback").className="feedback";el("feedback").innerHTML="";el("check").classList.remove("hidden");el("check").disabled=true;el("next").classList.add("hidden");let box=el("options");box.innerHTML="";currentOptions.forEach((originalIndex,i)=>{let text=q.options[originalIndex],lab=document.createElement("label");lab.className="option";lab.innerHTML='<input type="radio" name="answer" value="'+i+'"><span><b>'+letters[i]+'. </b>'+md(text)+'</span>';lab.querySelector("input").onchange=()=>{if(!locked){choice=i;box.querySelectorAll(".option").forEach(x=>x.classList.remove("selected"));lab.classList.add("selected");el("check").disabled=false}};box.appendChild(lab)})}
+function render(savedOptions=null){if(pos>=order.length){finish();return}let total=DATA[partIndex].questions.length,q=DATA[partIndex].questions[order[pos]];choice=null;locked=false;currentOptions=savedOptions||shuffle(q.options.map((_,i)=>i));el("part").textContent=names[partIndex];el("current").textContent=(pos+1)+" / "+(reviewMode?order.length:total);el("right").textContent=correctIds.size;el("wrong").textContent=wrongIds.size;el("question").innerHTML=(q.source?'<div class="source">'+esc(q.source)+'</div>':'')+md(q.prompt);el("feedback").className="feedback";el("feedback").innerHTML="";el("check").classList.remove("hidden");el("check").disabled=true;el("next").classList.add("hidden");let box=el("options");box.innerHTML="";currentOptions.forEach((originalIndex,i)=>{let text=q.options[originalIndex],lab=document.createElement("label");lab.className="option";lab.innerHTML='<input type="radio" name="answer" value="'+i+'"><span><b>'+letters[i]+'. </b>'+md(text)+'</span>';lab.querySelector("input").onchange=()=>{if(!locked){choice=i;box.querySelectorAll(".option").forEach(x=>x.classList.remove("selected"));lab.classList.add("selected");el("check").disabled=false}};box.appendChild(lab)})}
 function nextQuestion(){clearTimeout(moveTimer);pos++;render()}
-function check(){if(choice===null||locked)return;locked=true;let questionId=order[pos],q=DATA[partIndex].questions[questionId],correctChoice=currentOptions.indexOf(q.answer),opts=el("options").querySelectorAll(".option");opts.forEach((o,i)=>{o.classList.add("disabled");o.querySelector("input").disabled=true;if(i===choice&&choice!==correctChoice)o.classList.add("incorrect")});el("check").classList.add("hidden");let f=el("feedback");if(choice===correctChoice){correctIds.add(questionId);wrongIds.delete(questionId);f.className="feedback show ok";f.textContent="Đúng! Đang chuyển sang câu tiếp theo…";moveTimer=setTimeout(nextQuestion,850)}else{if(!correctIds.has(questionId))wrongIds.add(questionId);f.className="feedback show no";f.textContent="Sai.";el("next").classList.remove("hidden")}el("right").textContent=correctIds.size;el("wrong").textContent=wrongIds.size;updateProgress()}
+function check(){if(choice===null||locked)return;locked=true;let questionId=order[pos],q=DATA[partIndex].questions[questionId],correctChoice=currentOptions.indexOf(q.answer),opts=el("options").querySelectorAll(".option");opts.forEach((o,i)=>{o.classList.add("disabled");o.querySelector("input").disabled=true;if(i===choice&&choice!==correctChoice)o.classList.add("incorrect")});el("check").classList.add("hidden");let f=el("feedback");if(choice===correctChoice){correctIds.add(questionId);wrongIds.delete(questionId);f.className="feedback show ok";f.textContent="Đúng! Đang chuyển sang câu tiếp theo…";moveTimer=setTimeout(nextQuestion,850)}else{if(!correctIds.has(questionId))wrongIds.add(questionId);f.className="feedback show no";f.textContent="Sai.";el("next").classList.remove("hidden")}el("right").textContent=correctIds.size;el("wrong").textContent=wrongIds.size;}
 function finish(){el("area").classList.add("hidden");el("finish").classList.add("show");let total=DATA[partIndex].questions.length;el("current").textContent=total+" / "+total;el("right").textContent=correctIds.size;el("wrong").textContent=wrongIds.size;el("finishMessage").textContent="Bạn đúng "+correctIds.size+" / "+total+" câu; còn "+wrongIds.size+" câu sai.";if(wrongIds.size===0){el("finishTitle").textContent="Chúc mừng! Bạn đã trả lời đúng tất cả câu hỏi! 🎉";el("reviewPrompt").classList.add("hidden")}else{el("finishTitle").textContent="Bạn đã hoàn thành phần này.";el("reviewPrompt").classList.remove("hidden")}}
 function retryWrong(){if(!wrongIds.size){finish();return}clearTimeout(moveTimer);order=shuffle(Array.from(wrongIds));pos=0;reviewMode=true;el("finish").classList.remove("show");el("area").classList.remove("hidden");render()}
 function stopReview(){el("reviewPrompt").classList.add("hidden");el("finishMessage").textContent="Kết quả cuối: đúng "+correctIds.size+" / "+DATA[partIndex].questions.length+" câu; còn "+wrongIds.size+" câu sai."}
 el("check").onclick=check;el("next").onclick=nextQuestion;el("reviewYes").onclick=retryWrong;buttons();start(0);
 
 
+</script><script>
+// Persist each test independently, including unfinished answers.
+(()=>{
+ const key='quiz-progress-v2:'+location.pathname;
+ let store;try{store=JSON.parse(localStorage.getItem(key))||{tests:{}}}catch{store={tests:{}}}
+ let restoring=false,active=null;
+ const signature=value=>{let h=2166136261;for(const c of JSON.stringify(value))h=Math.imul(h^c.charCodeAt(0),16777619);return String(h>>>0)};
+ 
+ const index=()=>partIndex,count=()=>DATA.length,sig=()=>signature(DATA[partIndex].questions),isReview=()=>false,clearTimer=()=>clearTimeout(moveTimer);
+ const capture=()=>({order,pos,correct:[...correctIds],wrong:[...wrongIds],reviewMode,currentOptions,choice,locked, inputs:[...document.querySelectorAll('#options input')].map(x=>({value:x.value,checked:x.checked}))});
+ function restore(v){
+  clearTimeout(moveTimer);order=v.order;pos=v.pos;correctIds=new Set(v.correct);wrongIds=new Set(v.wrong);reviewMode=v.reviewMode;
+  document.getElementById('finish').classList.remove('show');document.getElementById('area').classList.remove('hidden');render(v.currentOptions);
+  if(pos<order.length){
+   const inputs=[...document.querySelectorAll('#options input')];
+   inputs.forEach((input,i)=>{const saved=v.inputs[i];if(!saved)return;if(input.type==='radio'){if(saved.checked){input.checked=true;input.dispatchEvent(new Event('change'))}}else{input.value=saved.value;input.dispatchEvent(new Event('input'))}});
+   if(v.locked){check(); clearTimeout(moveTimer);document.getElementById('next').classList.remove('hidden');if(correctIds.has(order[pos]))document.getElementById('feedback').textContent='Đúng!'}
+  }
+   }
+ const fresh=()=>{start(partIndex);};
+ const initial=i=>{start(i);};
+
+ function save(){if(restoring||active===null)return;try{store.tests[active]={signature:sig(),state:capture()};store.last=index();localStorage.setItem(key,JSON.stringify(store))}catch{}}
+ const originalStart=start;
+ start=function(...args){
+  if(active===String(index()))save();const review=isReview(args);restoring=true;try{originalStart(...args)}finally{restoring=false}active=String(index());
+  const saved=store.tests[active];
+  if(!review&&saved&&saved.signature===sig()){
+   restoring=true;try{restore(saved.state)}catch{delete store.tests[active]}finally{restoring=false}
+  }
+  save();
+ };
+ const originalRender=render;
+ render=function(...args){const result=originalRender(...args);save();return result};
+ const reset=document.createElement('button');reset.type='button';reset.textContent='Làm lại';reset.className='action';reset.id='resetTest';reset.style.cssText='display:block;margin:16px auto';
+ reset.onclick=()=>{if(!confirm('Làm lại bài test này? Tiến độ và kết quả đã lưu của bài này sẽ bị xóa.'))return;clearTimer();delete store.tests[String(index())];active=null;fresh();active=String(index());save()};
+ document.querySelector('main').append(reset);
+ document.addEventListener('click',save,true);
+ for(const event of ['input','change','click','submit'])document.addEventListener(event,()=>queueMicrotask(save));
+ window.addEventListener('pagehide',save);window.addEventListener('beforeunload',save);
+ const target=Number.isInteger(store.last)&&store.last>=0&&store.last<count()?store.last:index();
+ active=null;initial(target);active=String(index());save();
+})();
+</script><script>
+(()=>{
+ let armed=null;
+ const token=()=>partIndex+':'+pos+':'+order[pos];
+ document.getElementById('right').parentElement.addEventListener('click',()=>{
+  
+  if(pos>=order.length)return;
+  clearTimeout(moveTimer);
+  if(armed===token()){
+   
+ const q=DATA[partIndex].questions[order[pos]];if(!q)return;
+ if(locked)render(currentOptions);
+ if(q.type==='truefalse'){
+  q.statements.forEach((st,k)=>{const x=document.querySelectorAll('.tf-row')[k]?.querySelector('input[value="'+st.answer+'"]');if(x&&!x.disabled){x.checked=true;x.dispatchEvent(new Event('change'))}});
+ }else if(q.type==='short'){
+  const answer=v=>v.answerTexts?.[0]??v.answerExpression??(v.answerValue==='+infinity'?'+inf':v.answerValue==='-infinity'?'-inf':String(v.answerValue));
+  const fields=q.answerFields||[q];document.querySelectorAll('#options input').forEach((input,k)=>{input.value=answer(fields[k]);input.dispatchEvent(new Event('input'))});
+ }else{const x=document.querySelectorAll('#options input')[currentOptions.indexOf(q.answer)];if(x){x.checked=true;x.dispatchEvent(new Event('change'))}}
+
+   if(!locked)check();
+   nextQuestion();
+   armed=null;
+  }else{
+ const q=DATA[partIndex].questions[order[pos]];if(!q)return;
+ if(locked)render(currentOptions);
+ if(q.type==='truefalse'){
+  q.statements.forEach((st,k)=>{const x=document.querySelectorAll('.tf-row')[k]?.querySelector('input[value="'+st.answer+'"]');if(x&&!x.disabled){x.checked=true;x.dispatchEvent(new Event('change'))}});
+ }else if(q.type==='short'){
+  const answer=v=>v.answerTexts?.[0]??v.answerExpression??(v.answerValue==='+infinity'?'+inf':v.answerValue==='-infinity'?'-inf':String(v.answerValue));
+  const fields=q.answerFields||[q];document.querySelectorAll('#options input').forEach((input,k)=>{input.value=answer(fields[k]);input.dispatchEvent(new Event('input'))});
+ }else{const x=document.querySelectorAll('#options input')[currentOptions.indexOf(q.answer)];if(x){x.checked=true;x.dispatchEvent(new Event('change'))}}
+ armed=token()}
+ });
+ document.getElementById('wrong').parentElement.addEventListener('click',()=>{
+  
+  if(pos<=0)return;clearTimeout(moveTimer);pos--;armed=null;
+  document.getElementById('finish').classList.remove('show');document.getElementById('area').classList.remove('hidden');render();
+ });
+})();
 </script></body></html>

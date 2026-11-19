@@ -291,5 +291,55 @@ start(unit);
 render();
 
 </script>
-</body>
+<script>
+// Persist each test independently, including unfinished answers.
+(()=>{
+ const key='quiz-progress-v2:'+location.pathname;
+ let store;try{store=JSON.parse(localStorage.getItem(key))||{tests:{}}}catch{store={tests:{}}}
+ let restoring=false,active=null;
+ const signature=value=>{let h=2166136261;for(const c of JSON.stringify(value))h=Math.imul(h^c.charCodeAt(0),16777619);return String(h>>>0)};
+ 
+ const index=()=>unit,count=()=>tests.length,sig=()=>signature(tests[unit]),isReview=args=>args[1]!=null,clearTimer=()=>{};
+ const capture=()=>JSON.parse(JSON.stringify(sessions[unit]));
+ function restore(v){sessions[unit]=v;render()}
+ const fresh=()=>{start(unit);render()};
+ const initial=i=>{unit=i;start(unit);render()};
+
+ function save(){if(restoring||active===null)return;try{store.tests[active]={signature:sig(),state:capture()};store.last=index();localStorage.setItem(key,JSON.stringify(store))}catch{}}
+ const originalStart=start;
+ start=function(...args){
+  if(active===String(index()))save();const review=isReview(args);restoring=true;try{originalStart(...args)}finally{restoring=false}active=String(index());
+  const saved=store.tests[active];
+  if(!review&&saved&&saved.signature===sig()){
+   restoring=true;try{restore(saved.state)}catch{delete store.tests[active]}finally{restoring=false}
+  }
+  save();
+ };
+ const originalRender=render;
+ render=function(...args){const result=originalRender(...args);save();return result};
+ const reset=document.createElement('button');reset.type='button';reset.textContent='Làm lại';reset.className='action';reset.id='resetTest';reset.style.cssText='display:block;margin:16px auto';
+ reset.onclick=()=>{if(!confirm('Làm lại bài test này? Tiến độ và kết quả đã lưu của bài này sẽ bị xóa.'))return;clearTimer();delete store.tests[String(index())];active=null;fresh();active=String(index());save()};
+ document.querySelector('main').append(reset);
+ document.addEventListener('click',save,true);
+ for(const event of ['input','change','click','submit'])document.addEventListener(event,()=>queueMicrotask(save));
+ window.addEventListener('pagehide',save);window.addEventListener('beforeunload',save);
+ const target=Number.isInteger(store.last)&&store.last>=0&&store.last<count()?store.last:index();
+ active=null;initial(target);active=String(index());save();
+})();
+</script><script>
+(()=>{
+ let armed=null;
+ const current=()=>sessions[unit];
+ const token=()=>unit+':'+current().index;
+ function selectCorrect(){const r=current(),q=r.questions[r.index];if(!q)return;
+  r.selected=q.type==='word'?tests[unit].entries[q.id].word:q.correctId;r.checked=false;render();
+ }
+ document.getElementById('right').parentElement.addEventListener('click',()=>{
+  const r=current();if(r.index>=r.questions.length)return;
+  if(armed===token()){selectCorrect();r.index++;r.selected=null;r.checked=false;render();armed=null}
+  else{selectCorrect();armed=token()}
+ });
+ document.getElementById('wrong').parentElement.addEventListener('click',()=>{const r=current();if(r.index<=0)return;r.index--;r.selected=null;r.checked=false;armed=null;render()});
+})();
+</script></body>
 </html>
