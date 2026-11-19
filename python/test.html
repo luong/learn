@@ -23,7 +23,7 @@ const el=id=>document.getElementById(id);
 function shuffle(a){for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function esc(s){return String(s).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#39;")}
 function md(s){let tick=String.fromCharCode(96),fence=new RegExp(tick+"{3}(?:python)?\\n?([\\s\\S]*?)"+tick+"{3}","g"),blocks=[],inline=[];let out=esc(s).replace(fence,(_,code)=>{let mark="@@BLOCK"+blocks.length+"@@";blocks.push("<pre><code>"+code.replace(/^\n|\n$/g,"")+"</code></pre>");return mark});out=out.replace(new RegExp(tick+"([^"+tick+"\n]+)"+tick,"g"),(_,code)=>{let mark="@@INLINE"+inline.length+"@@";inline.push("<code>"+code+"</code>");return mark}).replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>").replace(/\n/g,"<br>");blocks.forEach((b,i)=>out=out.replace("@@BLOCK"+i+"@@",b));inline.forEach((c,i)=>out=out.replace("@@INLINE"+i+"@@",c));return out}
-function buttons(){let box=el("groups");box.innerHTML="";DATA.forEach((part,i)=>{let b=document.createElement("button");b.className="group"+(i===partIndex?" active":"");b.type="button";b.textContent=names[i];b.setAttribute("aria-pressed",i===partIndex);b.onclick=()=>start(i);box.appendChild(b)})}
+function buttons(){let box=el("groups");box.innerHTML="";DATA.forEach((part,i)=>{let b=document.createElement("button");b.className="group"+(i===partIndex?" active":"");b.type="button";b.textContent=names[i];b.setAttribute("aria-pressed",i===partIndex);b.onclick=()=>{if(i!==partIndex)start(i)};box.appendChild(b)})}
 function start(i){clearTimeout(moveTimer);partIndex=i;order=shuffle(DATA[i].questions.map((_,k)=>k));pos=0;correctIds=new Set();wrongIds=new Set();choice=null;locked=false;reviewMode=false;el("area").classList.remove("hidden");el("finish").classList.remove("show");buttons();render()}
 function render(){if(pos>=order.length){finish();return}let total=DATA[partIndex].questions.length,q=DATA[partIndex].questions[order[pos]];choice=null;locked=false;currentOptions=shuffle(q.options.map((_,i)=>i));el("part").textContent=names[partIndex];el("current").textContent=(pos+1)+" / "+(reviewMode?order.length:total);el("right").textContent=correctIds.size;el("wrong").textContent=wrongIds.size;el("question").innerHTML=(q.source?'<div class="source">'+esc(q.source)+'</div>':'')+md(q.prompt);el("feedback").className="feedback";el("feedback").innerHTML="";el("check").classList.remove("hidden");el("check").disabled=true;el("next").classList.add("hidden");let box=el("options");box.innerHTML="";currentOptions.forEach((originalIndex,i)=>{let text=q.options[originalIndex],lab=document.createElement("label");lab.className="option";lab.innerHTML='<input type="radio" name="answer" value="'+i+'"><span><b>'+letters[i]+'. </b>'+md(text)+'</span>';lab.querySelector("input").onchange=()=>{if(!locked){choice=i;box.querySelectorAll(".option").forEach(x=>x.classList.remove("selected"));lab.classList.add("selected");el("check").disabled=false}};box.appendChild(lab)})}
 function nextQuestion(){clearTimeout(moveTimer);pos++;render()}
@@ -34,12 +34,4 @@ function stopReview(){el("reviewPrompt").classList.add("hidden");el("finishMessa
 el("check").onclick=check;el("next").onclick=nextQuestion;el("reviewYes").onclick=retryWrong;buttons();start(0);
 
 
-// A new attempt begins whenever the learner returns from another browser tab.
-let testWasHidden=false;
-function resetCurrentTest(){start(partIndex);}
-document.addEventListener('visibilitychange',()=>{
- if(document.hidden){testWasHidden=true;clearTimeout(moveTimer);}
- else if(testWasHidden){testWasHidden=false;resetCurrentTest()}
-});
-window.addEventListener('pageshow',event=>{if(event.persisted){testWasHidden=false;resetCurrentTest()}});
 </script></body></html>

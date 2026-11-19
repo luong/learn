@@ -2,7 +2,7 @@
   "topics": [
     {
       "title": "Giới hạn hàm số",
-      "study": "<h2>A. Giới hạn hữu hạn</h2><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> tiến tới <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math> khi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi></mrow></math> tiến tới <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math>).</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></msub><mi>x</mi><mo>&#x0003D;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></msub><mi>c</mi><mo>&#x0003D;</mo><mi>c</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><mi>&#x000B1;</mi><mo>&#x0221E;</mo></mrow></msub><mi>c</mi><mo>&#x0003D;</mo><mi>c</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><mi>&#x000B1;</mi><mo>&#x0221E;</mo></mrow></msub><mfrac><mi>c</mi><mrow><msup><mi>x</mi><mi>k</mi></msup></mrow></mfrac><mo>&#x0003D;</mo><mn>0</mn></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi></mrow></math> nguyên dương).</article><article class=\"theory-item\">Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo>&#x0003D;</mo><mi>L</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo>&#x0003D;</mo><mi>M</mi></mrow></math> hữu hạn:<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">&#x00028;</mo><mi>f</mi><mi>&#x000B1;</mi><mi>g</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mi>&#x000B1;</mi><mi>M</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">&#x00028;</mo><mi>f</mi><mi>g</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mi>M</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mi>f</mi><mi>g</mi></mfrac><mo>&#x0003D;</mo><mfrac><mi>L</mi><mi>M</mi></mfrac></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x02260;</mo><mn>0</mn></mrow></math>).<br>Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo>&#x02265;</mo><mn>0</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><msqrt><mi>f</mi></msqrt><mo>&#x0003D;</mo><msqrt><mi>L</mi></msqrt></mrow></math>.</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi></mrow></math> khi và chỉ khi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msubsup><mi>x</mi><mn>0</mn><mo>&#x02212;</mo></msubsup></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><msub><mo>lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msubsup><mi>x</mi><mn>0</mn><mo>&#x0002B;</mo></msubsup></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi></mrow></math>.</article><h2>B. Giới hạn vô cực</h2><h3>Quy tắc 1: Tích</h3><div class=\"angle-table-wrap\"><table class=\"angle-table\"><thead><tr><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo></mrow></math></th></tr></thead><tbody><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td></tr></tbody></table></div><h3>Quy tắc 2: Thương</h3><div class=\"angle-table-wrap\"><table class=\"angle-table\"><thead><tr><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th>Dấu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac></mrow></math></th></tr></thead><tbody><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>&#x000B1;</mi><mo>&#x0221E;</mo></mrow></math></td><td>Tùy ý</td><td>0</td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td>0</td><td>+ </td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td>0</td><td>−</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td>0</td><td>+</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td>0</td><td>−</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math></td></tr></tbody></table></div><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math> hữu hạn; xét dấu của mẫu gần điểm lấy giới hạn. Không áp dụng trực tiếp cho các dạng vô định <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x0002F;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0221E;</mo><mo>&#x0002F;</mo><mo>&#x0221E;</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x000B7;</mo><mo>&#x0221E;</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0221E;</mo><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>.</article>",
+      "study": "<h2>A. Giới hạn hữu hạn</h2><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math> tiến tới <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math> khi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi></mrow></math> tiến tới <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>x</mi><mo>&#x02260;</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math>).</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>c</mi><mo>=</mo><mi>c</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mi>±</mi><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mi>c</mi><mo>=</mo><mi>c</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mi>±</mi><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mfrac><mi>c</mi><mrow><msup><mi>x</mi><mi>k</mi></msup></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>k</mi></mrow></math> nguyên dương).</article><article class=\"theory-item\">Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo>&#x0003D;</mo><mi>L</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo>&#x0003D;</mo><mi>M</mi></mrow></math> hữu hạn:<br><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">&#x00028;</mo><mi>f</mi><mi>&#x000B1;</mi><mi>g</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mi>&#x000B1;</mi><mi>M</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">&#x00028;</mo><mi>f</mi><mi>g</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mi>M</mi></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mi>f</mi><mi>g</mi></mfrac><mo>&#x0003D;</mo><mfrac><mi>L</mi><mi>M</mi></mfrac></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>M</mi><mo>&#x02260;</mo><mn>0</mn></mrow></math>).<br>Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo>&#x02265;</mo><mn>0</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><msqrt><mi>f</mi></msqrt><mo>&#x0003D;</mo><msqrt><mi>L</mi></msqrt></mrow></math>.</article><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math> khi và chỉ khi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msubsup><mi>x</mi><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msubsup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msubsup><mi>x</mi><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msubsup></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math>.</article><h2>B. Giới hạn vô cực</h2><h3>Quy tắc 1: Tích</h3><div class=\"angle-table-wrap\"><table class=\"angle-table\"><thead><tr><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo></mrow></math></th></tr></thead><tbody><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td></tr></tbody></table></div><h3>Quy tắc 2: Thương</h3><div class=\"angle-table-wrap\"><table class=\"angle-table\"><thead><tr><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th>Dấu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math></th><th><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac></mrow></math></th></tr></thead><tbody><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>±</mi><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td><td>Tùy ý</td><td>0</td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td>0</td><td>+ </td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math></td><td>0</td><td>−</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td>0</td><td>+</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math></td><td>0</td><td>−</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math></td></tr></tbody></table></div><article class=\"theory-item\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math> hữu hạn; xét dấu của mẫu gần điểm lấy giới hạn. Không áp dụng trực tiếp cho các dạng vô định <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x0002F;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0221E;</mo><mo>&#x0002F;</mo><mo>&#x0221E;</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x000B7;</mo><mo>&#x0221E;</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>∞</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.</article>",
       "questions": [
         {
           "id": 1,
@@ -10,7 +10,7 @@
           "type": "mcq",
           "kind": "Thực hành",
           "prompt": "Cho các giới hạn: $\\lim_{x\\to x_0}f(x)=2$; $\\lim_{x\\to x_0}g(x)=3$, hỏi $\\lim_{x\\to x_0}[3f(x)-4g(x)]$ bằng",
-          "html": "Cho các giới hạn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></munder></mrow></msub><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>2</mn></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></munder></mrow></msub><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>3</mn></mrow></math>, hỏi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mn>0</mn></munder></mrow></msub><mo stretchy=\"false\">[</mo><mn>3</mn><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02212;</mo><mn>4</mn><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo></mrow></math> bằng",
+          "html": "Cho các giới hạn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>2</mn></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>3</mn></mrow></math>, hỏi <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></munder><mo stretchy=\"false\">[</mo><mn>3</mn><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>−</mo><mn>4</mn><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">]</mo></mrow></math> bằng",
           "options": [
             "5",
             "2",
@@ -42,7 +42,7 @@
           "optionsHtml": [
             "2",
             "1",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 3,
@@ -62,9 +62,9 @@
             "$L=1$"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003D;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi><mo>&#x0003D;</mo><mn>1</mn></mrow></math>"
           ],
           "answer": 1,
@@ -129,8 +129,8 @@
           ],
           "optionsHtml": [
             "0",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "2019"
           ],
           "answer": 3,
@@ -173,8 +173,8 @@
           ],
           "optionsHtml": [
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>6</mn></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "1"
           ],
           "answer": 0,
@@ -186,7 +186,7 @@
           "type": "mcq",
           "kind": "Thực hành",
           "prompt": "Giới hạn nào sau đây có kết quả bằng $+\\infty$?",
-          "html": "Giới hạn nào sau đây có kết quả bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>?",
+          "html": "Giới hạn nào sau đây có kết quả bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>?",
           "options": [
             "$\\lim_{x\\to1}\\frac{x-3}{(x-1)^2}$",
             "$\\lim_{x\\to1}\\frac{x-2}{(x-1)^2}$",
@@ -237,10 +237,10 @@
             "$\\lim_{x\\to0^+}\\frac1{\\sqrt x}=+\\infty$."
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>5</mn></msup></mrow></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mrow><msqrt><mi>x</mi></msqrt></mrow></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>."
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>5</mn></msup></mrow></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>0</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mn>1</mn><mrow><msqrt><mi>x</mi></msqrt></mrow></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>."
           ],
           "answer": 1,
           "verification": "B is false; 1/x ->+infinity for x->0+.",
@@ -252,7 +252,7 @@
           "type": "mcq",
           "kind": "Thực hành",
           "prompt": "Trong bốn giới hạn sau đây, giới hạn nào bằng $-\\infty$?",
-          "html": "Trong bốn giới hạn sau đây, giới hạn nào bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>?",
+          "html": "Trong bốn giới hạn sau đây, giới hạn nào bằng <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>?",
           "options": [
             "$\\lim_{x\\to+\\infty}\\frac{-3x+4}{x-2}$",
             "$\\lim_{x\\to2^-}\\frac{-3x+4}{x-2}$",
@@ -273,7 +273,7 @@
           "type": "mcq",
           "kind": "Thực hành",
           "prompt": "Trong các giới hạn dưới đây, giới hạn nào là $+\\infty$?",
-          "html": "Trong các giới hạn dưới đây, giới hạn nào là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>?",
+          "html": "Trong các giới hạn dưới đây, giới hạn nào là <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>?",
           "options": [
             "$\\lim_{x\\to4^-}\\frac{2x-1}{4-x}$.",
             "$\\lim_{x\\to+\\infty}(-x^3+2x+3)$.",
@@ -304,8 +304,8 @@
             "$1/3$"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x0002F;</mo><mn>3</mn></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>3</mn></mrow></math>"
           ],
@@ -326,9 +326,9 @@
             "$-1/2$"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>"
           ],
           "answer": 2,
@@ -349,8 +349,8 @@
           ],
           "optionsHtml": [
             "0",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "1"
           ],
           "answer": 2,
@@ -370,9 +370,9 @@
           ],
           "optionsHtml": [
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></math>.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>."
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>."
           ],
           "answer": 1,
           "verification": "A:-3/2;B:+inf;C:+inf;D:-inf",
@@ -392,9 +392,9 @@
             "−2"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "2",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "−2"
           ],
           "answer": 0,
@@ -414,9 +414,9 @@
             "$3/2$"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "2",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>"
           ],
           "answer": 2,
@@ -436,7 +436,7 @@
           ],
           "optionsHtml": [
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>8</mn></mrow></math>.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
             "0.",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>8</mn></mrow></math>."
           ],
@@ -458,9 +458,9 @@
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "4",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 2,
@@ -503,8 +503,8 @@
           ],
           "optionsHtml": [
             "0",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "−4"
           ],
           "answer": 1,
@@ -524,8 +524,8 @@
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "2",
             "0"
           ],
@@ -568,9 +568,9 @@
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "1",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 3,
@@ -633,9 +633,9 @@
             "0."
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
             "−1.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
             "0."
           ],
           "answer": 0,
@@ -680,7 +680,7 @@
           "optionsHtml": [
             "0",
             "−2",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "2"
           ],
           "answer": 1,
@@ -722,9 +722,9 @@
             "−1"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "1",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "−1"
           ],
           "answer": 1,
@@ -788,9 +788,9 @@
             "1"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "−1",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "1"
           ],
           "answer": 1,
@@ -811,7 +811,7 @@
           ],
           "optionsHtml": [
             "0",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "−1",
             "1"
           ],
@@ -832,10 +832,10 @@
             "$+\\infty$"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>3</mn><mo>&#x0002F;</mo><mn>16</mn></mrow></math>",
             "0",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>"
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>"
           ],
           "answer": 0,
           "verification": "-1/0+"
@@ -854,10 +854,10 @@
             "$A=+\\infty$"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mn>3</mn></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>&#x0003D;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>"
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>"
           ],
           "answer": 2,
           "verification": "x²+x+1 ->3"
@@ -936,7 +936,7 @@
               "answer": false
             },
             {
-              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>5</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>15</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mn>5</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>15</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
               "answer": false
             },
             {
@@ -988,15 +988,15 @@
               "answer": true
             },
             {
-              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>",
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
               "answer": false
             },
             {
-              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>3</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>3</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
               "answer": false
             },
             {
-              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">[</mo><mo stretchy=\"false\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo><msqrt><mrow><mfrac><mrow><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></msqrt><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">[</mo><mo stretchy=\"false\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo><msqrt><mrow><mfrac><mrow><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></msqrt><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
               "answer": false
             }
           ],
@@ -1012,11 +1012,11 @@
           "options": [],
           "statements": [
             {
-              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo stretchy=\"false\">)</mo><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
               "answer": true
             },
             {
-              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></msqrt><mo>−</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>",
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></msqrt><mo>−</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
               "answer": false
             },
             {
@@ -1044,15 +1044,15 @@
               "answer": true
             },
             {
-              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>4</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">+</mo></msup></mrow></munder><mfrac><mrow><mn>4</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
               "answer": true
             },
             {
-              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>2</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn></mrow></mfrac><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>",
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><msup><mn>2</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn></mrow></mfrac><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
               "answer": true
             },
             {
-              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><mo stretchy=\"false\">|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\">|</mo></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mo>∞</mo></mrow></math>",
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><msup><mn>1</mn><mo lspace=\"0em\" rspace=\"0em\">−</mo></msup></mrow></munder><mfrac><mrow><mo stretchy=\"false\">|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\">|</mo></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
               "answer": false
             }
           ],
@@ -1123,7 +1123,7 @@
           "options": [],
           "statements": [
             {
-              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>10</mn><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo>+</mo><mo>∞</mo></mrow></math>",
+              "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>10</mn><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
               "answer": true
             },
             {
@@ -1141,18 +1141,6 @@
           ],
           "verification": "+inf;3/2;4/3;1",
           "id": 49
-        },
-        {
-          "id": 50,
-          "source": "CK-GHHS-III-11",
-          "type": "short",
-          "kind": "Thực hành",
-          "prompt": "Tìm giới hạn sau: $\\lim_{x\\to+\\infty}(\\sqrt{x^2-x}-\\sqrt[3]{x^3+1})$.",
-          "html": "Tìm giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi></mrow></msqrt><mo>−</mo><mroot><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>3</mn></mroot><mo stretchy=\"false\">)</mo></mrow></math>.",
-          "options": [],
-          "answerValue": -0.5,
-          "answerDecimals": 2,
-          "verification": "sqrt(x²-x)-x ->-1/2; cubert(x³+1)-x ->0"
         },
         {
           "source": "CK-GHHS-III-12",
@@ -1224,18 +1212,6 @@
           "verification": "Cube rationalization ->1/3"
         },
         {
-          "id": 55,
-          "source": "CK-GHHS-III-16",
-          "type": "short",
-          "kind": "Thực hành",
-          "prompt": "Tìm giới hạn sau: $\\lim_{x\\to1}\\frac{\\sqrt[3]{x+7}-\\sqrt{x+3}}{x^2-3x+2}$.",
-          "html": "Tìm giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mn>1</mn></mrow></munder><mfrac><mrow><mroot><mrow><mi>x</mi><mo>+</mo><mn>7</mn></mrow><mn>3</mn></mroot><mo>−</mo><msqrt><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></math>.",
-          "options": [],
-          "answerValue": 0.16666666666666666,
-          "answerDecimals": 2,
-          "verification": "Numerator first derivative 1/12-1/4=-1/6; denominator derivative -1"
-        },
-        {
           "id": 56,
           "source": "CK-GHHS-III-17",
           "type": "short",
@@ -1246,18 +1222,6 @@
           "answerValue": 191751.0592328841,
           "answerDecimals": 2,
           "verification": "Leading coefficient ratio (3/2)^30"
-        },
-        {
-          "id": 57,
-          "source": "CK-GHHS-III-18",
-          "type": "short",
-          "kind": "Thực hành",
-          "prompt": "Tìm giới hạn sau: $\\lim_{x\\to+\\infty}(x+1-\\sqrt[3]{x^3-x})$.",
-          "html": "Tìm giới hạn sau: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mo stretchy=\"false\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>−</mo><mroot><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi></mrow><mn>3</mn></mroot><mo stretchy=\"false\">)</mo></mrow></math>.",
-          "options": [],
-          "answerValue": 1,
-          "answerDecimals": 2,
-          "verification": "cubert(x³-x)-x ->0"
         },
         {
           "id": 58,
@@ -1306,7 +1270,7 @@
             "$\\frac{\\sqrt2}9$."
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>5</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math>.",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>5</mn></msqrt></mrow><mn>9</mn></mfrac></mrow></math>.",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>2</mn></msqrt></mrow><mn>9</mn></mfrac></mrow></math>."
@@ -1331,7 +1295,7 @@
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></math>.",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>.",
             "0.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>."
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>."
           ],
           "answer": 1,
           "verification": "x>0 at+inf; square tends1/2 so sqrt2/2",
@@ -1353,7 +1317,7 @@
             "Không tồn tại.",
             "0.",
             "1.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>."
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>."
           ],
           "answer": 0,
           "verification": "Left=-1;right=1",
@@ -1375,7 +1339,7 @@
             "−1.",
             "0.",
             "1.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>."
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>."
           ],
           "answer": 2,
           "verification": "x sqrt(x-1)/(sqrt(x-1)-(x-1)) ->1",
@@ -1416,9 +1380,9 @@
             "Không tồn tại."
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
             "0.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
             "Không tồn tại."
           ],
           "answer": 0,
@@ -1460,8 +1424,8 @@
             "−1."
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>.",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>.",
             "1.",
             "−1."
           ],
@@ -1686,7 +1650,7 @@
           "id": 10,
           "section": "B. Giới hạn hữu hạn tại vô cực",
           "prompt": "Nếu $\\lim_{x\\to+\\infty}f(x)=L$ và $x_n\\to+\\infty$ thì …",
-          "html": "Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>&#x02192;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math> thì …",
+          "html": "Nếu <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><munder><mo movablelimits=\"false\">lim</mo><mrow><mi>x</mi><mo lspace=\"0em\" rspace=\"0em\">→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></munder><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>L</mi></mrow></math> và <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math> thì …",
           "options": [
             "$f(x_n)\\to L$",
             "$f(x_n)\\to+\\infty$",
@@ -1694,7 +1658,7 @@
           ],
           "optionsHtml": [
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02192;</mo><mi>L</mi></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy=\"false\">&#x00029;</mo><mo>&#x02192;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\">(</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy=\"false\">)</mo><mo>→</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>&#x02192;</mo><mi>L</mi></mrow></math>"
           ],
           "answer": 0,
@@ -1713,7 +1677,7 @@
           "optionsHtml": [
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math>",
             "0",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>"
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>"
           ],
           "answer": 0,
           "kind": "Lý thuyết"
@@ -1732,8 +1696,8 @@
           "optionsHtml": [
             "0",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>"
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>"
           ],
           "answer": 0,
           "kind": "Lý thuyết"
@@ -1751,7 +1715,7 @@
           "optionsHtml": [
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math>",
             "0",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>"
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>"
           ],
           "answer": 0,
           "kind": "Lý thuyết"
@@ -1770,8 +1734,8 @@
           "optionsHtml": [
             "0",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>c</mi></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>"
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>"
           ],
           "answer": 0,
           "kind": "Lý thuyết"
@@ -1780,15 +1744,15 @@
           "id": 15,
           "section": "C. Giới hạn vô cực",
           "prompt": "Cho $\\lim f(x)=L>0$, $\\lim g(x)=+\\infty$. Khi đó $\\lim[f(x)g(x)]=\\ldots$",
-          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
           "options": [
             "$+\\infty$",
             "$-\\infty$",
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 0,
@@ -1798,15 +1762,15 @@
           "id": 16,
           "section": "C. Giới hạn vô cực",
           "prompt": "Cho $\\lim f(x)=L>0$, $\\lim g(x)=-\\infty$. Khi đó $\\lim[f(x)g(x)]=\\ldots$",
-          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
           "options": [
             "$-\\infty$",
             "$+\\infty$",
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 0,
@@ -1816,15 +1780,15 @@
           "id": 17,
           "section": "C. Giới hạn vô cực",
           "prompt": "Cho $\\lim f(x)=L<0$, $\\lim g(x)=+\\infty$. Khi đó $\\lim[f(x)g(x)]=\\ldots$",
-          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
           "options": [
             "$-\\infty$",
             "$+\\infty$",
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 0,
@@ -1834,15 +1798,15 @@
           "id": 18,
           "section": "C. Giới hạn vô cực",
           "prompt": "Cho $\\lim f(x)=L<0$, $\\lim g(x)=-\\infty$. Khi đó $\\lim[f(x)g(x)]=\\ldots$",
-          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi><mo>&#x0003C;</mo><mn>0</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo stretchy=\"false\">]</mo><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
           "options": [
             "$+\\infty$",
             "$-\\infty$",
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 0,
@@ -1852,7 +1816,7 @@
           "id": 19,
           "section": "C. Giới hạn vô cực",
           "prompt": "Cho $\\lim f(x)=L$ hữu hạn, $\\lim g(x)=\\pm\\infty$. Khi đó $\\lim\\frac{f(x)}{g(x)}=\\ldots$",
-          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi></mrow></math> hữu hạn, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>&#x000B1;</mi><mo>&#x0221E;</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
+          "html": "Cho <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mi>L</mi></mrow></math> hữu hạn, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>±</mi><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>. Khi đó <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>lim</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></mfrac><mo>&#x0003D;</mo><mi>&#x02026;</mi></mrow></math>",
           "options": [
             "0",
             "$L$",
@@ -1861,7 +1825,7 @@
           "optionsHtml": [
             "0",
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>L</mi></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>"
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>"
           ],
           "answer": 0,
           "kind": "Lý thuyết"
@@ -1877,8 +1841,8 @@
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 0,
@@ -1895,8 +1859,8 @@
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 0,
@@ -1913,8 +1877,8 @@
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 0,
@@ -1931,8 +1895,8 @@
             "0"
           ],
           "optionsHtml": [
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo></mrow></math>",
             "0"
           ],
           "answer": 0,
@@ -1950,8 +1914,8 @@
           ],
           "optionsHtml": [
             "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>0</mn><mo>&#x0002F;</mo><mn>0</mn></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>&#x0002F;</mo><mo stretchy=\"false\">&#x00028;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
-            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>&#x000B7;</mo><mo stretchy=\"false\">&#x00028;</mo><mo>&#x0002B;</mo><mo>&#x0221E;</mo><mo stretchy=\"false\">&#x00029;</mo></mrow></math>"
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>1</mn><mo>/</mo><mo stretchy=\"false\">(</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo><mo stretchy=\"false\">)</mo></mrow></math>",
+            "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mn>2</mn><mo>·</mo><mo stretchy=\"false\">(</mo><mo lspace=\"0em\" rspace=\"0em\">+</mo><mo lspace=\"0em\" rspace=\"0em\">∞</mo><mo stretchy=\"false\">)</mo></mrow></math>"
           ],
           "answer": 0,
           "kind": "Lý thuyết"

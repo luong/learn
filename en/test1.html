@@ -279,6 +279,7 @@ tests.forEach((test, index) => {
   button.type = 'button';
   button.textContent = test.name;
   button.addEventListener('click', () => {
+    if (index === unit) return;
     unit = index;
     start(unit);
     render(true);
@@ -289,14 +290,6 @@ tests.forEach((test, index) => {
 start(unit);
 render();
 
-// A new attempt begins whenever the learner returns from another browser tab.
-let testWasHidden=false;
-function resetCurrentTest(){start(unit);render();}
-document.addEventListener('visibilitychange',()=>{
- if(document.hidden){testWasHidden=true;}
- else if(testWasHidden){testWasHidden=false;resetCurrentTest()}
-});
-window.addEventListener('pageshow',event=>{if(event.persisted){testWasHidden=false;resetCurrentTest()}});
 </script>
 </body>
 </html>
