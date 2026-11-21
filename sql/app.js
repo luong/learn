@@ -312,10 +312,12 @@ function refresh() {
   if (!tables.includes(selected)) selected = tables[0] || '';
   renderTabs(tables);
   $('generate-data').hidden = $('backup').hidden = !tables.length;
+  $('database-menu-wrap').hidden = !tables.length;
+  if (!tables.length) closeDatabaseMenu();
   for (const id of ['edit-table', 'delete-table', 'table-info', 'table-data', 'data-actions']) $(id).hidden = !selected;
   $('tables-panel').classList.toggle('no-tables', !selected);
   $('edit-table').disabled = $('delete-table').disabled = !selected || !!worker;
-  $('generate-data').disabled = !tables.length || !!worker;
+  $('generate-data').disabled = $('delete-database').disabled = !tables.length || !!worker;
   $('table-data').replaceChildren();
   $('table-data').className = selected ? 'data' : 'data empty';
   if (!selected) {
@@ -486,6 +488,48 @@ function openStructure(edit) {
   syncPrimaryOptions(); renderUniqueGroups();
   $('structure-error').textContent = ''; $('structure-dialog').showModal();
 }
+function closeDatabaseMenu(focus = false) {
+  $('database-menu').hidden = true;
+  $('database-menu-toggle').setAttribute('aria-expanded', 'false');
+  if (focus) $('database-menu-toggle').focus();
+}
+function openDatabaseMenu(focus = false) {
+  $('database-menu').hidden = false;
+  $('database-menu-toggle').setAttribute('aria-expanded', 'true');
+  if (focus) $('database-menu').querySelector('button:not([hidden]):not(:disabled)')?.focus();
+}
+$('database-menu-toggle').onclick = () => $('database-menu').hidden ? openDatabaseMenu() : closeDatabaseMenu();
+$('database-menu-toggle').onkeydown = e => {
+  if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+    e.preventDefault(); openDatabaseMenu(true);
+    if (e.key === 'ArrowUp') [...$('database-menu').querySelectorAll('button:not([hidden]):not(:disabled)')].at(-1)?.focus();
+  }
+};
+$('database-menu').onclick = e => { if (e.target.closest('button:not(:disabled)')) closeDatabaseMenu(); };
+$('database-menu-wrap').onkeydown = e => {
+  if (e.key === 'Escape') { e.preventDefault(); closeDatabaseMenu(true); }
+  if (e.key === 'Tab') closeDatabaseMenu();
+  if (e.target === $('database-menu-toggle')) return;
+  if (!['ArrowDown','ArrowUp','Home','End'].includes(e.key)) return;
+  e.preventDefault();
+  const buttons = [...$('database-menu').querySelectorAll('button:not([hidden]):not(:disabled)')];
+  const index = buttons.indexOf(document.activeElement);
+  const next = e.key === 'Home' ? 0 : e.key === 'End' ? buttons.length - 1 : (index + (e.key === 'ArrowDown' ? 1 : -1) + buttons.length) % buttons.length;
+  buttons[next]?.focus();
+};
+document.addEventListener('click', e => { if (!$('database-menu-wrap').contains(e.target)) closeDatabaseMenu(); });
+$('delete-database').onclick = () => {
+  if (!db || worker) return;
+  if (!confirm('Delete the entire database? All tables, data, and unfinished table edits will be removed. This cannot be undone.')) return;
+  const empty = new SQL.Database(); empty.run('PRAGMA foreign_keys=ON');
+  db.close(); db = empty;
+  dataDrafts.clear(); columnOrders = Object.create(null); selected = ''; activeView = 'query';
+  save();
+  try { localStorage.removeItem(ORDER_KEY); } catch {}
+  refresh();
+  $('query-results').replaceChildren(node('p', 'Query results will appear here.', 'muted'));
+  if (!$('status').classList.contains('error')) status('Database deleted.');
+};
 function databaseSqlDump() {
   const tables = rows("SELECT name, sql FROM sqlite_schema WHERE type='table' AND name NOT LIKE 'sqlite_%' ORDER BY name");
   if (tables.some(([,sql]) => /^CREATE\s+VIRTUAL/i.test(sql))) throw Error('Virtual tables cannot be exported by this backup tool.');
@@ -810,7 +854,8 @@ $('structure-form').onsubmit = e => {
   finally { db.run('PRAGMA foreign_keys=ON'); }
 };
 function busy(value) {
-  $('run').disabled = $('new-table').disabled = $('backup').disabled = $('restore').disabled = value;
+  $('run').disabled = $('new-table').disabled = $('backup').disabled = $('restore').disabled = $('database-menu-toggle').disabled = value;
+  if (value) closeDatabaseMenu();
   $('stop').disabled = !value;
   refresh();
 }

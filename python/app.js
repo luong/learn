@@ -389,7 +389,6 @@ function updateIOMode() {
   const batch = mode !== 'console';
   $('test-panel').hidden = !batch;
   $('console').hidden = batch;
-  $('console-help').hidden = batch;
   document.querySelector('.result-panel').classList.toggle('batch-mode', batch);
   setWaiting(false);
   renderTestCases();
