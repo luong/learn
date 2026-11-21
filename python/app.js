@@ -13,6 +13,13 @@ catch { code.value = initial; }
 let inputBuffer = null;
 let waitingForInput = false;
 let worker = null;
+let pythonReady = false;
+let editorReady = false;
+const loadErrors = new Map();
+function showLoadState() {
+  if (loadErrors.size) $('status').textContent = [...loadErrors.values()].join(' ');
+  else if (!busy) $('status').textContent = pythonReady && editorReady ? 'Ready' : pythonReady ? 'Loading editor…' : 'Loading Python…';
+}
 let busy = false;
 let outputSize = 0;
 function update() {
@@ -48,21 +55,41 @@ function setWaiting(value) {
 }
 function createWorker() {
   const instance = new Worker('console-worker.js');
+  const failLoad = message => {
+    clearTimeout(loadTimer);
+    instance.terminate();
+    if (worker === instance) worker = null;
+    pythonReady = false;
+    setBusy(false);
+    loadErrors.set('python', message);
+    showLoadState();
+  };
+  const loadTimer = setTimeout(() => failLoad('Python loading timed out. Check your connection and click Run to retry.'), 60000);
   instance.onmessage = ({data}) => {
+    if (data.type === 'ready') {
+      clearTimeout(loadTimer);
+      loadErrors.delete('python');
+      pythonReady = true;
+      $('run').disabled = busy;
+      showLoadState();
+    }
+    if (data.type === 'load-error') {
+      failLoad('Unable to load Python. Check your connection and click Run to retry.');
+      return;
+    }
     if (data.type === 'input') setWaiting(true);
-    if (data.type === 'running') $('status').textContent = 'Running Python…';
+    if (data.type === 'running') { clearTimeout(loadTimer); $('status').textContent = 'Running Python…'; }
     if (data.type === 'output') append(data.text);
     if (data.type === 'done' || data.type === 'error') {
       if (data.type === 'error') append(data.text + '\n');
-      $('status').textContent = data.type === 'done' ? 'Finished.' : 'An error occurred. Check the console, edit your code and run again.';
+      $('status').textContent = data.type === 'done' ? 'Ready' : 'An error occurred. Check the console, edit your code and run again.';
       setBusy(false);
+      if (loadErrors.size) showLoadState();
     }
   };
   instance.onerror = event => {
     event.preventDefault();
-    append('Unable to load Python. Check your internet connection and try again.\n');
-    $('status').textContent = 'Unable to start Python.';
-    instance.terminate(); worker = null; setBusy(false);
+    failLoad('Unable to load Python. Check your connection and click Run to retry.');
   };
   return instance;
 }
@@ -79,7 +106,7 @@ $('run').onclick = () => {
   catch(error) { append(String(error)); setBusy(false); $('status').textContent = 'Unable to start Python.'; }
 };
 $('stop').onclick = () => {
-  worker?.terminate(); worker = null; setBusy(false);
+  worker?.terminate(); worker = null; pythonReady = false; setBusy(false);
   append('\n[Program stopped]\n');
   $('status').textContent = 'Stopped. Python will restart on the next run.';
 };
@@ -117,7 +144,12 @@ update();
 const monacoBase = 'https://cdn.jsdelivr.net/npm/monaco-editor@0.52.2/min/';
 const loader = document.createElement('script');
 loader.src = monacoBase + 'vs/loader.js';
-loader.onerror = () => { $('status').textContent = 'Unable to load Monaco. You can still edit and run code; reload the page to try again.'; };
+const editorLoadTimer = setTimeout(() => loader.onerror(), 60000);
+loader.onerror = () => {
+  clearTimeout(editorLoadTimer);
+  loadErrors.set('editor', 'Unable to load Monaco. The basic editor is available; reload the page to retry.');
+  showLoadState();
+};
 loader.onload = () => {
   window.MonacoEnvironment = {
     getWorkerUrl() {
@@ -158,6 +190,10 @@ loader.onload = () => {
       editor.onDidChangeCursorPosition(update);
       editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => $('run').click());
       update();
+      clearTimeout(editorLoadTimer);
+      loadErrors.delete('editor');
+      editorReady = true;
+      showLoadState();
     } catch (error) {
       container.hidden = true;
       loader.onerror();
@@ -198,7 +234,17 @@ $('console-input').addEventListener('keydown', event => {
   }
 });
 async function prepareConsole() {
-  if (crossOriginIsolated) return;
+  if (crossOriginIsolated) {
+    $('status').textContent = 'Loading Python…';
+    try {
+      worker = createWorker();
+      worker.postMessage({type:'init'});
+    } catch (error) {
+      $('run').disabled = false;
+      $('status').textContent = 'Unable to load Python: ' + error.message;
+    }
+    return;
+  }
   if (!('serviceWorker' in navigator) || !isSecureContext) {
     $('status').textContent = 'Open this page using localhost or HTTPS to use the console.';
     return;

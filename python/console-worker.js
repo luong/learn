@@ -1,13 +1,17 @@
 /* Python owns this worker; waiting for keyboard input never blocks the page. */
 let python;
 onmessage = async ({data}) => {
-  const state = new Int32Array(data.inputBuffer, 0, 2);
-  const bytes = new Uint8Array(data.inputBuffer, 8);
   try {
     if (!python) {
       importScripts('https://cdn.jsdelivr.net/pyodide/v0.27.4/full/pyodide.js');
       python = await loadPyodide({indexURL:'https://cdn.jsdelivr.net/pyodide/v0.27.4/full/'});
     }
+    postMessage({type:'ready'});
+    if (data.type === 'init') {
+      return;
+    }
+    const state = new Int32Array(data.inputBuffer, 0, 2);
+    const bytes = new Uint8Array(data.inputBuffer, 8);
     postMessage({type:'running'});
     const decoder = new TextDecoder();
     const write = chunk => {
@@ -28,5 +32,5 @@ onmessage = async ({data}) => {
     try { await python.runPythonAsync(data.code, {globals:scope}); }
     finally { scope.destroy(); }
     postMessage({type:'done'});
-  } catch(error) { postMessage({type:'error', text:String(error)}); }
+  } catch(error) { postMessage({type:python ? 'error' : 'load-error', text:String(error)}); }
 };
