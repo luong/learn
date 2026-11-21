@@ -42,6 +42,8 @@ function setBusy(value) {
   if (!value) setWaiting(false);
   $('run').disabled = value;
   $('stop').disabled = !value;
+  $('io-mode').disabled = value;
+  $('batch-input').readOnly = value;
 }
 function setWaiting(value) {
   waitingForInput = value;
@@ -81,6 +83,7 @@ function createWorker() {
     if (data.type === 'input') setWaiting(true);
     if (data.type === 'running') { clearTimeout(loadTimer); $('status').textContent = 'Running Python…'; }
     if (data.type === 'output') append(data.text);
+    if (data.type === 'file-output') $('file-output').value = data.text;
     if (data.type === 'done' || data.type === 'error') {
       if (data.type === 'error') append(data.text + '\n');
       $('status').textContent = data.type === 'done' ? 'Ready' : 'An error occurred. Check the console, edit your code and run again.';
@@ -96,22 +99,23 @@ function createWorker() {
 }
 $('run').onclick = () => {
   if (busy) return;
-  if (!crossOriginIsolated || typeof SharedArrayBuffer === 'undefined') {
+  if ($('io-mode').value === 'console' && (!crossOriginIsolated || typeof SharedArrayBuffer === 'undefined')) {
     $('status').textContent = 'Console is initializing. If it remains unavailable, reload the page using localhost or HTTPS.';
     return;
   }
   $('output').textContent = ''; outputSize = 0;
+  $('file-output').value = '';
   setBusy(true);
   $('status').textContent = worker ? 'Preparing to run…' : 'Loading Python for the first time, please wait…';
-  try { inputBuffer = new SharedArrayBuffer(65544); worker ??= createWorker(); worker.postMessage({code:code.value, inputBuffer}); }
-  catch(error) { append(String(error)); setBusy(false); $('status').textContent = 'Unable to start Python.'; }
+  try { inputBuffer = $('io-mode').value === 'console' ? new SharedArrayBuffer(65544) : null; worker ??= createWorker(); worker.postMessage({code:code.value, inputBuffer, mode:$('io-mode').value, input:$('batch-input').value}); }
+  catch { setBusy(false); $('status').textContent = 'Unable to start Python. Please try again.'; }
 };
 $('stop').onclick = () => {
   worker?.terminate(); worker = null; pythonReady = false; setBusy(false);
   append('\n[Program stopped]\n');
   $('status').textContent = 'Stopped. Python will restart on the next run.';
 };
-$('clear').onclick = () => { $('output').textContent = ''; outputSize = 0; };
+$('clear').onclick = () => { $('output').textContent = ''; $('file-output').value = ''; outputSize = 0; };
 $('download').onclick = () => {
   const url = URL.createObjectURL(new Blob([code.value], {type:'text/x-python;charset=utf-8'}));
   const link = document.createElement('a'); link.href = url; link.download = 'main.py'; link.click();
@@ -242,7 +246,7 @@ async function prepareConsole() {
       worker.postMessage({type:'init'});
     } catch (error) {
       $('run').disabled = false;
-      $('status').textContent = 'Unable to load Python: ' + error.message;
+      $('status').textContent = 'Unable to load Python. Check your connection and try again.';
     }
     return;
   }
@@ -283,7 +287,7 @@ async function prepareConsole() {
   } catch (error) {
     clearTimeout(initializationTimer);
     navigator.serviceWorker.removeEventListener('controllerchange', reload);
-    loadErrors.set('console', 'Unable to initialize the console: ' + error.message);
+    loadErrors.set('console', 'Unable to initialize the console. Please reload the page.');
     showLoadState();
   }
 }
@@ -305,3 +309,22 @@ $('console').addEventListener('keydown', event => {
   }
 });
 sizeConsoleInput();
+
+function updateIOMode() {
+  const mode = $('io-mode').value;
+  const batch = mode !== 'console';
+  $('batch-input-panel').hidden = !batch;
+  $('file-output-panel').hidden = mode !== 'file';
+  $('output-label').hidden = !batch;
+  $('output-label').textContent = mode === 'file' ? 'Console output' : 'Output';
+  $('batch-input-label').textContent = mode === 'file' ? 'input.txt' : 'Input';
+  $('io-description').textContent = mode === 'file'
+    ? 'Read input.txt and write output.txt using open() in your Python code.'
+    : 'Read this input with input() or sys.stdin. Missing input reaches EOF.';
+  $('console-help').hidden = batch;
+  document.querySelector('.result-panel').classList.toggle('batch-mode', batch);
+  document.querySelector('.result-panel').classList.toggle('file-mode', mode === 'file');
+  setWaiting(false);
+}
+$('io-mode').addEventListener('change', updateIOMode);
+updateIOMode();
