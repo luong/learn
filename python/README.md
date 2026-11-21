@@ -24,8 +24,8 @@ Monaco dùng bản CDN cố định 0.52.2 (AMD) để giữ trang HTML tĩnh kh
 ## Input / Output modes
 
 - **Console** (mặc định): nhập trực tiếp sau prompt trong khi chương trình chạy.
-- **Predefined input**: nhập dữ liệu trước vào ô Input; chương trình đọc bằng `input()` hoặc `sys.stdin`, kết quả `print()` hiện trong Output. Hết dữ liệu sẽ gặp EOF.
-- **File**: nội dung ô Input được tạo thành `input.txt` trong hệ thống tệp ảo. Chương trình phải tự đọc `input.txt` và ghi `output.txt`; nội dung `output.txt` hiện trong ô output tương ứng. `print()` thông thường và lỗi vẫn hiện riêng trong Console output. Mỗi lần chạy sẽ xóa `output.txt` cũ.
+- **Predefined input**: tạo nhiều test case, mỗi case có Input và Expected output nhập trước. Chương trình đọc bằng `input()` hoặc `sys.stdin`; kết quả `print()` (kể cả prompt) được so sánh để báo Pass/Fail. Hết dữ liệu sẽ gặp EOF.
+- **File**: cùng bố cục test cases. Mỗi Input được ghi vào `input.txt` trong hệ thống tệp ảo. Code phải đọc `input.txt` và ghi `output.txt`; nội dung `output.txt` được so sánh với Expected output. Không tạo `output.txt` sẽ báo Error; không dùng kết quả cũ. Console output và lỗi hiện trong phần chi tiết của case.
 
 Ví dụ cho chế độ File:
 
@@ -36,3 +36,11 @@ with open("input.txt") as f:
 with open("output.txt", "w") as f:
     print(sum(numbers), file=f)
 ```
+
+## Test cases
+
+- **Add test case** thêm cặp Input / Expected output; **Remove** xóa case (giữ ít nhất một case).
+- **Run** chạy lần lượt tất cả case của chế độ đang chọn với cùng một bản chụp mã nguồn, mỗi lần có không gian biến mới. Case lỗi vẫn cho phép case tiếp theo chạy.
+- Kết quả từng case: **Pass**, **Fail**, **Error**; mở **Actual output** để xem kết quả và lỗi. **Stop** ngắt cả đợt chạy và để các case chưa chạy ở trạng thái **Not run**.
+- So sánh chuẩn hóa CRLF thành LF và bỏ qua một dấu xuống dòng cuối. Các dấu cách và dòng trống còn lại được giữ nguyên. Giới hạn hiển thị không được tính là Pass nếu dữ liệu bị cắt.
+- Test cases tự lưu trong localStorage, riêng cho Predefined input và File. **Clear** chỉ xóa kết quả, giữ Input / Expected output.

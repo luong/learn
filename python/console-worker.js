@@ -60,9 +60,9 @@ onmessage = async ({data}) => {
           try { python.FS.read(stream, bytes, 0, length, 0); }
           finally { python.FS.close(stream); }
           const text = new TextDecoder().decode(bytes) + (size > length ? '\n[Output limited to 100,000 bytes]' : '');
-          postMessage({type:'file-output', text});
+          postMessage({type:'file-output', text, truncated:size > length});
         } else {
-          postMessage({type:'file-output', text:''});
+          postMessage({type:'file-output', text:'', missing:true});
           postMessage({type:'output', text:'No output.txt was created. Write to output.txt using open() in your code.\n'});
         }
       }

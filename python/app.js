@@ -23,6 +23,14 @@ function showLoadState() {
 }
 let busy = false;
 let outputSize = 0;
+let testRun = null;
+let testCases = {predefined: [{input:'', expected:''}], file: [{input:'', expected:''}]};
+try {
+  const saved = JSON.parse(localStorage.getItem('python-editor-tests'));
+  for (const mode of ['predefined', 'file']) {
+    if (Array.isArray(saved?.[mode]) && saved[mode].length && saved[mode].every(c => typeof c.input === 'string' && typeof c.expected === 'string')) testCases[mode] = saved[mode];
+  }
+} catch {}
 function update() {
   $('lines').textContent = Array.from({length: code.value.split('\n').length}, (_, i) => i + 1).join('\n');
   try { localStorage.setItem('python-editor-code', code.value); }
@@ -43,7 +51,9 @@ function setBusy(value) {
   $('run').disabled = value;
   $('stop').disabled = !value;
   $('io-mode').disabled = value;
-  $('batch-input').readOnly = value;
+  $('add-case').disabled = value;
+  $('clear').disabled = value;
+  document.querySelectorAll('#test-cases textarea, #test-cases button').forEach(el => { el.disabled = value || (el.tagName === 'BUTTON' && $('test-cases').children.length === 1); });
 }
 function setWaiting(value) {
   waitingForInput = value;
@@ -63,6 +73,7 @@ function createWorker() {
     instance.terminate();
     if (worker === instance) worker = null;
     pythonReady = false;
+    abortTests('Error');
     setBusy(false);
     loadErrors.set('python', message);
     showLoadState();
@@ -82,9 +93,22 @@ function createWorker() {
     }
     if (data.type === 'input') setWaiting(true);
     if (data.type === 'running') { clearTimeout(loadTimer); $('status').textContent = 'Running Python…'; }
-    if (data.type === 'output') append(data.text);
-    if (data.type === 'file-output') $('file-output').value = data.text;
+    if (data.type === 'output') {
+      if (testRun) {
+        const test = testRun.cases[testRun.index];
+        test.console += data.text.slice(0, Math.max(0, 100000 - test.console.length));
+        if (data.text.length + test.length > 100000) test.truncated = true;
+        test.length += data.text.length;
+      } else append(data.text);
+    }
+    if (data.type === 'file-output' && testRun) {
+      const test = testRun.cases[testRun.index];
+      test.actual = data.text;
+      test.missingFile = data.missing;
+      test.truncated ||= data.truncated;
+    }
     if (data.type === 'done' || data.type === 'error') {
+      if (testRun) { finishTestCase(data); return; }
       if (data.type === 'error') append(data.text + '\n');
       $('status').textContent = data.type === 'done' ? 'Ready' : 'An error occurred. Check the console, edit your code and run again.';
       setBusy(false);
@@ -104,18 +128,26 @@ $('run').onclick = () => {
     return;
   }
   $('output').textContent = ''; outputSize = 0;
-  $('file-output').value = '';
   setBusy(true);
   $('status').textContent = worker ? 'Preparing to run…' : 'Loading Python for the first time, please wait…';
-  try { inputBuffer = $('io-mode').value === 'console' ? new SharedArrayBuffer(65544) : null; worker ??= createWorker(); worker.postMessage({code:code.value, inputBuffer, mode:$('io-mode').value, input:$('batch-input').value}); }
-  catch { setBusy(false); $('status').textContent = 'Unable to start Python. Please try again.'; }
+  try {
+    worker ??= createWorker();
+    if ($('io-mode').value !== 'console') { startTests(); return; }
+    inputBuffer = new SharedArrayBuffer(65544);
+    worker.postMessage({code:code.value, inputBuffer, mode:'console'});
+  }
+  catch { abortTests('Error'); setBusy(false); $('status').textContent = 'Unable to start Python. Please try again.'; }
 };
 $('stop').onclick = () => {
-  worker?.terminate(); worker = null; pythonReady = false; setBusy(false);
+  worker?.terminate(); worker = null; pythonReady = false; abortTests('Stopped'); setBusy(false);
   append('\n[Program stopped]\n');
   $('status').textContent = 'Stopped. Python will restart on the next run.';
 };
-$('clear').onclick = () => { $('output').textContent = ''; $('file-output').value = ''; outputSize = 0; };
+$('clear').onclick = () => {
+  if (busy) return;
+  $('output').textContent = ''; outputSize = 0;
+  renderTestCases();
+};
 $('download').onclick = () => {
   const url = URL.createObjectURL(new Blob([code.value], {type:'text/x-python;charset=utf-8'}));
   const link = document.createElement('a'); link.href = url; link.download = 'main.py'; link.click();
@@ -310,21 +342,113 @@ $('console').addEventListener('keydown', event => {
 });
 sizeConsoleInput();
 
+function saveTests() {
+  try { localStorage.setItem('python-editor-tests', JSON.stringify(testCases)); }
+  catch { $('status').textContent = 'Unable to save test cases locally.'; }
+}
+function normalizeOutput(value) {
+  return value.replace(/\r\n/g, '\n').replace(/\n$/, '');
+}
+function renderTestCases() {
+  const mode = $('io-mode').value;
+  if (mode === 'console') return;
+  $('test-cases').replaceChildren();
+  testCases[mode].forEach((test, index) => {
+    const card = document.createElement('article');
+    card.className = 'test-case';
+    const heading = document.createElement('div'); heading.className = 'case-heading';
+    const title = document.createElement('strong'); title.textContent = `Test case ${index + 1}`;
+    const badge = document.createElement('span'); badge.className = 'case-status'; badge.textContent = 'Not run';
+    const remove = document.createElement('button'); remove.textContent = 'Remove'; remove.disabled = testCases[mode].length === 1;
+    remove.onclick = () => { if (busy || testCases[mode].length === 1) return; testCases[mode].splice(index, 1); saveTests(); renderTestCases(); };
+    heading.append(title, badge, remove); card.append(heading);
+    const fields = document.createElement('div'); fields.className = 'case-fields';
+    for (const [key, name] of [['input', mode === 'file' ? 'Input · input.txt' : 'Input'], ['expected', mode === 'file' ? 'Output · output.txt' : 'Output']]) {
+      const label = document.createElement('label'); label.textContent = name;
+      const area = document.createElement('textarea'); area.spellcheck = false; area.value = test[key];
+      area.setAttribute('aria-label', `${name}, test case ${index + 1}`);
+      area.placeholder = key === 'input' ? 'Enter input…' : 'Enter output…';
+      area.oninput = () => { test[key] = area.value; saveTests(); $('test-summary').textContent = 'Test cases modified — run to check'; badge.textContent = 'Not run'; badge.className = 'case-status'; details.hidden = true; };
+      label.append(area); fields.append(label);
+    }
+    card.append(fields);
+    const details = document.createElement('details'); details.hidden = true; details.className = 'case-result';
+    const summary = document.createElement('summary'); summary.textContent = 'Actual output';
+    const actual = document.createElement('pre');
+    const log = document.createElement('pre'); log.className = 'case-log'; log.hidden = true;
+    details.append(summary, actual, log); card.append(details);
+    $('test-cases').append(card);
+  });
+  $('test-summary').textContent = `${testCases[mode].length} test case${testCases[mode].length === 1 ? '' : 's'}`;
+}
 function updateIOMode() {
   const mode = $('io-mode').value;
   const batch = mode !== 'console';
-  $('batch-input-panel').hidden = !batch;
-  $('file-output-panel').hidden = mode !== 'file';
-  $('output-label').hidden = !batch;
-  $('output-label').textContent = mode === 'file' ? 'Console output' : 'Output';
-  $('batch-input-label').textContent = mode === 'file' ? 'input.txt' : 'Input';
-  $('io-description').textContent = mode === 'file'
-    ? 'Read input.txt and write output.txt using open() in your Python code.'
-    : 'Read this input with input() or sys.stdin. Missing input reaches EOF.';
+  $('test-panel').hidden = !batch;
+  $('console').hidden = batch;
   $('console-help').hidden = batch;
   document.querySelector('.result-panel').classList.toggle('batch-mode', batch);
-  document.querySelector('.result-panel').classList.toggle('file-mode', mode === 'file');
   setWaiting(false);
+  renderTestCases();
 }
-$('io-mode').addEventListener('change', updateIOMode);
+function startTests() {
+  const mode = $('io-mode').value;
+  renderTestCases();
+  setBusy(true);
+  testRun = {mode, code:code.value, index:0, cases:testCases[mode].map(test => ({...test, actual:'', console:'', length:0, truncated:false}))};
+  runNextTestCase();
+}
+function runNextTestCase() {
+  const test = testRun.cases[testRun.index];
+  const card = $('test-cases').children[testRun.index];
+  card.querySelector('.case-status').textContent = 'Running…';
+  $('test-summary').textContent = `Running ${testRun.index + 1} / ${testRun.cases.length}`;
+  $('status').textContent = `Running test case ${testRun.index + 1}…`;
+  worker.postMessage({code:testRun.code, mode:testRun.mode, input:test.input});
+}
+function finishTestCase(data) {
+  const test = testRun.cases[testRun.index];
+  if (testRun.mode === 'predefined') test.actual = test.console;
+  test.error = data.type === 'error' ? data.text : '';
+  test.passed = !test.error && !test.missingFile && !test.truncated && normalizeOutput(test.actual) === normalizeOutput(test.expected);
+  const card = $('test-cases').children[testRun.index];
+  const badge = card.querySelector('.case-status');
+  badge.textContent = test.error || test.missingFile ? 'Error' : test.passed ? 'Pass' : 'Fail';
+  badge.className = 'case-status ' + (test.passed ? 'pass' : 'fail');
+  const details = card.querySelector('details'); details.hidden = false; details.open = !test.passed;
+  details.querySelector('pre').textContent = test.actual || '(empty output)';
+  const log = details.querySelector('.case-log');
+  log.textContent = [testRun.mode === 'file' ? test.console : '', test.error, test.truncated ? 'Output exceeded the display limit.' : ''].filter(Boolean).join('\n');
+  log.hidden = !log.textContent;
+  testRun.index++;
+  if (testRun.index < testRun.cases.length) { runNextTestCase(); return; }
+  const passed = testRun.cases.filter(test => test.passed).length;
+  const summary = `${passed} / ${testRun.cases.length} passed`;
+  testRun = null;
+  setBusy(false);
+  $('test-summary').textContent = summary;
+  $('status').textContent = summary;
+}
+function abortTests(reason) {
+  if (!testRun) return;
+  Array.from($('test-cases').children).slice(testRun.index).forEach((card, index) => {
+    card.querySelector('.case-status').textContent = index === 0 ? reason : 'Not run';
+  });
+  testRun = null;
+  $('test-summary').textContent = reason;
+}
+$('add-case').onclick = () => {
+  const mode = $('io-mode').value;
+  testCases[mode].push({input:'', expected:''}); saveTests(); renderTestCases();
+  $('test-cases').lastElementChild.querySelector('textarea').focus();
+};
+try {
+  const savedMode = localStorage.getItem('python-editor-io-mode');
+  if (['console', 'predefined', 'file'].includes(savedMode)) $('io-mode').value = savedMode;
+} catch {}
+$('io-mode').addEventListener('change', () => {
+  try { localStorage.setItem('python-editor-io-mode', $('io-mode').value); }
+  catch { $('status').textContent = 'Unable to save the selected mode locally.'; }
+  updateIOMode();
+});
 updateIOMode();
