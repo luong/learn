@@ -10,7 +10,7 @@ Mở http://localhost:8000/python/ trên trình duyệt. Khi đưa lên GitHub P
 
 - Monaco Editor: tô màu cú pháp Python, số dòng, tự thụt lề, đóng ngoặc, tìm/thay thế và gợi ý từ trong tệp. Chưa tích hợp Python language server để phân tích kiểu hoặc gợi ý thư viện.
 - Chạy bằng nút **Chạy Python** hoặc **Ctrl/⌘ + Enter**.
-- Khi `input()` được gọi, gõ dữ liệu trực tiếp trong console rồi nhấn Enter. Có thể nhập nhiều lần; Ctrl+D gửi EOF, Ctrl+C dừng chương trình.
+- Khi `input()` được gọi, gõ dữ liệu ngay sau prompt trong console rồi nhấn Enter. Có thể nhập nhiều lần; Ctrl+D gửi EOF, Ctrl+C dừng chương trình.
 - Console sử dụng SharedArrayBuffer; service worker tự bật COOP/COEP và tải lại trang một lần. Phải mở bằng localhost hoặc HTTPS (hỗ trợ GitHub Pages).
 - Nút **Dừng** ngắt chương trình, kể cả vòng lặp vô hạn.
 - Mở tệp `.py`, tải mã thành `main.py`, tự lưu mã trong trình duyệt.

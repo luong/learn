@@ -7,7 +7,7 @@ const code = {
   set value(value) { if (editor) editor.setValue(value); else fallback.value = value; },
   get selectionStart() { return editor ? editor.getModel().getOffsetAt(editor.getPosition()) : fallback.selectionStart; }
 };
-const initial = '# Welcome to Python!\nname = input("Your name: ")\nprint(f"Hello, {name}!")\n\nfor i in range(1, 6):\n    print(f"{i} × {i} = {i * i}")\n';
+const initial = '';
 try { code.value = localStorage.getItem('python-editor-code') ?? initial; }
 catch { code.value = initial; }
 let inputBuffer = null;
@@ -17,10 +17,8 @@ let busy = false;
 let outputSize = 0;
 function update() {
   $('lines').textContent = Array.from({length: code.value.split('\n').length}, (_, i) => i + 1).join('\n');
-  const before = code.value.slice(0, code.selectionStart).split('\n');
-  $('position').textContent = `Line ${before.length}, column ${before.at(-1).length + 1}`;
   try { localStorage.setItem('python-editor-code', code.value); }
-  catch { $('saved').textContent = 'Unable to save locally'; }
+  catch { $('status').textContent = 'Unable to save locally.'; }
 }
 function append(value) {
   const room = 100000 - outputSize;
@@ -29,7 +27,7 @@ function append(value) {
   $('output').textContent += part;
   outputSize += part.length;
   if (outputSize >= 100000) $('output').textContent += '\n[Output limited to 100,000 characters]';
-  $('output').scrollTop = $('output').scrollHeight;
+  $('console').scrollTop = $('console').scrollHeight;
 }
 function setBusy(value) {
   busy = value;
@@ -39,11 +37,13 @@ function setBusy(value) {
 }
 function setWaiting(value) {
   waitingForInput = value;
+  $('console-form').hidden = !value;
   $('console-input').disabled = !value;
   $('send').disabled = !value;
   if (value) {
     $('status').textContent = 'Waiting for input — type in the console and press Enter.';
     $('console-input').focus();
+    $('console').scrollTop = $('console').scrollHeight;
   }
 }
 function createWorker() {
@@ -145,7 +145,12 @@ loader.onload = () => {
         scrollBeyondLastLine: false,
         wordWrap: 'off',
         ariaLabel: 'Python code',
-        bracketPairColorization: {enabled: true}
+        bracketPairColorization: {enabled: true},
+        unicodeHighlight: {
+          ambiguousCharacters: false,
+          invisibleCharacters: false,
+          nonBasicASCII: false
+        }
       });
       fallback.hidden = true;
       $('lines').hidden = true;
@@ -217,3 +222,19 @@ async function prepareConsole() {
 }
 if (crossOriginIsolated) sessionStorage.removeItem('console-isolation-reload');
 prepareConsole();
+
+function sizeConsoleInput() {
+  $('console-input').style.width = Math.max(2, Array.from($('console-input').value).length + 1) + 'ch';
+}
+$('console-input').addEventListener('input', sizeConsoleInput);
+$('console-form').addEventListener('submit', sizeConsoleInput);
+$('console').addEventListener('click', () => {
+  if (waitingForInput && !window.getSelection()?.toString()) $('console-input').focus();
+});
+$('console').addEventListener('keydown', event => {
+  if (event.ctrlKey && event.key.toLowerCase() === 'c' && busy && !window.getSelection()?.toString()) {
+    event.preventDefault();
+    $('stop').click();
+  }
+});
+sizeConsoleInput();
