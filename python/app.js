@@ -18,6 +18,7 @@ let editorReady = false;
 const loadErrors = new Map();
 function showLoadState() {
   if (loadErrors.size) $('status').textContent = [...loadErrors.values()].join(' ');
+  else if (!crossOriginIsolated) $('status').textContent = 'Initializing console…';
   else if (!busy) $('status').textContent = pythonReady && editorReady ? 'Ready' : pythonReady ? 'Loading editor…' : 'Loading Python…';
 }
 let busy = false;
@@ -249,21 +250,41 @@ async function prepareConsole() {
     $('status').textContent = 'Open this page using localhost or HTTPS to use the console.';
     return;
   }
+  $('status').textContent = 'Initializing console…';
+  let reloadScheduled = false;
+  let initializationTimer;
+  const reload = () => {
+    if (reloadScheduled) return;
+    reloadScheduled = true;
+    clearTimeout(initializationTimer);
+    navigator.serviceWorker.removeEventListener('controllerchange', reload);
+    if (!sessionStorage.getItem('console-isolation-reload')) {
+      sessionStorage.setItem('console-isolation-reload', '1');
+      // A normal reload restores service-worker control after a hard refresh.
+      location.reload();
+    } else {
+      loadErrors.set('console', 'Unable to initialize the console. Try a normal reload (Ctrl+R or ⌘+R).');
+      showLoadState();
+    }
+  };
   try {
-    const reload = () => {
-      if (!sessionStorage.getItem('console-isolation-reload')) {
-        sessionStorage.setItem('console-isolation-reload', '1');
-        location.reload();
-      } else {
-        $('status').textContent = 'Unable to initialize the console. Close this site’s tabs and open it again.';
-      }
-    };
-    navigator.serviceWorker.addEventListener('controllerchange', reload, {once:true});
+    initializationTimer = setTimeout(() => {
+      reloadScheduled = true;
+      navigator.serviceWorker.removeEventListener('controllerchange', reload);
+      loadErrors.set('console', 'Console initialization timed out. Check your connection and reload the page.');
+      showLoadState();
+    }, 15000);
+    navigator.serviceWorker.addEventListener('controllerchange', reload);
     await navigator.serviceWorker.register('console-sw.js');
     await navigator.serviceWorker.ready;
-    if (navigator.serviceWorker.controller) reload();
+    // An existing active worker may never emit controllerchange after Shift+Reload.
+    // Its ready promise is sufficient to attempt one normal reload.
+    reload();
   } catch (error) {
-    $('status').textContent = 'Unable to initialize the console: ' + error.message;
+    clearTimeout(initializationTimer);
+    navigator.serviceWorker.removeEventListener('controllerchange', reload);
+    loadErrors.set('console', 'Unable to initialize the console: ' + error.message);
+    showLoadState();
   }
 }
 if (crossOriginIsolated) sessionStorage.removeItem('console-isolation-reload');
