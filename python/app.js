@@ -368,7 +368,7 @@ function renderTestCases() {
     const fields = document.createElement('div'); fields.className = 'case-fields';
     for (const [key, name] of [['input', mode === 'file' ? 'Input · input.txt' : 'Input'], ['expected', mode === 'file' ? 'Output · output.txt' : 'Output']]) {
       const label = document.createElement('label'); label.textContent = name;
-      const area = document.createElement('textarea'); area.rows = 3; area.spellcheck = false; area.value = test[key];
+      const area = document.createElement('textarea'); area.rows = mode === 'predefined' ? 2 : 3; area.spellcheck = false; area.value = test[key];
       area.setAttribute('aria-label', `${name}, test case ${index + 1}`);
       area.placeholder = key === 'input' ? 'Enter input…' : 'Enter output…';
       area.oninput = () => { test[key] = area.value; saveTests(); $('test-summary').textContent = 'Test cases modified — run to check'; badge.textContent = 'Not run'; badge.className = 'case-status'; details.hidden = true; };
