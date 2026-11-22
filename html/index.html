@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>HTML Terminal</title><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div class="brand">HTML Terminal</div></header>
+<main>
+<div class="toolbar">
+<nav class="tabs" role="tablist" aria-label="Code language"><button id="html-tab" type="button" role="tab" aria-selected="true" aria-controls="editor-panel" data-language="html">HTML</button><button id="css-tab" type="button" role="tab" aria-selected="false" aria-controls="editor-panel" tabindex="-1" data-language="css">CSS</button><button id="javascript-tab" type="button" role="tab" aria-selected="false" aria-controls="editor-panel" tabindex="-1" data-language="javascript">JavaScript</button></nav>
+<div class="actions"><div id="menu-wrap" class="menu-wrap"><button id="menu-toggle" type="button" aria-label="Project menu" aria-haspopup="menu" aria-expanded="false" aria-controls="project-menu"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 4h14M2 9h14M2 14h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><div id="project-menu" class="menu" role="menu" aria-label="Project actions" hidden><button id="open" role="menuitem" type="button">Open</button><button id="download" role="menuitem" type="button">Download HTML</button><button id="download-project" role="menuitem" type="button">Download project</button><button id="reset" role="menuitem" type="button" class="danger">Reset</button></div></div><input id="file" type="file" accept=".html,.htm,.css,.js,.json" hidden><button id="refresh" class="primary" type="button">Refresh</button></div>
+</div>
+<div id="workspace" class="workspace">
+<section id="editor-panel" class="editor-panel" role="tabpanel" aria-labelledby="html-tab"><div class="editor-wrap"><div id="monaco" hidden></div><textarea id="code" aria-label="HTML code" spellcheck="false" autocapitalize="off" autocorrect="off" autocomplete="off" wrap="off"></textarea></div></section>
+<div id="splitter" class="splitter" tabindex="0" role="separator" aria-label="Resize editor and preview" aria-controls="editor-panel preview-panel" aria-orientation="vertical" aria-valuemin="25" aria-valuemax="75" aria-valuenow="50"><span></span></div>
+<section id="preview-panel" class="preview-panel" aria-label="Preview"><div class="panel-heading"><h2>Preview</h2><select id="viewport" aria-label="Preview screen size"><option value="responsive">Desktop</option><option value="tablet">Tablet · 768px</option><option value="mobile">Mobile · 390px</option></select></div><div class="browser-bar" aria-label="Preview browser title"><div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div><div class="browser-tab"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="8" cy="8" r="6"/><ellipse cx="8" cy="8" rx="2.5" ry="6"/><path d="M2 8h12"/></svg><span id="preview-title" aria-live="polite">Untitled</span></div></div><div id="preview-stage" class="preview-stage"><div id="preview-device" class="preview-device"><iframe id="preview" title="Live preview" sandbox="allow-scripts" referrerpolicy="no-referrer"></iframe></div></div><details id="console-panel" class="console-panel"><summary>Console <span id="console-count"></span></summary><div class="console-toolbar"><button id="clear-console" type="button">Clear</button></div><div id="console-output" role="log" aria-label="Preview console" aria-live="polite"></div></details></section>
+</div>
+<footer><span id="status" role="status">Ready.</span><span id="editor-status">Loading editor…</span></footer>
+</main>
+<script src="vendor/emmet-monaco.min.js"></script><script src="app.js"></script>
+</body></html>

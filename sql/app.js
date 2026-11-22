@@ -312,8 +312,7 @@ function refresh() {
   if (!tables.includes(selected)) selected = tables[0] || '';
   renderTabs(tables);
   $('generate-data').hidden = $('backup').hidden = !tables.length;
-  $('database-menu-wrap').hidden = !tables.length;
-  if (!tables.length) closeDatabaseMenu();
+  $('delete-database').hidden = !tables.length;
   for (const id of ['edit-table', 'delete-table', 'table-info', 'table-data', 'data-actions']) $(id).hidden = !selected;
   $('tables-panel').classList.toggle('no-tables', !selected);
   $('edit-table').disabled = $('delete-table').disabled = !selected || !!worker;
