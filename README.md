@@ -1,7 +1,8 @@
-# Tools for Coding
+# Learn
 
-[Home](https://luong.github.io/learn/) — Practice Python, SQL, and HTML in your browser.
+Learning materials and practice exercises.
 
-* [Python Terminal](https://luong.github.io/learn/python/)
-* [SQL Terminal](https://luong.github.io/learn/sql/)
-* [HTML Terminal](https://luong.github.io/learn/html/)
+* [English practice](en/)
+* [Grade 11 mathematics](math/11.html)
+* [Python quiz](python/test.html)
+* [Python book](python/book.pdf)

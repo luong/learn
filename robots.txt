@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://luong.github.io/learn/sitemap.xml
