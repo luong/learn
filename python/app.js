@@ -274,7 +274,15 @@ $('console-input').addEventListener('keydown', event => {
   }
 });
 async function prepareConsole() {
+  const isolationParameter = '__python_console_init';
   if (crossOriginIsolated) {
+    // Recovery uses a fresh navigation so hard-reload's worker bypass is not inherited.
+    // Remove its temporary marker once this document has the isolation headers.
+    const cleanURL = new URL(location.href);
+    if (cleanURL.searchParams.has(isolationParameter)) {
+      cleanURL.searchParams.delete(isolationParameter);
+      history.replaceState(history.state, '', cleanURL);
+    }
     $('status').textContent = 'Loading Python…';
     try {
       worker = createWorker();
@@ -292,41 +300,46 @@ async function prepareConsole() {
   $('status').textContent = 'Initializing console…';
   let reloadScheduled = false;
   let initializationTimer;
-  const reload = () => {
+  const navigate = () => {
     if (reloadScheduled) return;
     reloadScheduled = true;
     clearTimeout(initializationTimer);
-    navigator.serviceWorker.removeEventListener('controllerchange', reload);
-    if (!sessionStorage.getItem('console-isolation-reload')) {
-      sessionStorage.setItem('console-isolation-reload', '1');
-      // A normal reload restores service-worker control after a hard refresh.
-      location.reload();
-    } else {
-      loadErrors.set('console', 'Unable to initialize the console. Try a normal reload (Ctrl+R or ⌘+R).');
+    navigator.serviceWorker.removeEventListener('controllerchange', navigate);
+    const nextURL = new URL(location.href);
+    const marker = /^(\d+):(\d+)$/.exec(nextURL.searchParams.get(isolationParameter) || '');
+    const elapsed = marker ? Date.now() - Number(marker[1]) : Infinity;
+    const attempts = elapsed >= 0 && elapsed < 60000 ? Number(marker[2]) : 0;
+    if (attempts >= 2) {
+      loadErrors.set('console', 'Unable to enable the console. Check browser service worker settings, then reload.');
       showLoadState();
+      return;
     }
+    // location.reload() can retain the bypass flag from Cmd/Ctrl+Shift+R.
+    // A different URL starts a normal navigation through the active worker.
+    // The URL marker limits retries without depending on sessionStorage.
+    nextURL.searchParams.set(isolationParameter, `${Date.now()}:${attempts + 1}`);
+    location.replace(nextURL.href);
   };
   try {
     initializationTimer = setTimeout(() => {
       reloadScheduled = true;
-      navigator.serviceWorker.removeEventListener('controllerchange', reload);
+      navigator.serviceWorker.removeEventListener('controllerchange', navigate);
       loadErrors.set('console', 'Console initialization timed out. Check your connection and reload the page.');
       showLoadState();
     }, 15000);
-    navigator.serviceWorker.addEventListener('controllerchange', reload);
-    await navigator.serviceWorker.register('console-sw.js');
+    navigator.serviceWorker.addEventListener('controllerchange', navigate);
+    await navigator.serviceWorker.register('console-sw.js', {updateViaCache:'none'});
     await navigator.serviceWorker.ready;
     // An existing active worker may never emit controllerchange after Shift+Reload.
-    // Its ready promise is sufficient to attempt one normal reload.
-    reload();
+    // Its ready promise is sufficient to start the recovery navigation.
+    navigate();
   } catch (error) {
     clearTimeout(initializationTimer);
-    navigator.serviceWorker.removeEventListener('controllerchange', reload);
+    navigator.serviceWorker.removeEventListener('controllerchange', navigate);
     loadErrors.set('console', 'Unable to initialize the console. Please reload the page.');
     showLoadState();
   }
 }
-if (crossOriginIsolated) sessionStorage.removeItem('console-isolation-reload');
 prepareConsole();
 
 function sizeConsoleInput() {

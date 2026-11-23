@@ -1,2 +1,3 @@
-* Python test: https://luong.github.io/learn/python/test.html
-* Python book: https://luong.github.io/learn/python/book.pdf
+* [Python Terminal](https://luong.github.io/learn/python/)
+* [SQL Terminal](https://luong.github.io/learn/sql/)
+* [HTML Terminal](https://luong.github.io/learn/html/)
