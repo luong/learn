@@ -8,7 +8,7 @@ share.addEventListener('click', async () => {
     if (navigator.clipboard?.writeText) await navigator.clipboard.writeText(url);
     else {
       const input = document.createElement('textarea');
-      input.value = url; input.setAttribute('aria-label','Learn page link'); input.style.position = 'fixed'; input.style.opacity = '0';
+      input.value = url; input.setAttribute('aria-label','Tools for Coding page link'); input.style.position = 'fixed'; input.style.opacity = '0';
       document.body.append(input); input.select();
       const copied = document.execCommand('copy'); input.remove(); share.focus();
       if (!copied) throw Error('Copy unavailable');
