@@ -1,6 +1,6 @@
 # Đối chiếu câu Quan hệ song song trong hai PDF
 
-Đã quét toàn bộ 47 trang: file giữa kì 21 trang, file cuối kì 26 trang. Đối chiếu với 46 câu trong math/11.html: 30 trắc nghiệm, 10 đúng/sai, 6 trả lời ngắn. Đã xem toàn trang các trang chứa câu hình học để kiểm tra kí hiệu và các câu nối trang. Không sửa ngân hàng câu hỏi.
+Đã quét toàn bộ 47 trang: file giữa kì 21 trang, file cuối kì 26 trang. Đối chiếu với 46 câu trong math/11/index.html: 30 trắc nghiệm, 10 đúng/sai, 6 trả lời ngắn. Đã xem toàn trang các trang chứa câu hình học để kiểm tra kí hiệu và các câu nối trang. Không sửa ngân hàng câu hỏi.
 
 ## Kết quả
 
