@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#175b53">
+<title>Tin học · Tóm tắt kiến thức</title>
+<style>
+:root{color-scheme:light;--ink:#1b302e;--muted:#536963;--accent:#175b53;--line:#dbe5e1}
+*{box-sizing:border-box}body{margin:0;background:#f4f7f6;color:var(--ink);font:17px/1.75 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:980px;margin:auto;padding:32px 24px 56px}.selector{display:flex;align-items:center;gap:16px;padding-bottom:24px;border-bottom:1px solid var(--line)}label{font-weight:650}select{appearance:none;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='m4 6 4 4 4-4' fill='none' stroke='%23175b53' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 14px center;border:1px solid #a9bfb7;border-radius:9px;padding:10px 44px 10px 16px;min-width:180px;color:var(--ink);font:inherit}a{color:var(--accent);text-underline-offset:3px}select:focus-visible,a:focus-visible{outline:3px solid #269c88;outline-offset:4px}.intro{padding:30px 0 12px}h1{font-size:clamp(30px,5vw,42px);line-height:1.25;margin:0 0 12px}h2{font-size:25px;line-height:1.4;margin:4px 0 0}h3{font-size:19px;line-height:1.5;margin:0}p{margin:8px 0}.sub,.page,footer{color:var(--muted)}.notice{border-left:3px solid var(--accent);padding:12px 18px;background:#e7f0ec;border-radius:0 8px 8px 0;font-size:16px}.toc{display:flex;flex-wrap:wrap;gap:9px;margin:24px 0}.toc a{color:var(--accent);text-decoration:none;border:1px solid #bdd1c7;background:#fff;border-radius:8px;padding:7px 13px;font-size:15px}.toc a:hover{background:#e7f0ec}.chapter{background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 30px;margin:22px 0;scroll-margin-top:20px}.chapter>header{border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:22px}.eyebrow{font-size:14px;color:var(--accent);font-weight:650;margin:0}.page{font-size:14px;margin:4px 0 10px}article+article{border-top:1px solid var(--line);padding-top:22px;margin-top:22px}ul{padding-left:22px;margin:8px 0 0}li+li{margin-top:7px}strong{font-weight:650}.pending{padding:28px;border:1px dashed #a9bfb7;border-radius:12px;margin-top:24px}.pending h2{font-size:22px}footer{font-size:14px;margin-top:28px}[hidden]{display:none!important}@media(max-width:580px){main{padding:20px 16px 36px}.chapter{padding:22px 18px}.selector{gap:12px}select{min-width:155px}h2{font-size:23px}.toc{gap:8px}}@media print{body{background:#fff;font-size:12pt}main{padding:0}.selector,.toc{display:none}.chapter{padding:16px;border-radius:0}article{break-inside:avoid}h2,h3{break-after:avoid}}
+.storage-tables{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:12px}.storage-tables table{width:100%;border-collapse:collapse;font-size:16px;line-height:1.5}.storage-tables th,.storage-tables td{padding:12px 10px;border:2px solid #fff;text-align:left}.storage-tables th{background:#ffdc67;color:#263630;font-weight:650}.storage-tables td{background:#d0ecef}.storage-tables math{font-size:1em}@media(max-width:700px){.storage-tables{grid-template-columns:1fr;gap:16px}}
+.example{margin:8px 0 0;padding-left:12px;border-left:2px solid var(--line);color:var(--muted);font-size:15px;line-height:1.65}.example span{font-weight:600}
+.encoding-scroll{overflow-x:auto;margin-top:12px}.encoding-table{width:100%;border-collapse:collapse;font-size:16px;line-height:1.6}.encoding-table th,.encoding-table td{padding:12px;border:1px solid var(--line);text-align:left;vertical-align:top}.encoding-table thead th{background:#e7f0ec}.encoding-table tbody th{width:24%;font-weight:650}.encoding-table td:nth-child(2){width:24%}@media(max-width:580px){.encoding-table th,.encoding-table td{padding:9px}.encoding-table{min-width:480px}}
+.binary-calculation{margin:8px 0 0;font:16px/1.6 ui-monospace,Menlo,Consolas,monospace;white-space:pre;overflow-x:auto;color:var(--ink)}
+.audio-details{margin-top:14px}.audio-figure{margin:12px 0 18px;padding:12px;background:#f4f7f6;border:1px solid var(--line);border-radius:8px}.audio-figure{overflow-x:auto}.audio-figure figcaption{font-size:14px;color:var(--muted);margin-top:6px}.audio-details code{font-family:ui-monospace,Menlo,Consolas,monospace;overflow-wrap:anywhere}.audio-formula{padding:10px 14px;background:#e7f0ec;border-radius:6px;font-weight:600}
+.audio-book-image{display:block;width:min(100%,540px);height:auto;margin:auto}
+.network-figure{margin:14px 0 6px}.network-figure img{display:block;width:min(100%,600px);height:auto;margin:auto}
+.selector{flex-wrap:wrap}.selector a{font-size:17px}.quiz-card{margin-top:24px;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 8px 28px #19385d0b}.quiz-top{padding:18px 20px;border-bottom:1px solid var(--line)}.q-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.q-stat{background:#f4f7f6;padding:10px 12px;border-radius:11px}.q-stat span{display:block;color:var(--muted);font-size:14px}.q-stat b{font-size:20px}.q-stat.good b{color:#15803d}.q-stat.bad b{color:#b42318}.quiz-area{padding:22px}.q-source{font-size:14px;color:var(--muted);margin:0 0 8px}.q-question{font-size:18px;font-weight:600;line-height:1.6;margin-bottom:16px}.q-options{display:grid;gap:9px}.q-option{display:flex;align-items:baseline;gap:10px;border:1px solid var(--line);border-radius:11px;padding:12px 14px;cursor:pointer;font-weight:400;line-height:1.5;overflow-wrap:anywhere}.q-option input{accent-color:var(--accent);flex:none}.q-option:hover{border-color:var(--accent)}.q-option.selected{border-color:var(--accent);background:#edf6f2}.q-option.correct{border-color:#47a76a;background:#eaf8ef}.q-option.incorrect{border-color:#de7770;background:#fff0ee}.q-feedback{margin-top:14px;padding:12px 14px;border-radius:11px;font-size:16px;line-height:1.6}.q-feedback.ok{background:#eaf8ef;color:#176b36}.q-feedback.no{background:#fff0ee;color:#99251d}.q-actions{display:flex;gap:10px;margin-top:18px}.q-action{border:0;border-radius:10px;padding:12px 18px;background:#e7efec;color:var(--ink);font:650 17px system-ui;cursor:pointer}.q-action:disabled{opacity:.45;cursor:not-allowed}.q-primary{background:var(--accent);color:white}.q-action:focus-visible,.q-option:has(input:focus-visible){outline:3px solid #269c88;outline-offset:3px}.q-finish{text-align:center;padding:28px 22px}.q-reset{text-align:center;padding:0 20px 20px}@media(max-width:580px){.quiz-area{padding:18px 14px}.quiz-top{padding:14px}.q-stats{gap:6px}.q-stat{padding:9px 8px}.q-stat span{font-size:14px}.q-stat b{font-size:18px}.q-actions button{flex:1}}
+body:not(.quiz-mode) .q-reset{display:none}
+body.quiz-mode{background:#f3f6fb;color:#1b2738;font-size:18px;--accent:#2364aa;--line:#dce4ef;--muted:#65748b;--ink:#1b2738}body.quiz-mode main{max-width:920px;padding:22px 16px 40px}body.quiz-mode .selector{gap:12px;margin-bottom:18px;padding-bottom:0;border:0}body.quiz-mode .selector label{font-weight:700}body.quiz-mode .selector select{min-width:0;padding:12px 36px 12px 14px;border:1px solid var(--line);border-radius:11px;font-size:18px;font-weight:600}.quiz-card{margin-top:0}.q-stat{border:0;text-align:left;font-family:inherit;line-height:normal;background:#f6f8fc}.q-stat b{display:block;font-weight:750}.q-stat.good,.q-stat.bad{cursor:pointer}.q-option{align-items:flex-start}.q-option input{margin-top:4px}.q-option span{min-width:0}.q-actions{justify-content:space-between}.q-action{font-weight:700;background:#eaf0f7;color:#2c3c52}.q-primary{background:#2364aa;color:white}.q-option:hover{border-color:#8bb2df;background:#f9fbff}.q-option.selected{border-color:#2364aa;background:#f0f6ff}.q-option input{accent-color:#2364aa}.q-feedback{font-size:18px;font-weight:700;line-height:1.5}.q-finish{padding:34px 22px}.q-finish p{color:var(--muted)}.q-reset{padding:0;margin:16px auto;text-align:center}@media(max-width:650px){.q-stats{grid-template-columns:repeat(2,1fr)}.q-question{font-size:17px}.quiz-area{padding:18px 14px}.q-actions button{flex:1}}
+</style>
+</head>
+<body>
+<main>
+<div class="selector"><label for="grade">Chủ đề:</label><select id="grade"><option value="10">Lớp 10</option><option value="11">Lớp 11</option><option value="12">Lớp 12</option></select><a id="quizToggle" href="#lam-bai">Bắt đầu làm bài</a></div>
+<div id="grade-10">
+<nav class="toc" aria-label="Mục lục Lớp 10"><a href="#may-tinh">Máy tính và dữ liệu</a><a href="#mang">Mạng và Internet</a><a href="#van-hoa-so">Văn hoá số</a><a href="#huong-nghiep">Hướng nghiệp</a></nav>
+<section id="may-tinh" class="chapter"><header><p class="eyebrow">Chủ đề 1</p><h2>Máy tính và xã hội tri thức</h2></header><article><h3>Bài 1. Thông tin và xử lí thông tin</h3><ul><li><strong>Thông tin:</strong> Thông tin là ý nghĩa của dữ liệu.<p class="example"><span>Ví dụ:</span> Dữ liệu nhiệt kế đo thân nhiệt là “39°C” cho biết người được đo đang sốt.</p></li><li><strong>Quá trình xử lí thông tin của máy tính:</strong> Tiếp nhận dữ liệu đầu vào, xử lí theo chương trình, đưa ra kết quả (thông tin). Kết quả có thể được lưu trữ hoặc chuyển thành dữ liệu đầu vào cho lần xử lí khác.</li><li><strong>Đơn vị lưu trữ dữ liệu:</strong><div class="storage-tables"><table aria-label="Đơn vị lưu trữ từ bit đến Gigabyte"><thead><tr><th scope="col">Đơn vị</th><th scope="col">Kí hiệu</th><th scope="col">Lượng dữ liệu</th></tr></thead><tbody><tr><td>bit</td><td>bit</td><td>1 bit</td></tr><tr><td>Byte</td><td>B</td><td>8 bit</td></tr><tr><td>Kilobyte</td><td>KB</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>2</mn><mn>10</mn></msup></math> B</td></tr><tr><td>Megabyte</td><td>MB</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>2</mn><mn>10</mn></msup></math> KB</td></tr><tr><td>Gigabyte</td><td>GB</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>2</mn><mn>10</mn></msup></math> MB</td></tr></tbody></table><table aria-label="Đơn vị lưu trữ từ Terabyte đến Yottabyte"><thead><tr><th scope="col">Đơn vị</th><th scope="col">Kí hiệu</th><th scope="col">Lượng dữ liệu</th></tr></thead><tbody><tr><td>Terabyte</td><td>TB</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>2</mn><mn>10</mn></msup></math> GB</td></tr><tr><td>Petabyte</td><td>PB</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>2</mn><mn>10</mn></msup></math> TB</td></tr><tr><td>Exabyte</td><td>EB</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>2</mn><mn>10</mn></msup></math> PB</td></tr><tr><td>Zettabyte</td><td>ZB</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>2</mn><mn>10</mn></msup></math> EB</td></tr><tr><td>Yottabyte</td><td>YB</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>2</mn><mn>10</mn></msup></math> ZB</td></tr></tbody></table></div><p><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>2</mn><mn>10</mn></msup><mo>=</mo><mn>1024</mn></math></p></li></ul></article><article><h3>Bài 2. Vai trò của thiết bị thông minh và tin học đối với xã hội</h3><ul><li><strong>Thiết bị thông minh:</strong> Có khả năng xử lí thông tin và hoạt động tự chủ ở một mức độ nhất định nhờ phần mềm; có thể kết nối, trao đổi dữ liệu với thiết bị khác.<p class="example"><span>Ví dụ:</span> điện thoại thông minh, máy tính bảng, đồng hồ thông minh và camera kết nối Internet có khả năng tự ghi hình khi phát hiện chuyển động.</p></li><li><strong>Vai trò của tin học:</strong> Giúp tự động hoá công việc, tăng năng suất, hỗ trợ học tập, nghiên cứu, quản lí và giao tiếp. Công nghệ số góp phần thay đổi cách sống và làm việc.</li><li><strong>Cách mạng công nghiệp lần thứ tư (4.0):</strong> Trí tuệ nhân tạo (AI), Internet vạn vật (IoT), Điện toán đám mây (Cloud Computing), Dữ liệu lớn (Big Data)...</li>
+</ul></article><article><h3>Bài 3. Một số kiểu dữ liệu và dữ liệu văn bản</h3><ul><li><strong>Kiểu dữ liệu:</strong> Dữ liệu trong máy tính được phân loại thành: văn bản, số, lôgic và đa phương tiện (âm thanh, hình ảnh).</li><li><strong>Mã hoá văn bản:</strong> Mỗi kí tự được gán một mã và biểu diễn bằng dãy bit.
+<div class="encoding-scroll"><table class="encoding-table"><thead><tr><th scope="col">Bảng mã / cách mã hoá</th><th scope="col">Số bit</th><th scope="col">Đặc điểm</th></tr></thead><tbody>
+<tr><th scope="row">ASCII</th><td>7 bit</td><td>Biểu diễn 128 kí tự.</td></tr>
+<tr><th scope="row">ASCII mở rộng</th><td>8 bit</td><td>Biểu diễn tối đa 256 kí tự.</td></tr>
+<tr><th scope="row">Unicode</th><td>Tuỳ cách mã hoá</td><td>Gán mã cho kí tự của nhiều ngôn ngữ, trong đó có tiếng Việt. Có các cách mã hoá như UTF-8, UTF-16, UTF-32.</td></tr>
+<tr><th scope="row">UTF-8</th><td>8–32 bit<br>(1–4 byte)</td><td>Mã hoá mỗi mã Unicode bằng 1–4 byte; các kí tự ASCII chỉ dùng 1 byte.</td></tr>
+</tbody></table></div>
+<p class="example"><span>Ví dụ UTF-8:</span> “A” dùng 1 byte, “á” dùng 2 byte, “ệ” dùng 3 byte. Một kí tự hiển thị có thể gồm nhiều mã, chẳng hạn chữ cái và dấu kết hợp.</p>
+</li></ul></article><article><h3>Bài 4. Hệ nhị phân và dữ liệu số nguyên</h3><ul><li><strong>Hệ nhị phân:</strong> Chỉ dùng hai chữ số 0 và 1.<p class="example"><span>Ví dụ:</span> <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>19</mn><mo>=</mo><mn>10011</mn></math>.</p></li><li><strong>Đổi từ thập phân sang nhị phân:</strong> Với số nguyên dương, chia liên tiếp cho 2 đến khi thương bằng 0, rồi đọc các số dư từ dưới lên. Số 0 được biểu diễn là 0.<div class="example"><span>Ví dụ: Đổi 19 sang nhị phân.</span><br>19 : 2 = 9 dư 1<br>9 : 2 = 4 dư 1<br>4 : 2 = 2 dư 0<br>2 : 2 = 1 dư 0<br>1 : 2 = 0 dư 1<br>Đọc số dư từ dưới lên: 10011.</div></li><li><strong>Đổi từ nhị phân sang thập phân:</strong> Đánh số vị trí các bit từ phải sang trái, bắt đầu từ 0; nhân mỗi bit với luỹ thừa của 2 tương ứng rồi cộng các kết quả.<p class="example"><span>Ví dụ: Đổi 10011 sang thập phân.</span><br><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>10011</mn><mo>=</mo><mn>1</mn><mo>×</mo><msup><mn>2</mn><mn>4</mn></msup><mo>+</mo><mn>0</mn><mo>×</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><mn>0</mn><mo>×</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>×</mo><msup><mn>2</mn><mn>1</mn></msup><mo>+</mo><mn>1</mn><mo>×</mo><msup><mn>2</mn><mn>0</mn></msup><mo>=</mo><mn>16</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>19</mn></math>.</p></li><li><strong>Cộng hai số nhị phân:</strong> Cộng từng cột từ phải sang trái, có tính số nhớ: 0 + 0 = 0; 0 + 1 = 1; 1 + 1 = 10 (viết 0, nhớ 1).
+<div class="example"><span>Ví dụ: 101 + 11 = 1000.</span><pre class="binary-calculation" aria-label="Cộng hai số nhị phân 101 và 11">   101
++  011
+------
+  1000</pre></div></li>
+<li><strong>Nhân hai số nhị phân:</strong> Nhân lần lượt với từng bit của số nhân từ phải sang trái: nhân với 0 được 0, nhân với 1 giữ nguyên số bị nhân. Nhân với bit từ thứ 2 trở đi thêm các số 0 vào cuối, sau đó cộng các kết quả lại.
+<div class="example"><span>Ví dụ: 101 × 11 = 1111.</span><pre class="binary-calculation" aria-label="Nhân hai số nhị phân 101 và 11">    101
+×    11
+-------
+    101
++  1010
+-------
+   1111</pre></div></li><li><strong>Biểu diễn số nguyên có dấu:</strong> Bit ngoài cùng bên trái biểu diễn dấu: 0 là dấu dương, 1 là dấu âm. Có ba cách mã hoá thường gặp: mã thuận, mã bù 1 và mã bù 2. Với số âm, mã thuận giữ phần biểu diễn độ lớn và đặt bit dấu là 1; mã bù 1 đảo tất cả các bit của mã số dương tương ứng; mã bù 2 lấy mã bù 1 cộng thêm 1.
+<div class="example"><span>Ví dụ với 8 bit:</span><br>+19: 00010011 (giống nhau trong cả ba cách).<br>−19: 10010011 (mã thuận), 11101100 (mã bù 1), 11101101 (mã bù 2).</div></li></ul></article><article><h3>Bài 5. Dữ liệu lôgic</h3><ul><li><strong>Giá trị lôgic:</strong> Đúng hoặc sai, được biểu diễn tương ứng bằng 1 và 0.</li><li><strong>Các phép toán:</strong> AND đúng khi cả hai vế đúng; OR đúng khi ít nhất một vế đúng; XOR đúng khi hai vế khác nhau; NOT đảo giá trị đúng/sai.</li></ul></article><article><h3>Bài 6. Dữ liệu âm thanh và hình ảnh</h3><ul><li><strong>Âm thanh số:</strong> Lấy mẫu biên độ (ADC) → lượng hoá (8 bit/mẫu) → mã hoá thành bit → lưu trữ.<div class="audio-details">
+<figure class="audio-figure"><img class="audio-book-image" src="m/hinh-6-2.png" width="720" height="508" alt="Hình 6.2 trong SGK: đồ thị biên độ âm thanh theo thời gian, các thời điểm lấy mẫu cách đều và thang giá trị từ 0 đến 255; mẫu minh hoạ có giá trị 175."></figure>
+
+<div class="example"><span>Ví dụ chuyển thành bit:</span> Mẫu 175 → <code>10101111</code>.</div>
+<p><strong>Phát lại:</strong> Dữ liệu số → bộ chuyển đổi số–tương tự (DAC) → loa hoặc tai nghe phát âm thanh.</p>
+<p><strong>Bit rate (tốc độ bit):</strong> Số bit trong 1 giây, đơn vị bit/s (bps); 1 kbps = 1.000 bit/s. Với PCM không nén:</p>
+<p class="audio-formula">Bit rate = Tần số lấy mẫu × Số bit mỗi mẫu × Số kênh</p>
+<p>Mono: 1 kênh; stereo: 2 kênh.</p>
+<div class="example"><span>Ví dụ:</span> Stereo 44.100 Hz, 16 bit/mẫu: 44.100 × 16 × 2 = 1.411.200 bit/s.</div>
+
+<p><strong>Định dạng âm thanh:</strong> WAV thường lưu âm thanh không nén; MP3, AAC, OGG (Vorbis/Opus) nén mất dữ liệu để giảm dung lượng; FLAC nén không mất dữ liệu, khôi phục được âm thanh số gốc.</p>
+</div></li><li><strong>Ảnh số:</strong><div class="image-details">
+<p><strong>Pixel (điểm ảnh):</strong> Mỗi điểm mang một giá trị màu. Các pixel xếp thành lưới tạo nên ảnh; ảnh 800 × 600 có 480.000 pixel.</p>
+<p><strong>Hệ màu RGB:</strong> Phối hợp ba thành phần đỏ (Red), lục (Green), lam (Blue). Khi mỗi thành phần dùng 8 bit, giá trị nằm từ 0 đến 255.</p>
+<p class="example"><span>Ví dụ RGB:</span> Đỏ (255, 0, 0); lục (0, 255, 0); lam (0, 0, 255); trắng (255, 255, 255); đen (0, 0, 0).</p>
+<p><strong>Bit depth (độ sâu màu):</strong> Số bit biểu diễn màu của một pixel. Với n bit/pixel, có thể biểu diễn tối đa <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>2</mn><mi>n</mi></msup></math> giá trị màu. RGB 8 bit cho mỗi thành phần tương ứng 24 bit/pixel.</p>
+<div class="encoding-scroll"><table class="encoding-table"><thead><tr><th scope="col">Loại ảnh</th><th scope="col">Số bit/pixel</th><th scope="col">Đặc điểm</th></tr></thead><tbody>
+<tr><th scope="row">Ảnh màu RGB</th><td>Thường 24 bit</td><td>8 bit × 3 thành phần, biểu diễn 16.777.216 màu.</td></tr>
+<tr><th scope="row">Ảnh xám</th><td>Thường 8 bit</td><td>256 mức sáng từ 0 (đen) đến 255 (trắng); các mức giữa là xám. Khi biểu diễn bằng RGB, ba thành phần bằng nhau.</td></tr>
+<tr><th scope="row">Ảnh đen trắng</th><td>1 bit</td><td>Chỉ có hai màu đen và trắng, không có mức xám trung gian.</td></tr>
+</tbody></table></div>
+<p><strong>Ảnh bitmap:</strong> Lưu thông tin màu theo từng điểm ảnh. Ảnh bitmap nguyên gốc được lưu trong tệp <code>.bmp</code>, thường tốn bộ nhớ. Có thể giảm dung lượng bằng các định dạng nén:</p><ul><li><strong>JPEG (.jpeg, .jpg):</strong> Nén có mất mát chất lượng, dung lượng nhỏ.</li><li><strong>PNG (.png):</strong> Nén không mất mát chất lượng, hỗ trợ nền trong suốt.</li></ul>
+</div></li></ul></article></section><section id="mang" class="chapter"><header><p class="eyebrow">Chủ đề 2</p><h2>Mạng máy tính và Internet</h2></header><article><h3>Bài 8. Mạng máy tính trong cuộc sống hiện đại</h3><ul><li><strong>LAN và Internet:</strong> LAN kết nối thiết bị trong phạm vi nhỏ như nhà, trường học, cơ quan. Internet liên kết các mạng trên quy mô toàn cầu.<figure class="network-figure"><img src="m/hinh-8-2.png" alt="Hình 8.2: Các mạng LAN kết nối với Internet qua bộ định tuyến Router; thiết bị trong mỗi LAN kết nối qua Switch hoặc Hub." width="777" height="675"></figure></li><li><strong>Điện toán đám mây:</strong> Cung cấp tài nguyên công nghệ thông tin theo nhu cầu qua Internet, miễn phí hoặc trả phí theo mức sử dụng.
+<div class="encoding-scroll"><table class="encoding-table"><thead><tr><th scope="col">Loại dịch vụ</th><th scope="col">Cung cấp</th><th scope="col">Ví dụ</th></tr></thead><tbody>
+<tr><th scope="row">SaaS — Phần mềm như dịch vụ</th><td>Phần mềm ứng dụng để sử dụng trực tiếp.</td><td>Google Docs để soạn thảo văn bản; Zoom để học, họp trực tuyến.</td></tr>
+<tr><th scope="row">PaaS — Nền tảng như dịch vụ</th><td>Nền tảng để phát triển và triển khai ứng dụng.</td><td>Thuê môi trường chạy ứng dụng và hệ quản trị cơ sở dữ liệu để xây dựng website.</td></tr>
+<tr><th scope="row">IaaS — Hạ tầng như dịch vụ</th><td>Tài nguyên tính toán, lưu trữ và mạng.</td><td>Thuê máy chủ ảo và dung lượng lưu trữ để vận hành website.</td></tr>
+</tbody></table></div></li><li><strong>Internet vạn vật (IoT):</strong> Kết nối các thiết bị, cảm biến để thu thập, trao đổi dữ liệu và điều khiển hoạt động; ứng dụng trong nhà thông minh, sản xuất và đời sống.<div class="example"><span>Ví dụ:</span><br>1. Thu phí không dừng: thiết bị đọc thẻ RFID trên xe, hệ thống kiểm tra tài khoản, trừ phí và tự mở thanh chắn.<br>2. Nhà thông minh: tự bật/tắt điều hoà, đèn; cảnh báo đột nhập và điều khiển thiết bị qua Internet bằng điện thoại.</div></li></ul></article><article><h3>Bài 9. An toàn trên không gian mạng</h3><ul>
+<li><strong>Các nguy cơ trên mạng:</strong> Tin giả và tin phản văn hoá; lừa đảo trên mạng; lộ thông tin cá nhân; bắt nạt trên không gian mạng; nghiện mạng.</li>
+<li><strong>Phần mềm độc hại (malware):</strong> Phần mềm được viết với ý đồ xấu, gây hại cho người dùng.
+<div class="encoding-scroll"><table class="encoding-table"><thead><tr><th scope="col">Loại</th><th scope="col">Đặc điểm</th><th scope="col">Cách hoạt động</th></tr></thead><tbody>
+<tr><th scope="row">Virus</th><td>Đoạn mã độc, phải gắn với phần mềm khác.</td><td>Khi phần mềm nhiễm virus được chạy, mã độc hoạt động và có thể chèn vào phần mềm khác để lây lan.</td></tr>
+<tr><th scope="row">Worm (sâu máy tính)</th><td>Phần mềm hoàn chỉnh, có khả năng tự lây lan.</td><td>Lợi dụng lỗ hổng bảo mật hoặc lừa người dùng chạy, cài đặt để xâm nhập máy.</td></tr>
+<tr><th scope="row">Trojan (phần mềm nội gián)</th><td>Nhằm đánh cắp thông tin hoặc chiếm quyền máy tính, không chú trọng tự lây lan.</td><td>Ẩn dưới vỏ bọc phần mềm có ích để người dùng cài đặt, rồi thực hiện hoạt động nội gián.</td></tr>
+</tbody></table></div>
+<p><strong>Các dạng nội gián trong sách:</strong> Spyware đánh cắp thông tin; keylogger ghi hoạt động bàn phím, chuột; backdoor tạo đường truy cập bí mật; rootkit chiếm quyền cao nhất và che giấu dấu vết.</p>
+<p><strong>Tác hại:</strong> Làm hỏng phần mềm, xoá hoặc mã hoá dữ liệu để tống tiền, đánh cắp thông tin, chiếm quyền và làm tê liệt hệ thống.</p>
+<p><strong>Phòng chống:</strong> Không tải, sao chép phần mềm không rõ nguồn gốc; không mở liên kết đáng ngờ; giữ bí mật mật khẩu và sử dụng phần mềm chống mã độc.</p>
+</li></ul></article></section><section id="van-hoa-so" class="chapter"><header><p class="eyebrow">Chủ đề 3</p><h2>Đạo đức, pháp luật và văn hoá trong môi trường số</h2></header><article><h3>Bài 11. Ứng xử trên môi trường số. Nghĩa vụ tôn trọng bản quyền</h3><ul><li><strong>Giao tiếp có trách nhiệm:</strong> Tôn trọng người khác, dùng ngôn ngữ lịch sự; tránh xúc phạm, tung tin sai hoặc chia sẻ nội dung gây tổn hại.</li><li><strong>Tôn trọng riêng tư:</strong> Cân nhắc trước khi đăng thông tin, hình ảnh của bản thân và người khác; không tuỳ tiện công khai dữ liệu riêng tư.</li><li><strong>Bản quyền sản phẩm số:</strong> Tôn trọng quyền tác giả đối với văn bản, ảnh, nhạc và phần mềm. Khi sử dụng cần tuân thủ điều kiện cho phép, ghi nguồn và không nhận sản phẩm của người khác là của mình.</li></ul></article></section>
+<section id="huong-nghiep" class="chapter"><header><p class="eyebrow">Chủ đề 6</p><h2>Hướng nghiệp với tin học</h2></header>
+<article><h3>Bài 33. Nghề thiết kế đồ hoạ máy tính</h3><ul><li><strong>Công việc:</strong> Sử dụng hình ảnh, chữ và bố cục để truyền đạt thông điệp; tạo các sản phẩm như logo, áp phích, bao bì, ấn phẩm và nội dung truyền thông số.</li><li><strong>Năng lực cần có:</strong> Có tư duy thẩm mĩ, sáng tạo, khả năng dùng phần mềm đồ hoạ, giao tiếp và làm việc nhóm; hiểu yêu cầu của người sử dụng và tiếp tục cập nhật công nghệ.</li><li><strong>Học tập và định hướng:</strong> Tìm hiểu chương trình đào tạo, thực hành công cụ, xây dựng sản phẩm và tìm cơ hội nghề nghiệp phù hợp với sở thích, năng lực.</li></ul></article>
+<article><h3>Bài 34. Nghề phát triển phần mềm</h3><ul><li><strong>Công việc:</strong> Tham gia phân tích yêu cầu, thiết kế, lập trình, kiểm thử, triển khai và bảo trì phần mềm phục vụ các nhu cầu trong đời sống, sản xuất và quản lí.</li><li><strong>Năng lực cần có:</strong> Có tư duy lôgic, khả năng giải quyết vấn đề và kiến thức lập trình; cần tính cẩn thận, kiên trì, kĩ năng hợp tác, đọc tài liệu và tự học.</li><li><strong>Học tập và định hướng:</strong> Tìm hiểu ngành đào tạo và vị trí công việc, rèn nền tảng tin học, ngoại ngữ và thực hành dự án; cập nhật kiến thức trong suốt quá trình làm nghề.</li></ul></article>
+</section>
+</div>
+<div id="grade-11" hidden>
+<nav class="toc" aria-label="Mục lục Lớp 11">
+<a href="#11-may-tinh">Máy tính và thiết bị số</a>
+<a href="#11-internet">Lưu trữ và Internet</a>
+<a href="#11-van-hoa-so">Văn hoá số</a>
+<a href="#11-csdl">Cơ sở dữ liệu</a>
+<a href="#11-huong-nghiep">Hướng nghiệp</a>
+<a href="#11-thuc-hanh-csdl">Thực hành CSDL</a>
+<a href="#11-do-hoa-video">Ảnh và video</a>
+</nav>
+<section id="11-may-tinh" class="chapter"><header><p class="eyebrow">Chủ đề 1</p><h2>Máy tính và xã hội tri thức</h2></header>
+<article><h3>Bài 1. Hệ điều hành</h3><ul>
+<li><strong>Vai trò:</strong> Là phần mềm hệ thống quản lí phần cứng, tổ chức thực hiện chương trình và cung cấp môi trường giao tiếp giữa người dùng với máy tính.</li>
+<li><strong>Các nhóm chức năng:</strong> Quản lí thiết bị; quản lí việc lưu trữ dữ liệu; tổ chức thực hiện chương trình; cung cấp giao diện với người dùng; cung cấp các tiện ích giúp sử dụng máy tính hiệu quả.</li>
+<li><strong>Hệ điều hành máy tính cá nhân:</strong> Windows, macOS, Linux và các bản phân phối như Ubuntu.</li>
+<li><strong>Đặc điểm cơ bản của hệ điều hành máy tính cá nhân:</strong> Hướng tới người dùng phổ thông, ngày càng thân thiện và dễ sử dụng, thể hiện ở hai điểm chính:
+<ul><li><strong>Giao diện thân thiện:</strong> Phát triển từ giao diện dòng lệnh sang giao diện đồ hoạ với cửa sổ, biểu tượng và con trỏ; một số hệ điều hành hỗ trợ giao tiếp bằng giọng nói.</li>
+<li><strong>Cơ chế plug &amp; play (cắm là chạy):</strong> Tự động nhận biết thiết bị ngoại vi, hỗ trợ cài đặt trình điều khiển, giúp người dùng kết nối và sử dụng thiết bị thuận tiện hơn.</li></ul></li>
+<li><strong>Phần cứng, hệ điều hành và ứng dụng:</strong> Phần cứng thực hiện xử lí; hệ điều hành quản lí tài nguyên và cung cấp môi trường; phần mềm ứng dụng giải quyết công việc của người dùng thông qua hệ điều hành.<figure class="network-figure"><img src="m/hinh-11-1-4.png" width="424" height="604" style="width:70%;max-width:210px" alt="Hình 1.4. Mối quan hệ giữa phần cứng, phần mềm ứng dụng và hệ điều hành: Người dùng ↔ Phần mềm ứng dụng ↔ Hệ điều hành ↔ Phần cứng (CPU, bộ nhớ, thiết bị vào/ra)."></figure></li>
+<li><strong>Hệ điều hành thiết bị di động:</strong> Android, iOS: chú trọng thao tác cảm ứng, kết nối không dây, cảm biến và các tiện ích cá nhân.</li>
+</ul></article>
+<article><h3>Bài 3. Phần mềm nguồn mở và phần mềm chạy trên Internet</h3><ul>
+<li><strong>Mã nguồn và mã máy:</strong> Mã nguồn được viết bằng ngôn ngữ lập trình; mã máy là các lệnh mà bộ xử lí thực hiện. Chỉ nhìn thấy mã nguồn chưa đủ để kết luận phần mềm được phép sửa đổi, phân phối lại.</li>
+<li><strong>Phân loại phần mềm:</strong><ul>
+<li><strong>Phần mềm thương mại (Commercial software):</strong> Được cung cấp nhằm mục đích kinh doanh; có dạng đóng gói đáp ứng nhu cầu chung và dạng đặt hàng theo yêu cầu riêng. Việc sử dụng phải tuân thủ giấy phép.</li>
+<li><strong>Phần mềm tự do (Free software):</strong> Cho phép sử dụng tự do theo giấy phép; có thể được cung cấp ở dạng mã máy hoặc mã nguồn.</li>
+<li><strong>Phần mềm nguồn mở (Open-source software):</strong> Cung cấp mã nguồn và cho phép sử dụng, sửa đổi, phân phối lại theo giấy phép. Có ưu điểm minh bạch, giảm phụ thuộc nhà cung cấp và thường có chi phí tiếp cận thấp.</li>
+</ul></li>
+<li><strong>Giấy phép GNU GPL:</strong> Cho phép sao chép, sửa đổi, phân phối theo điều kiện; phải giữ thông tin bản quyền, thông báo thay đổi và tuân thủ yêu cầu công bố mã nguồn, áp dụng GPL khi phân phối bản phái sinh thuộc phạm vi giấy phép.</li>
+<li><strong>Phần mềm trực tuyến:</strong> Sử dụng qua Internet, thường qua trình duyệt, không cần cài ứng dụng riêng trên máy. Thuận tiện khi cộng tác và truy cập từ nhiều thiết bị; ví dụ Google Docs, Sheets, Slides.</li>
+</ul></article>
+<article><h3>Bài 4. Bên trong máy tính</h3><ul>
+<li><strong>Bảng mạch chính:</strong> Kết nối CPU, bộ nhớ và các bộ phận khác của máy tính.</li>
+<li><strong>CPU:</strong> Thực hiện chương trình; bộ số học và lôgic (ALU) thực hiện phép tính, bộ điều khiển phối hợp hoạt động các thiết bị. Thanh ghi và bộ nhớ đệm hỗ trợ truy cập dữ liệu nhanh. Xung nhịp thường đo bằng GHz; số nhân và kiến trúc cũng ảnh hưởng hiệu năng.</li>
+<li><strong>RAM và ROM:</strong> RAM lưu tạm chương trình, dữ liệu đang dùng và mất dữ liệu khi mất điện. ROM lưu chương trình, dữ liệu hệ thống và giữ được nội dung khi mất điện.</li>
+<li><strong>Bộ nhớ ngoài:</strong> HDD, SSD, đĩa quang, thẻ nhớ… lưu dữ liệu lâu dài. Các thông số cần chú ý là dung lượng và thời gian truy cập; SSD thường truy cập nhanh hơn HDD.</li>
+<li><strong>Phép toán lôgic:</strong> AND bằng 1 khi cả hai đầu vào bằng 1; OR bằng 1 khi ít nhất một đầu vào bằng 1; NOT đảo 0 và 1; XOR bằng 1 khi hai đầu vào khác nhau.</li>
+<li><strong>Mạch lôgic và phép cộng nhị phân:</strong> Thiết bị số được xây dựng từ các mạch lôgic; có thể kết hợp các cổng AND, OR, NOT để tạo các mạch khác. Cộng hai bit: 1 + 1 = 10; bit tổng là XOR, bit nhớ là AND của hai đầu vào.</li>
+</ul></article>
+<article><h3>Bài 5. Kết nối máy tính với các thiết bị số</h3><ul>
+<li><strong>Thiết bị vào – ra:</strong> Bàn phím, chuột, máy quét đưa dữ liệu vào; màn hình, máy in đưa thông tin ra. Một số thiết bị trao đổi dữ liệu theo cả hai chiều.</li>
+<li><strong>Thông số thiết bị:</strong> Màn hình: kích thước đường chéo (inch), độ phân giải (pixel), tần số quét (Hz), thời gian phản hồi (ms). Máy in: độ phân giải (dpi), khổ giấy, tốc độ in và khả năng in màu. Chuột: cách kết nối, độ phân giải và tốc độ con trỏ.</li>
+<li><strong>Cổng kết nối:</strong> VGA truyền hình ảnh dạng tương tự; HDMI truyền hình ảnh và âm thanh số; USB kết nối nhiều loại thiết bị; cổng mạng dùng cho kết nối mạng có dây.</li>
+<li><strong>Cách kết nối:</strong> Đọc tài liệu thiết bị, chọn đúng cáp hoặc phương thức không dây, cài trình điều khiển khi cần và thiết lập tham số. Với Bluetooth: bật chế độ ghép đôi, tìm thiết bị, xác nhận ghép đôi rồi kiểm tra kết nối.</li>
+</ul></article>
+</section>
+<section id="11-internet" class="chapter"><header><p class="eyebrow">Chủ đề 2</p><h2>Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin</h2></header>
+<article><h3>Bài 6. Lưu trữ và chia sẻ tệp tin trên Internet</h3><ul>
+<li><strong>Ổ đĩa trực tuyến:</strong> Dịch vụ lưu trữ dữ liệu trên Internet như Google Drive, Dropbox; hỗ trợ tải lên, tải xuống, tổ chức thư mục và truy cập từ nhiều thiết bị.</li>
+<li><strong>Chia sẻ dữ liệu:</strong> Chọn tệp hoặc thư mục, xác định người nhận hay phạm vi liên kết và cấp quyền phù hợp: xem, nhận xét hoặc chỉnh sửa tuỳ dịch vụ.</li>
+<li><strong>Quản lí quyền:</strong> Kiểm tra đúng người nhận và quyền trước khi gửi liên kết; có thể thay đổi hoặc thu hồi quyền. Chia sẻ liên kết không đồng nghĩa mọi người đều được chỉnh sửa.</li>
+</ul></article>
+<article><h3>Bài 7. Thực hành tìm kiếm thông tin trên Internet</h3><ul>
+<li><strong>Chọn từ khoá:</strong> Nêu rõ đối tượng và thông tin cần tìm; xem kết quả rồi điều chỉnh từ khoá để thu hẹp phạm vi.</li>
+<li><strong>Tìm chính xác hơn:</strong> Đặt cụm từ trong dấu nháy kép để tìm cụm đó; thêm filetype:pdf để tìm tệp PDF. Có thể chọn loại kết quả như hình ảnh, video hoặc tin tức.</li>
+<li><strong>Tìm bằng tiếng nói:</strong> Cần micro; đọc từ khoá rồi kiểm tra nội dung máy nhận dạng trước khi sử dụng kết quả.</li>
+<li><strong>Đánh giá kết quả:</strong> Đọc nội dung, xem nguồn và thời điểm công bố, đối chiếu các nguồn phù hợp trước khi sử dụng thông tin.</li>
+</ul></article>
+<article><h3>Bài 8. Thực hành nâng cao sử dụng thư điện tử và mạng xã hội</h3><ul>
+<li><strong>Đánh dấu thư:</strong> Dùng dấu sao hoặc dấu quan trọng để nhận biết thư cần chú ý; có thể tìm thư quan trọng trong Gmail bằng is:important.</li>
+<li><strong>Nhãn thư:</strong> Giúp phân loại và tìm lại thư. Một thư có thể mang nhiều nhãn; xoá nhãn khác với xoá thư, còn xoá thư sẽ loại thư khỏi các nhãn gắn với nó.</li>
+<li><strong>Trang trên mạng xã hội:</strong> Fanpage dùng để đăng thông tin, hình ảnh, video và sự kiện của lớp, tổ chức hoặc doanh nghiệp; cần quản lí nội dung và quyền quản trị.</li>
+<li><strong>Quyền riêng tư:</strong> Thiết lập đối tượng xem bài viết, người được đăng trên trang cá nhân và việc xem xét thẻ gắn tên; kiểm tra lại kết quả sau khi thay đổi.</li>
+</ul></article>
+</section>
+<section id="11-van-hoa-so" class="chapter"><header><p class="eyebrow">Chủ đề 3</p><h2>Đạo đức, pháp luật và văn hoá trong môi trường số</h2></header>
+<article><h3>Bài 9. Giao tiếp an toàn trên Internet</h3><ul>
+<li><strong>Dấu hiệu lừa đảo:</strong> Giả danh cơ quan hoặc người quen, báo trúng thưởng, báo lỗi thiết bị, thúc ép chuyển tiền hay cung cấp thông tin bí mật. Cảm giác khẩn cấp thường được dùng để khiến nạn nhân mất cảnh giác.</li>
+<li><strong>Ba nguyên tắc phòng tránh:</strong> Hãy chậm lại! → Kiểm tra ngay! → Dừng lại, không gửi! Bình tĩnh, xác minh qua kênh độc lập và dừng giao dịch đáng ngờ.</li>
+<li><strong>Bảo vệ thông tin:</strong> Không cung cấp mật khẩu, mã xác thực hoặc thông tin tài khoản cho người lạ; kiểm tra người gửi và liên kết trước khi mở hay làm theo yêu cầu.</li>
+<li><strong>Ứng xử trên mạng:</strong> Tôn trọng, tuân thủ pháp luật; giao tiếp lành mạnh; bảo đảm an toàn, bảo mật; chịu trách nhiệm về nội dung đăng tải. Chỉ chia sẻ thông tin đáng tin cậy và tôn trọng sự riêng tư của người khác.</li>
+</ul></article>
+</section>
+<section id="11-csdl" class="chapter"><header><p class="eyebrow">Chủ đề 4</p><h2>Giới thiệu các hệ cơ sở dữ liệu</h2></header>
+<article><h3>Bài 10. Lưu trữ dữ liệu và khai thác thông tin phục vụ quản lí</h3><ul>
+<li><strong>Cập nhật dữ liệu:</strong> Thêm mới, sửa và xoá dữ liệu để phản ánh thực tế.</li>
+<li><strong>Truy xuất dữ liệu:</strong> Tìm kiếm, sắp xếp, lọc hoặc kết hợp dữ liệu theo yêu cầu. Khai thác thông tin còn gồm tính toán, thống kê và phân tích để hỗ trợ quyết định.</li>
+<li><strong>Thu thập tự động:</strong> Dùng thiết bị để ghi nhận dữ liệu, giảm công sức và cung cấp dữ liệu kịp thời.</li>
+<li><strong>Ví dụ:</strong> Máy đọc mã vạch giúp ghi nhận hàng bán; công tơ điện tử gửi chỉ số để hỗ trợ tính tiền và quản lí hệ thống điện.</li>
+</ul></article>
+<article><h3>Bài 11. Cơ sở dữ liệu</h3><ul>
+<li><strong>Khái niệm:</strong> Cơ sở dữ liệu (CSDL) là tập hợp dữ liệu có liên quan với nhau, được lưu trữ có tổ chức trong hệ thống máy tính.</li>
+<li><strong>Tính cấu trúc và không dư thừa:</strong> Dữ liệu theo cấu trúc xác định; hạn chế lưu trùng lặp và lưu những dữ liệu có thể tính được từ dữ liệu đã có.</li>
+<li><strong>Tính độc lập:</strong> Tách việc tổ chức, lưu trữ dữ liệu khỏi phần mềm khai thác; hạn chế phải sửa ứng dụng khi cách lưu trữ thay đổi.</li>
+<li><strong>Tính toàn vẹn:</strong> Dữ liệu phải thoả mãn ràng buộc của bài toán; ví dụ điểm học tập nằm trong khoảng từ 0 đến 10.</li>
+<li><strong>Tính nhất quán:</strong> Dữ liệu giữ được sự đúng đắn sau các thao tác cập nhật, kể cả khi có sự cố; ví dụ chuyển tiền phải bảo đảm khoản trừ và khoản nhận tương ứng.</li>
+<li><strong>Bảo mật và an toàn:</strong> Ngăn truy cập trái phép, bảo vệ dữ liệu khỏi sai lệch, mất mát và có khả năng khôi phục khi cần.</li>
+</ul></article>
+<article><h3>Bài 12. Hệ quản trị cơ sở dữ liệu và hệ cơ sở dữ liệu</h3><ul>
+<li><strong>Hệ quản trị CSDL:</strong> Phần mềm hỗ trợ định nghĩa cấu trúc, cập nhật, truy xuất, bảo mật và bảo đảm an toàn dữ liệu; cung cấp giao diện lập trình cho ứng dụng.</li>
+<li><strong>Các nhóm chức năng:</strong> Định nghĩa dữ liệu; cập nhật và truy xuất dữ liệu; bảo mật, an toàn; giao diện lập trình ứng dụng. Bao gồm kiểm soát quyền, truy cập đồng thời, sao lưu và phục hồi.</li>
+<li><strong>Hệ CSDL:</strong> Gồm CSDL, hệ quản trị CSDL và các phần mềm ứng dụng CSDL. Ứng dụng làm cầu nối giúp người dùng khai thác dữ liệu theo nhu cầu.</li>
+<li><strong>Tập trung và phân tán:</strong> Hệ CSDL tập trung lưu CSDL trên một máy tính; hệ CSDL phân tán lưu dữ liệu trên các máy tính khác nhau trong mạng. Phân tán thuận lợi khi mở rộng nhưng phức tạp hơn trong bảo mật và bảo đảm nhất quán.</li>
+<li><strong>Cần phân biệt:</strong> Nhiều máy cùng truy cập một máy chủ không có nghĩa dữ liệu được lưu phân tán.</li>
+</ul></article>
+<article><h3>Bài 13. Cơ sở dữ liệu quan hệ</h3><ul>
+<li><strong>Mô hình quan hệ:</strong> Tổ chức dữ liệu thành các bảng có thể liên hệ với nhau. Mỗi hàng là một bản ghi của một đối tượng; mỗi cột là một trường biểu diễn thuộc tính.</li>
+<li><strong>Kiểu dữ liệu của trường:</strong> Quy định dạng giá trị như số nguyên, số thực, xâu kí tự, lôgic, ngày tháng; giúp lưu trữ phù hợp và kiểm soát dữ liệu nhập.</li>
+<li><strong>Khoá và khoá chính:</strong> Một trường hoặc nhóm trường có giá trị phân biệt các bản ghi là khoá; chọn một khoá làm khoá chính. Khoá chính phải xác định duy nhất mỗi bản ghi và không nhận giá trị NULL.</li>
+<li><strong>Khoá ngoài:</strong> Trường hoặc nhóm trường tham chiếu khoá chính của bảng khác để biểu diễn quan hệ. Giá trị khoá ngoài có thể lặp lại; giá trị tham chiếu phải phù hợp với bảng được tham chiếu.</li>
+<li><strong>Liên kết dữ liệu:</strong> Ghép dữ liệu các bảng theo trường liên quan để khai thác thông tin đầy đủ.</li>
+<li><strong>Ví dụ:</strong> Bảng nhacsi có khoá chính Aid; bảng bannhac có khoá chính Mid và khoá ngoài Aid. Liên kết qua Aid cho biết tên nhạc sĩ của mỗi bản nhạc.</li>
+</ul></article>
+<article><h3>Bài 14. SQL – Ngôn ngữ truy vấn có cấu trúc</h3><ul>
+<li><strong>Vai trò:</strong> Mô tả yêu cầu cần thực hiện với CSDL, hệ quản trị chịu trách nhiệm xử lí. SQL có các nhóm lệnh định nghĩa dữ liệu (DDL), thao tác dữ liệu (DML), kiểm soát dữ liệu (DCL).</li>
+<li><strong>Định nghĩa dữ liệu:</strong> CREATE DATABASE tạo CSDL; CREATE TABLE tạo bảng; ALTER TABLE thay đổi cấu trúc; PRIMARY KEY khai báo khoá chính; FOREIGN KEY … REFERENCES … khai báo khoá ngoài.</li>
+<li><strong>Kiểu dữ liệu:</strong> INT: số nguyên; REAL: số thực; CHAR(n): xâu độ dài cố định; VARCHAR(n): xâu độ dài thay đổi tối đa n kí tự; BOOLEAN: lôgic; DATE: ngày; TIME: giờ.</li>
+<li><strong>Truy xuất:</strong> SELECT chọn cột, FROM chỉ bảng, WHERE lọc hàng, ORDER BY sắp xếp (ASC tăng, DESC giảm); INNER JOIN … ON … liên kết các bảng theo điều kiện. AVG tính trung bình.</li>
+<li><strong>Cập nhật:</strong> INSERT INTO thêm bản ghi; UPDATE … SET … WHERE … sửa bản ghi; DELETE FROM … WHERE … xoá bản ghi. Bỏ WHERE trong UPDATE hoặc DELETE sẽ tác động đến tất cả các hàng.</li>
+<li><strong>Kiểm soát quyền:</strong> GRANT cấp quyền; REVOKE thu hồi quyền.</li>
+<li><strong>Ví dụ truy xuất:</strong> Lấy mã, tên các bản nhạc có Aid = 1 và sắp xếp theo tên:<pre class="binary-calculation"><code>SELECT Mid, TenBN
+FROM bannhac
+WHERE Aid = 1
+ORDER BY TenBN;</code></pre></li>
+</ul></article>
+<article><h3>Bài 15. Bảo mật và an toàn hệ cơ sở dữ liệu</h3><ul>
+<li><strong>Bảo mật:</strong> Ngăn truy cập và sử dụng trái phép; lập nhóm người dùng và cấp quyền đúng nhiệm vụ: xem, thêm, sửa, xoá hoặc quản trị.</li>
+<li><strong>Chính sách bảo mật:</strong> Quy định trách nhiệm bảo vệ tài khoản, tổ chức an ninh mạng, giám sát hoạt động và ghi nhật kí để hỗ trợ kiểm tra, phát hiện sự cố.</li>
+<li><strong>An toàn dữ liệu:</strong> Bảo vệ dữ liệu khỏi sai lệch và mất mát do sự cố điện, thiết bị, phần mềm hoặc thao tác. Có kế hoạch dự phòng nguồn điện, kiểm tra và thay thiết bị phù hợp.</li>
+<li><strong>Sao lưu và phục hồi:</strong> Sao lưu định kì ra nơi dự phòng và chuẩn bị phương án khôi phục. Bản sao lưu gần nhất giúp giảm lượng dữ liệu mất khi có sự cố.</li>
+</ul></article>
+</section>
+<section id="11-huong-nghiep" class="chapter"><header><p class="eyebrow">Chủ đề 5</p><h2>Hướng nghiệp với tin học</h2></header>
+<article><h3>Bài 16. Công việc quản trị cơ sở dữ liệu</h3><ul>
+<li><strong>Mục đích:</strong> Giữ hệ CSDL hoạt động thông suốt, an toàn, hiệu quả và sẵn sàng phục vụ khai thác.</li>
+<li><strong>Nhiệm vụ:</strong> Cài đặt, cập nhật hệ quản trị; tạo lập và điều chỉnh CSDL; bảo đảm tài nguyên; quản lí quyền truy cập, sao lưu, phục hồi và xử lí sự cố.</li>
+<li><strong>Kiến thức và kĩ năng:</strong> Hiểu CSDL và thiết kế dữ liệu, thành thạo một hệ quản trị và SQL; có kiến thức hệ điều hành, mạng, khả năng phân tích, đọc tài liệu và tự học.</li>
+<li><strong>Phẩm chất và định hướng:</strong> Cẩn thận, tỉ mỉ, kiên trì, có trách nhiệm. Có thể học các ngành liên quan như hệ thống thông tin, công nghệ phần mềm, kết hợp thực hành và đào tạo chuyên môn về quản trị CSDL.</li>
+</ul></article>
+</section>
+<section id="11-thuc-hanh-csdl" class="chapter"><header><p class="eyebrow">Chủ đề 6</p><h2>Thực hành tạo và khai thác cơ sở dữ liệu</h2></header>
+<article><h3>Bài 17. Quản trị cơ sở dữ liệu trên máy tính</h3><ul>
+<li><strong>Lợi ích:</strong> Cập nhật và tìm kiếm nhanh, hạn chế trùng lặp, tăng tính nhất quán, an toàn và khả năng chia sẻ dữ liệu.</li>
+<li><strong>MySQL và HeidiSQL:</strong> MySQL là hệ quản trị CSDL; HeidiSQL là phần mềm khách có giao diện đồ hoạ để kết nối và thao tác với hệ quản trị.</li>
+<li><strong>Kết nối:</strong> Cần thông tin máy chủ, cổng, tên người dùng và mật khẩu. Sau khi kết nối có thể quản lí CSDL bằng giao diện hoặc thực hiện câu lệnh SQL.</li>
+</ul></article>
+<article><h3>Bài 18. Thực hành xác định cấu trúc bảng và các trường khoá</h3><ul>
+<li><strong>Phân tích bài toán:</strong> Xác định đối tượng cần quản lí, thuộc tính của từng đối tượng và những thông tin cần khai thác.</li>
+<li><strong>Tách bảng:</strong> Mỗi bảng lưu một nhóm đối tượng; tránh ghi lặp tên và thông tin của một đối tượng trong nhiều bản ghi không cần thiết.</li>
+<li><strong>Khoá cấm trùng lặp (UNIQUE):</strong> Ngăn trùng giá trị ở một trường hoặc tổ hợp trường; ví dụ cặp mã bản nhạc và mã ca sĩ không trùng trong danh sách bản thu âm theo quy ước của bài.</li>
+<li><strong>Thiết kế khoá:</strong> Chọn khoá chính để phân biệt bản ghi, xác định khoá ngoài và quan hệ giữa các bảng; chọn kiểu dữ liệu phù hợp từng trường.</li>
+</ul></article>
+<article><h3>Bài 19. Thực hành tạo lập cơ sở dữ liệu và bảng</h3><ul>
+<li><strong>Tạo CSDL:</strong> Đặt tên, chọn bộ kí tự và quy tắc đối sánh phù hợp để lưu trữ, so sánh văn bản.</li>
+<li><strong>Tạo bảng:</strong> Khai báo tên trường, kiểu dữ liệu, độ dài và thuộc tính cần thiết; thiết lập khoá chính rồi lưu cấu trúc.</li>
+<li><strong>Khoá và giá trị rỗng:</strong> Thiết lập PRIMARY KEY, UNIQUE và thuộc tính cho phép NULL phù hợp. NULL biểu thị chưa có giá trị, khác với số 0 hoặc xâu rỗng.</li>
+<li><strong>Kiểm tra cấu trúc:</strong> Đối chiếu với thiết kế trước khi nhập dữ liệu. AUTO_INCREMENT hỗ trợ sinh giá trị tăng tự động cho trường số nguyên được thiết lập phù hợp.</li>
+</ul></article>
+<article><h3>Bài 20. Thực hành tạo lập các bảng có khoá ngoài</h3><ul>
+<li><strong>Thiết lập quan hệ:</strong> Tạo bảng được tham chiếu trước; ở bảng có khoá ngoài, chỉ định trường tham chiếu, bảng đích và khoá tương ứng.</li>
+<li><strong>Tương thích dữ liệu:</strong> Các trường liên kết cần có kiểu dữ liệu tương thích; giá trị khoá ngoài phải thoả ràng buộc tham chiếu.</li>
+<li><strong>Kiểm tra:</strong> Thử đối chiếu các quan hệ và xác nhận không có bản ghi tham chiếu một đối tượng không tồn tại.</li>
+</ul></article>
+<article><h3>Bài 21. Thực hành cập nhật và truy xuất dữ liệu các bảng</h3><ul>
+<li><strong>Cập nhật:</strong> Thêm, sửa, xoá bản ghi trên giao diện; kiểm tra đúng bảng, đúng hàng và lưu thay đổi.</li>
+<li><strong>Truy xuất:</strong> Xem, sắp xếp và lọc dữ liệu theo điều kiện; phân biệt lọc kết quả hiển thị với xoá dữ liệu gốc.</li>
+<li><strong>Kiểm tra dữ liệu:</strong> Giữ giá trị khoá chính duy nhất, nhập đúng kiểu và tuân thủ các ràng buộc của bảng.</li>
+</ul></article>
+<article><h3>Bài 22. Thực hành cập nhật bảng dữ liệu có tham chiếu</h3><ul>
+<li><strong>Nhập khoá ngoài:</strong> Chọn giá trị từ bảng được tham chiếu để gắn bản ghi với đúng đối tượng; kiểm tra cả mã và tên hiển thị.</li>
+<li><strong>Thứ tự cập nhật:</strong> Nhập đối tượng ở bảng được tham chiếu trước rồi nhập bản ghi tham chiếu đến đối tượng đó.</li>
+<li><strong>Sửa và xoá:</strong> Kiểm tra các bản ghi liên quan trước khi sửa, xoá dữ liệu đang được tham chiếu; hệ quản trị xử lí theo ràng buộc đã thiết lập.</li>
+</ul></article>
+<article><h3>Bài 23. Thực hành truy xuất dữ liệu qua liên kết các bảng</h3><ul>
+<li><strong>Mục đích:</strong> Kết hợp các trường nằm ở nhiều bảng để có thông tin đầy đủ, thay cho lưu lặp thông tin.</li>
+<li><strong>Cách làm:</strong> Xác định bảng và cột cần lấy, điều kiện nối, điều kiện lọc và thứ tự sắp xếp; dùng SELECT cùng JOIN … ON … để truy xuất.</li>
+<li><strong>Tránh nhầm lẫn:</strong> Ghi tên bảng trước tên cột khi nhiều bảng có cột trùng tên. Điều kiện nối thiếu hoặc sai có thể làm kết quả bị thiếu, bị lặp hoặc ghép nhầm.</li>
+</ul></article>
+<article><h3>Bài 24. Thực hành sao lưu dữ liệu</h3><ul>
+<li><strong>Sao lưu:</strong> Xuất cấu trúc và dữ liệu của CSDL hoặc các bảng cần thiết ra tệp dự phòng, thường là tệp SQL.</li>
+<li><strong>Phục hồi:</strong> Chọn đúng nơi nhận, nhập hoặc chạy tệp sao lưu và kiểm tra lại cấu trúc, dữ liệu sau khi hoàn tất.</li>
+<li><strong>Quản lí bản sao:</strong> Ghi rõ thời điểm, phạm vi sao lưu, lưu ở nơi an toàn và kiểm tra khả năng phục hồi.</li>
+</ul></article>
+</section>
+<section id="11-do-hoa-video" class="chapter"><header><p class="eyebrow">Chủ đề 7</p><h2>Phần mềm chỉnh sửa ảnh và làm video</h2></header>
+<article><h3>Bài 25. Phần mềm chỉnh sửa ảnh</h3><ul>
+<li><strong>Ảnh bitmap:</strong> Gồm các điểm ảnh (pixel), mỗi điểm có vị trí và giá trị màu. Số megapixel biểu thị số triệu điểm ảnh.</li>
+<li><strong>Kích thước và độ phân giải:</strong> Kích thước pixel là chiều rộng × chiều cao tính bằng pixel; mật độ điểm ảnh khi in tính bằng ppi (sách dùng dpi). Kích thước in theo inch bằng số pixel chia cho mật độ điểm ảnh tương ứng.</li>
+<li><strong>Ví dụ:</strong> Ảnh 1200 × 1800 pixel in ở 300 điểm ảnh/inch có kích thước 4 × 6 inch. Đổi mật độ in mà giữ nguyên số pixel sẽ đổi kích thước in.</li>
+<li><strong>Thao tác cơ bản:</strong> Zoom phóng to hoặc thu nhỏ cách xem; Crop cắt giữ một phần ảnh; Rotate xoay; Scale Image thay đổi kích thước ảnh. Zoom không làm thay đổi số pixel của ảnh.</li>
+<li><strong>Lưu và xuất trong GIMP:</strong> Save lưu dự án .xcf để giữ lớp và thông tin chỉnh sửa; Export xuất ảnh sang JPEG, PNG hoặc định dạng phù hợp.</li>
+</ul></article>
+<article><h3>Bài 26. Công cụ tinh chỉnh màu sắc và công cụ chọn</h3><ul>
+<li><strong>Độ sáng và tương phản:</strong> Brightness thay đổi độ sáng; Contrast thay đổi mức chênh lệch sáng – tối. Xem trước để tránh làm mất chi tiết.</li>
+<li><strong>Cân bằng màu:</strong> Color Balance điều chỉnh các thành phần màu theo vùng tối (Shadows), trung gian (Midtones), sáng (Highlights).</li>
+<li><strong>Sắc độ và độ bão hoà:</strong> Hue thay đổi tông màu; Saturation thay đổi độ rực của màu; Lightness thay đổi độ sáng.</li>
+<li><strong>Vùng chọn:</strong> Giới hạn phần ảnh chịu tác động của lệnh. Rectangle Select chọn chữ nhật; Ellipse Select chọn hình tròn hoặc elip; Free Select tạo vùng chọn theo đường bao tuỳ ý.</li>
+</ul></article>
+<article><h3>Bài 27. Công cụ vẽ và một số ứng dụng</h3><ul>
+<li><strong>Lớp ảnh (layer):</strong> Tách các phần ảnh để chỉnh riêng; lớp phía trên có thể che lớp phía dưới. Thứ tự, độ mờ và độ trong suốt ảnh hưởng kết quả tổng hợp.</li>
+<li><strong>Kênh alpha:</strong> Biểu diễn độ trong suốt. Khi tẩy trên lớp có alpha, vùng bị xoá có thể trong suốt để lộ lớp dưới; không có alpha thì vùng tẩy được thay bằng màu nền.</li>
+<li><strong>Công cụ vẽ:</strong> Paintbrush vẽ bằng cọ; Bucket Fill tô vùng; Gradient tô chuyển màu; Eraser tẩy. Màu nổi thường dùng để vẽ, màu nền dùng cho một số thao tác tô và tẩy.</li>
+<li><strong>Clone và Healing:</strong> Clone sao chép vùng nguồn sang vùng đích; Healing kết hợp với đặc điểm vùng đích để sửa khuyết điểm tự nhiên hơn. Chọn vùng nguồn phù hợp trước khi xoá chi tiết thừa.</li>
+</ul></article>
+<article><h3>Bài 28. Tạo ảnh động</h3><ul>
+<li><strong>Nguyên lí:</strong> Hiển thị liên tiếp nhiều khung hình. Trong GIMP, mỗi lớp có thể là một khung, chạy theo thứ tự từ lớp dưới lên trên.</li>
+<li><strong>Chuẩn bị lớp:</strong> Mở ảnh thành các lớp, sắp xếp, nhân bản và chỉnh từng lớp. Có thể khoá thuộc tính, liên kết lớp hoặc gộp lớp khi cần.</li>
+<li><strong>Thời gian khung hình:</strong> Thêm thời gian vào tên lớp, ví dụ Frame 1 (1000ms) hiển thị trong 1 giây; thời gian giữa các khung ảnh hưởng tốc độ chuyển động.</li>
+<li><strong>Xem và xuất:</strong> Xem thử bằng Animation Playback; xuất GIF và chọn As Animation. Loop forever cho phép lặp liên tục; kiểm tra thời gian mặc định cho các khung chưa đặt riêng.</li>
+</ul></article>
+<article><h3>Bài 29. Khám phá phần mềm làm phim</h3><ul>
+<li><strong>Thành phần phim:</strong> Ghép ảnh, video, âm thanh, chữ theo kịch bản; mỗi phân cảnh có thứ tự và thời lượng.</li>
+<li><strong>Giao diện:</strong> Có thanh công cụ, ngăn tư liệu, ngăn xem trước, con trỏ thời điểm và ngăn tiến trình. SGK minh hoạ bằng VideoPad.</li>
+<li><strong>Storyboard và Timeline:</strong> Storyboard giúp xem thứ tự phân cảnh; Timeline thể hiện các lớp hình, âm thanh, chữ theo thời gian để căn chỉnh đồng bộ.</li>
+<li><strong>Quy trình:</strong> Chuẩn bị kịch bản, tư liệu → nhập và sắp xếp → đặt thời lượng, âm thanh → xem trước và chỉnh → lưu dự án, xuất phim.</li>
+<li><strong>Dự án và phim xuất:</strong> Tệp dự án .vpj lưu cách biên tập để sửa tiếp; video xuất như .mp4 dùng để xem và chia sẻ. Cần giữ tư liệu nguồn để dự án mở lại đầy đủ.</li>
+</ul></article>
+<article><h3>Bài 30. Biên tập phim</h3><ul>
+<li><strong>Hình ảnh:</strong> Thêm, thay thế, xoá, xoay và điều chỉnh ảnh hoặc video; sắp xếp các phân cảnh theo kịch bản.</li>
+<li><strong>Âm thanh:</strong> Ghép, cắt, chỉnh âm lượng và thời lượng; Fade out làm âm thanh nhỏ dần khi kết thúc. Cân đối nhạc nền với lời thoại.</li>
+<li><strong>Chuyển cảnh:</strong> Tạo hiệu ứng giữa các phân cảnh và điều chỉnh thời gian hiệu ứng cho phù hợp.</li>
+<li><strong>Căn chỉnh thời gian:</strong> Đặt thời điểm bắt đầu, kết thúc và thời lượng của các đối tượng; phối hợp hình, tiếng, chữ trên Timeline.</li>
+<li><strong>Phụ đề:</strong> Nhập nội dung, định dạng chữ và đặt thời gian xuất hiện; kiểm tra khả năng đọc và sự khớp với hình ảnh, lời thoại.</li>
+</ul></article>
+<article><h3>Bài 31. Thực hành tạo phim hoạt hình</h3><ul>
+<li><strong>Kịch bản:</strong> Chia thành phân cảnh, xác định hình ảnh, lời thoại hoặc âm thanh, phụ đề và thời lượng cho từng cảnh.</li>
+<li><strong>Chuẩn bị và dựng:</strong> Tạo hoặc chọn ảnh nhân vật, bối cảnh; chuẩn bị lời thoại rồi đưa các tư liệu lên các lớp phù hợp của phần mềm làm phim.</li>
+<li><strong>Hoàn thiện:</strong> Căn thời điểm của hình, lời thoại và phụ đề; xem thử, sửa lỗi đồng bộ, lưu dự án và xuất video. Tôn trọng quyền sử dụng tư liệu.</li>
+</ul></article>
+</section>
+</div>
+<div id="grade-12" hidden><header class="intro"><h1>Tin học 12</h1></header><div class="pending"><p>Chưa bổ sung nội dung tóm tắt Lớp 12.</p></div></div>
+<section id="quiz" class="quiz-card" hidden aria-label="Kiểm tra Tin học 10">
+<div class="quiz-top"><div class="q-stats"><div class="q-stat"><span>Câu hiện tại</span><b id="current"></b></div><button type="button" id="rightStat" class="q-stat good" aria-label="Chọn đáp án đúng; bấm lần nữa để chấm và chuyển câu"><span>Số câu đúng</span><b id="right">0</b></button><button type="button" id="wrongStat" class="q-stat bad" aria-label="Quay lại câu trước"><span>Số câu sai</span><b id="wrong">0</b></button></div></div>
+<div id="quizArea" class="quiz-area"><div id="question" class="q-question"></div><form id="quizForm"><div id="options" class="q-options" role="radiogroup" aria-labelledby="question"></div><div id="feedback" class="q-feedback" role="status" aria-live="polite" hidden></div><div class="q-actions"><button id="check" class="q-action q-primary" disabled>Kiểm tra</button><button id="next" type="button" class="q-action q-primary" hidden>Next</button></div></form></div>
+<div id="quizFinish" class="q-finish" hidden><h2 id="finishTitle"></h2><p id="score"></p><div id="reviewPrompt"><p>Bạn có muốn làm lại các câu sai không?</p><button id="reviewWrong" type="button" class="q-action q-primary">Làm lại câu sai</button></div></div>
+</section>
+<div class="q-reset"><button id="resetTest" type="button" class="q-action">Làm lại</button></div>
+</main>
+<script src="questions.js"></script>
+<script src="quiz.js"></script>
+</body>
+</html>
