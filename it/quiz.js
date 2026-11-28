@@ -1,17 +1,18 @@
 'use strict';
 (() => {
  const el=id=>document.getElementById(id), grade=el('grade'), link=el('quizToggle');
- const questions=new Map(IT_QUESTIONS.map(q=>[q.id,q]));
- const signature=JSON.stringify(IT_QUESTIONS);
+ const banks={'10':IT_QUESTIONS,'11':IT_QUESTIONS_11};
+ const hasQuiz=()=>Boolean(banks[grade.value]?.length);
+ let questions=new Map(),signature='';
  const viewKey=`it-view-v1:${location.pathname}`;
  function restoreView(){
   try{
    const saved=JSON.parse(localStorage.getItem(viewKey));
-   if(!saved||!['10','11','12'].includes(saved.grade))return;
+   if(!saved||!['10','11','12','thpt'].includes(saved.grade))return;
    grade.value=saved.grade;
-   if(!location.hash&&saved.mode==='quiz'&&grade.value==='10')history.replaceState(null,'','#lam-bai');
+   if(!location.hash&&saved.mode==='quiz'&&hasQuiz())history.replaceState(null,'','#lam-bai');
   }catch{}
-  if(location.hash==='#lam-bai'&&grade.value!=='10')history.replaceState(null,'','#ly-thuyet');
+  if(location.hash==='#lam-bai'&&!hasQuiz())history.replaceState(null,'','#ly-thuyet');
  }
  function saveView(testing){
   try{localStorage.setItem(viewKey,JSON.stringify({grade:grade.value,mode:testing?'quiz':'theory'}));}catch{}
@@ -21,7 +22,7 @@
  const ordered=ids=>shuffle([...ids]).sort((a,b)=>questions.get(a).difficulty-questions.get(b).difficulty);
  const key=()=>`it-quiz-v1:${location.pathname}:${grade.value}`;
  const fresh=()=>({order:ordered([...questions.keys()]),pos:0,correct:[],wrong:[],review:false,choice:null,options:[],locked:false});
- function save(){if(grade.value!=='10'||!state)return;try{localStorage.setItem(key(),JSON.stringify({signature,state}));}catch{}}
+ function save(){if(!hasQuiz()||!state)return;try{localStorage.setItem(key(),JSON.stringify({signature,state}));}catch{}}
  function valid(s){
   const unique=a=>Array.isArray(a)&&new Set(a).size===a.length&&a.every(id=>questions.has(id));
   if(!s||!unique(s.order)||!s.order.length||!unique(s.correct)||!unique(s.wrong)||s.correct.some(id=>s.wrong.includes(id)))return false;
@@ -34,10 +35,14 @@
    if(s.locked&&s.choice===null)return false;
   }return true;
  }
- function load(){state=null;try{const saved=JSON.parse(localStorage.getItem(key()));if(saved?.signature===signature&&valid(saved.state))state=saved.state;}catch{}if(!state)state=fresh();pauseAuto=state.locked;}
+ function load(){
+  const bank=banks[grade.value]||[];
+  questions=new Map(bank.map(q=>[q.id,q]));signature=JSON.stringify(bank);
+  state=null;armed=null;pauseAuto=false;if(!bank.length)return;
+  try{const saved=JSON.parse(localStorage.getItem(key()));if(saved?.signature===signature&&valid(saved.state))state=saved.state;}catch{}if(!state)state=fresh();pauseAuto=state.locked;}
  function question(){return questions.get(state.order[state.pos]);}
  function stop(){clearTimeout(timer);timer=null;}
- function autoNext(){stop();if(!pauseAuto&&location.hash==='#lam-bai'&&grade.value==='10'&&state?.locked&&state.pos<state.order.length&&state.options[state.choice]===question().answer)timer=setTimeout(next,850);}
+ function autoNext(){stop();if(!pauseAuto&&location.hash==='#lam-bai'&&hasQuiz()&&state?.locked&&state.pos<state.order.length&&state.options[state.choice]===question().answer)timer=setTimeout(next,850);}
  function render(){
   stop();if(!state)return;
   el('current').textContent=`${Math.min(state.pos+1,state.order.length)} / ${state.order.length}${state.review?' (làm lại)':''}`;
@@ -83,12 +88,12 @@
   if(el('quiz').hidden||!state||state.pos<=0)return;
   stop();state.pos--;state.choice=null;state.options=[];state.locked=false;armed=null;pauseAuto=false;render();
  });
- function view(){stop();const testing=location.hash==='#lam-bai'&&grade.value==='10';
-  for(const value of ['10','11','12'])el(`grade-${value}`).hidden=value!==grade.value||testing;
-  document.body.classList.toggle('quiz-mode',testing);el('quiz').hidden=!testing;link.hidden=grade.value!=='10';link.textContent=testing?'Học lý thuyết':'Bắt đầu làm bài';link.href=testing?'#ly-thuyet':'#lam-bai';
-  document.title=`Tin học ${grade.value} · ${testing?'Làm bài':'Tóm tắt kiến thức'}`;saveView(testing);if(testing)render();
+ function view(){stop();const testing=location.hash==='#lam-bai'&&hasQuiz();
+  for(const value of ['10','11','12','thpt'])el(`grade-${value}`).hidden=value!==grade.value||testing;
+  document.body.classList.toggle('quiz-mode',testing);el('quiz').hidden=!testing;link.hidden=!hasQuiz();el('quiz').setAttribute('aria-label',`Kiểm tra Tin học ${grade.value}`);link.textContent=testing?'Học lý thuyết':'Bắt đầu làm bài';link.href=testing?'#ly-thuyet':'#lam-bai';
+  document.title=grade.value==='thpt'?'THPT · Đề thi Tin học':`Tin học ${grade.value} · ${testing?'Làm bài':'Tóm tắt kiến thức'}`;saveView(testing);if(testing)render();
  }
- grade.addEventListener('change',()=>{stop();load();if(location.hash==='#lam-bai'&&grade.value!=='10')history.replaceState(null,'','#ly-thuyet');view();});
+ grade.addEventListener('change',()=>{stop();load();if(location.hash==='#lam-bai'&&!hasQuiz())history.replaceState(null,'','#ly-thuyet');view();});
  window.addEventListener('hashchange',view);
  window.addEventListener('pagehide',()=>{save();stop();});
  window.addEventListener('pageshow',view);
